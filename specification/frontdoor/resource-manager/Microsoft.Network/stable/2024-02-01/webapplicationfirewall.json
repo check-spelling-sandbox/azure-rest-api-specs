@@ -875,7 +875,7 @@
       }
     },
     "ManagedRuleSetDefinition": {
-      "description": "Describes the a managed rule set definition.",
+      "description": "Describes a managed rule set definition.",
       "properties": {
         "properties": {
           "description": "Properties for a managed rule set definition.",

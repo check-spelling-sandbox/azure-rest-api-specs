@@ -161,7 +161,7 @@ directive:
       - $.type.properties.IntegrationRuntimeReference.definitions
       - $.type.properties.IntegrationRuntimeReference.definitions
     from: datafactory.json
-    reason: Single-value enums are expressed to force the values to be used for de/serialization but should not be exposed or settable by the a client.
+    reason: Single-value enums are expressed to force the values to be used for de/serialization but should not be exposed or settable by a client.
   - suppress: R3017  # GuidUsage
     where:
       - $.definitions.FactoryIdentity.properties.principalId

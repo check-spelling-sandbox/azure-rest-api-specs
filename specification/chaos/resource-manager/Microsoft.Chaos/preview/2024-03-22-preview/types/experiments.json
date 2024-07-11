@@ -775,7 +775,7 @@
       }
     },
     "stepStatus": {
-      "description": "Model that represents the a list of branches and branch statuses.",
+      "description": "Model that represents a list of branches and branch statuses.",
       "type": "object",
       "properties": {
         "stepName": {
@@ -807,7 +807,7 @@
       }
     },
     "branchStatus": {
-      "description": "Model that represents the a list of actions and action statuses.",
+      "description": "Model that represents a list of actions and action statuses.",
       "type": "object",
       "properties": {
         "branchName": {

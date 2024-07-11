@@ -42,7 +42,7 @@ model OnYourDataVectorizationSource {
 
 @added(ServiceApiVersions.v2024_02_15_Preview)
 @doc("""
-  The details of a a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based
+  The details of a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based
   on a public Azure OpenAI endpoint call for embeddings.
   """)
 model OnYourDataEndpointVectorizationSource
@@ -61,7 +61,7 @@ model OnYourDataEndpointVectorizationSource
 
 @added(ServiceApiVersions.v2024_02_15_Preview)
 @doc("""
-  The details of a a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based
+  The details of a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based
   on an internal embeddings model deployment name in the same Azure OpenAI resource.
   """)
 model OnYourDataDeploymentNameVectorizationSource
@@ -80,7 +80,7 @@ model OnYourDataDeploymentNameVectorizationSource
 
 @added(ServiceApiVersions.v2024_02_15_Preview)
 @doc("""
-  The details of a a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based
+  The details of a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based
   on a search service model ID. Currently only supported by Elasticsearch®.
   """)
 model OnYourDataModelIdVectorizationSource

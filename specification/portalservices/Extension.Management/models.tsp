@@ -541,7 +541,7 @@ model ExtensionDeploymentProperties {
   nextStage?: string;
 
   /**
-   * Optional. The name of a a single stage to deploy. If omitted the Extensions stageDefinition is used for deployment.
+   * Optional. The name of a single stage to deploy. If omitted the Extensions stageDefinition is used for deployment.
    */
   stage?: string;
 }

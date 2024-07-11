@@ -2142,7 +2142,7 @@
         "required": [
           "deployment_name"
         ],
-        "description": "The details of a a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based\non an internal embeddings model deployment name in the same Azure OpenAI resource.",
+        "description": "The details of a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based\non an internal embeddings model deployment name in the same Azure OpenAI resource.",
         "allOf": [
           {
             "$ref": "#/components/schemas/onYourDataVectorizationSource"
@@ -2163,7 +2163,7 @@
           "authentication",
           "endpoint"
         ],
-        "description": "The details of a a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based\non a public Azure OpenAI endpoint call for embeddings.",
+        "description": "The details of a vectorization source, used by Azure OpenAI On Your Data when applying vector search, that is based\non a public Azure OpenAI endpoint call for embeddings.",
         "allOf": [
           {
             "$ref": "#/components/schemas/onYourDataVectorizationSource"

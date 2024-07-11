@@ -4716,7 +4716,7 @@
           "application/json"
         ],
         "x-ms-examples": {
-          "Get a a workload group of a SQL Analytics pool": {
+          "Get a workload group of a SQL Analytics pool": {
             "$ref": "./examples/GetSqlPoolWorkloadGroup.json"
           }
         }

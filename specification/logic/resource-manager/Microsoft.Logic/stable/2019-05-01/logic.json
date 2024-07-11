@@ -8080,7 +8080,7 @@
         },
         "readOnly": {
           "type": "boolean",
-          "description": "Indicates whether this property must be present in the a request."
+          "description": "Indicates whether this property must be present in a request."
         },
         "xml": {
           "$ref": "#/definitions/SwaggerXml",

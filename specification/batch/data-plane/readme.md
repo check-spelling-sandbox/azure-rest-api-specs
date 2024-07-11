@@ -245,7 +245,7 @@ directive:
   - suppress: R2018 # XmsEnumValidation
     where:
       - $.definitions.AADToken.properties.type
-    reason: Single-value enums are expressed to force the values to be used for de/serialization but should not be exposed or settable by the a client.
+    reason: Single-value enums are expressed to force the values to be used for de/serialization but should not be exposed or settable by a client.
 
   - suppress: R2029
     where:
