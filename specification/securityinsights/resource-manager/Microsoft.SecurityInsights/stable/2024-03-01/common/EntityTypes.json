@@ -663,7 +663,7 @@
           }
         },
         "osVersion": {
-          "description": "A free text representation of the operating system. This field is meant to hold specific versions the are more fine grained than OSFamily or future values not supported by OSFamily enumeration",
+          "description": "A free text representation of the operating system. This field is meant to hold specific versions the are more fine-grained than OSFamily or future values not supported by OSFamily enumeration",
           "readOnly": true,
           "type": "string"
         }
