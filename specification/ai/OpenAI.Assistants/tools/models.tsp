@@ -65,7 +65,7 @@ model FunctionDefinition {
 
 @discriminator("type")
 @doc("""
-  An abstract representation a a tool invocation needed by the model to continue a run.
+  An abstract representation of a tool invocation needed by the model to continue a run.
   """)
 @added(ServiceApiVersions.v2024_02_15_preview)
 model RequiredToolCall {
