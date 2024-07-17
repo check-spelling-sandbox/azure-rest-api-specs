@@ -3500,7 +3500,7 @@
           "$ref": "#/definitions/Cron"
         },
         "schedule": {
-          "description": "[Deprecated] Not used any more.",
+          "description": "[Deprecated] Not used anymore.",
           "$ref": "#/definitions/ScheduleBase"
         }
       }
