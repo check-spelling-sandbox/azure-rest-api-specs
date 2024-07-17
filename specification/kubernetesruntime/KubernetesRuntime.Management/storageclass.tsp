@@ -271,7 +271,7 @@ model StorageClassResourceUpdate {
 
 @doc("A StorageClass resource for an Arc connected cluster (Microsoft.Kubernetes/connectedClusters)")
 model StorageClassResource is ExtensionResource<StorageClassProperties> {
-  @doc("The name of the the storage class")
+  @doc("The name of the storage class")
   @pattern("^[a-zA-Z0-9-]{3,24}$")
   @key("storageClassName")
   @segment("storageClasses")

@@ -840,7 +840,7 @@
     },
     "actionStatus": {
       "type": "object",
-      "description": "Model that represents the an action and its status.",
+      "description": "Model that represents the action and its status.",
       "properties": {
         "actionName": {
           "description": "The name of the action status.",

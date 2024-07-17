@@ -3,7 +3,7 @@
   "info": {
     "version": "2018-01-01",
     "title": "Schema of the common properties for Azure Resource Notifications (ARN) System topics",
-    "description": "Describes the schema of the the common properties across all topic types published by ARN to Azure Event Grid. This corresponds to the Data property of an EventGridEvent."
+    "description": "Describes the schema of the common properties across all topic types published by ARN to Azure Event Grid. This corresponds to the Data property of an EventGridEvent."
   },
   "paths": {},
   "definitions": {

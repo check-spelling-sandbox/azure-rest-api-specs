@@ -144,7 +144,7 @@ suppressions:
     from: securityConnectorsDevOps.json
     where:
       - $.paths["/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Security/securityConnectors/{securityConnectorName}/devops/default"].get.responses["200"].schema.properties
-    reason: False positive. This check flags the the API which doesn't actually return collection but a singleton.
+    reason: False positive. This check flags the API which doesn't actually return collection but a singleton.
 ```
 
 ### Tag: package-preview-2024-03
@@ -202,7 +202,7 @@ suppressions:
     from: securityConnectorsDevOps.json
     where:
       - $.paths["/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Security/securityConnectors/{securityConnectorName}/devops/default"].get.responses["200"].schema.properties
-    reason: False positive. This check flags the the API which doesn't actually return collection but a singleton.
+    reason: False positive. This check flags the API which doesn't actually return collection but a singleton.
 ```
 
 ### Tag: package-2024-01
@@ -554,7 +554,7 @@ suppressions:
     from: securityConnectorsDevOps.json
     where:
       - $.paths["/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Security/securityConnectors/{securityConnectorName}/devops/default"].get.responses["200"].schema.properties
-    reason: False positive. This check flags the the API which doesn't actually return collection but a singleton.
+    reason: False positive. This check flags the API which doesn't actually return collection but a singleton.
 
 # Needed when there is more than one input file
 override-info:

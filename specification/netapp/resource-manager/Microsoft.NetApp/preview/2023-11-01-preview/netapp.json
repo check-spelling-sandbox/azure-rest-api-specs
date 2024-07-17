@@ -6896,7 +6896,7 @@
         },
         "networkSiblingSetId": {
           "title": "Network Sibling Set ID",
-          "description": "Network Sibling Set ID for the the group of volumes sharing networking resources.",
+          "description": "Network Sibling Set ID for the group of volumes sharing networking resources.",
           "type": "string",
           "readOnly": true,
           "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",

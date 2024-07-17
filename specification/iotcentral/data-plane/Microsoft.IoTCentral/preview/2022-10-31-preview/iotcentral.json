@@ -681,7 +681,7 @@
           "minLength": 1
         },
         "data": {
-          "description": "Content of the the deployment manifest.",
+          "description": "Content of the deployment manifest.",
           "type": "object"
         },
         "etag": {

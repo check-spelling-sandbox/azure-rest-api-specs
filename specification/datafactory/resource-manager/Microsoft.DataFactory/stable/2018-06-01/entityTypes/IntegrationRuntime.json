@@ -232,7 +232,7 @@
           "maximum": 10
         },
         "numberOfExternalNodes": {
-          "description": "Number of the the external nodes, which should be greater than 0 and less than 11.",
+          "description": "Number of the external nodes, which should be greater than 0 and less than 11.",
           "type": "integer",
           "format": "int32",
           "minimum": 1,

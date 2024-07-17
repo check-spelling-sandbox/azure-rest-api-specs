@@ -99,7 +99,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Successfully retrieved the the specified server trust group.",
+            "description": "Successfully retrieved the specified server trust group.",
             "schema": {
               "$ref": "#/definitions/ServerTrustGroup"
             }

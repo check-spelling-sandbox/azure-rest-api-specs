@@ -3838,7 +3838,7 @@
             "$ref": "./examples/CosmosDBMongoDBDatabaseThroughputUpdate.json"
           }
         },
-        "description": "Update RUs per second of the an Azure Cosmos DB MongoDB database",
+        "description": "Update RUs per second of the Azure Cosmos DB MongoDB database",
         "x-ms-long-running-operation": true,
         "parameters": [
           {

@@ -557,7 +557,7 @@
       "properties": {
         "subscriptionId": {
           "type": "string",
-          "description": "Azure subscription id for the the marketplace offer is purchased from"
+          "description": "Azure subscription id for the marketplace offer is purchased from"
         },
         "subscriptionStatus": {
           "$ref": "#/definitions/LiftrBase.MarketplaceSubscriptionStatus",

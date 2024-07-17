@@ -125,7 +125,7 @@ union EncryptionState {
   Disabled: "Disabled",
 }
 
-@doc("Whether the the encryption key is connected or access denied")
+@doc("Whether the encryption key is connected or access denied")
 union EncryptionKeyStatus {
   string,
 

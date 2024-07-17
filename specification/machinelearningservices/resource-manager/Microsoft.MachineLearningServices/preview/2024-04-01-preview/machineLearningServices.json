@@ -3266,7 +3266,7 @@
       "properties": {
         "argv": {
           "type": "array",
-          "description": "Argument to the the runtime",
+          "description": "Argument to the runtime",
           "items": {
             "type": "string",
             "description": "argument values"

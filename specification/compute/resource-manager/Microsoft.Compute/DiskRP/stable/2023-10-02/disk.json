@@ -643,7 +643,7 @@
         },
         "purchasePlan": {
           "$ref": "./diskRPCommon.json#/definitions/PurchasePlan",
-          "description": "Purchase plan information for the the image from which the OS disk was created. E.g. - {name: 2019-Datacenter, publisher: MicrosoftWindowsServer, product: WindowsServer}"
+          "description": "Purchase plan information for the image from which the OS disk was created. E.g. - {name: 2019-Datacenter, publisher: MicrosoftWindowsServer, product: WindowsServer}"
         },
         "supportedCapabilities": {
           "$ref": "./diskRPCommon.json#/definitions/SupportedCapabilities",

@@ -3947,9 +3947,9 @@
           "200": {
             "schema": {
               "$ref": "#/definitions/AtlasBusinessMetadataDef",
-              "description": "On successful lookup of the the businessMetadata definition by it's guid"
+              "description": "On successful lookup of the businessMetadata definition by it's guid"
             },
-            "description": "On successful lookup of the the businessMetadata definition by it's guid"
+            "description": "On successful lookup of the businessMetadata definition by it's guid"
           },
           "default": {
             "description": "Error response describing why the operation failed.",
@@ -3988,9 +3988,9 @@
           "200": {
             "schema": {
               "$ref": "#/definitions/AtlasBusinessMetadataDef",
-              "description": "On successful lookup of the the businessMetadata definition by it's name"
+              "description": "On successful lookup of the businessMetadata definition by it's name"
             },
-            "description": "On successful lookup of the the businessMetadata definition by it's name"
+            "description": "On successful lookup of the businessMetadata definition by it's name"
           },
           "default": {
             "description": "Error response describing why the operation failed.",
@@ -4020,7 +4020,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the classification definition by its GUID.",
+            "description": "OK. On successful lookup of the classification definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/AtlasClassificationDef"
             }
@@ -4053,7 +4053,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the classification definition by its name.",
+            "description": "OK. On successful lookup of the classification definition by its name.",
             "schema": {
               "$ref": "#/definitions/AtlasClassificationDef"
             }
@@ -4086,7 +4086,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the entity definition by its GUID.",
+            "description": "OK. On successful lookup of the entity definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/AtlasEntityDef"
             }
@@ -4119,7 +4119,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the entity definition by its name.",
+            "description": "OK. On successful lookup of the entity definition by its name.",
             "schema": {
               "$ref": "#/definitions/AtlasEntityDef"
             }
@@ -4152,7 +4152,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the enum definition by its GUID.",
+            "description": "OK. On successful lookup of the enum definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/AtlasEnumDef"
             }
@@ -4185,7 +4185,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the enum definition by its name.",
+            "description": "OK. On successful lookup of the enum definition by its name.",
             "schema": {
               "$ref": "#/definitions/AtlasEnumDef"
             }
@@ -4218,7 +4218,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the relationship definition by its GUID.",
+            "description": "OK. On successful lookup of the relationship definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/AtlasRelationshipDef"
             }
@@ -4251,7 +4251,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the relationship definition by its name.",
+            "description": "OK. On successful lookup of the relationship definition by its name.",
             "schema": {
               "$ref": "#/definitions/AtlasRelationshipDef"
             }
@@ -4284,7 +4284,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the struct definition by its GUID.",
+            "description": "OK. On successful lookup of the struct definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/AtlasStructDef"
             }
@@ -4317,7 +4317,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the struct definition by its name.",
+            "description": "OK. On successful lookup of the struct definition by its name.",
             "schema": {
               "$ref": "#/definitions/AtlasStructDef"
             }
@@ -4350,7 +4350,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the type definition by its GUID.",
+            "description": "OK. On successful lookup of the type definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/AtlasTypeDef"
             }
@@ -4383,7 +4383,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the type definition by its name.",
+            "description": "OK. On successful lookup of the type definition by its name.",
             "schema": {
               "$ref": "#/definitions/AtlasTypeDef"
             }
@@ -4640,7 +4640,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the term template definition by its GUID.",
+            "description": "OK. On successful lookup of the term template definition by its GUID.",
             "schema": {
               "$ref": "#/definitions/TermTemplateDef"
             }
@@ -4676,7 +4676,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. On successful lookup of the the term template definition by its name.",
+            "description": "OK. On successful lookup of the term template definition by its name.",
             "schema": {
               "$ref": "#/definitions/TermTemplateDef"
             }

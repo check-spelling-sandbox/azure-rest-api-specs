@@ -1491,7 +1491,7 @@
           "items": {
             "type": "string"
           },
-          "description": "Required DNS zone names of the the private link resource."
+          "description": "Required DNS zone names of the private link resource."
         }
       },
       "description": "Properties of a private link resource.",

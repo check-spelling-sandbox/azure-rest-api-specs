@@ -497,7 +497,7 @@
           {
             "name": "serviceName",
             "in": "path",
-            "description": "The name of the the service",
+            "description": "The name of the service",
             "required": true,
             "type": "string",
             "pattern": "^(storageclass|networking)$"
@@ -539,7 +539,7 @@
           {
             "name": "serviceName",
             "in": "path",
-            "description": "The name of the the service",
+            "description": "The name of the service",
             "required": true,
             "type": "string",
             "pattern": "^(storageclass|networking)$"
@@ -596,7 +596,7 @@
           {
             "name": "serviceName",
             "in": "path",
-            "description": "The name of the the service",
+            "description": "The name of the service",
             "required": true,
             "type": "string",
             "pattern": "^(storageclass|networking)$"
@@ -679,7 +679,7 @@
           {
             "name": "storageClassName",
             "in": "path",
-            "description": "The name of the the storage class",
+            "description": "The name of the storage class",
             "required": true,
             "type": "string",
             "pattern": "^[a-zA-Z0-9-]{3,24}$"
@@ -721,7 +721,7 @@
           {
             "name": "storageClassName",
             "in": "path",
-            "description": "The name of the the storage class",
+            "description": "The name of the storage class",
             "required": true,
             "type": "string",
             "pattern": "^[a-zA-Z0-9-]{3,24}$"
@@ -789,7 +789,7 @@
           {
             "name": "storageClassName",
             "in": "path",
-            "description": "The name of the the storage class",
+            "description": "The name of the storage class",
             "required": true,
             "type": "string",
             "pattern": "^[a-zA-Z0-9-]{3,24}$"
@@ -858,7 +858,7 @@
           {
             "name": "storageClassName",
             "in": "path",
-            "description": "The name of the the storage class",
+            "description": "The name of the storage class",
             "required": true,
             "type": "string",
             "pattern": "^[a-zA-Z0-9-]{3,24}$"

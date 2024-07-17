@@ -61,7 +61,7 @@ union ExtractiveSummarizationSortingCriteria {
 /** A ranked list of sentences representing the extracted summary. */
 @added(Versions.v2023_04_01)
 model ExtractedSummaryDocumentResult is DocumentResult {
-  /** Specifies the the extracted sentences from the input document. */
+  /** Specifies the extracted sentences from the input document. */
   sentences: Array<ExtractedSummarySentence>;
 }
 

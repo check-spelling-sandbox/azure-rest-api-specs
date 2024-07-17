@@ -324,7 +324,7 @@
         },
         "purchasePlan": {
           "$ref": "./diskRPCommon.json#/definitions/PurchasePlan",
-          "description": "Purchase plan information for the the image from which the OS disk was created."
+          "description": "Purchase plan information for the image from which the OS disk was created."
         },
         "supportedCapabilities": {
           "$ref": "./diskRPCommon.json#/definitions/SupportedCapabilities",

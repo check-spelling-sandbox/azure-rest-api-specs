@@ -20,7 +20,7 @@ model ServiceProperties {
 
 @doc("A Service resource for an Arc connected cluster (Microsoft.Kubernetes/connectedClusters)")
 model ServiceResource is ExtensionResource<ServiceProperties> {
-  @doc("The name of the the service")
+  @doc("The name of the service")
   @key("serviceName")
   @segment("services")
   @pattern("^(storageclass|networking)$")

@@ -496,7 +496,7 @@
       "delete": {
         "x-publish": true,
         "operationId": "FeatureState_DeleteState",
-        "description": "**Applies to:** see pricing [tiers](https://aka.ms/AzureMapsPricingTier).\n\nCreator makes it possible to develop applications based on your private indoor map data using Azure Maps API and SDK. [This](https://docs.microsoft.com/azure/azure-maps/creator-indoor-maps) article introduces concepts and tools that apply to Azure Maps Creator.\n\n This API deletes the state information identified by the StateKeyName parameter for the feature identified by the FeatureId parameter in the the stateset.",
+        "description": "**Applies to:** see pricing [tiers](https://aka.ms/AzureMapsPricingTier).\n\nCreator makes it possible to develop applications based on your private indoor map data using Azure Maps API and SDK. [This](https://docs.microsoft.com/azure/azure-maps/creator-indoor-maps) article introduces concepts and tools that apply to Azure Maps Creator.\n\n This API deletes the state information identified by the StateKeyName parameter for the feature identified by the FeatureId parameter in the stateset.",
         "x-ms-examples": {
           "Delete the given feature state": {
             "$ref": "./examples/DeleteFeatureState.json"

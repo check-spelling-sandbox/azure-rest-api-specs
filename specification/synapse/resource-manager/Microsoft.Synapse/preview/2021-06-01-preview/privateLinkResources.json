@@ -281,7 +281,7 @@
             "type": "string"
           },
           "readOnly": true,
-          "description": "Required DNS zone names of the the private link resource."
+          "description": "Required DNS zone names of the private link resource."
         }
       }
     }

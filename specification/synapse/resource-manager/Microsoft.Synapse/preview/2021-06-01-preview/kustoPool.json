@@ -2855,7 +2855,7 @@
           "description": "Table level sharing specifications"
         }
       },
-      "description": "Class representing the an attached database configuration properties of kind specific.",
+      "description": "Class representing the attached database configuration properties of kind specific.",
       "required": [
         "databaseName",
         "clusterResourceId",
