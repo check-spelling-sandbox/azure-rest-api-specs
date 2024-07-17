@@ -3363,7 +3363,7 @@
         },
         "experiments": {
           "$ref": "#/definitions/Experiments",
-          "description": "This is work around for polymorphic types."
+          "description": "This is a workaround for polymorphic types."
         },
         "limits": {
           "$ref": "#/definitions/SiteLimits",
