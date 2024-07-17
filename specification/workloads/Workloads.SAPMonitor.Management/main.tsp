@@ -13,7 +13,7 @@ using TypeSpec.Versioning;
 /**
  * The workload SAP monitor Client.
  */
-#suppress "@azure-tools/typespec-azure-resource-manager/missing-operations-endpoint" "Operations Swagger is common for all RTs and is created as a separate file having it's own folder."
+#suppress "@azure-tools/typespec-azure-resource-manager/missing-operations-endpoint" "Operations Swagger is common for all RTs and is created as a separate file having its own folder."
 @armProviderNamespace
 @service({
   title: "Workloads Client",

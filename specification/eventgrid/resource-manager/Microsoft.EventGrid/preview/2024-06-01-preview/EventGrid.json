@@ -13304,7 +13304,7 @@
         },
         "deadLetterDestinationWithResourceIdentity": {
           "$ref": "#/definitions/DeadLetterWithResourceIdentity",
-          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its' destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (namely, topic) to acquire the authentication tokens being used during delivery / dead-lettering."
+          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (namely, topic) to acquire the authentication tokens being used during delivery / dead-lettering."
         },
         "eventTimeToLive": {
           "format": "duration",
@@ -13946,11 +13946,11 @@
         },
         "deadLetterDestination": {
           "$ref": "#/definitions/DeadLetterDestination",
-          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its' destination is sent to the dead letter destination.\r\nUses Azure Event Grid's identity to acquire the authentication tokens being used during delivery / dead-lettering."
+          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its destination is sent to the dead letter destination.\r\nUses Azure Event Grid's identity to acquire the authentication tokens being used during delivery / dead-lettering."
         },
         "deadLetterWithResourceIdentity": {
           "$ref": "#/definitions/DeadLetterWithResourceIdentity",
-          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its' destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (namely, topic or domain) to acquire the authentication tokens being used during delivery / dead-lettering."
+          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (namely, topic or domain) to acquire the authentication tokens being used during delivery / dead-lettering."
         }
       }
     },
@@ -14095,7 +14095,7 @@
         },
         "deadLetterDestinationWithResourceIdentity": {
           "$ref": "#/definitions/DeadLetterWithResourceIdentity",
-          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its' destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (namely, namespace) to acquire the authentication tokens being used during dead-lettering."
+          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (namely, namespace) to acquire the authentication tokens being used during dead-lettering."
         },
         "deliveryWithResourceIdentity": {
           "$ref": "#/definitions/DeliveryWithResourceIdentity",
@@ -14979,11 +14979,11 @@
         },
         "deadLetterDestination": {
           "$ref": "#/definitions/DeadLetterDestination",
-          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its' destination is sent to the dead letter destination.\r\nUses Azure Event Grid's identity to acquire the authentication tokens being used during delivery / dead-lettering."
+          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its destination is sent to the dead letter destination.\r\nUses Azure Event Grid's identity to acquire the authentication tokens being used during delivery / dead-lettering."
         },
         "deadLetterWithResourceIdentity": {
           "$ref": "#/definitions/DeadLetterWithResourceIdentity",
-          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its' destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (topic / domain) to acquire the authentication tokens being used during delivery / dead-lettering."
+          "description": "The dead letter destination of the event subscription. Any event that cannot be delivered to its destination is sent to the dead letter destination.\r\nUses the managed identity setup on the parent resource (topic / domain) to acquire the authentication tokens being used during delivery / dead-lettering."
         }
       }
     },
