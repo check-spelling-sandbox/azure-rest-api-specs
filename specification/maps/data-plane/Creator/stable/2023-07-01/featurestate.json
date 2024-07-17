@@ -574,7 +574,7 @@
       }
     },
     "StringRuleObject": {
-      "description": "The string rule. The string value matching is case sensitive. If a feature's state doesn't match any of the values defined here, that feature will not have any dynamic style. If duplicate string values are given, the first one takes precedence.",
+      "description": "The string rule. The string value matching is case-sensitive. If a feature's state doesn't match any of the values defined here, that feature will not have any dynamic style. If duplicate string values are given, the first one takes precedence.",
       "type": "object",
       "additionalProperties": {
         "description": "The color when the keyName value string is equal to this property name. Color is a JSON string in a variety of permitted formats, HTML-style hex values, RGB (\"#ff0\", \"#ffff00\", \"rgb(255, 255, 0)\"), RGBA (\"rgba(255, 255, 0, 1)\"), HSL(\"hsl(100, 50%, 50%)\"), and HSLA(\"hsla(100, 50%, 50%, 1)\"). Predefined HTML colors names, like yellow and blue, are also permitted.",

@@ -1359,7 +1359,7 @@
       "x-ms-parameter-location": "method"
     },
     "conversion_id": {
-      "description": "An ID uniquely identifying the conversion for the given account. The ID is case sensitive, can contain any combination of alphanumeric characters including hyphens and underscores, and cannot contain more than 256 characters.",
+      "description": "An ID uniquely identifying the conversion for the given account. The ID is case-sensitive, can contain any combination of alphanumeric characters including hyphens and underscores, and cannot contain more than 256 characters.",
       "in": "path",
       "name": "conversion_id",
       "required": true,
@@ -1369,7 +1369,7 @@
     },
     "session_id": {
       "name": "session_id",
-      "description": "An ID uniquely identifying the rendering session for the given account. The ID is case sensitive, can contain any combination of alphanumeric characters including hyphens and underscores, and cannot contain more than 256 characters.",
+      "description": "An ID uniquely identifying the rendering session for the given account. The ID is case-sensitive, can contain any combination of alphanumeric characters including hyphens and underscores, and cannot contain more than 256 characters.",
       "in": "path",
       "required": true,
       "type": "string",

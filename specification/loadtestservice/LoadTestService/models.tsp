@@ -1114,7 +1114,7 @@ model ListTestRunQueryParams {
   orderby?: string;
 
   @doc("""
-    Prefix based, case sensitive search on searchable fields - description,
+    Prefix based, case-sensitive search on searchable fields - description,
     executedUser. For example, to search for a test run, with description 500 VUs,
     the search parameter can be 500.
     """)
@@ -1152,7 +1152,7 @@ model ListTestQueryParams {
   orderby?: string;
 
   @doc("""
-    Prefix based, case sensitive search on searchable fields - displayName,
+    Prefix based, case-sensitive search on searchable fields - displayName,
     createdBy. For example, to search for a test, with display name is Login Test,
     the search parameter can be Login.
     """)

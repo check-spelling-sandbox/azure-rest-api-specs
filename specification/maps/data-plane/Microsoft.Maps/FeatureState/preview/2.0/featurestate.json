@@ -806,7 +806,7 @@
       }
     },
     "StringRuleObject": {
-      "description": "The string rule. The string value matching is case sensitive. If a feature's state doesn't match any of the values defined here, that feature will not have any dynamic style. If duplicate string values are given, the first one takes precedence.",
+      "description": "The string rule. The string value matching is case-sensitive. If a feature's state doesn't match any of the values defined here, that feature will not have any dynamic style. If duplicate string values are given, the first one takes precedence.",
       "type": "object",
       "properties": {
         "stateValue1": {

@@ -247,7 +247,7 @@ model CloudVmClusterProperties {
   @doc("The number of OCPU cores to enable on the cloud VM cluster. Only 1 decimal place is allowed for the fractional part.")
   ocpuCount?: float32;
 
-  @doc("The cluster name for cloud VM cluster. The cluster name must begin with an alphabetic character, and may contain hyphens (-). Underscores (_) are not permitted. The cluster name can be no longer than 11 characters and is not case sensitive. ")
+  @doc("The cluster name for cloud VM cluster. The cluster name must begin with an alphabetic character, and may contain hyphens (-). Underscores (_) are not permitted. The cluster name can be no longer than 11 characters and is not case-sensitive. ")
   @visibility("create", "read")
   @minLength(1)
   @maxLength(11)

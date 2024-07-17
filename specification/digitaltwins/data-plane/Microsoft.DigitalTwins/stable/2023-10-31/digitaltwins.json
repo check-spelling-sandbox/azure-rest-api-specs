@@ -2221,7 +2221,7 @@
       "in": "path",
       "required": true,
       "type": "string",
-      "description": "The id for an event route. The id is unique within event routes and case sensitive.",
+      "description": "The id for an event route. The id is unique within event routes and case-sensitive.",
       "x-ms-parameter-location": "method"
     },
     "includeModelDefinition": {
@@ -2236,7 +2236,7 @@
     "digitalTwinId": {
       "name": "id",
       "in": "path",
-      "description": "The id of the digital twin. The id is unique within the service and case sensitive.",
+      "description": "The id of the digital twin. The id is unique within the service and case-sensitive.",
       "type": "string",
       "required": true,
       "x-ms-parameter-location": "method"
@@ -2244,14 +2244,14 @@
     "modelId": {
       "name": "id",
       "in": "path",
-      "description": "The id for the model. The id is globally unique and case sensitive.",
+      "description": "The id for the model. The id is globally unique and case-sensitive.",
       "required": true,
       "type": "string",
       "x-ms-parameter-location": "method"
     },
     "relationshipId": {
       "name": "relationshipId",
-      "description": "The id of the relationship. The id is unique within the digital twin and case sensitive.",
+      "description": "The id of the relationship. The id is unique within the digital twin and case-sensitive.",
       "in": "path",
       "required": true,
       "type": "string",
@@ -2260,7 +2260,7 @@
     "importJobId": {
       "name": "id",
       "in": "path",
-      "description": "The id for the import job. The id is unique within the service and case sensitive.",
+      "description": "The id for the import job. The id is unique within the service and case-sensitive.",
       "required": true,
       "type": "string",
       "x-ms-parameter-location": "method"
@@ -2268,7 +2268,7 @@
     "deleteJobId": {
       "name": "id",
       "in": "path",
-      "description": "The id for the delete job. The id is unique within the service and case sensitive.",
+      "description": "The id for the delete job. The id is unique within the service and case-sensitive.",
       "required": true,
       "type": "string",
       "x-ms-parameter-location": "method"

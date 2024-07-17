@@ -2003,7 +2003,7 @@
           "type": "string"
         },
         "path": {
-          "description": "Filter on hierarchy path of time series instances. Path is represented as array of string path segments. First element should be hierarchy name. Example: [\"Location\", \"California\"]. Optional, case sensitive, never empty and can be null.",
+          "description": "Filter on hierarchy path of time series instances. Path is represented as array of string path segments. First element should be hierarchy name. Example: [\"Location\", \"California\"]. Optional, case-sensitive, never empty and can be null.",
           "type": "array",
           "items": {
             "type": "string"

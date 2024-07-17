@@ -5262,7 +5262,7 @@
     "ListTestQueryParams.search": {
       "name": "search",
       "in": "query",
-      "description": "Prefix based, case sensitive search on searchable fields - displayName,\ncreatedBy. For example, to search for a test, with display name is Login Test,\nthe search parameter can be Login.",
+      "description": "Prefix based, case-sensitive search on searchable fields - displayName,\ncreatedBy. For example, to search for a test, with display name is Login Test,\nthe search parameter can be Login.",
       "required": false,
       "type": "string",
       "x-ms-parameter-location": "method"
@@ -5306,7 +5306,7 @@
     "ListTestRunQueryParams.search": {
       "name": "search",
       "in": "query",
-      "description": "Prefix based, case sensitive search on searchable fields - description,\nexecutedUser. For example, to search for a test run, with description 500 VUs,\nthe search parameter can be 500.",
+      "description": "Prefix based, case-sensitive search on searchable fields - description,\nexecutedUser. For example, to search for a test run, with description 500 VUs,\nthe search parameter can be 500.",
       "required": false,
       "type": "string",
       "x-ms-parameter-location": "method"

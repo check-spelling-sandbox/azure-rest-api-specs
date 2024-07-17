@@ -624,7 +624,7 @@
           },
           {
             "value": "UndefinedFeatureClasses",
-            "description": "Feature class should be defined in ontology definition, and the feature class name is case sensitive."
+            "description": "Feature class should be defined in ontology definition, and the feature class name is case-sensitive."
           },
           {
             "value": "DuplicateFeatureClassFound",

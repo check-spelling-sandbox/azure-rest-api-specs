@@ -583,7 +583,7 @@ This document lists the set of automated rules that can be validated against swa
 
 **Description**: Additional property {0} defined in example or in traffic payload but not defined in swagger spec. It could be the property name does not match exactly.
 
-**How to fix the violation**: The error info has the position of swagger. Look for the violation location of the swagger, ensure the property name specified in example or in traffic payload appears exact the same in the definition or remove this property from example or from traffic payload if it's not defined in swagger spec. Remind all the characters are case sensitive.
+**How to fix the violation**: The error info has the position of swagger. Look for the violation location of the swagger, ensure the property name specified in example or in traffic payload appears exact the same in the definition or remove this property from example or from traffic payload if it's not defined in swagger spec. Remind all the characters are case-sensitive.
 
 
 ### <a name="INVALID_FORMAT" />INVALID_FORMAT

@@ -2506,7 +2506,7 @@
       "description": "A set of rules describing access policies applied to NFSv3 clients of the cache.",
       "properties": {
         "name": {
-          "description": "Name identifying this policy. Access Policy names are not case sensitive.",
+          "description": "Name identifying this policy. Access Policy names are not case-sensitive.",
           "type": "string"
         },
         "accessRules": {
@@ -2965,7 +2965,7 @@
       }
     },
     "ResourceName": {
-      "description": "Schema for the name of resources served by this provider. Note that objects will contain an odata @id annotation as appropriate. This will contain the complete resource id of the object. These names are case-preserving, but not case sensitive.",
+      "description": "Schema for the name of resources served by this provider. Note that objects will contain an odata @id annotation as appropriate. This will contain the complete resource id of the object. These names are case-preserving, but not case-sensitive.",
       "pattern": "^[-0-9a-zA-Z_]{1,80}$",
       "type": "string"
     },

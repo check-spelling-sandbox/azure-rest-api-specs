@@ -6186,7 +6186,7 @@
         },
         "clusterName": {
           "type": "string",
-          "description": "The cluster name for cloud VM cluster. The cluster name must begin with an alphabetic character, and may contain hyphens (-). Underscores (_) are not permitted. The cluster name can be no longer than 11 characters and is not case sensitive. ",
+          "description": "The cluster name for cloud VM cluster. The cluster name must begin with an alphabetic character, and may contain hyphens (-). Underscores (_) are not permitted. The cluster name can be no longer than 11 characters and is not case-sensitive. ",
           "minLength": 1,
           "maxLength": 11,
           "x-ms-mutability": [

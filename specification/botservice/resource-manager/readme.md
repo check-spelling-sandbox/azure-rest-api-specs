@@ -46,7 +46,7 @@ directive:
     reason: We don not yet support systemdata
   - suppress: R3016
     from: botservice.json
-    reason: app settings keys are case sensitive
+    reason: app settings keys are case-sensitive
   - suppress: R3018
     from: botservice.json
     reason: app settings for ValidateAuthority needs to be boolean
@@ -68,7 +68,7 @@ directive:
     reason: We don not yet support systemdata
   - suppress: R3016
     from: botservice.json
-    reason: app settings keys are case sensitive
+    reason: app settings keys are case-sensitive
   - suppress: R3018
     from: botservice.json
     reason: app settings for ValidateAuthority needs to be boolean
@@ -89,7 +89,7 @@ directive:
     reason: We don not yet support systemdata
   - suppress: R3016
     from: botservice.json
-    reason: app settings keys are case sensitive
+    reason: app settings keys are case-sensitive
   - suppress: R3018
     from: botservice.json
     reason: app settings for ValidateAuthority needs to be boolean
@@ -108,7 +108,7 @@ directive:
     reason: We don not yet support systemdata
   - suppress: R3016
     from: botservice.json
-    reason: app settings keys are case sensitive
+    reason: app settings keys are case-sensitive
   - suppress: R3018
     from: botservice.json
     reason: app settings for ValidateAuthority needs to be boolean
@@ -127,7 +127,7 @@ directive:
     reason: We don not yet support systemdata
   - suppress: R3016
     from: botservice.json
-    reason: app settings keys are case sensitive
+    reason: app settings keys are case-sensitive
   - suppress: R3018
     from: botservice.json
     reason: app settings for ValidateAuthority needs to be boolean

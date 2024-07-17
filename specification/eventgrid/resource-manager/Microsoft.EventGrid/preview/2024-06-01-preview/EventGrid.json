@@ -13988,7 +13988,7 @@
           }
         },
         "isSubjectCaseSensitive": {
-          "description": "Specifies if the SubjectBeginsWith and SubjectEndsWith properties of the filter\r\nshould be compared in a case sensitive manner.",
+          "description": "Specifies if the SubjectBeginsWith and SubjectEndsWith properties of the filter\r\nshould be compared in a case-sensitive manner.",
           "default": false,
           "type": "boolean"
         },

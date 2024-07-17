@@ -480,7 +480,7 @@
         },
         "sourceType": {
           "type": "string",
-          "description": "The source type. Must be one of VsoGit, VsoTfvc, GitHub, case sensitive.",
+          "description": "The source type. Must be one of VsoGit, VsoTfvc, GitHub, case-sensitive.",
           "enum": [
             "VsoGit",
             "VsoTfvc",

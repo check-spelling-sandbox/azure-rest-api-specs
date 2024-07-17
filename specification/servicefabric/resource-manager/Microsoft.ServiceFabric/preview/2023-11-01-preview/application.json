@@ -1718,7 +1718,7 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "The name of the metric. If the service chooses to report load during runtime, the load metric name should match the name that is specified in Name exactly. Note that metric names are case sensitive."
+          "description": "The name of the metric. If the service chooses to report load during runtime, the load metric name should match the name that is specified in Name exactly. Note that metric names are case-sensitive."
         },
         "weight": {
           "$ref": "#/definitions/ServiceLoadMetricWeight",
