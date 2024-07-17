@@ -28477,11 +28477,11 @@
               }
             },
             "gitHubClientId": {
-              "description": "The Client Id of the GitHub app used for login.\nThis setting is required for enabling Github login",
+              "description": "The Client Id of the GitHub app used for login.\nThis setting is required for enabling GitHub login",
               "type": "string"
             },
             "gitHubClientSecret": {
-              "description": "The Client Secret of the GitHub app used for Github Login.\nThis setting is required for enabling Github login.",
+              "description": "The Client Secret of the GitHub app used for GitHub Login.\nThis setting is required for enabling GitHub login.",
               "type": "string"
             },
             "gitHubClientSecretSettingName": {

@@ -684,7 +684,7 @@
     "githubWorkflowProperties": {
       "type": "object",
       "x-ms-discriminator-value": "githubWorkflow",
-      "description": "Custom properties of an Github Pipeline.",
+      "description": "Custom properties of an GitHub Pipeline.",
       "properties": {
         "repository": {
           "$ref": "#/definitions/CodeRepository",

@@ -4353,7 +4353,7 @@
           "readOnly": true
         },
         "repositoryToken": {
-          "description": "A user's github repository token. This is used to setup the Github Actions workflow file and API secrets.",
+          "description": "A user's github repository token. This is used to setup the GitHub Actions workflow file and API secrets.",
           "type": "string"
         },
         "buildProperties": {
@@ -4686,11 +4686,11 @@
           "type": "string"
         },
         "skipGithubActionWorkflowGeneration": {
-          "description": "Skip Github Action workflow generation.",
+          "description": "Skip GitHub Action workflow generation.",
           "type": "boolean"
         },
         "githubActionSecretNameOverride": {
-          "description": "Github Action secret name override.",
+          "description": "GitHub Action secret name override.",
           "type": "string"
         }
       }

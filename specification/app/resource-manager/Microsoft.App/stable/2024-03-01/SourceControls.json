@@ -323,7 +323,7 @@
           "type": "string"
         },
         "githubPersonalAccessToken": {
-          "description": "One time Github PAT to configure github environment",
+          "description": "One time GitHub PAT to configure github environment",
           "type": "string",
           "x-ms-mutability": [
             "create",

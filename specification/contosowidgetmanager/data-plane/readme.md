@@ -44,7 +44,7 @@ suppressions:
 ### Suppress rules that might be fixed
 
 These set of linting rules we expect to fixed in typespec-autorest emitter but for now suppressing.
-Github issue filed at https://github.com/Azure/typespec-azure/issues/2762
+GitHub issue filed at https://github.com/Azure/typespec-azure/issues/2762
 
 ``` yaml
 suppressions:

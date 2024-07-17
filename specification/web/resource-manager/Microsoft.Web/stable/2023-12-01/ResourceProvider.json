@@ -748,11 +748,11 @@
   },
   "definitions": {
     "AppserviceGithubToken": {
-      "description": "Github access token for Appservice CLI github integration.",
+      "description": "GitHub access token for Appservice CLI github integration.",
       "type": "object",
       "properties": {
         "accessToken": {
-          "description": "Github access token for Appservice CLI github integration",
+          "description": "GitHub access token for Appservice CLI github integration",
           "type": "string"
         },
         "scope": {
@@ -774,7 +774,7 @@
       }
     },
     "AppserviceGithubTokenRequest": {
-      "description": "Appservice Github token request content.",
+      "description": "Appservice GitHub token request content.",
       "required": [
         "code",
         "state"
@@ -782,7 +782,7 @@
       "type": "object",
       "properties": {
         "code": {
-          "description": "Code string to exchange for Github Access token",
+          "description": "Code string to exchange for GitHub Access token",
           "type": "string"
         },
         "state": {

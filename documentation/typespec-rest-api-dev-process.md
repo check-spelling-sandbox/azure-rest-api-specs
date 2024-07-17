@@ -61,7 +61,7 @@ Once VSCode reopened in Container, you can run any of the program below in the V
 
 #### 2.2 VSCode in browser via github codespaces
 
-Github Codespaces leverage the same dev container in the repo. The difference is it is hosted in cloud with VSCode in browser. 
+GitHub Codespaces leverage the same dev container in the repo. The difference is it is hosted in cloud with VSCode in browser. 
 
 To start, you just need to browse to the `azure-rest-api-specs` repo, select `<> Code` drop down and follow `Codespaces` instructions. 
 
