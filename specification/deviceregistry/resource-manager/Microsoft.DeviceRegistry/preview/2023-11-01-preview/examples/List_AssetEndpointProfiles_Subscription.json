@@ -65,7 +65,7 @@
               "userAuthentication": {
                 "mode": "Certificate",
                 "x509Credentials": {
-                  "certificateReference": "certificatRef"
+                  "certificateReference": "certificateRef"
                 }
               },
               "provisioningState": "Succeeded"
