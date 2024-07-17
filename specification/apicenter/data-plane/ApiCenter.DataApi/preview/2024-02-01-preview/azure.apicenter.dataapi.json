@@ -740,7 +740,7 @@
     "/workspaces/{workspaceName}/apis/{apiName}/versions/{versionName}/definitions/{definitionName}/operations/{operationId}": {
       "get": {
         "operationId": "ApiDefinitions_GetExportSpecificationOperationStatus",
-        "description": "Gets status of a an API specification export operation.",
+        "description": "Gets status of an API specification export operation.",
         "parameters": [
           {
             "$ref": "#/parameters/Azure.Core.Foundations.ApiVersionParameter"

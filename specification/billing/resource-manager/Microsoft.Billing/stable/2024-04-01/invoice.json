@@ -130,7 +130,7 @@
         ],
         "responses": {
           "200": {
-            "description": "A secure URL that can be used to download a an entity until the URL expires.",
+            "description": "A secure URL that can be used to download an entity until the URL expires.",
             "schema": {
               "$ref": "#/definitions/DocumentDownloadResult"
             }
@@ -252,7 +252,7 @@
         ],
         "responses": {
           "200": {
-            "description": "A secure URL that can be used to download a an entity until the URL expires.",
+            "description": "A secure URL that can be used to download an entity until the URL expires.",
             "schema": {
               "$ref": "#/definitions/DocumentDownloadResult"
             }
@@ -313,7 +313,7 @@
         ],
         "responses": {
           "200": {
-            "description": "A secure URL that can be used to download a an entity until the URL expires.",
+            "description": "A secure URL that can be used to download an entity until the URL expires.",
             "schema": {
               "$ref": "#/definitions/DocumentDownloadResult"
             }
@@ -509,7 +509,7 @@
         ],
         "responses": {
           "200": {
-            "description": "A secure URL that can be used to download a an entity until the URL expires.",
+            "description": "A secure URL that can be used to download an entity until the URL expires.",
             "schema": {
               "$ref": "#/definitions/DocumentDownloadResult"
             }
@@ -576,7 +576,7 @@
         ],
         "responses": {
           "200": {
-            "description": "A secure URL that can be used to download a an entity until the URL expires.",
+            "description": "A secure URL that can be used to download an entity until the URL expires.",
             "schema": {
               "$ref": "#/definitions/DocumentDownloadResult"
             }
@@ -792,7 +792,7 @@
       }
     },
     "DocumentDownloadResult": {
-      "description": "A secure URL that can be used to download a an entity until the URL expires.",
+      "description": "A secure URL that can be used to download an entity until the URL expires.",
       "type": "object",
       "properties": {
         "expiryTime": {

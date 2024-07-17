@@ -1767,7 +1767,7 @@
           }
         },
         "baselineAction": {
-          "description": "The 'baseline action' ID for the slot.\r\nThe BaselineAction is the Id of the Action your application would use in that slot if Personalizer didn't exist.\r\nBaselineAction must be defined for every slot.\r\nBaselineAction should never be part of ExcludedActions.\r\nEach slot must have a unique BaselineAction which corresponds to an an action from the event's Actions list.",
+          "description": "The 'baseline action' ID for the slot.\r\nThe BaselineAction is the Id of the Action your application would use in that slot if Personalizer didn't exist.\r\nBaselineAction must be defined for every slot.\r\nBaselineAction should never be part of ExcludedActions.\r\nEach slot must have a unique BaselineAction which corresponds to an action from the event's Actions list.",
           "type": "string"
         }
       }
