@@ -10,7 +10,7 @@
         "type": "Scalar",
         "properties": {
           "binding": {
-            "type": "Microsoft.StreamAnalytics/JavascriptUdf",
+            "type": "Microsoft.StreamAnalytics/JavaScriptUdf",
             "properties": {
               "script": "function (a, b) { return a * b; }"
             }
@@ -40,7 +40,7 @@
               "dataType": "Any"
             },
             "binding": {
-              "type": "Microsoft.StreamAnalytics/JavascriptUdf",
+              "type": "Microsoft.StreamAnalytics/JavaScriptUdf",
               "properties": {
                 "script": "function (a, b) { return a * b; }"
               }

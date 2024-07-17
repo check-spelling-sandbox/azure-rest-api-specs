@@ -758,7 +758,7 @@
     "/gov/service/javascript-app": {
       "get": {
         "operationId": "ServiceState_GetJsApp",
-        "description": "Retrieve details of Javascript application and execution engine.",
+        "description": "Retrieve details of JavaScript application and execution engine.",
         "parameters": [
           {
             "$ref": "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
@@ -1527,7 +1527,7 @@
       "properties": {
         "constitution": {
           "type": "string",
-          "description": "Javascript source code of constitution."
+          "description": "JavaScript source code of constitution."
         }
       },
       "required": [
@@ -1617,7 +1617,7 @@
     },
     "ServiceState.JsEndpointInfo": {
       "type": "object",
-      "description": "Describes an endpoint implemented by a Javascript handler.",
+      "description": "Describes an endpoint implemented by a JavaScript handler.",
       "properties": {
         "jsModule": {
           "type": "string",
@@ -1696,7 +1696,7 @@
     },
     "ServiceState.JwkInfo": {
       "type": "object",
-      "description": "Describes what Javascript Web Tokens (JWTs) are accepted by the service, and how they will be validated.",
+      "description": "Describes what JavaScript Web Tokens (JWTs) are accepted by the service, and how they will be validated.",
       "properties": {
         "issuers": {
           "type": "object",

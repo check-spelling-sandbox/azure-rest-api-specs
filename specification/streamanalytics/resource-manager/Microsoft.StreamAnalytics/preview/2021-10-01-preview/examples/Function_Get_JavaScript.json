@@ -27,7 +27,7 @@
               "dataType": "Any"
             },
             "binding": {
-              "type": "Microsoft.StreamAnalytics/JavascriptUdf",
+              "type": "Microsoft.StreamAnalytics/JavaScriptUdf",
               "properties": {
                 "script": "function (x, y) { return x + y; }"
               }

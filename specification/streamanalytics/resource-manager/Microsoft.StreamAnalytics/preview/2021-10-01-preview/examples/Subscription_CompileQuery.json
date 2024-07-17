@@ -15,7 +15,7 @@
         {
           "name": "function1",
           "type": "Scalar",
-          "bindingType": "Microsoft.StreamAnalytics/JavascriptUdf",
+          "bindingType": "Microsoft.StreamAnalytics/JavaScriptUdf",
           "inputs": [
             {
               "dataType": "any",

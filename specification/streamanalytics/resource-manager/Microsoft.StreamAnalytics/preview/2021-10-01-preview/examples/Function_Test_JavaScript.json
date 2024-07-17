@@ -15,7 +15,7 @@
         "status": "TestFailed",
         "error": {
           "code": "BadRequest",
-          "message": "Test operation is not supported for function type: Microsoft.StreamAnalytics/JavascriptUdf"
+          "message": "Test operation is not supported for function type: Microsoft.StreamAnalytics/JavaScriptUdf"
         }
       }
     },

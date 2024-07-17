@@ -133,7 +133,7 @@ model ConstitutionResponse {
   @key
   id: "constitution";
 
-  @doc("Javascript source code of constitution.")
+  @doc("JavaScript source code of constitution.")
   constitution: string;
 }
 
@@ -166,7 +166,7 @@ union JsExecMode {
   "Historical",
 }
 
-@doc("Describes an endpoint implemented by a Javascript handler.")
+@doc("Describes an endpoint implemented by a JavaScript handler.")
 model JsEndpointInfo {
   @doc("The name of the module where the endpoint function is located.")
   jsModule: string;
@@ -275,7 +275,7 @@ model JwtIssuer {
 scalar caCertBundle extends string;
 
 @TypeSpec.Rest.resource("service")
-@doc("Describes what Javascript Web Tokens (JWTs) are accepted by the service, and how they will be validated.")
+@doc("Describes what JavaScript Web Tokens (JWTs) are accepted by the service, and how they will be validated.")
 model JwkInfo {
   @doc("Singleton key for accessing jwk")
   @visibility("query")
@@ -372,7 +372,7 @@ interface ServiceState {
     Azure.Core.Traits.ResponseHeadersTrait<TxIdReadHdr & JavaScriptSource>
   >;
 
-  @doc("Retrieve details of Javascript application and execution engine.")
+  @doc("Retrieve details of JavaScript application and execution engine.")
   getJsApp is Azure.Core.StandardResourceOperations.ResourceRead<
     JsApp,
     TxIdReadHeader
