@@ -3984,7 +3984,7 @@
         "ignoreCase": {
           "type": "boolean",
           "default": false,
-          "description": "A value indicating whether common words matching will be case insensitive. Default is false."
+          "description": "A value indicating whether common words matching will be case-insensitive. Default is false."
         },
         "queryMode": {
           "x-ms-client-name": "UseQueryMode",
@@ -8139,7 +8139,7 @@
         "caseSensitive": {
           "type": "boolean",
           "x-nullable": true,
-          "description": "Defaults to false. Boolean value denoting whether comparisons with the entity name should be sensitive to character casing. Sample case insensitive matches of \"Microsoft\" could be: microsoft, microSoft, MICROSOFT."
+          "description": "Defaults to false. Boolean value denoting whether comparisons with the entity name should be sensitive to character casing. Sample case-insensitive matches of \"Microsoft\" could be: microsoft, microSoft, MICROSOFT."
         },
         "accentSensitive": {
           "type": "boolean",

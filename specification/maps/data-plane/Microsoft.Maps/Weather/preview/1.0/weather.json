@@ -135,7 +135,7 @@
     },
     "WeatherLanguage": {
       "name": "language",
-      "description": "Language in which search results should be returned. Should be one of supported IETF language tags, case insensitive. When data in specified language is not available for a specific field, default language is used.  Default value is en-us. \n\nPlease refer to [Supported languages](https://docs.microsoft.com/azure/azure-maps/supported-languages) for details.",
+      "description": "Language in which search results should be returned. Should be one of supported IETF language tags, case-insensitive. When data in specified language is not available for a specific field, default language is used.  Default value is en-us. \n\nPlease refer to [Supported languages](https://docs.microsoft.com/azure/azure-maps/supported-languages) for details.",
       "type": "string",
       "in": "query",
       "required": false,

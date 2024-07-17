@@ -548,7 +548,7 @@
     "Language": {
       "name": "language",
       "in": "query",
-      "description": "Language in which search results should be returned. Should be one of supported IETF language tags, case insensitive. When data in specified language is not available for a specific field, default language is used.\n\nPlease refer to [Supported Languages](https://docs.microsoft.com/azure/azure-maps/supported-languages) for details.",
+      "description": "Language in which search results should be returned. Should be one of supported IETF language tags, case-insensitive. When data in specified language is not available for a specific field, default language is used.\n\nPlease refer to [Supported Languages](https://docs.microsoft.com/azure/azure-maps/supported-languages) for details.",
       "type": "string",
       "x-ms-parameter-location": "method"
     },

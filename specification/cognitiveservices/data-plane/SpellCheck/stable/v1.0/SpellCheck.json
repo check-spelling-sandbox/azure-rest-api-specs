@@ -196,7 +196,7 @@
           {
             "name": "Mode",
             "in": "query",
-            "description": "The type of spelling and grammar checks to perform. The following are the possible values (the values are case insensitive). The default is Proof. 1) Proof—Finds most spelling and grammar mistakes. 2) Spell—Finds most spelling mistakes but does not find some of the grammar errors that Proof catches (for example, capitalization and repeated words)",
+            "description": "The type of spelling and grammar checks to perform. The following are the possible values (the values are case-insensitive). The default is Proof. 1) Proof—Finds most spelling and grammar mistakes. 2) Spell—Finds most spelling mistakes but does not find some of the grammar errors that Proof catches (for example, capitalization and repeated words)",
             "required": false,
             "type": "string",
             "enum": [

@@ -2742,7 +2742,7 @@
         "ignoreCase": {
           "type": "boolean",
           "default": false,
-          "description": "A value indicating whether common words matching will be case insensitive. Default is false."
+          "description": "A value indicating whether common words matching will be case-insensitive. Default is false."
         },
         "queryMode": {
           "x-ms-client-name": "UseQueryMode",

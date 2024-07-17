@@ -2060,9 +2060,9 @@ Links: [Index](#index) | [Error vs. Warning](#error-vs-warning) | [Automated Rul
 
 **Applies to** : ARM and Data Plane OpenAPI(swagger) specs
 
-**Output Message** : Enum must not contain duplicated value (case insensitive).
+**Output Message** : Enum must not contain duplicated value (case-insensitive).
 
-**Description** : Enum must not contain duplicated value (case insensitive).
+**Description** : Enum must not contain duplicated value (case-insensitive).
 
 **CreatedAt**: February 18, 2020
 

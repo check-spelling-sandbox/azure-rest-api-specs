@@ -16,7 +16,7 @@ namespace Microsoft.Monitor;
 @doc("An Azure Monitor Workspace definition.")
 model AzureMonitorWorkspace
   is TrackedResource<AzureMonitorWorkspaceProperties> {
-  @doc("The name of the Azure Monitor workspace. The name is case insensitive.")
+  @doc("The name of the Azure Monitor workspace. The name is case-insensitive.")
   @pattern("^(?!-)[a-zA-Z0-9-]+[^-]$")
   @key("azureMonitorWorkspaceName")
   @path

@@ -88,7 +88,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -136,7 +136,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -190,7 +190,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -259,7 +259,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -325,7 +325,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -373,7 +373,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -430,7 +430,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -501,7 +501,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -550,7 +550,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -791,7 +791,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -837,7 +837,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -899,7 +899,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -954,7 +954,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -1033,7 +1033,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -1074,7 +1074,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -1132,7 +1132,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -1185,7 +1185,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
@@ -1242,7 +1242,7 @@
             "in": "path",
             "required": true,
             "type": "string",
-            "description": "The name of the resource group. The name is case insensitive.",
+            "description": "The name of the resource group. The name is case-insensitive.",
             "pattern": "^[-\\w\\._\\(\\)]+$",
             "minLength": 1,
             "maxLength": 90
