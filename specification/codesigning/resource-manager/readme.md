@@ -78,7 +78,7 @@ See configuration in [readme.csharp.md](./readme.csharp.md)
 
 See configuration in [readme.java.md](./readme.java.md)
 
-## Typescript
+## TypeScript
 
 See configuration in [readme.typescript.md](./readme.typescript.md)
 

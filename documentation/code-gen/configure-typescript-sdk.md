@@ -1,5 +1,5 @@
-# Readme Configuration Guide for Azure SDK for JavaScript (Typescript)
-This file describe how to configure readme files to make it available for Azure SDK for JavaScript (Typescript) code generation.
+# Readme Configuration Guide for Azure SDK for JavaScript (TypeScript)
+This file describe how to configure readme files to make it available for Azure SDK for JavaScript (TypeScript) code generation.
 
 ## Common Configuration
 Configure basic package information.
@@ -49,7 +49,7 @@ input-file:
 
 
 ## Swagger to SDK
-To make Azure SDK for JavaScript (Typescript) can be generated from the tag, swagger-to-sdk need to be configured:
+To make Azure SDK for JavaScript (TypeScript) can be generated from the tag, swagger-to-sdk need to be configured:
 
 ~~~
 // file: readme.md
@@ -65,13 +65,13 @@ swagger-to-sdk:
   - ...
 
 
-## Typescript
+## TypeScript
 
 See configuration in [readme.typescript.md](./readme.typescript.md)
 ~~~
 
-## Typescript Configuration
-Typescript dedicated configurations are configured in readme.typescript.md.
+## TypeScript Configuration
+TypeScript dedicated configurations are configured in readme.typescript.md.
 the typical package-name is usually like `@azure/arm-xxx`  where the xxx is related with the service name.   
 and the typical output-folder in the azure-sdk-for-js is like `$(typescript-sdks-folder)/sdk/xxx/arm-xxx` where the xxx is related with the service name.  
 A typical readme.typescript.md is like this: 
@@ -95,7 +95,7 @@ typescript:
 ~~~
 
 ## Multi-api
-Currently the Azure SDK for JavaScript (Typescript) doesn't support multi-api which means each operation contained in one package should only contains one api-version's. and Azure SDK for JavaScript (Typescript) only supports single api package.
+Currently the Azure SDK for JavaScript (TypeScript) doesn't support multi-api which means each operation contained in one package should only contains one api-version's. and Azure SDK for JavaScript (TypeScript) only supports single api package.
 
 ## Multi-packages 
 The batch is a tag list which are used in the one RP has multi-package scenarios. For example, 
@@ -176,7 +176,7 @@ input-file:
 ```
 ~~~
 
-Finally, in your readme.typescript.md you should include what packages you want to include in the Azure SDK for JavaScript (Typescript).
+Finally, in your readme.typescript.md you should include what packages you want to include in the Azure SDK for JavaScript (TypeScript).
 And in each package's section define the default package name output folder in azure-sdk-for-js repo etc.
 
 ~~~

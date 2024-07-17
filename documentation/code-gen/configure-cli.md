@@ -53,7 +53,7 @@ input-file:
 
 
 ## Swagger to SDK
-To make Azure SDK for JavaScript (Typescript) can be generated from the tag, swagger-to-sdk need to be configured:
+To make Azure SDK for JavaScript (TypeScript) can be generated from the tag, swagger-to-sdk need to be configured:
 
 ~~~
 // file: readme.md
