@@ -1,8 +1,8 @@
-### Tag: packge-2023-03-01
+### Tag: package-2023-03-01
 
-These settings apply only when `--tag=packge-2023-03-01` is specified on the command line.
+These settings apply only when `--tag=package-2023-03-01` is specified on the command line.
 
-``` yaml $(tag) == 'packge-2023-03-01'
+``` yaml $(tag) == 'package-2023-03-01'
 test-resources:
   - Microsoft.AppConfiguration/stable/2023-03-01/scenarios/basic.yaml
 
