@@ -36,7 +36,7 @@
                       "osType": "Windows",
                       "osSku": "Windows2022",
                       "ready": false,
-                      "errorMessage": "Not Ready. Reasons: Failed to find proudct stream windoes2022 in release aks-hybrid-catalog-stable-int"
+                      "errorMessage": "Not Ready. Reasons: Failed to find product stream windoes2022 in release aks-hybrid-catalog-stable-int"
                     }
                   ],
                   "upgrades": [
