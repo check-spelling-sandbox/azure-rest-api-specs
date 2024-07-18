@@ -186,7 +186,7 @@ Use case and design proposals
 3. In the correct folder, run `tsp init https://aka.ms/typespec/azure` to create TypeSpec project: ARM or DP. Project will not contain package.json but rather rely on the one in the root level. 
 4. Author TypeSpec files and run `tsp compile .` to verify no errors in the TypeSpec project. It should only run `typespec-autorest` given that is the only emitter enabled via init template project. Generated swagger would be placed in the appropriate folder. It is not expected to use --emit flag to run any SDK emitters. For that, see step 5.
 5. Having a script to call OAV to generate swagger examples.
-6. Optionally, after successful compile of TypeSpec project, spec author is able to run simple docker command to generate SDK for particular lanaguages locally.
+6. Optionally, after successful compile of TypeSpec project, spec author is able to run simple docker command to generate SDK for particular languages locally.
 7. Optionally, sdk developer can work on sdk sample, sdk test, readme, etc., locally.
 
 #### 4.Dev Outer loop
