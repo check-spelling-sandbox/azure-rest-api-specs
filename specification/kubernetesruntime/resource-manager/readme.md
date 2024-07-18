@@ -32,7 +32,7 @@ tag: package-preview-2023-10-01
 suppressions:
   - code: ConsistentPatchProperties
     from: kubernetesruntime.json
-    reason: The tooling doens't check properties in derived models of discriminated unions.
+    reason: The tooling doesn't check properties in derived models of discriminated unions.
 
 ```
 ### Tag: package-preview-2023-10-01
