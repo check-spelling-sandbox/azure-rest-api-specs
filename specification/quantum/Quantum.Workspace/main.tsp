@@ -57,13 +57,13 @@ namespace Quantum.Workspace.Services {
     See https://github.com/Azure/typespec-azure/issues/475
     """
   #suppress "@azure-tools/typespec-azure-core/use-standard-operations" """
-    We had to use a custom ResourceList to avoid an autoroute bug for workspace/jobs and sesssions/{sessionId}/jobs.
+    We had to use a custom ResourceList to avoid an autoroute bug for workspace/jobs and sessions/{sessionId}/jobs.
     See https://github.com/Azure/typespec-azure/issues/494
     """
   interface Jobs extends Quantum.Workspace.Operations.JobOperations {}
 
   #suppress "@azure-tools/typespec-azure-core/use-standard-operations" """
-    We had to use a custom ResourceList to avoid an autoroute bug for workspace/jobs and sesssions/{sessionId}/jobs.
+    We had to use a custom ResourceList to avoid an autoroute bug for workspace/jobs and sessions/{sessionId}/jobs.
     See https://github.com/Azure/typespec-azure/issues/494
     """
   interface Sessions extends Quantum.Workspace.Operations.SessionOperations {}

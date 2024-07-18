@@ -119,7 +119,7 @@ model JobDetails extends ItemDetails {
   outputDataFormat?: string;
 }
 
-/** A Paged List of JobDetails. */ // Used by workspace/jobs and sesssions/{sessionId}/jobs
+/** A Paged List of JobDetails. */ // Used by workspace/jobs and sessions/{sessionId}/jobs
 alias PagedJobDetails = Azure.Core.Page<JobDetails>;
 
 @useDependency(DefaultAzureCoreVersion)
@@ -145,7 +145,7 @@ namespace Quantum.Workspace.Operations {
 
     /** List all jobs. */
     #suppress "@azure-tools/typespec-azure-core/use-standard-operations" """
-      We had to use a custom ResourceList to avoid an autoroute bug for workspace/jobs and sesssions/{sessionId}/jobs.
+      We had to use a custom ResourceList to avoid an autoroute bug for workspace/jobs and sessions/{sessionId}/jobs.
       See https://github.com/Azure/typespec-azure/issues/494
       """
     list is CustomListOperation<
