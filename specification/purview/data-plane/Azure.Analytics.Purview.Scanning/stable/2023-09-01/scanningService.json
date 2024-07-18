@@ -5449,7 +5449,7 @@
       },
       "x-ms-discriminator-value": "AmazonARN"
     },
-    "KeyVaultSecretServicePrinipalCredentialTypeProperties": {
+    "KeyVaultSecretServicePrincipalCredentialTypeProperties": {
       "description": "The type properties of key vault secret service principal credential.",
       "type": "object",
       "properties": {
@@ -5470,7 +5470,7 @@
       "type": "object",
       "properties": {
         "typeProperties": {
-          "$ref": "#/definitions/KeyVaultSecretServicePrinipalCredentialTypeProperties"
+          "$ref": "#/definitions/KeyVaultSecretServicePrincipalCredentialTypeProperties"
         },
         "description": {
           "type": "string"
