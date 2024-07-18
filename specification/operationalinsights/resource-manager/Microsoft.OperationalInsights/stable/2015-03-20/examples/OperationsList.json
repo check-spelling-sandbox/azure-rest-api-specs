@@ -234,7 +234,7 @@
             "provider": "Microsoft Operational Insights",
             "resource": "Intelligence Packs",
             "operation": "List Intelligence Packs",
-            "description": "Lists all intelligence packs that are visible for a given worksapce and also lists whether the pack is enabled or disabled for that workspace."
+            "description": "Lists all intelligence packs that are visible for a given workspace and also lists whether the pack is enabled or disabled for that workspace."
           }
         },
         {
