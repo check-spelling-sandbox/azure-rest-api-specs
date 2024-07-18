@@ -57,7 +57,7 @@
                 "deployParametersMappingRuleProfile": {
                   "applicationEnablement": "Enabled",
                   "helmMappingRuleProfile": {
-                    "releaseNamespace": "{deployParameters.namesapce}",
+                    "releaseNamespace": "{deployParameters.namespace}",
                     "releaseName": "{deployParameters.releaseName}",
                     "helmPackageVersion": "2.1.3",
                     "values": ""

@@ -660,7 +660,7 @@
         ],
         "operationId": "NetworkSecurityPerimeterConfiguration_List",
         "x-ms-examples": {
-          "NamspaceNetworkSecurityPerimeterConfigurationList": {
+          "NamespaceNetworkSecurityPerimeterConfigurationList": {
             "$ref": "./examples/NameSpaces/NetworkSecurityPerimeterConfigurationList.json"
           }
         },

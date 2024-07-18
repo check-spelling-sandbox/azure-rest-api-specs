@@ -23,7 +23,7 @@
         ],
         "operationId": "NetworkSecurityPerimeterConfigurations_List",
         "x-ms-examples": {
-          "NamspaceNetworkSecurityPerimeterConfigurationList": {
+          "NamespaceNetworkSecurityPerimeterConfigurationList": {
             "$ref": "./examples/NetworkSecurityPerimeterConfigurationList.json"
           }
         },
@@ -68,7 +68,7 @@
         ],
         "operationId": "NetworkSecurityPerimeterConfigurations_Get",
         "x-ms-examples": {
-          "NamspaceNetworkSecurityPerimeterConfigurationList": {
+          "NamespaceNetworkSecurityPerimeterConfigurationList": {
             "$ref": "./examples/NetworkSecurityPerimeterConfigurationGet.json"
           }
         },

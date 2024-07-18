@@ -1777,7 +1777,7 @@
           "PrivateLink"
         ],
         "summary": "Returns Group Id response. \r\nThis is a public API required by the Networking RP contract. It can be used directly by Notification Hubs users.",
-        "description": "Even though this namespace requires subscription id, resource group and namespace name, it returns a constant payload (for a given namespacE) every time it's called.\r\nThat's why we don't send it to the sibling RP, but process it directly in the scale unit that received the request.",
+        "description": "Even though this namespace requires subscription id, resource group and namespace name, it returns a constant payload (for a given namespace) every time it's called.\r\nThat's why we don't send it to the sibling RP, but process it directly in the scale unit that received the request.",
         "operationId": "PrivateEndpointConnections_GetGroupId",
         "produces": [
           "application/json"
@@ -1831,7 +1831,7 @@
           "PrivateLink"
         ],
         "summary": "Returns all Group Ids supported by the Notification Hubs RP.\r\nThis is a public API required by the Networking RP contract. It can be used directly by Notification Hubs users.",
-        "description": "Even though this namespace requires subscription id, resource group and namespace name, it returns a constant payload (for a given namespacE) every time it's called.\r\nThat's why we don't send it to the sibling RP, but process it directly in the scale unit that received the request.",
+        "description": "Even though this namespace requires subscription id, resource group and namespace name, it returns a constant payload (for a given namespace) every time it's called.\r\nThat's why we don't send it to the sibling RP, but process it directly in the scale unit that received the request.",
         "operationId": "PrivateEndpointConnections_ListGroupIds",
         "produces": [
           "application/json"

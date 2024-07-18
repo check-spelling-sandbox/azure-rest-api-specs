@@ -11,7 +11,7 @@
       "type": "servicebusqueue@v1",
       "authorization": {
         "type": "connectionString",
-        "connectionString": "Endpoint=sb://[namespance].servicebus.windows.net/;SharedAccessKeyName=xxx;SharedAccessKey=[key];EntityPath=[name]"
+        "connectionString": "Endpoint=sb://[namespace].servicebus.windows.net/;SharedAccessKeyName=xxx;SharedAccessKey=[key];EntityPath=[name]"
       }
     }
   },
