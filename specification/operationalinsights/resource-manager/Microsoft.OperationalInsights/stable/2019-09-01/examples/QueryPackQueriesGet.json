@@ -26,7 +26,7 @@
           "body": "let newExceptionsTimeRange = 1d;\nlet timeRangeToCheckBefore = 7d;\nexceptions\n| where timestamp < ago(timeRangeToCheckBefore)\n| summarize count() by problemId\n| join kind= rightanti (\nexceptions\n| where timestamp >= ago(newExceptionsTimeRange)\n| extend stack = tostring(details[0].rawStack)\n| summarize count(), dcount(user_AuthenticatedId), min(timestamp), max(timestamp), any(stack) by problemId  \n) on problemId \n| order by  count_ desc\n",
           "timeModified": "2018-02-14T13:13:19.3381394Z",
           "timeCreated": "2018-02-12T11:44:39.2980634Z",
-          "description": "Thie query fetches the recent exceptions from the last 24 hours"
+          "description": "This query fetches the recent exceptions from the last 24 hours"
         }
       }
     }

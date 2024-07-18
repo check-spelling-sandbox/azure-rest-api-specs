@@ -42,7 +42,7 @@
               "author": "1809f206-263a-46f7-942d-4572c156b7e7",
               "timeModified": "2019-08-15T10:29:56.1030254Z",
               "displayName": "Heartbeat_1",
-              "description": "Thie query takes 10 entries of heartbeat 0",
+              "description": "This query takes 10 entries of heartbeat 0",
               "body": "Heartbeat | take 1",
               "related": {
                 "categories": [
@@ -77,7 +77,7 @@
               "author": "1809f206-263a-46f7-942d-4572c156b7e7",
               "timeModified": "2019-08-15T10:30:26.7943629Z",
               "displayName": "Heartbeat_2",
-              "description": "Thie query takes 10 entries of heartbeat 1",
+              "description": "This query takes 10 entries of heartbeat 1",
               "body": "Heartbeat | take 1",
               "related": {
                 "categories": [
@@ -112,7 +112,7 @@
               "author": "1809f206-263a-46f7-942d-4572c156b7e7",
               "timeModified": "2019-08-15T10:30:29.4505584Z",
               "displayName": "Heartbeat_3",
-              "description": "Thie query takes 10 entries of heartbeat 2",
+              "description": "This query takes 10 entries of heartbeat 2",
               "body": "Heartbeat | take 1",
               "related": {
                 "categories": [

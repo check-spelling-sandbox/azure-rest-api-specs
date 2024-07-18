@@ -17560,7 +17560,7 @@
           "type": "boolean"
         },
         "additionalEnforcedPermissions": {
-          "description": "Permissions which are enforced for creating and updating system topics of this this topic type.",
+          "description": "Permissions which are enforced for creating and updating system topics of this topic type.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/TopicTypeAdditionalEnforcedPermission"
