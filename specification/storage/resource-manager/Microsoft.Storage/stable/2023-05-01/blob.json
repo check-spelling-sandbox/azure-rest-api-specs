@@ -460,7 +460,7 @@
             "$ref": "./examples/BlobContainersClearLegalHold.json"
           }
         },
-        "description": "Clears legal hold tags. Clearing the same or non-existent tag results in an idempotent operation. ClearLegalHold clears out only the specified tags in the request.",
+        "description": "Clears legal hold tags. Clearing the same or nonexistent tag results in an idempotent operation. ClearLegalHold clears out only the specified tags in the request.",
         "parameters": [
           {
             "$ref": "./storage.json#/parameters/ResourceGroupName"

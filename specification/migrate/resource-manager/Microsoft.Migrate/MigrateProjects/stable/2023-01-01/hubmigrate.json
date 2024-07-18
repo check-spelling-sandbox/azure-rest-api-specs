@@ -491,7 +491,7 @@
           "EventsController"
         ],
         "summary": "Delete the migrate event",
-        "description": "Delete the migrate event. Deleting non-existent migrate event is a no-operation.",
+        "description": "Delete the migrate event. Deleting nonexistent migrate event is a no-operation.",
         "operationId": "EventsController_Delete",
         "parameters": [
           {
@@ -934,7 +934,7 @@
           "SolutionsController"
         ],
         "summary": "Delete the solution",
-        "description": "Delete the solution. Deleting non-existent project is a no-operation.",
+        "description": "Delete the solution. Deleting nonexistent project is a no-operation.",
         "operationId": "SolutionsController_DeleteSolution",
         "parameters": [
           {
@@ -1986,7 +1986,7 @@
           "PrivateEndpointConnectionController"
         ],
         "summary": "Delete the endpoint",
-        "description": "Delete the private endpoint. Deleting non-existent private endpoint is a no-operation.",
+        "description": "Delete the private endpoint. Deleting nonexistent private endpoint is a no-operation.",
         "operationId": "PrivateEndpointConnectionController_DeletePrivateEndpointConnection",
         "parameters": [
           {
@@ -2274,7 +2274,7 @@
           "PrivateEndpointConnectionProxyController"
         ],
         "summary": "Delete the private endpoint proxy",
-        "description": "Delete the private endpoint proxy. Deleting non-existent private endpoint proxy is a no-operation.",
+        "description": "Delete the private endpoint proxy. Deleting nonexistent private endpoint proxy is a no-operation.",
         "operationId": "PrivateEndpointConnectionProxyController_Delete",
         "parameters": [
           {

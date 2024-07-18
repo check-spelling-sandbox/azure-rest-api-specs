@@ -404,7 +404,7 @@
           "Events"
         ],
         "summary": "Delete the migrate event",
-        "description": "Delete the migrate event. Deleting non-existent migrate event is a no-operation.",
+        "description": "Delete the migrate event. Deleting nonexistent migrate event is a no-operation.",
         "operationId": "Events_DeleteEvent",
         "parameters": [
           {
@@ -661,7 +661,7 @@
           "MigrateProjects"
         ],
         "summary": "Delete the migrate project",
-        "description": "Delete the migrate project. Deleting non-existent project is a no-operation.",
+        "description": "Delete the migrate project. Deleting nonexistent project is a no-operation.",
         "operationId": "MigrateProjects_DeleteMigrateProject",
         "parameters": [
           {
@@ -933,7 +933,7 @@
           "Solutions"
         ],
         "summary": "Delete the solution",
-        "description": "Delete the solution. Deleting non-existent project is a no-operation.",
+        "description": "Delete the solution. Deleting nonexistent project is a no-operation.",
         "operationId": "Solutions_DeleteSolution",
         "parameters": [
           {
