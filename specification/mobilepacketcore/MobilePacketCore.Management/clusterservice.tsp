@@ -77,6 +77,6 @@ model ClusterServiceAksClusterData
 @doc("Nexus AKS Cluster specific data.")
 model ClusterServiceNexusAksClusterData
   extends ClusterServiceClusterTypeSpecificData {
-  @doc("Nexus Operator Kubenetes Service Properties.")
+  @doc("Nexus Operator Kubernetes Service Properties.")
   type: ClusterType.NexusAks;
 }
