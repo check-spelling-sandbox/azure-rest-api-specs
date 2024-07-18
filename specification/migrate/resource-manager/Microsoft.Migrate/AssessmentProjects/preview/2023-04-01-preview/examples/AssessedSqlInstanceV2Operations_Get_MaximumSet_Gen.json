@@ -132,7 +132,7 @@
                 "reasoningCategory": "StorageType",
                 "contextParameters": [
                   {
-                    "contextKey": "CommaSeperatedManagedDisks",
+                    "contextKey": "CommaSeparatedManagedDisks",
                     "contextValue": "2 PremiumSSD(P2)"
                   }
                 ]

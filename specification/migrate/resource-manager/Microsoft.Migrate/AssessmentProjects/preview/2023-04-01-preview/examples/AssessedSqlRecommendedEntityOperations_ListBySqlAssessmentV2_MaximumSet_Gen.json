@@ -161,7 +161,7 @@
                     "reasoningCategory": "StorageType",
                     "contextParameters": [
                       {
-                        "contextKey": "CommaSeperatedManagedDisks",
+                        "contextKey": "CommaSeparatedManagedDisks",
                         "contextValue": ""
                       }
                     ]
