@@ -450,7 +450,7 @@ interface DevBoxes {
     }
   >;
 
-  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "can not be represeted by using stand operations"
+  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "can not be represented by using stand operations"
   //There is no @key for RemoteConnection model
   @doc("Gets RDP Connection info.")
   @route("/projects/{projectName}/users/{userId}/devboxes/{devBoxName}/remoteConnection")
