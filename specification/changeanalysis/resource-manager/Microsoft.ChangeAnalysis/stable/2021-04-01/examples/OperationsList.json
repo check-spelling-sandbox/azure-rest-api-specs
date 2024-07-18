@@ -19,7 +19,7 @@
             "display": {
               "provider": "Microsoft Change Analysis",
               "resource": "Azure Application Change Analysis Service Change",
-              "operation": "Read Azure Application Change Analysis Servie Change"
+              "operation": "Read Azure Application Change Analysis Service Change"
             }
           }
         ]

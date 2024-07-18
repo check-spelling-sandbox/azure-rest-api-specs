@@ -1811,7 +1811,7 @@
           }
         },
         "privateLinkServiceConnectionState": {
-          "title": "Private link service service connection state",
+          "title": "Private link service connection state",
           "description": "Private endpoint connection state",
           "$ref": "#/definitions/PrivateLinkServiceConnectionState"
         },
