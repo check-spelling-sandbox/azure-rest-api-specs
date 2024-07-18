@@ -1871,7 +1871,7 @@
           }
         },
         "connectionTimeoutInMs": {
-          "description": "Timeout for connecting to the LDAP server in miliseconds. The default is 5000 ms.",
+          "description": "Timeout for connecting to the LDAP server in milliseconds. The default is 5000 ms.",
           "type": "integer",
           "format": "int32"
         }
