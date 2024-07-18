@@ -2982,7 +2982,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Linked server Id."
+          "description": "Linked server ID."
         }
       }
     },
@@ -3189,7 +3189,7 @@
         },
         "objectId": {
           "type": "string",
-          "description": "Object Id to assign access policy to"
+          "description": "Object ID to assign access policy to"
         },
         "objectIdAlias": {
           "type": "string",

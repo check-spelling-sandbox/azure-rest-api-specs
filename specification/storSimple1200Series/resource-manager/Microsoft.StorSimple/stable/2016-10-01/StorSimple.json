@@ -6615,7 +6615,7 @@
           "type": "string"
         },
         "targetAccessPointId": {
-          "description": "Access point Id on which clone job will performed.",
+          "description": "Access point ID on which clone job will performed.",
           "type": "string"
         },
         "newEndpointName": {
@@ -8318,7 +8318,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The Resource Id",
+          "description": "The Resource ID",
           "type": "string",
           "readOnly": true
         },

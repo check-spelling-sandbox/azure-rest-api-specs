@@ -1223,7 +1223,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Storage account resource Id.",
+          "description": "Storage account resource ID.",
           "readOnly": true
         },
         "attributes": {

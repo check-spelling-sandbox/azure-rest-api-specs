@@ -549,7 +549,7 @@
           "format": "int32",
           "minimum": 100,
           "maximum": 4094,
-          "description": "Vlan Identifier of the Network Fabric. Example: 501."
+          "description": "Vlan IDentifier of the Network Fabric. Example: 501."
         },
         "mtu": {
           "type": "integer",

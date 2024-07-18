@@ -9,7 +9,7 @@ model AcsIncomingCallEventData {
   /** The communication identifier of the user who initiated the call. */
   from: CommunicationIdentifierModel;
 
-  /** The Id of the server call */
+  /** The ID of the server call */
   serverCallId?: string;
 
   /** Display name of caller. */
@@ -242,7 +242,7 @@ model AcsEmailDeliveryReportReceivedEventData {
   /** The recipient Email Address */
   recipient?: string;
 
-  /** The Id of the email been sent */
+  /** The ID of the email been sent */
   messageId?: string;
 
   /** The status of the email. Any value other than Delivered is considered failed. */
@@ -263,7 +263,7 @@ model AcsEmailEngagementTrackingReportReceivedEventData {
   /** The Recipient Email Address */
   recipient?: string;
 
-  /** The Id of the email that has been sent */
+  /** The ID of the email that has been sent */
   messageId?: string;
 
   /** The time at which the user interacted with the email */
@@ -1070,7 +1070,7 @@ union CommunicationIdentifierModelKind {
 
 /** A Microsoft Teams application. */
 model MicrosoftTeamsAppIdentifierModel {
-  /** The Id of the Microsoft Teams application */
+  /** The ID of the Microsoft Teams application */
   appId: string;
 
   /** The cloud that the Microsoft Teams application belongs to. By default 'public' if missing. */
@@ -1079,7 +1079,7 @@ model MicrosoftTeamsAppIdentifierModel {
 
 /** A Microsoft Teams user. */
 model MicrosoftTeamsUserIdentifierModel {
-  /** The Id of the Microsoft Teams user. If not anonymous, this is the AAD object Id of the user. */
+  /** The ID of the Microsoft Teams user. If not anonymous, this is the AAD object ID of the user. */
   userId: string;
 
   /** True if the Microsoft Teams user is anonymous. By default false if missing. */
@@ -1097,7 +1097,7 @@ model PhoneNumberIdentifierModel {
 
 /** A user that got created with an Azure Communication Services resource. */
 model CommunicationUserIdentifierModel {
-  /** The Id of the communication user. */
+  /** The ID of the communication user. */
   id: string;
 }
 

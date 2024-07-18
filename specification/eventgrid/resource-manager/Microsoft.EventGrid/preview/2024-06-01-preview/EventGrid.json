@@ -14517,7 +14517,7 @@
       "properties": {
         "resourceId": {
           "format": "arm-id",
-          "description": "The Azure Resource Id that represents the endpoint of an Event Hub destination of an event subscription.",
+          "description": "The Azure Resource ID that represents the endpoint of an Event Hub destination of an event subscription.",
           "type": "string"
         },
         "deliveryAttributeMappings": {
@@ -14631,7 +14631,7 @@
       "properties": {
         "resourceId": {
           "format": "arm-id",
-          "description": "The Azure Resource Id that represents the endpoint of the Service Bus destination of an event subscription.",
+          "description": "The Azure Resource ID that represents the endpoint of the Service Bus destination of an event subscription.",
           "type": "string",
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -14673,7 +14673,7 @@
       "properties": {
         "resourceId": {
           "format": "arm-id",
-          "description": "The Azure Resource Id that represents the endpoint of the Service Bus Topic destination of an event subscription.",
+          "description": "The Azure Resource ID that represents the endpoint of the Service Bus Topic destination of an event subscription.",
           "type": "string",
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -14715,7 +14715,7 @@
       "properties": {
         "resourceId": {
           "format": "arm-id",
-          "description": "The Azure Resource Id that represents the endpoint of the Azure Function destination of an event subscription.",
+          "description": "The Azure Resource ID that represents the endpoint of the Azure Function destination of an event subscription.",
           "type": "string",
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -14767,7 +14767,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "The Azure Resource Id that represents the endpoint of a Partner Destination of an event subscription.",
+          "description": "The Azure Resource ID that represents the endpoint of a Partner Destination of an event subscription.",
           "type": "string"
         }
       }
@@ -14812,7 +14812,7 @@
           "type": "string"
         },
         "actionGroups": {
-          "description": "The list of ARM Ids of Action Groups that will be triggered on every Alert fired through this event subscription.\r\nEach resource ARM Id should follow this pattern: /subscriptions/{AzureSubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.Insights/actionGroups/{ActionGroupName}.",
+          "description": "The list of ARM IDs of Action Groups that will be triggered on every Alert fired through this event subscription.\r\nEach resource ARM ID should follow this pattern: /subscriptions/{AzureSubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.Insights/actionGroups/{ActionGroupName}.",
           "type": "array",
           "items": {
             "format": "arm-id",
@@ -14851,7 +14851,7 @@
       "properties": {
         "resourceId": {
           "format": "arm-id",
-          "description": "The Azure resource Id that represents the endpoint of the Event Grid Namespace Topic destination of an event subscription.\r\nThis field is required and the Namespace Topic resource listed must already exist.\r\nThe resource ARM Id should follow this pattern: /subscriptions/{AzureSubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.EventGrid/namespaces/{NamespaceName}/topics/{TopicName}.",
+          "description": "The Azure resource ID that represents the endpoint of the Event Grid Namespace Topic destination of an event subscription.\r\nThis field is required and the Namespace Topic resource listed must already exist.\r\nThe resource ARM ID should follow this pattern: /subscriptions/{AzureSubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.EventGrid/namespaces/{NamespaceName}/topics/{TopicName}.",
           "type": "string",
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -15153,7 +15153,7 @@
           }
         },
         "routeTopicResourceId": {
-          "description": "Fully qualified Azure Resource Id for the Event Grid Topic to which events will be routed to from TopicSpaces under a namespace.\r\nThis property should be in the following format '/subscriptions/{subId}/resourcegroups/{resourceGroupName}/providers/microsoft.EventGrid/topics/{topicName}'.\r\nThis topic should reside in the same region where namespace is located.",
+          "description": "Fully qualified Azure Resource ID for the Event Grid Topic to which events will be routed to from TopicSpaces under a namespace.\r\nThis property should be in the following format '/subscriptions/{subId}/resourcegroups/{resourceGroupName}/providers/microsoft.EventGrid/topics/{topicName}'.\r\nThis topic should reside in the same region where namespace is located.",
           "type": "string"
         },
         "hostname": {
@@ -16035,7 +16035,7 @@
           }
         },
         "partnerRegistrationFullyQualifiedId": {
-          "description": "The fully qualified ARM Id of the partner registration that should be associated with this partner namespace. This takes the following format:\r\n/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerRegistrations/{partnerRegistrationName}.",
+          "description": "The fully qualified ARM ID of the partner registration that should be associated with this partner namespace. This takes the following format:\r\n/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerRegistrations/{partnerRegistrationName}.",
           "type": "string"
         },
         "minimumTlsVersionAllowed": {

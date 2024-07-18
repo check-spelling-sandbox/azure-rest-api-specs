@@ -270,7 +270,7 @@ model ExtensionApiDefinition {
  */
 model ArmCommonProperties {
   /**
-   * Resource Id
+   * Resource ID
    */
   @visibility("read")
   id?: string;

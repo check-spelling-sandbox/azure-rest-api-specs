@@ -110,7 +110,7 @@
             }
           },
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -1272,7 +1272,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -1348,7 +1348,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -1673,7 +1673,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -1749,7 +1749,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -2066,7 +2066,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -2514,7 +2514,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Contains additional information like job Id",
+            "description": "Contains additional information like job ID",
             "schema": {
               "$ref": "#/definitions/OperationJobExtendedInfo"
             }
@@ -4460,7 +4460,7 @@
       "description": "AzureBackup Job Class",
       "properties": {
         "activityID": {
-          "description": "Job Activity Id",
+          "description": "Job Activity ID",
           "type": "string"
         },
         "backupInstanceFriendlyName": {
@@ -6177,7 +6177,7 @@
       "description": "Base resource under Microsoft.DataProtection provider namespace",
       "properties": {
         "id": {
-          "description": "Resource Id represents the complete path to the resource.",
+          "description": "Resource ID represents the complete path to the resource.",
           "type": "string",
           "readOnly": true
         },
@@ -6197,7 +6197,7 @@
       "description": "Resource class",
       "properties": {
         "id": {
-          "description": "Resource Id represents the complete path to the resource.",
+          "description": "Resource ID represents the complete path to the resource.",
           "readOnly": true,
           "type": "string"
         },
@@ -6237,7 +6237,7 @@
           "type": "string"
         },
         "id": {
-          "description": "Resource Id represents the complete path to the resource.",
+          "description": "Resource ID represents the complete path to the resource.",
           "readOnly": true,
           "type": "string"
         },
@@ -6306,7 +6306,7 @@
     "DppProxyResource": {
       "properties": {
         "id": {
-          "description": "Proxy Resource Id represents the complete path to the resource.",
+          "description": "Proxy Resource ID represents the complete path to the resource.",
           "readOnly": true,
           "type": "string"
         },
@@ -6911,7 +6911,7 @@
       "description": "Operation Job Extended Info",
       "properties": {
         "jobId": {
-          "description": "Name or Arm Id of the job created for this operation.",
+          "description": "Name or Arm ID of the job created for this operation.",
           "type": "string"
         }
       },
@@ -8054,7 +8054,7 @@
           "type": "string"
         },
         "targetResourceArmId": {
-          "description": "Full ARM Id denoting the restore destination. It is the ARM Id pointing to container / file share\r\nThis is optional if the target subscription can be identified with the URL field. If not\r\nthen this is needed if CrossSubscriptionRestore field of BackupVault is in any of the disabled states",
+          "description": "Full ARM ID denoting the restore destination. It is the ARM ID pointing to container / file share\r\nThis is optional if the target subscription can be identified with the URL field. If not\r\nthen this is needed if CrossSubscriptionRestore field of BackupVault is in any of the disabled states",
           "type": "string"
         }
       },

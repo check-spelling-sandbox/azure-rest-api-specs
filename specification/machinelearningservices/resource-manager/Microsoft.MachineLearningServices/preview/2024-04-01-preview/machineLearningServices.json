@@ -4047,7 +4047,7 @@
       "properties": {
         "objectId": {
           "type": "string",
-          "description": "User’s AAD Object Id."
+          "description": "User’s AAD Object ID."
         },
         "tenantId": {
           "type": "string",

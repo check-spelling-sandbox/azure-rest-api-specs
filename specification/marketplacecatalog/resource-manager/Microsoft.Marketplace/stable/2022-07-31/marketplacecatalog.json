@@ -2287,7 +2287,7 @@
         },
         "legacyPlanId": {
           "type": "string",
-          "description": "Legacy plan Id which is obtained by combining Offer->LegacyId and PlanId with no separator in between",
+          "description": "Legacy plan ID which is obtained by combining Offer->LegacyId and PlanId with no separator in between",
           "x-nullable": true
         },
         "keywords": {
@@ -2892,7 +2892,7 @@
         },
         "planID": {
           "type": "string",
-          "description": "Plan Id of the availability collection",
+          "description": "Plan ID of the availability collection",
           "x-nullable": true
         },
         "meterId": {

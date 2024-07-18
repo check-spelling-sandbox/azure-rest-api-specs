@@ -2095,7 +2095,7 @@
           "x-ms-secret": true
         },
         "enterpriseAppId": {
-          "description": "The Id of the Enterprise App used for Single sign on.",
+          "description": "The ID of the Enterprise App used for Single sign on.",
           "type": "string",
           "x-ms-mutability": [
             "create"
@@ -2462,7 +2462,7 @@
           "$ref": "#/definitions/SingleSignOnStates"
         },
         "enterpriseAppId": {
-          "description": "The Id of the Enterprise App used for Single sign-on.",
+          "description": "The ID of the Enterprise App used for Single sign-on.",
           "type": "string"
         },
         "singleSignOnUrl": {

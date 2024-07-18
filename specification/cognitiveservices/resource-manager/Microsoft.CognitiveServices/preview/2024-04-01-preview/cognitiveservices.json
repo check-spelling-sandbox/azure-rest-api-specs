@@ -5912,11 +5912,11 @@
       "properties": {
         "adxStorageResourceId": {
           "type": "string",
-          "description": "The storage resource Id."
+          "description": "The storage resource ID."
         },
         "identityClientId": {
           "type": "string",
-          "description": "The identity client Id to access the storage."
+          "description": "The identity client ID to access the storage."
         }
       }
     },

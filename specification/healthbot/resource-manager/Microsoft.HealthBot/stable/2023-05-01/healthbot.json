@@ -533,7 +533,7 @@
       "x-ms-azure-resource": true,
       "properties": {
         "id": {
-          "description": "Fully qualified resource Id for the resource.",
+          "description": "Fully qualified resource ID for the resource.",
           "type": "string",
           "readOnly": true
         },

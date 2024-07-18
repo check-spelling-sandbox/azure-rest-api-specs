@@ -996,7 +996,7 @@
           {
             "name": "fabricName",
             "in": "path",
-            "description": "Server Id.",
+            "description": "Server ID.",
             "required": true,
             "type": "string"
           }
@@ -1046,7 +1046,7 @@
           {
             "name": "fabricName",
             "in": "path",
-            "description": "Server Id.",
+            "description": "Server ID.",
             "required": true,
             "type": "string"
           },
@@ -1150,7 +1150,7 @@
           {
             "name": "fabricName",
             "in": "path",
-            "description": "Server Id.",
+            "description": "Server ID.",
             "required": true,
             "type": "string"
           },
@@ -7818,7 +7818,7 @@
           {
             "name": "policyName",
             "in": "path",
-            "description": "Policy Id.",
+            "description": "Policy ID.",
             "required": true,
             "type": "string"
           },
@@ -9557,7 +9557,7 @@
       ],
       "properties": {
         "fabricObjectId": {
-          "description": "The fabric specific object Id of the virtual machine.",
+          "description": "The fabric specific object ID of the virtual machine.",
           "type": "string"
         },
         "primaryLocation": {
@@ -9569,7 +9569,7 @@
           "type": "string"
         },
         "recoverySubscriptionId": {
-          "description": "The recovery subscription Id of the virtual machine.",
+          "description": "The recovery subscription ID of the virtual machine.",
           "type": "string"
         },
         "recoveryAvailabilityType": {
@@ -9590,7 +9590,7 @@
           "description": "The protection profile custom inputs."
         },
         "recoveryResourceGroupId": {
-          "description": "The recovery resource group Id. Valid for V2 scenarios.",
+          "description": "The recovery resource group ID. Valid for V2 scenarios.",
           "type": "string"
         },
         "primaryStagingStorageAccountCustomInput": {
@@ -9722,11 +9722,11 @@
       ],
       "properties": {
         "fabricObjectId": {
-          "description": "The fabric specific object Id of the virtual machine.",
+          "description": "The fabric specific object ID of the virtual machine.",
           "type": "string"
         },
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string"
         }
       },
@@ -9753,7 +9753,7 @@
       ],
       "properties": {
         "fabricObjectId": {
-          "description": "The fabric specific object Id of the virtual machine.",
+          "description": "The fabric specific object ID of the virtual machine.",
           "type": "string"
         },
         "primaryFabricLocation": {
@@ -9773,7 +9773,7 @@
           "type": "string"
         },
         "lifecycleId": {
-          "description": "An id associated with the PE that survives actions like switch protection which change the backing PE/CPE objects internally.The lifecycle id gets carried forward to have a link/continuity in being able to have an Id that denotes the \"same\" protected item even though other internal Ids/ARM Id might be changing.",
+          "description": "An id associated with the PE that survives actions like switch protection which change the backing PE/CPE objects internally.The lifecycle id gets carried forward to have a link/continuity in being able to have an ID that denotes the \"same\" protected item even though other internal Ids/ARM ID might be changing.",
           "type": "string"
         }
       },
@@ -9792,27 +9792,27 @@
       ],
       "properties": {
         "fabricObjectId": {
-          "description": "The fabric specific object Id of the virtual machine.",
+          "description": "The fabric specific object ID of the virtual machine.",
           "type": "string"
         },
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string"
         },
         "recoveryResourceGroupId": {
-          "description": "The recovery resource group Id. Valid for V2 scenarios.",
+          "description": "The recovery resource group ID. Valid for V2 scenarios.",
           "type": "string"
         },
         "recoveryCloudServiceId": {
-          "description": "The recovery cloud service Id. Valid for V1 scenarios.",
+          "description": "The recovery cloud service ID. Valid for V1 scenarios.",
           "type": "string"
         },
         "recoveryAvailabilitySetId": {
-          "description": "The recovery availability set Id.",
+          "description": "The recovery availability set ID.",
           "type": "string"
         },
         "recoveryProximityPlacementGroupId": {
-          "description": "The recovery proximity placement group Id.",
+          "description": "The recovery proximity placement group ID.",
           "type": "string"
         },
         "vmDisks": {
@@ -9838,7 +9838,7 @@
           "type": "string"
         },
         "protectionClusterId": {
-          "description": "The replication protection cluster Id.",
+          "description": "The replication protection cluster ID.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -9874,11 +9874,11 @@
           "type": "string"
         },
         "recoveryVirtualMachineScaleSetId": {
-          "description": "The virtual machine scale set Id.",
+          "description": "The virtual machine scale set ID.",
           "type": "string"
         },
         "recoveryCapacityReservationGroupId": {
-          "description": "The recovery capacity reservation group Id.",
+          "description": "The recovery capacity reservation group ID.",
           "type": "string"
         },
         "autoProtectionOfDataDisk": {
@@ -10195,7 +10195,7 @@
           }
         },
         "recoveryResourceGroupId": {
-          "description": "The recovery resource group Id.",
+          "description": "The recovery resource group ID.",
           "type": "string"
         },
         "recoveryAvailabilitySetId": {
@@ -10211,7 +10211,7 @@
           "type": "string"
         },
         "recoveryProximityPlacementGroupId": {
-          "description": "The recovery proximity placement group Id.",
+          "description": "The recovery proximity placement group ID.",
           "type": "string"
         },
         "recoveryVirtualMachineScaleSetId": {
@@ -10219,7 +10219,7 @@
           "type": "string"
         },
         "recoveryCapacityReservationGroupId": {
-          "description": "The recovery capacity reservation group Id.",
+          "description": "The recovery capacity reservation group ID.",
           "type": "string"
         },
         "diskEncryptionInfo": {
@@ -10241,19 +10241,19 @@
           "type": "string"
         },
         "recoveryResourceGroupId": {
-          "description": "The recovery disk resource group Arm Id.",
+          "description": "The recovery disk resource group Arm ID.",
           "type": "string"
         },
         "recoveryTargetDiskId": {
-          "description": "Recovery target disk Arm Id.",
+          "description": "Recovery target disk Arm ID.",
           "type": "string"
         },
         "recoveryReplicaDiskId": {
-          "description": "Recovery replica disk Arm Id.",
+          "description": "Recovery replica disk Arm ID.",
           "type": "string"
         },
         "recoveryOrignalTargetDiskId": {
-          "description": "Recovery original target disk Arm Id.",
+          "description": "Recovery original target disk Arm ID.",
           "type": "string"
         },
         "recoveryReplicaDiskAccountType": {
@@ -10265,11 +10265,11 @@
           "type": "string"
         },
         "recoveryDiskEncryptionSetId": {
-          "description": "The recovery disk encryption set Id.",
+          "description": "The recovery disk encryption set ID.",
           "type": "string"
         },
         "primaryDiskEncryptionSetId": {
-          "description": "The primary disk encryption set Id.",
+          "description": "The primary disk encryption set ID.",
           "type": "string"
         },
         "diskName": {
@@ -10435,7 +10435,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "primaryStagingStorageAccountCustomInput": {
@@ -10455,7 +10455,7 @@
           "type": "string"
         },
         "recoveryDiskEncryptionSetId": {
-          "description": "The recovery disk encryption set Id.",
+          "description": "The recovery disk encryption set ID.",
           "type": "string"
         },
         "diskEncryptionInfo": {
@@ -10512,7 +10512,7 @@
           }
         },
         "vmManagedDisksIds": {
-          "description": "The list of vm managed disk Ids.",
+          "description": "The list of vm managed disk IDs.",
           "type": "array",
           "items": {
             "type": "string"
@@ -10531,7 +10531,7 @@
       ],
       "properties": {
         "fabricObjectId": {
-          "description": "The fabric specific object Id of the virtual machine.",
+          "description": "The fabric specific object ID of the virtual machine.",
           "type": "string"
         },
         "initialPrimaryZone": {
@@ -10563,7 +10563,7 @@
           "readOnly": true
         },
         "multiVmGroupId": {
-          "description": "The multi vm group Id.",
+          "description": "The multi vm group ID.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -10583,11 +10583,11 @@
           }
         },
         "managementId": {
-          "description": "The management Id.",
+          "description": "The management ID.",
           "type": "string"
         },
         "protectionClusterId": {
-          "description": "The replication protection cluster Id.",
+          "description": "The replication protection cluster ID.",
           "type": "string"
         },
         "isClusterInfraReady": {
@@ -10616,7 +10616,7 @@
           }
         },
         "recoveryBootDiagStorageAccountId": {
-          "description": "The recovery boot diagnostic storage account Arm Id.",
+          "description": "The recovery boot diagnostic storage account Arm ID.",
           "type": "string"
         },
         "primaryFabricLocation": {
@@ -10708,7 +10708,7 @@
           "type": "boolean"
         },
         "recoveryFabricObjectId": {
-          "description": "The recovery fabric object Id.",
+          "description": "The recovery fabric object ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -10720,11 +10720,11 @@
           "type": "string"
         },
         "lifecycleId": {
-          "description": "An id associated with the PE that survives actions like switch protection which change the backing PE/CPE objects internally.The lifecycle id gets carried forward to have a link/continuity in being able to have an Id that denotes the \"same\" protected item even though other internal Ids/ARM Id might be changing.",
+          "description": "An id associated with the PE that survives actions like switch protection which change the backing PE/CPE objects internally.The lifecycle id gets carried forward to have a link/continuity in being able to have an ID that denotes the \"same\" protected item even though other internal Ids/ARM ID might be changing.",
           "type": "string"
         },
         "testFailoverRecoveryFabricObjectId": {
-          "description": "The test failover fabric object Id.",
+          "description": "The test failover fabric object ID.",
           "type": "string"
         },
         "rpoInSeconds": {
@@ -10777,7 +10777,7 @@
           "readOnly": true
         },
         "recoveryProximityPlacementGroupId": {
-          "description": "The recovery proximity placement group Id.",
+          "description": "The recovery proximity placement group ID.",
           "type": "string"
         },
         "autoProtectionOfDataDisk": {
@@ -10797,7 +10797,7 @@
           "type": "string"
         },
         "recoveryCapacityReservationGroupId": {
-          "description": "The recovery capacity reservation group Id.",
+          "description": "The recovery capacity reservation group ID.",
           "type": "string"
         },
         "churnOptionSelected": {
@@ -10829,7 +10829,7 @@
       ],
       "properties": {
         "fabricObjectId": {
-          "description": "The fabric specific object Id of the virtual machine.",
+          "description": "The fabric specific object ID of the virtual machine.",
           "type": "string"
         },
         "primaryLocation": {
@@ -10841,7 +10841,7 @@
           "type": "string"
         },
         "recoverySubscriptionId": {
-          "description": "The recovery subscription Id of the virtual machine.",
+          "description": "The recovery subscription ID of the virtual machine.",
           "type": "string"
         },
         "vmDisks": {
@@ -10960,7 +10960,7 @@
       ],
       "properties": {
         "multiVmGroupId": {
-          "description": "The multi vm group Id.",
+          "description": "The multi vm group ID.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -10988,11 +10988,11 @@
           "type": "string"
         },
         "failoverRecoveryPointId": {
-          "description": "The recovery point Id to which the cluster was failed over.",
+          "description": "The recovery point ID to which the cluster was failed over.",
           "type": "string"
         },
         "clusterManagementId": {
-          "description": "The cluster management Id.",
+          "description": "The cluster management ID.",
           "type": "string"
         },
         "rpoInSeconds": {
@@ -11046,7 +11046,7 @@
           "description": "The recovery Extended Location."
         },
         "lifecycleId": {
-          "description": "An id that survives actions like switch protection which change the backing PE/CPE objects internally.The lifecycle id gets carried forward to have a link/continuity in being able to have an Id that denotes the \"same\" protected cluster even though other internal Ids/ARM Id might be changing.",
+          "description": "An id that survives actions like switch protection which change the backing PE/CPE objects internally.The lifecycle id gets carried forward to have a link/continuity in being able to have an ID that denotes the \"same\" protected cluster even though other internal Ids/ARM ID might be changing.",
           "type": "string"
         }
       },
@@ -11062,7 +11062,7 @@
       ],
       "properties": {
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string"
         },
         "vmDisks": {
@@ -11073,11 +11073,11 @@
           }
         },
         "recoveryResourceGroupId": {
-          "description": "The recovery resource group Id. Valid for V2 scenarios.",
+          "description": "The recovery resource group ID. Valid for V2 scenarios.",
           "type": "string"
         },
         "recoveryCloudServiceId": {
-          "description": "The recovery cloud service Id. Valid for V1 scenarios.",
+          "description": "The recovery cloud service ID. Valid for V1 scenarios.",
           "type": "string"
         },
         "recoveryAvailabilitySetId": {
@@ -11085,7 +11085,7 @@
           "type": "string"
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         }
       },
@@ -11132,7 +11132,7 @@
       ],
       "properties": {
         "managementId": {
-          "description": "The management Id.",
+          "description": "The management ID.",
           "type": "string"
         },
         "unprotectedDisks": {
@@ -11209,11 +11209,11 @@
       ],
       "properties": {
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string"
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         },
         "protectedItemsDetail": {
@@ -11238,7 +11238,7 @@
       ],
       "properties": {
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string"
         },
         "vmDisks": {
@@ -11256,11 +11256,11 @@
           }
         },
         "recoveryResourceGroupId": {
-          "description": "The recovery resource group Id. Valid for V2 scenarios.",
+          "description": "The recovery resource group ID. Valid for V2 scenarios.",
           "type": "string"
         },
         "recoveryCloudServiceId": {
-          "description": "The recovery cloud service Id. Valid for V1 scenarios.",
+          "description": "The recovery cloud service ID. Valid for V1 scenarios.",
           "type": "string"
         },
         "recoveryAvailabilitySetId": {
@@ -11268,7 +11268,7 @@
           "type": "string"
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         },
         "recoveryBootDiagStorageAccountId": {
@@ -11280,7 +11280,7 @@
           "type": "string"
         },
         "recoveryProximityPlacementGroupId": {
-          "description": "The recovery proximity placement group Id.",
+          "description": "The recovery proximity placement group ID.",
           "type": "string"
         },
         "recoveryVirtualMachineScaleSetId": {
@@ -11288,7 +11288,7 @@
           "type": "string"
         },
         "recoveryCapacityReservationGroupId": {
-          "description": "The recovery capacity reservation group Id.",
+          "description": "The recovery capacity reservation group ID.",
           "type": "string"
         },
         "diskEncryptionInfo": {
@@ -11344,7 +11344,7 @@
       "properties": {
         "diskLunId": {
           "format": "int32",
-          "description": "The source lun Id for the data disk.",
+          "description": "The source lun ID for the data disk.",
           "type": "integer"
         },
         "diskAutoProtectionStatus": {
@@ -11412,11 +11412,11 @@
       ],
       "properties": {
         "recoveryCloudServiceId": {
-          "description": "The target cloud service ARM Id (for V1).",
+          "description": "The target cloud service ARM ID (for V1).",
           "type": "string"
         },
         "recoveryResourceGroupId": {
-          "description": "The target resource group ARM Id (for V2).",
+          "description": "The target resource group ARM ID (for V2).",
           "type": "string"
         },
         "managedDiskUpdateDetails": {
@@ -11439,15 +11439,15 @@
           "type": "string"
         },
         "recoveryProximityPlacementGroupId": {
-          "description": "The recovery proximity placement group Id.",
+          "description": "The recovery proximity placement group ID.",
           "type": "string"
         },
         "recoveryVirtualMachineScaleSetId": {
-          "description": "The recovery virtual machine scale set Id.",
+          "description": "The recovery virtual machine scale set ID.",
           "type": "string"
         },
         "recoveryCapacityReservationGroupId": {
-          "description": "The recovery capacity reservation group Id.",
+          "description": "The recovery capacity reservation group ID.",
           "type": "string"
         }
       },
@@ -11467,11 +11467,11 @@
           "type": "string"
         },
         "recoveryAzureStorageAccountId": {
-          "description": "The recovery VHD storage account Id.",
+          "description": "The recovery VHD storage account ID.",
           "type": "string"
         },
         "primaryStagingAzureStorageAccountId": {
-          "description": "The primary staging storage account Id.",
+          "description": "The primary staging storage account ID.",
           "type": "string"
         }
       }
@@ -11486,15 +11486,15 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "primaryStagingAzureStorageAccountId": {
-          "description": "The primary staging storage account Arm Id.",
+          "description": "The primary staging storage account Arm ID.",
           "type": "string"
         },
         "recoveryResourceGroupId": {
-          "description": "The target resource group Arm Id.",
+          "description": "The target resource group Arm ID.",
           "type": "string"
         },
         "recoveryReplicaDiskAccountType": {
@@ -11506,7 +11506,7 @@
           "type": "string"
         },
         "recoveryDiskEncryptionSetId": {
-          "description": "The recovery disk encryption set Id.",
+          "description": "The recovery disk encryption set ID.",
           "type": "string"
         },
         "diskEncryptionInfo": {
@@ -11520,7 +11520,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "recoveryTargetDiskAccountType": {
@@ -11623,11 +11623,11 @@
           "type": "string"
         },
         "machineId": {
-          "description": "The Id of the machine where the provider is getting added.",
+          "description": "The ID of the machine where the provider is getting added.",
           "type": "string"
         },
         "biosId": {
-          "description": "The BIOS Id of the machine.",
+          "description": "The BIOS ID of the machine.",
           "type": "string"
         },
         "authenticationIdentityInput": {
@@ -11667,7 +11667,7 @@
           "type": "string"
         },
         "processServerId": {
-          "description": "The process server Id from where the discovery is orchestrated.",
+          "description": "The process server ID from where the discovery is orchestrated.",
           "type": "string"
         },
         "port": {
@@ -11675,7 +11675,7 @@
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The account Id which has privileges to discover the vCenter.",
+          "description": "The account ID which has privileges to discover the vCenter.",
           "type": "string"
         }
       }
@@ -11685,17 +11685,17 @@
       "type": "object",
       "properties": {
         "agentId": {
-          "description": "The Id of the agent running on the server.",
+          "description": "The ID of the agent running on the server.",
           "type": "string",
           "readOnly": true
         },
         "machineId": {
-          "description": "The Id of the machine to which the agent is registered.",
+          "description": "The ID of the machine to which the agent is registered.",
           "type": "string",
           "readOnly": true
         },
         "biosId": {
-          "description": "The machine BIOS Id.",
+          "description": "The machine BIOS ID.",
           "type": "string",
           "readOnly": true
         },
@@ -11719,7 +11719,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string",
           "readOnly": true
         },
@@ -11998,7 +11998,7 @@
       "type": "object",
       "properties": {
         "recoveryPointId": {
-          "description": "The recovery point Id.",
+          "description": "The recovery point ID.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -12037,7 +12037,7 @@
       "type": "object",
       "properties": {
         "taskId": {
-          "description": "The Id.",
+          "description": "The ID.",
           "type": "string"
         },
         "name": {
@@ -12112,7 +12112,7 @@
           "type": "string"
         },
         "subscriptionId": {
-          "description": "The subscription Id of the automation runbook account.",
+          "description": "The subscription ID of the automation runbook account.",
           "type": "string"
         },
         "accountName": {
@@ -12120,7 +12120,7 @@
           "type": "string"
         },
         "runbookId": {
-          "description": "The runbook Id.",
+          "description": "The runbook ID.",
           "type": "string"
         },
         "runbookName": {
@@ -12128,7 +12128,7 @@
           "type": "string"
         },
         "jobId": {
-          "description": "The job Id of the runbook execution.",
+          "description": "The job ID of the runbook execution.",
           "type": "string"
         },
         "jobOutput": {
@@ -12172,7 +12172,7 @@
           "type": "string"
         },
         "containerIds": {
-          "description": "The container Ids for the Azure fabric.",
+          "description": "The container IDs for the Azure fabric.",
           "type": "array",
           "items": {
             "type": "string"
@@ -12217,7 +12217,7 @@
       ],
       "properties": {
         "primaryNetworkId": {
-          "description": "The primary azure vnet Id.",
+          "description": "The primary azure vnet ID.",
           "type": "string"
         }
       },
@@ -12253,7 +12253,7 @@
       ],
       "properties": {
         "primaryNetworkId": {
-          "description": "The primary azure vnet Id.",
+          "description": "The primary azure vnet ID.",
           "type": "string"
         }
       },
@@ -12367,7 +12367,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The recovery point Id.",
+          "description": "The recovery point ID.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -12447,7 +12447,7 @@
       ],
       "properties": {
         "newReplicationProtectionClusterId": {
-          "description": "ARM Id of the new replication protection cluster.",
+          "description": "ARM ID of the new replication protection cluster.",
           "type": "string"
         }
       },
@@ -12729,7 +12729,7 @@
           "type": "string"
         },
         "recoveryNetworkId": {
-          "description": "Recovery network Id.",
+          "description": "Recovery network ID.",
           "type": "string"
         },
         "fabricSpecificDetails": {
@@ -12866,11 +12866,11 @@
       "type": "object",
       "properties": {
         "primaryFabricId": {
-          "description": "The primary fabric Id.",
+          "description": "The primary fabric ID.",
           "type": "string"
         },
         "recoveryFabricId": {
-          "description": "The recovery fabric Id.",
+          "description": "The recovery fabric ID.",
           "type": "string"
         },
         "failoverDeploymentModel": {
@@ -12912,7 +12912,7 @@
           "readOnly": true
         },
         "jobId": {
-          "description": "The ARM Id of the job being executed.",
+          "description": "The ARM ID of the job being executed.",
           "type": "string",
           "readOnly": true
         },
@@ -12939,7 +12939,7 @@
           "readOnly": true
         },
         "jobId": {
-          "description": "The ARM Id of the job being executed.",
+          "description": "The ARM ID of the job being executed.",
           "type": "string",
           "readOnly": true
         },
@@ -12960,7 +12960,7 @@
           "type": "string"
         },
         "jobId": {
-          "description": "ARM Id of the job being executed.",
+          "description": "ARM ID of the job being executed.",
           "type": "string"
         },
         "startTime": {
@@ -13110,7 +13110,7 @@
           "type": "string"
         },
         "vhdId": {
-          "description": "The VHD Id.",
+          "description": "The VHD ID.",
           "type": "string"
         },
         "vhdName": {
@@ -13217,7 +13217,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The DRA Id.",
+          "description": "The DRA ID.",
           "type": "string",
           "readOnly": true
         },
@@ -13227,7 +13227,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The DRA BIOS Id.",
+          "description": "The DRA BIOS ID.",
           "type": "string",
           "readOnly": true
         },
@@ -13301,7 +13301,7 @@
       "type": "object",
       "properties": {
         "policyId": {
-          "description": "The policy Id.",
+          "description": "The policy ID.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -13339,11 +13339,11 @@
       "type": "object",
       "properties": {
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         },
         "protectableItemId": {
-          "description": "The protectable item Id.",
+          "description": "The protectable item ID.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -13422,7 +13422,7 @@
       "type": "object",
       "properties": {
         "eventCode": {
-          "description": "The Id of the monitoring event.",
+          "description": "The ID of the monitoring event.",
           "type": "string"
         },
         "description": {
@@ -13552,7 +13552,7 @@
       ],
       "properties": {
         "protectionProfileId": {
-          "description": "The protection profile Arm Id. Throw error, if resource does not exists.",
+          "description": "The protection profile Arm ID. Throw error, if resource does not exists.",
           "type": "string"
         }
       },
@@ -13568,7 +13568,7 @@
       ],
       "properties": {
         "recoveryAvailabilitySetId": {
-          "description": "The recovery availability set Id. Will throw error, if resource does not exist.",
+          "description": "The recovery availability set ID. Will throw error, if resource does not exist.",
           "type": "string"
         }
       },
@@ -13584,7 +13584,7 @@
       ],
       "properties": {
         "recoveryProximityPlacementGroupId": {
-          "description": "The recovery proximity placement group Id. Will throw error, if resource does not exist.",
+          "description": "The recovery proximity placement group ID. Will throw error, if resource does not exist.",
           "type": "string"
         }
       },
@@ -13600,7 +13600,7 @@
       ],
       "properties": {
         "recoveryResourceGroupId": {
-          "description": "The recovery resource group Id. Valid for V2 scenarios.",
+          "description": "The recovery resource group ID. Valid for V2 scenarios.",
           "type": "string"
         }
       },
@@ -13619,7 +13619,7 @@
       ],
       "properties": {
         "recoveryVirtualNetworkId": {
-          "description": "The recovery virtual network Id. Will throw error, if resource does not exist.",
+          "description": "The recovery virtual network ID. Will throw error, if resource does not exist.",
           "type": "string"
         },
         "recoverySubnetName": {
@@ -13642,7 +13642,7 @@
       ],
       "properties": {
         "azureStorageAccountId": {
-          "description": "The storage account Arm Id. Throw error, if resource does not exists.",
+          "description": "The storage account Arm ID. Throw error, if resource does not exists.",
           "type": "string"
         }
       },
@@ -13762,7 +13762,7 @@
           "description": "Rollover encryption details for the fabric."
         },
         "internalIdentifier": {
-          "description": "DRA Registration Id.",
+          "description": "DRA Registration ID.",
           "type": "string"
         },
         "bcdrState": {
@@ -13807,7 +13807,7 @@
           "type": "string"
         },
         "biosId": {
-          "description": "The BIOS Id to be used for fetching agent details.",
+          "description": "The BIOS ID to be used for fetching agent details.",
           "type": "string"
         },
         "fqdn": {
@@ -13991,7 +13991,7 @@
           "type": "string"
         },
         "recoveryPointId": {
-          "description": "The recovery point Id.",
+          "description": "The recovery point ID.",
           "type": "string"
         },
         "recoveryPointTime": {
@@ -14223,7 +14223,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The Hyper-V host Id.",
+          "description": "The Hyper-V host ID.",
           "type": "string",
           "readOnly": true
         },
@@ -14354,7 +14354,7 @@
       ],
       "properties": {
         "hvHostVmId": {
-          "description": "The Hyper-V host VM Id.",
+          "description": "The Hyper-V host VM ID.",
           "type": "string"
         },
         "vmName": {
@@ -14374,15 +14374,15 @@
           "type": "string"
         },
         "targetStorageAccountId": {
-          "description": "The storage account Id.",
+          "description": "The storage account ID.",
           "type": "string"
         },
         "targetAzureNetworkId": {
-          "description": "The selected target Azure network Id.",
+          "description": "The selected target Azure network ID.",
           "type": "string"
         },
         "targetAzureSubnetId": {
-          "description": "The selected target Azure subnet Id.",
+          "description": "The selected target Azure subnet ID.",
           "type": "string"
         },
         "enableRdpOnTargetOption": {
@@ -14405,11 +14405,11 @@
           }
         },
         "targetAzureV1ResourceGroupId": {
-          "description": "The Id of the target resource group (for classic deployment) in which the failover VM is to be created.",
+          "description": "The ID of the target resource group (for classic deployment) in which the failover VM is to be created.",
           "type": "string"
         },
         "targetAzureV2ResourceGroupId": {
-          "description": "The Id of the target resource group (for resource manager deployment) in which the failover VM is to be created.",
+          "description": "The ID of the target resource group (for resource manager deployment) in which the failover VM is to be created.",
           "type": "string"
         },
         "useManagedDisks": {
@@ -14417,7 +14417,7 @@
           "type": "string"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set ARM Id for resource manager deployment.",
+          "description": "The target availability set ARM ID for resource manager deployment.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -14460,7 +14460,7 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The proximity placement group ARM Id.",
+          "description": "The proximity placement group ARM ID.",
           "type": "string"
         },
         "useManagedDisksForReplication": {
@@ -14478,7 +14478,7 @@
           }
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string"
         },
         "targetVmTags": {
@@ -14558,7 +14558,7 @@
           "type": "string"
         },
         "providerIdForAlternateRecovery": {
-          "description": "Provider Id for alternate location.",
+          "description": "Provider ID for alternate location.",
           "type": "string"
         }
       },
@@ -14569,11 +14569,11 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "seedManagedDiskId": {
-          "description": "Seed managed disk Id.",
+          "description": "Seed managed disk ID.",
           "type": "string"
         },
         "replicaDiskType": {
@@ -14581,7 +14581,7 @@
           "type": "string"
         },
         "diskEncryptionSetId": {
-          "description": "The disk encryption set ARM Id.",
+          "description": "The disk encryption set ARM ID.",
           "type": "string"
         },
         "targetDiskAccountType": {
@@ -14655,7 +14655,7 @@
           "type": "string"
         },
         "activeStorageAccountId": {
-          "description": "The active storage account Id.",
+          "description": "The active storage account ID.",
           "type": "string"
         }
       },
@@ -14747,7 +14747,7 @@
           "type": "string"
         },
         "vmId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -14770,11 +14770,11 @@
           }
         },
         "selectedRecoveryAzureNetworkId": {
-          "description": "The selected recovery azure network Id.",
+          "description": "The selected recovery azure network ID.",
           "type": "string"
         },
         "selectedSourceNicId": {
-          "description": "The selected source nic Id which will be used as the primary nic during failover.",
+          "description": "The selected source nic ID which will be used as the primary nic during failover.",
           "type": "string"
         },
         "encryption": {
@@ -14800,11 +14800,11 @@
           "type": "string"
         },
         "recoveryAzureResourceGroupId": {
-          "description": "The target resource group Id.",
+          "description": "The target resource group ID.",
           "type": "string"
         },
         "recoveryAvailabilitySetId": {
-          "description": "The recovery availability set Id.",
+          "description": "The recovery availability set ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -14812,7 +14812,7 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "useManagedDisks": {
@@ -14894,7 +14894,7 @@
       ],
       "properties": {
         "hvHostVmId": {
-          "description": "The Hyper-V host Vm Id.",
+          "description": "The Hyper-V host Vm ID.",
           "type": "string"
         },
         "vmName": {
@@ -14982,11 +14982,11 @@
       ],
       "properties": {
         "recoveryAzureV1ResourceGroupId": {
-          "description": "The recovery Azure resource group Id for classic deployment.",
+          "description": "The recovery Azure resource group ID for classic deployment.",
           "type": "string"
         },
         "recoveryAzureV2ResourceGroupId": {
-          "description": "The recovery Azure resource group Id for resource manager deployment.",
+          "description": "The recovery Azure resource group ID for resource manager deployment.",
           "type": "string"
         },
         "useManagedDisks": {
@@ -14994,14 +14994,14 @@
           "type": "string"
         },
         "diskIdToDiskEncryptionMap": {
-          "description": "The dictionary of disk resource Id to disk encryption set ARM Id.",
+          "description": "The dictionary of disk resource ID to disk encryption set ARM ID.",
           "type": "object",
           "additionalProperties": {
             "type": "string"
           }
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -15162,7 +15162,7 @@
           }
         },
         "vmId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -15287,7 +15287,7 @@
           }
         },
         "vmId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -15450,7 +15450,7 @@
           }
         },
         "vmId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -15565,7 +15565,7 @@
           }
         },
         "hyperVHostId": {
-          "description": "The Id of the hyper-v host in fabric.",
+          "description": "The ID of the hyper-v host in fabric.",
           "type": "string"
         }
       },
@@ -15577,15 +15577,15 @@
       "type": "object",
       "properties": {
         "tenantId": {
-          "description": "The tenant Id for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
+          "description": "The tenant ID for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
           "type": "string"
         },
         "applicationId": {
-          "description": "The application/client Id for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
+          "description": "The application/client ID for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
           "type": "string"
         },
         "objectId": {
-          "description": "The object Id of the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
+          "description": "The object ID of the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
           "type": "string"
         },
         "audience": {
@@ -15610,15 +15610,15 @@
       "type": "object",
       "properties": {
         "tenantId": {
-          "description": "The tenant Id for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
+          "description": "The tenant ID for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
           "type": "string"
         },
         "applicationId": {
-          "description": "The application/client Id for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
+          "description": "The application/client ID for the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
           "type": "string"
         },
         "objectId": {
-          "description": "The object Id of the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
+          "description": "The object ID of the service principal with which the on-premise management/data plane components would communicate with our Azure services.",
           "type": "string"
         },
         "audience": {
@@ -15760,23 +15760,23 @@
       ],
       "properties": {
         "masterTargetId": {
-          "description": "The Master target Id.",
+          "description": "The Master target ID.",
           "type": "string"
         },
         "processServerId": {
-          "description": "The Process Server Id.",
+          "description": "The Process Server ID.",
           "type": "string"
         },
         "storageAccountId": {
-          "description": "The storage account Id.",
+          "description": "The storage account ID.",
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The CS account Id.",
+          "description": "The CS account ID.",
           "type": "string"
         },
         "multiVmGroupId": {
-          "description": "The multi VM group Id.",
+          "description": "The multi VM group ID.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -15791,11 +15791,11 @@
           }
         },
         "targetAzureNetworkId": {
-          "description": "The selected target Azure network Id.",
+          "description": "The selected target Azure network ID.",
           "type": "string"
         },
         "targetAzureSubnetId": {
-          "description": "The selected target Azure subnet Id.",
+          "description": "The selected target Azure subnet ID.",
           "type": "string"
         },
         "enableRdpOnTargetOption": {
@@ -15811,18 +15811,18 @@
           "type": "string"
         },
         "targetAzureV1ResourceGroupId": {
-          "description": "The Id of the target resource group (for classic deployment) in which the failover VM is to be created.",
+          "description": "The ID of the target resource group (for classic deployment) in which the failover VM is to be created.",
           "type": "string"
         },
         "targetAzureV2ResourceGroupId": {
-          "description": "The Id of the target resource group (for resource manager deployment) in which the failover VM is to be created.",
+          "description": "The ID of the target resource group (for resource manager deployment) in which the failover VM is to be created.",
           "type": "string"
         },
         "diskType": {
           "$ref": "#/definitions/DiskAccountType"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set ARM Id for resource manager deployment.",
+          "description": "The target availability set ARM ID for resource manager deployment.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -15830,7 +15830,7 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The proximity placement group ARM Id.",
+          "description": "The proximity placement group ARM ID.",
           "type": "string"
         },
         "licenseType": {
@@ -15865,7 +15865,7 @@
           "type": "string"
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string"
         },
         "targetVmTags": {
@@ -15952,7 +15952,7 @@
           "type": "string"
         },
         "seedManagedDiskId": {
-          "description": "Seed managed disk Id.",
+          "description": "Seed managed disk ID.",
           "type": "string"
         },
         "replicaDiskType": {
@@ -16191,11 +16191,11 @@
       ],
       "properties": {
         "infrastructureVmId": {
-          "description": "The infrastructure VM Id.",
+          "description": "The infrastructure VM ID.",
           "type": "string"
         },
         "vCenterInfrastructureId": {
-          "description": "The vCenter infrastructure Id.",
+          "description": "The vCenter infrastructure ID.",
           "type": "string"
         },
         "protectionStage": {
@@ -16203,7 +16203,7 @@
           "type": "string"
         },
         "vmId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -16261,7 +16261,7 @@
           "type": "string"
         },
         "processServerId": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string"
         },
         "processServerName": {
@@ -16269,7 +16269,7 @@
           "type": "string"
         },
         "multiVmGroupId": {
-          "description": "The multi vm group Id.",
+          "description": "The multi vm group ID.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -16292,7 +16292,7 @@
           "type": "string"
         },
         "masterTargetId": {
-          "description": "The master target Id.",
+          "description": "The master target ID.",
           "type": "string"
         },
         "sourceVmCpuCount": {
@@ -16348,7 +16348,7 @@
           }
         },
         "selectedRecoveryAzureNetworkId": {
-          "description": "The selected recovery azure network Id.",
+          "description": "The selected recovery azure network ID.",
           "type": "string"
         },
         "selectedTfoAzureNetworkId": {
@@ -16356,7 +16356,7 @@
           "type": "string"
         },
         "selectedSourceNicId": {
-          "description": "The selected source nic Id which will be used as the primary nic during failover.",
+          "description": "The selected source nic ID which will be used as the primary nic during failover.",
           "type": "string"
         },
         "discoveryType": {
@@ -16375,15 +16375,15 @@
           }
         },
         "targetVmId": {
-          "description": "The ARM Id of the target Azure VM. This value will be null until the VM is failed over. Only after failure it will be populated with the ARM Id of the Azure VM.",
+          "description": "The ARM ID of the target Azure VM. This value will be null until the VM is failed over. Only after failure it will be populated with the ARM ID of the Azure VM.",
           "type": "string"
         },
         "recoveryAzureResourceGroupId": {
-          "description": "The target resource group Id.",
+          "description": "The target resource group ID.",
           "type": "string"
         },
         "recoveryAvailabilitySetId": {
-          "description": "The recovery availability set Id.",
+          "description": "The recovery availability set ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -16391,7 +16391,7 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "useManagedDisks": {
@@ -16538,11 +16538,11 @@
       ],
       "properties": {
         "masterTargetId": {
-          "description": "The Master target Id.",
+          "description": "The Master target ID.",
           "type": "string"
         },
         "processServerId": {
-          "description": "The Process Server Id.",
+          "description": "The Process Server ID.",
           "type": "string"
         },
         "storageAccountId": {
@@ -16550,11 +16550,11 @@
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The CS account Id.",
+          "description": "The CS account ID.",
           "type": "string"
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         },
         "logStorageAccountId": {
@@ -16618,22 +16618,22 @@
       "type": "object",
       "properties": {
         "targetVaultId": {
-          "description": "The target vault Id.",
+          "description": "The target vault ID.",
           "type": "string",
           "readOnly": true
         },
         "targetResourceId": {
-          "description": "The target resource Id.",
+          "description": "The target resource ID.",
           "type": "string",
           "readOnly": true
         },
         "targetFabricId": {
-          "description": "The target fabric Id.",
+          "description": "The target fabric ID.",
           "type": "string",
           "readOnly": true
         },
         "targetApplianceId": {
-          "description": "The target appliance Id.",
+          "description": "The target appliance ID.",
           "type": "string",
           "readOnly": true
         }
@@ -16654,15 +16654,15 @@
       ],
       "properties": {
         "targetVaultID": {
-          "description": "The target vault Id.",
+          "description": "The target vault ID.",
           "type": "string"
         },
         "targetFabricID": {
-          "description": "The target fabric Id.",
+          "description": "The target fabric ID.",
           "type": "string"
         },
         "targetApplianceID": {
-          "description": "The target appliance Id.",
+          "description": "The target appliance ID.",
           "type": "string"
         }
       },
@@ -16718,11 +16718,11 @@
       ],
       "properties": {
         "recoveryAzureV1ResourceGroupId": {
-          "description": "The recovery Azure resource group Id for classic deployment.",
+          "description": "The recovery Azure resource group ID for classic deployment.",
           "type": "string"
         },
         "recoveryAzureV2ResourceGroupId": {
-          "description": "The recovery Azure resource group Id for resource manager deployment.",
+          "description": "The recovery Azure resource group ID for resource manager deployment.",
           "type": "string"
         },
         "useManagedDisks": {
@@ -16730,7 +16730,7 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -16837,7 +16837,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "diskName": {
@@ -16916,11 +16916,11 @@
           "type": "string"
         },
         "masterTargetId": {
-          "description": "The Master Target Id.",
+          "description": "The Master Target ID.",
           "type": "string"
         },
         "processServerId": {
-          "description": "The Process Server Id.",
+          "description": "The Process Server ID.",
           "type": "string"
         },
         "retentionDrive": {
@@ -16928,11 +16928,11 @@
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The CS account Id.",
+          "description": "The CS account ID.",
           "type": "string"
         },
         "multiVmGroupId": {
-          "description": "The multi VM group Id.",
+          "description": "The multi VM group ID.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -17253,7 +17253,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The appliance Id.",
+          "description": "The appliance ID.",
           "type": "string",
           "readOnly": true
         },
@@ -17263,7 +17263,7 @@
           "readOnly": true
         },
         "fabricArmId": {
-          "description": "The fabric ARM Id.",
+          "description": "The fabric ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -17346,7 +17346,7 @@
       ],
       "properties": {
         "recoveryPointId": {
-          "description": "The recovery point Id.",
+          "description": "The recovery point ID.",
           "type": "string"
         }
       },
@@ -17357,7 +17357,7 @@
       "type": "object",
       "properties": {
         "vCenterId": {
-          "description": "The VCenter Id.",
+          "description": "The VCenter ID.",
           "type": "string",
           "readOnly": true
         },
@@ -17437,18 +17437,18 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string"
         },
         "diskType": {
           "$ref": "#/definitions/DiskAccountType"
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string"
         },
         "sectorSizeInBytes": {
@@ -17467,14 +17467,14 @@
       "type": "object",
       "properties": {
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string"
         },
         "diskType": {
           "$ref": "#/definitions/DiskAccountType"
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string"
         },
         "sectorSizeInBytes": {
@@ -17499,7 +17499,7 @@
       ],
       "properties": {
         "fabricDiscoveryMachineId": {
-          "description": "The ARM Id of discovered machine.",
+          "description": "The ARM ID of discovered machine.",
           "type": "string"
         },
         "disksToInclude": {
@@ -17515,15 +17515,15 @@
           "description": "The default disk input."
         },
         "targetResourceGroupId": {
-          "description": "The target resource group ARM Id.",
+          "description": "The target resource group ARM ID.",
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "The selected target network ARM Id.",
+          "description": "The selected target network ARM ID.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "The selected test network ARM Id.",
+          "description": "The selected test network ARM ID.",
           "type": "string"
         },
         "targetSubnetName": {
@@ -17556,7 +17556,7 @@
           }
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set ARM Id.",
+          "description": "The target availability set ARM ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -17564,19 +17564,19 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "targetBootDiagnosticsStorageAccountId": {
-          "description": "The target boot diagnostics storage account ARM Id.",
+          "description": "The target boot diagnostics storage account ARM ID.",
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The run-as account Id.",
+          "description": "The run-as account ID.",
           "type": "string"
         },
         "processServerId": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -17677,7 +17677,7 @@
           "readOnly": true
         },
         "jobId": {
-          "description": "The job Id.",
+          "description": "The job ID.",
           "type": "string",
           "readOnly": true
         },
@@ -17719,11 +17719,11 @@
       ],
       "properties": {
         "vmwareSiteId": {
-          "description": "The ARM Id of the VMware site.",
+          "description": "The ARM ID of the VMware site.",
           "type": "string"
         },
         "physicalSiteId": {
-          "description": "The ARM Id of the physical site.",
+          "description": "The ARM ID of the physical site.",
           "type": "string"
         },
         "sourceAgentIdentity": {
@@ -17743,12 +17743,12 @@
       ],
       "properties": {
         "vmwareSiteId": {
-          "description": "The ARM Id of the VMware site.",
+          "description": "The ARM ID of the VMware site.",
           "type": "string",
           "readOnly": true
         },
         "physicalSiteId": {
-          "description": "The ARM Id of the physical site.",
+          "description": "The ARM ID of the physical site.",
           "type": "string",
           "readOnly": true
         },
@@ -17758,12 +17758,12 @@
           "readOnly": true
         },
         "serviceResourceId": {
-          "description": "The service resource Id.",
+          "description": "The service resource ID.",
           "type": "string",
           "readOnly": true
         },
         "serviceContainerId": {
-          "description": "The service container Id.",
+          "description": "The service container ID.",
           "type": "string",
           "readOnly": true
         },
@@ -17895,7 +17895,7 @@
       "type": "object",
       "properties": {
         "vCenterId": {
-          "description": "The VCenter Id.",
+          "description": "The VCenter ID.",
           "type": "string",
           "readOnly": true
         },
@@ -18181,7 +18181,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id (reported by source agent).",
+          "description": "The disk ID (reported by source agent).",
           "type": "string",
           "readOnly": true
         },
@@ -18254,7 +18254,7 @@
           "readOnly": true
         },
         "azureVirtualMachineId": {
-          "description": "The ARM Id of the azure VM.",
+          "description": "The ARM ID of the azure VM.",
           "type": "string",
           "readOnly": true
         },
@@ -18264,7 +18264,7 @@
           "readOnly": true
         },
         "reprotectAgentId": {
-          "description": "The reprotect agent Id.",
+          "description": "The reprotect agent ID.",
           "type": "string",
           "readOnly": true
         },
@@ -18279,12 +18279,12 @@
           "readOnly": true
         },
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string",
           "readOnly": true
         },
         "targetvCenterId": {
-          "description": "The target vCenter Id.",
+          "description": "The target vCenter ID.",
           "type": "string",
           "readOnly": true
         },
@@ -18427,7 +18427,7 @@
           "description": "The discovered VM information."
         },
         "lastUsedPolicyId": {
-          "description": "The policy Id used by the forward replication.",
+          "description": "The policy ID used by the forward replication.",
           "type": "string",
           "readOnly": true
         },
@@ -18458,15 +18458,15 @@
       ],
       "properties": {
         "processServerId": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The run as account Id.",
+          "description": "The run as account ID.",
           "type": "string"
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         }
       },
@@ -18662,7 +18662,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "The NIC Id.",
+          "description": "The NIC ID.",
           "type": "string",
           "readOnly": true
         },
@@ -18693,7 +18693,7 @@
           }
         },
         "sourceNetworkId": {
-          "description": "Source network Id.",
+          "description": "Source network ID.",
           "type": "string",
           "readOnly": true
         },
@@ -18753,7 +18753,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "The NIC Id.",
+          "description": "The NIC ID.",
           "type": "string"
         },
         "isPrimaryNic": {
@@ -18849,7 +18849,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string",
           "readOnly": true
         },
@@ -18885,17 +18885,17 @@
           }
         },
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string",
           "readOnly": true
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string",
           "readOnly": true
         },
         "seedManagedDiskId": {
-          "description": "The ARM Id of the seed managed disk.",
+          "description": "The ARM ID of the seed managed disk.",
           "type": "string",
           "readOnly": true
         },
@@ -18905,7 +18905,7 @@
           "readOnly": true
         },
         "targetManagedDiskId": {
-          "description": "The ARM Id of the target managed disk.",
+          "description": "The ARM ID of the target managed disk.",
           "type": "string",
           "readOnly": true
         },
@@ -18953,7 +18953,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string",
           "readOnly": true
         },
@@ -19019,7 +19019,7 @@
           "readOnly": true
         },
         "fabricDiscoveryMachineId": {
-          "description": "The ARM Id of the discovered VM.",
+          "description": "The ARM ID of the discovered VM.",
           "type": "string",
           "readOnly": true
         },
@@ -19034,7 +19034,7 @@
           "readOnly": true
         },
         "processServerId": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string",
           "readOnly": true
         },
@@ -19056,7 +19056,7 @@
           "readOnly": true
         },
         "runAsAccountId": {
-          "description": "The run-as account Id.",
+          "description": "The run-as account ID.",
           "type": "string",
           "readOnly": true
         },
@@ -19085,7 +19085,7 @@
           "type": "string"
         },
         "storageAccountId": {
-          "description": "The replication storage account ARM Id. This is applicable only for the blob based replication test hook.",
+          "description": "The replication storage account ARM ID. This is applicable only for the blob based replication test hook.",
           "type": "string",
           "readOnly": true
         },
@@ -19098,7 +19098,7 @@
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "The target resource group Id.",
+          "description": "The target resource group ID.",
           "type": "string"
         },
         "targetLocation": {
@@ -19106,7 +19106,7 @@
           "type": "string"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set Id.",
+          "description": "The target availability set ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -19114,23 +19114,23 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "targetBootDiagnosticsStorageAccountId": {
-          "description": "The target boot diagnostics storage account ARM Id.",
+          "description": "The target boot diagnostics storage account ARM ID.",
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "The target network Id.",
+          "description": "The target network ID.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "The test network Id.",
+          "description": "The test network ID.",
           "type": "string"
         },
         "failoverRecoveryPointId": {
-          "description": "The recovery point Id to which the VM was failed over.",
+          "description": "The recovery point ID to which the VM was failed over.",
           "type": "string",
           "readOnly": true
         },
@@ -19153,7 +19153,7 @@
           "readOnly": true
         },
         "lastRecoveryPointId": {
-          "description": "The last recovery point Id.",
+          "description": "The last recovery point ID.",
           "type": "string",
           "readOnly": true
         },
@@ -19263,7 +19263,7 @@
           "readOnly": true
         },
         "agentUpgradeJobId": {
-          "description": "The agent upgrade job Id.",
+          "description": "The agent upgrade job ID.",
           "type": "string",
           "readOnly": true
         },
@@ -19409,7 +19409,7 @@
       ],
       "properties": {
         "reprotectAgentId": {
-          "description": "The reprotect agent Id.",
+          "description": "The reprotect agent ID.",
           "type": "string"
         },
         "datastoreName": {
@@ -19417,11 +19417,11 @@
           "type": "string"
         },
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string"
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         }
       },
@@ -19498,7 +19498,7 @@
       ],
       "properties": {
         "networkId": {
-          "description": "The test network Id.",
+          "description": "The test network ID.",
           "type": "string"
         },
         "recoveryPointId": {
@@ -19541,7 +19541,7 @@
       ],
       "properties": {
         "runAsAccountId": {
-          "description": "The run as account Id.",
+          "description": "The run as account ID.",
           "type": "string"
         }
       },
@@ -19584,11 +19584,11 @@
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "The target resource group ARM Id.",
+          "description": "The target resource group ARM ID.",
           "type": "string"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set ARM Id.",
+          "description": "The target availability set ARM ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -19596,19 +19596,19 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "targetBootDiagnosticsStorageAccountId": {
-          "description": "The target boot diagnostics storage account ARM Id.",
+          "description": "The target boot diagnostics storage account ARM ID.",
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "The target network ARM Id.",
+          "description": "The target network ARM ID.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "The test network ARM Id.",
+          "description": "The test network ARM ID.",
           "type": "string"
         },
         "vmNics": {
@@ -19714,7 +19714,7 @@
           "type": "string"
         },
         "vmId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         },
         "vmProtectionState": {
@@ -19771,11 +19771,11 @@
           "type": "string"
         },
         "processServerId": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string"
         },
         "masterTargetId": {
-          "description": "The master target Id.",
+          "description": "The master target ID.",
           "type": "string"
         },
         "consistencyPoints": {
@@ -19795,7 +19795,7 @@
           "type": "string"
         },
         "multiVmGroupId": {
-          "description": "The multi vm group Id, if any.",
+          "description": "The multi vm group ID, if any.",
           "type": "string"
         },
         "multiVmGroupName": {
@@ -19811,11 +19811,11 @@
           "description": "The agent details."
         },
         "vCenterInfrastructureId": {
-          "description": "The vCenter infrastructure Id.",
+          "description": "The vCenter infrastructure ID.",
           "type": "string"
         },
         "infrastructureVmId": {
-          "description": "The infrastructure VM Id.",
+          "description": "The infrastructure VM ID.",
           "type": "string"
         },
         "vmNics": {
@@ -19897,11 +19897,11 @@
       ],
       "properties": {
         "masterTargetId": {
-          "description": "The Master Target Id.",
+          "description": "The Master Target ID.",
           "type": "string"
         },
         "processServerId": {
-          "description": "The Process Server Id.",
+          "description": "The Process Server ID.",
           "type": "string"
         },
         "retentionDrive": {
@@ -19909,7 +19909,7 @@
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The CS account Id.",
+          "description": "The CS account ID.",
           "type": "string"
         },
         "datastoreName": {
@@ -19921,7 +19921,7 @@
           "description": "The enable disk exclusion input."
         },
         "profileId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string"
         },
         "disksToInclude": {
@@ -20201,7 +20201,7 @@
           "type": "string"
         },
         "taskId": {
-          "description": "The Id of the task.",
+          "description": "The ID of the task.",
           "type": "string"
         }
       }
@@ -20262,7 +20262,7 @@
           }
         },
         "targetObjectId": {
-          "description": "The affected Object Id.",
+          "description": "The affected Object ID.",
           "type": "string"
         },
         "targetObjectName": {
@@ -20292,7 +20292,7 @@
           "type": "string"
         },
         "fabricId": {
-          "description": "The Id of the fabric to search jobs under.",
+          "description": "The ID of the fabric to search jobs under.",
           "type": "string"
         },
         "affectedObjectTypes": {
@@ -20384,7 +20384,7 @@
           "type": "string"
         },
         "keyVaultResourceArmId": {
-          "description": "The KeyVault resource ARM Id for key.",
+          "description": "The KeyVault resource ARM ID for key.",
           "type": "string"
         }
       }
@@ -20495,7 +20495,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The Mars agent Id.",
+          "description": "The Mars agent ID.",
           "type": "string",
           "readOnly": true
         },
@@ -20505,12 +20505,12 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The Mars agent BIOS Id.",
+          "description": "The Mars agent BIOS ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricObjectId": {
-          "description": "The fabric object Id.",
+          "description": "The fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -20560,7 +20560,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The server Id.",
+          "description": "The server ID.",
           "type": "string"
         },
         "ipAddress": {
@@ -20731,7 +20731,7 @@
           "readOnly": true
         },
         "policyId": {
-          "description": "The ARM Id of policy governing this item.",
+          "description": "The ARM ID of policy governing this item.",
           "type": "string",
           "readOnly": true
         },
@@ -20741,7 +20741,7 @@
           "readOnly": true
         },
         "recoveryServicesProviderId": {
-          "description": "The recovery services provider ARM Id.",
+          "description": "The recovery services provider ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -20887,7 +20887,7 @@
           "x-ms-identifiers": []
         },
         "eventCorrelationId": {
-          "description": "The correlation Id for events associated with this migration item.",
+          "description": "The correlation ID for events associated with this migration item.",
           "type": "string",
           "readOnly": true
         },
@@ -21493,7 +21493,7 @@
           "type": "string"
         },
         "id": {
-          "description": "The Process Server Id.",
+          "description": "The Process Server ID.",
           "type": "string"
         },
         "ipAddress": {
@@ -21525,7 +21525,7 @@
           }
         },
         "hostId": {
-          "description": "The agent generated Id.",
+          "description": "The agent generated ID.",
           "type": "string"
         },
         "machineCount": {
@@ -21675,7 +21675,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string",
           "readOnly": true
         },
@@ -21685,12 +21685,12 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The process server BIOS Id.",
+          "description": "The process server BIOS ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricObjectId": {
-          "description": "The fabric object Id.",
+          "description": "The fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -21960,7 +21960,7 @@
           "type": "string"
         },
         "recoveryServicesProviderId": {
-          "description": "The recovery provider ARM Id.",
+          "description": "The recovery provider ARM ID.",
           "type": "string"
         },
         "protectionReadinessErrors": {
@@ -22010,7 +22010,7 @@
           "type": "string"
         },
         "fabricObjectId": {
-          "description": "The fabric object Id filter.",
+          "description": "The fabric object ID filter.",
           "type": "string"
         },
         "vCenterName": {
@@ -22034,7 +22034,7 @@
           }
         },
         "processServerId": {
-          "description": "The process server Id filter.",
+          "description": "The process server ID filter.",
           "type": "string"
         }
       }
@@ -22142,7 +22142,7 @@
           }
         },
         "policyId": {
-          "description": "Policy ARM Id.",
+          "description": "Policy ARM ID.",
           "type": "string"
         },
         "state": {
@@ -22244,7 +22244,7 @@
           "type": "string"
         },
         "errorId": {
-          "description": "The Provider error Id.",
+          "description": "The Provider error ID.",
           "type": "string"
         },
         "possibleCauses": {
@@ -22276,7 +22276,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The push installer Id.",
+          "description": "The push installer ID.",
           "type": "string",
           "readOnly": true
         },
@@ -22286,12 +22286,12 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The push installer BIOS Id.",
+          "description": "The push installer BIOS ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricObjectId": {
-          "description": "The fabric object Id.",
+          "description": "The fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -22341,7 +22341,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The RCM proxy Id.",
+          "description": "The RCM proxy ID.",
           "type": "string",
           "readOnly": true
         },
@@ -22351,12 +22351,12 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The RCM proxy BIOS Id.",
+          "description": "The RCM proxy BIOS ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricObjectId": {
-          "description": "The fabric object Id.",
+          "description": "The fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -22625,7 +22625,7 @@
       ],
       "properties": {
         "runbookId": {
-          "description": "The runbook ARM Id.",
+          "description": "The runbook ARM ID.",
           "type": "string"
         },
         "timeout": {
@@ -22999,7 +22999,7 @@
           "type": "string"
         },
         "primaryFabricId": {
-          "description": "The primary fabric Id.",
+          "description": "The primary fabric ID.",
           "type": "string"
         },
         "primaryFabricFriendlyName": {
@@ -23007,7 +23007,7 @@
           "type": "string"
         },
         "recoveryFabricId": {
-          "description": "The recovery fabric Id.",
+          "description": "The recovery fabric ID.",
           "type": "string"
         },
         "recoveryFabricFriendlyName": {
@@ -23080,11 +23080,11 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The ARM Id of the recovery plan protected item.",
+          "description": "The ARM ID of the recovery plan protected item.",
           "type": "string"
         },
         "virtualMachineId": {
-          "description": "The virtual machine Id.",
+          "description": "The virtual machine ID.",
           "type": "string"
         }
       }
@@ -23240,7 +23240,7 @@
           "type": "string"
         },
         "networkId": {
-          "description": "The Id of the network to be used for test failover.",
+          "description": "The ID of the network to be used for test failover.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -23481,11 +23481,11 @@
           }
         },
         "draIdentifier": {
-          "description": "The DRA Id.",
+          "description": "The DRA ID.",
           "type": "string"
         },
         "machineId": {
-          "description": "The machine Id.",
+          "description": "The machine ID.",
           "type": "string"
         },
         "machineName": {
@@ -23493,7 +23493,7 @@
           "type": "string"
         },
         "biosId": {
-          "description": "The BIOS Id.",
+          "description": "The BIOS ID.",
           "type": "string"
         },
         "authenticationIdentityDetails": {
@@ -23629,7 +23629,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The replication agent Id.",
+          "description": "The replication agent ID.",
           "type": "string",
           "readOnly": true
         },
@@ -23639,12 +23639,12 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The replication agent BIOS Id.",
+          "description": "The replication agent BIOS ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricObjectId": {
-          "description": "The fabric object Id.",
+          "description": "The fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -23795,7 +23795,7 @@
       "type": "object",
       "properties": {
         "clientRequestId": {
-          "description": "The client request Id.",
+          "description": "The client request ID.",
           "readOnly": true,
           "type": "string"
         },
@@ -23865,11 +23865,11 @@
           "type": "string"
         },
         "protectableItemId": {
-          "description": "The protected item ARM Id.",
+          "description": "The protected item ARM ID.",
           "type": "string"
         },
         "recoveryServicesProviderId": {
-          "description": "The recovery provider ARM Id.",
+          "description": "The recovery provider ARM ID.",
           "type": "string"
         },
         "primaryFabricFriendlyName": {
@@ -23885,7 +23885,7 @@
           "type": "string"
         },
         "recoveryFabricId": {
-          "description": "The Arm Id of recovery fabric.",
+          "description": "The Arm ID of recovery fabric.",
           "type": "string"
         },
         "primaryProtectionContainerFriendlyName": {
@@ -23969,7 +23969,7 @@
           "description": "The current scenario."
         },
         "failoverRecoveryPointId": {
-          "description": "The recovery point ARM Id to which the Vm was failed over.",
+          "description": "The recovery point ARM ID to which the Vm was failed over.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -23977,11 +23977,11 @@
           "description": "The Replication provider custom settings."
         },
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string"
         },
         "eventCorrelationId": {
-          "description": "The correlation Id for events associated with this protected item.",
+          "description": "The correlation ID for events associated with this protected item.",
           "type": "string"
         }
       }
@@ -23992,7 +23992,7 @@
       "properties": {
         "id": {
           "readOnly": true,
-          "description": "The protection cluster Id.",
+          "description": "The protection cluster ID.",
           "type": "string"
         },
         "name": {
@@ -24050,7 +24050,7 @@
           "type": "string"
         },
         "recoveryFabricId": {
-          "description": "The Arm Id of recovery fabric.",
+          "description": "The Arm ID of recovery fabric.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -24127,7 +24127,7 @@
           "description": "The current scenario."
         },
         "recoveryContainerId": {
-          "description": "The recovery container Id.",
+          "description": "The recovery container ID.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -24139,7 +24139,7 @@
           }
         },
         "agentClusterId": {
-          "description": "The Agent cluster Id.",
+          "description": "The Agent cluster ID.",
           "type": "string"
         },
         "clusterFqdn": {
@@ -24154,7 +24154,7 @@
           }
         },
         "clusterProtectedItemIds": {
-          "description": "The List of Protected Item Id's.",
+          "description": "The List of Protected Item ID's.",
           "type": "array",
           "items": {
             "type": "string",
@@ -24196,7 +24196,7 @@
           "description": "The shared disk properties."
         },
         "policyId": {
-          "description": "The Policy Id.",
+          "description": "The Policy ID.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -24250,7 +24250,7 @@
           "type": "string"
         },
         "jobId": {
-          "description": "The job Id.",
+          "description": "The job ID.",
           "type": "string",
           "readOnly": true
         },
@@ -24360,7 +24360,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The reprotect agent Id.",
+          "description": "The reprotect agent ID.",
           "type": "string",
           "readOnly": true
         },
@@ -24370,12 +24370,12 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The reprotect agent BIOS Id.",
+          "description": "The reprotect agent BIOS ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricObjectId": {
-          "description": "The fabric object Id.",
+          "description": "The fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -24436,7 +24436,7 @@
           "readOnly": true
         },
         "vcenterId": {
-          "description": "The Vcenter Id.",
+          "description": "The Vcenter ID.",
           "type": "string",
           "readOnly": true
         },
@@ -24486,7 +24486,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id",
+          "description": "Resource ID",
           "type": "string",
           "readOnly": true
         },
@@ -24701,7 +24701,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The ARM Id of the role assignment.",
+          "description": "The ARM ID of the role assignment.",
           "type": "string"
         },
         "name": {
@@ -24713,7 +24713,7 @@
           "type": "string"
         },
         "principalId": {
-          "description": "Principal Id.",
+          "description": "Principal ID.",
           "type": "string"
         },
         "roleDefinitionId": {
@@ -24727,7 +24727,7 @@
       "type": "object",
       "properties": {
         "accountId": {
-          "description": "The CS RunAs account Id.",
+          "description": "The CS RunAs account ID.",
           "type": "string"
         },
         "accountName": {
@@ -24820,7 +24820,7 @@
           "type": "string"
         },
         "activityId": {
-          "description": "Activity Id.",
+          "description": "Activity ID.",
           "type": "string"
         }
       }
@@ -25079,7 +25079,7 @@
       "type": "object",
       "properties": {
         "targetStorageClassificationId": {
-          "description": "Target storage object Id.",
+          "description": "Target storage object ID.",
           "type": "string"
         }
       }
@@ -25263,7 +25263,7 @@
       ],
       "properties": {
         "newReplicationProtectedItemId": {
-          "description": "ARM Id of the new replication protected item.",
+          "description": "ARM ID of the new replication protected item.",
           "type": "string"
         }
       },
@@ -25326,7 +25326,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The Id.",
+          "description": "The ID.",
           "type": "string"
         },
         "name": {
@@ -25675,7 +25675,7 @@
       "type": "object",
       "properties": {
         "targetApplianceId": {
-          "description": "The target appliance Id.",
+          "description": "The target appliance ID.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -25706,7 +25706,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "targetDiskName": {
@@ -25767,7 +25767,7 @@
       "type": "object",
       "properties": {
         "runAsAccountId": {
-          "description": "The CS run as account Id.",
+          "description": "The CS run as account ID.",
           "type": "string"
         }
       }
@@ -25791,12 +25791,12 @@
           "type": "string"
         },
         "recoveryNetworkId": {
-          "description": "Recovery network Id.",
+          "description": "Recovery network ID.",
           "type": "string"
         },
         "fabricSpecificDetails": {
           "$ref": "#/definitions/FabricSpecificUpdateNetworkMappingInput",
-          "description": "Fabrics specific input network Id."
+          "description": "Fabrics specific input network ID."
         }
       }
     },
@@ -25886,15 +25886,15 @@
           "type": "string"
         },
         "selectedRecoveryAzureNetworkId": {
-          "description": "Target Azure Network Id.",
+          "description": "Target Azure Network ID.",
           "type": "string"
         },
         "selectedTfoAzureNetworkId": {
-          "description": "The Azure Network Id for test failover.",
+          "description": "The Azure Network ID for test failover.",
           "type": "string"
         },
         "selectedSourceNicId": {
-          "description": "The selected source nic Id which will be used as the primary nic during failover.",
+          "description": "The selected source nic ID which will be used as the primary nic during failover.",
           "type": "string"
         },
         "enableRdpOnTargetOption": {
@@ -25922,7 +25922,7 @@
           }
         },
         "recoveryAvailabilitySetId": {
-          "description": "The target availability set Id.",
+          "description": "The target availability set ID.",
           "type": "string"
         },
         "providerSpecificDetails": {
@@ -25968,7 +25968,7 @@
           "type": "string"
         },
         "processServerId": {
-          "description": "The process server Id from where the update can be orchestrated.",
+          "description": "The process server ID from where the update can be orchestrated.",
           "type": "string"
         },
         "port": {
@@ -25976,7 +25976,7 @@
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The CS account Id which has privileges to update the vCenter.",
+          "description": "The CS account ID which has privileges to update the vCenter.",
           "type": "string"
         }
       }
@@ -26087,7 +26087,7 @@
       "type": "object",
       "properties": {
         "migrationSolutionId": {
-          "description": "The migration solution Id.",
+          "description": "The migration solution ID.",
           "type": "string"
         },
         "vmwareToAzureProviderType": {
@@ -26101,7 +26101,7 @@
       "type": "object",
       "properties": {
         "migrationSolutionId": {
-          "description": "The migration solution ARM Id.",
+          "description": "The migration solution ARM ID.",
           "type": "string"
         },
         "vmwareToAzureProviderType": {
@@ -26164,7 +26164,7 @@
           "type": "string"
         },
         "processServerId": {
-          "description": "The process server Id.",
+          "description": "The process server ID.",
           "type": "string"
         },
         "ipAddress": {
@@ -26172,7 +26172,7 @@
           "type": "string"
         },
         "infrastructureId": {
-          "description": "The infrastructure Id of vCenter.",
+          "description": "The infrastructure ID of vCenter.",
           "type": "string"
         },
         "port": {
@@ -26180,7 +26180,7 @@
           "type": "string"
         },
         "runAsAccountId": {
-          "description": "The account Id which has privileges to discover the vCenter.",
+          "description": "The account ID which has privileges to discover the vCenter.",
           "type": "string"
         },
         "fabricArmResourceName": {
@@ -26339,15 +26339,15 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "The nic Id.",
+          "description": "The nic ID.",
           "type": "string"
         },
         "replicaNicId": {
-          "description": "The replica nic Id.",
+          "description": "The replica nic ID.",
           "type": "string"
         },
         "sourceNicArmId": {
-          "description": "The source nic ARM Id.",
+          "description": "The source nic ARM ID.",
           "type": "string"
         },
         "vMNetworkName": {
@@ -26355,7 +26355,7 @@
           "type": "string"
         },
         "recoveryVMNetworkId": {
-          "description": "Recovery VM network Id.",
+          "description": "Recovery VM network ID.",
           "type": "string"
         },
         "ipConfigs": {
@@ -26426,7 +26426,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "The nic Id.",
+          "description": "The nic ID.",
           "type": "string"
         },
         "ipConfigs": {
@@ -26496,11 +26496,11 @@
       ],
       "properties": {
         "vmId": {
-          "description": "Virtual machine Id.",
+          "description": "Virtual machine ID.",
           "type": "string"
         },
         "nicId": {
-          "description": "Nic Id.",
+          "description": "Nic ID.",
           "type": "string"
         },
         "name": {
@@ -26535,7 +26535,7 @@
       ],
       "properties": {
         "keyVaultId": {
-          "description": "The target key vault ARM Id.",
+          "description": "The target key vault ARM ID.",
           "type": "string"
         },
         "keyVaultUri": {
@@ -26543,7 +26543,7 @@
           "type": "string"
         },
         "storageAccountId": {
-          "description": "The storage account ARM Id.",
+          "description": "The storage account ARM ID.",
           "type": "string"
         },
         "storageAccountSasSecretName": {
@@ -26572,7 +26572,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "diskType": {
@@ -26583,7 +26583,7 @@
           "type": "string"
         },
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string"
         },
         "logStorageAccountSasSecretName": {
@@ -26591,7 +26591,7 @@
           "type": "string"
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string"
         },
         "sectorSizeInBytes": {
@@ -26620,7 +26620,7 @@
       ],
       "properties": {
         "vmwareMachineId": {
-          "description": "The ARM Id of the VM discovered in VMware.",
+          "description": "The ARM ID of the VM discovered in VMware.",
           "type": "string"
         },
         "disksToInclude": {
@@ -26676,11 +26676,11 @@
           "type": "string"
         },
         "dataMoverRunAsAccountId": {
-          "description": "The data mover run as account Id.",
+          "description": "The data mover run as account ID.",
           "type": "string"
         },
         "snapshotRunAsAccountId": {
-          "description": "The snapshot run as account Id.",
+          "description": "The snapshot run as account ID.",
           "type": "string"
         },
         "targetVmName": {
@@ -26692,15 +26692,15 @@
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "The target resource group ARM Id.",
+          "description": "The target resource group ARM ID.",
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "The target network ARM Id.",
+          "description": "The target network ARM ID.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "The selected test network ARM Id.",
+          "description": "The selected test network ARM ID.",
           "type": "string"
         },
         "targetSubnetName": {
@@ -26712,7 +26712,7 @@
           "type": "string"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set ARM Id.",
+          "description": "The target availability set ARM ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -26720,11 +26720,11 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group ARM Id.",
+          "description": "The target proximity placement group ARM ID.",
           "type": "string"
         },
         "confidentialVmKeyVaultId": {
-          "description": "The confidential VM key vault Id for ADE installation.",
+          "description": "The confidential VM key vault ID for ADE installation.",
           "type": "string"
         },
         "targetVmSecurityProfile": {
@@ -26732,7 +26732,7 @@
           "description": "The target VM security profile."
         },
         "targetBootDiagnosticsStorageAccountId": {
-          "description": "The target boot diagnostics storage account ARM Id.",
+          "description": "The target boot diagnostics storage account ARM ID.",
           "type": "string"
         },
         "performAutoResync": {
@@ -26839,7 +26839,7 @@
       ],
       "properties": {
         "vmwareMachineId": {
-          "description": "The ARM Id of the VM discovered in VMware.",
+          "description": "The ARM ID of the VM discovered in VMware.",
           "type": "string",
           "readOnly": true
         },
@@ -26885,17 +26885,17 @@
           }
         },
         "dataMoverRunAsAccountId": {
-          "description": "The data mover run as account Id.",
+          "description": "The data mover run as account ID.",
           "type": "string",
           "readOnly": true
         },
         "snapshotRunAsAccountId": {
-          "description": "The snapshot run as account Id.",
+          "description": "The snapshot run as account ID.",
           "type": "string",
           "readOnly": true
         },
         "storageAccountId": {
-          "description": "The replication storage account ARM Id. This is applicable only for the blob based replication test hook.",
+          "description": "The replication storage account ARM ID. This is applicable only for the blob based replication test hook.",
           "type": "string",
           "readOnly": true
         },
@@ -26913,11 +26913,11 @@
           "readOnly": true
         },
         "targetResourceGroupId": {
-          "description": "The target resource group Id.",
+          "description": "The target resource group ID.",
           "type": "string"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set Id.",
+          "description": "The target availability set ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -26925,11 +26925,11 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group Id.",
+          "description": "The target proximity placement group ID.",
           "type": "string"
         },
         "confidentialVmKeyVaultId": {
-          "description": "The confidential VM key vault Id for ADE installation.",
+          "description": "The confidential VM key vault ID for ADE installation.",
           "type": "string"
         },
         "targetVmSecurityProfile": {
@@ -26937,7 +26937,7 @@
           "description": "The target VM security profile."
         },
         "targetBootDiagnosticsStorageAccountId": {
-          "description": "The target boot diagnostics storage account ARM Id.",
+          "description": "The target boot diagnostics storage account ARM ID.",
           "type": "string"
         },
         "targetVmTags": {
@@ -26955,11 +26955,11 @@
           }
         },
         "targetNetworkId": {
-          "description": "The target network Id.",
+          "description": "The target network ID.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "The test network Id.",
+          "description": "The test network ID.",
           "type": "string"
         },
         "vmNics": {
@@ -26977,7 +26977,7 @@
           }
         },
         "migrationRecoveryPointId": {
-          "description": "The recovery point Id to which the VM was migrated.",
+          "description": "The recovery point ID to which the VM was migrated.",
           "type": "string",
           "readOnly": true
         },
@@ -26988,7 +26988,7 @@
           "readOnly": true
         },
         "lastRecoveryPointId": {
-          "description": "The last recovery point Id.",
+          "description": "The last recovery point ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27118,7 +27118,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "The NIC Id.",
+          "description": "The NIC ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27145,7 +27145,7 @@
           }
         },
         "sourceNetworkId": {
-          "description": "Source network Id.",
+          "description": "Source network ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27170,7 +27170,7 @@
           "type": "string"
         },
         "testNetworkId": {
-          "description": "Source network Id.",
+          "description": "Source network ID.",
           "type": "string"
         },
         "testSubnetName": {
@@ -27212,7 +27212,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "The NIC Id.",
+          "description": "The NIC ID.",
           "type": "string"
         },
         "isPrimaryNic": {
@@ -27333,7 +27333,7 @@
           "readOnly": true
         },
         "logStorageAccountId": {
-          "description": "The log storage account ARM Id.",
+          "description": "The log storage account ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27343,12 +27343,12 @@
           "readOnly": true
         },
         "diskEncryptionSetId": {
-          "description": "The DiskEncryptionSet ARM Id.",
+          "description": "The DiskEncryptionSet ARM ID.",
           "type": "string",
           "readOnly": true
         },
         "seedManagedDiskId": {
-          "description": "The ARM Id of the seed managed disk.",
+          "description": "The ARM ID of the seed managed disk.",
           "type": "string",
           "readOnly": true
         },
@@ -27358,7 +27358,7 @@
           "readOnly": true
         },
         "targetManagedDiskId": {
-          "description": "The ARM Id of the target managed disk.",
+          "description": "The ARM ID of the target managed disk.",
           "type": "string",
           "readOnly": true
         },
@@ -27393,7 +27393,7 @@
       ],
       "properties": {
         "keyVaultId": {
-          "description": "The target key vault ARM Id.",
+          "description": "The target key vault ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27403,7 +27403,7 @@
           "readOnly": true
         },
         "storageAccountId": {
-          "description": "The storage account ARM Id.",
+          "description": "The storage account ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27530,11 +27530,11 @@
       ],
       "properties": {
         "recoveryPointId": {
-          "description": "The recovery point Id.",
+          "description": "The recovery point ID.",
           "type": "string"
         },
         "networkId": {
-          "description": "The test network Id.",
+          "description": "The test network ID.",
           "type": "string"
         },
         "vmNics": {
@@ -27570,7 +27570,7 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "The disk Id.",
+          "description": "The disk ID.",
           "type": "string"
         },
         "targetDiskName": {
@@ -27601,11 +27601,11 @@
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "The target resource group ARM Id.",
+          "description": "The target resource group ARM ID.",
           "type": "string"
         },
         "targetAvailabilitySetId": {
-          "description": "The target availability set ARM Id.",
+          "description": "The target availability set ARM ID.",
           "type": "string"
         },
         "targetAvailabilityZone": {
@@ -27613,19 +27613,19 @@
           "type": "string"
         },
         "targetProximityPlacementGroupId": {
-          "description": "The target proximity placement group ARM Id.",
+          "description": "The target proximity placement group ARM ID.",
           "type": "string"
         },
         "targetBootDiagnosticsStorageAccountId": {
-          "description": "The target boot diagnostics storage account ARM Id.",
+          "description": "The target boot diagnostics storage account ARM ID.",
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "The target network ARM Id.",
+          "description": "The target network ARM ID.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "The test network ARM Id.",
+          "description": "The test network ARM ID.",
           "type": "string"
         },
         "vmNics": {
@@ -27892,15 +27892,15 @@
       ],
       "properties": {
         "vmwareSiteId": {
-          "description": "The ARM Id of the VMware site.",
+          "description": "The ARM ID of the VMware site.",
           "type": "string"
         },
         "physicalSiteId": {
-          "description": "The ARM Id of the physical site.",
+          "description": "The ARM ID of the physical site.",
           "type": "string"
         },
         "migrationSolutionId": {
-          "description": "The ARM Id of the migration solution.",
+          "description": "The ARM ID of the migration solution.",
           "type": "string"
         }
       },
@@ -27916,17 +27916,17 @@
       ],
       "properties": {
         "vmwareSiteId": {
-          "description": "The ARM Id of the VMware site.",
+          "description": "The ARM ID of the VMware site.",
           "type": "string",
           "readOnly": true
         },
         "physicalSiteId": {
-          "description": "The ARM Id of the physical site.",
+          "description": "The ARM ID of the physical site.",
           "type": "string",
           "readOnly": true
         },
         "migrationSolutionId": {
-          "description": "The Migration solution ARM Id.",
+          "description": "The Migration solution ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27936,12 +27936,12 @@
           "readOnly": true
         },
         "serviceResourceId": {
-          "description": "The service resource Id.",
+          "description": "The service resource ID.",
           "type": "string",
           "readOnly": true
         },
         "serviceContainerId": {
-          "description": "The service container Id.",
+          "description": "The service container ID.",
           "type": "string",
           "readOnly": true
         },
@@ -27990,7 +27990,7 @@
           "type": "string"
         },
         "vCenterInfrastructureId": {
-          "description": "The VCenter infrastructure Id.",
+          "description": "The VCenter infrastructure ID.",
           "type": "string"
         },
         "discoveryType": {
@@ -28019,7 +28019,7 @@
     "SubscriptionId": {
       "name": "subscriptionId",
       "in": "path",
-      "description": "The subscription Id.",
+      "description": "The subscription ID.",
       "required": true,
       "type": "string"
     },

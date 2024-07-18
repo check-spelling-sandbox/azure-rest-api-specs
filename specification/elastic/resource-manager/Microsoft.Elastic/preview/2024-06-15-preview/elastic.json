@@ -1512,7 +1512,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "VM resource Id",
+            "description": "VM resource ID",
             "schema": {
               "$ref": "#/definitions/VMCollectionUpdate"
             }
@@ -1879,7 +1879,7 @@
           {
             "in": "query",
             "name": "rulesetId",
-            "description": "Ruleset Id of the filter",
+            "description": "Ruleset ID of the filter",
             "type": "string"
           }
         ],
@@ -1931,7 +1931,7 @@
           {
             "in": "query",
             "name": "rulesetId",
-            "description": "Ruleset Id of the filter",
+            "description": "Ruleset ID of the filter",
             "type": "string"
           }
         ],
@@ -1979,7 +1979,7 @@
           {
             "in": "query",
             "name": "rulesetId",
-            "description": "Ruleset Id of the filter",
+            "description": "Ruleset ID of the filter",
             "type": "string"
           }
         ],
@@ -2031,7 +2031,7 @@
           {
             "in": "query",
             "name": "rulesetId",
-            "description": "Ruleset Id of the filter",
+            "description": "Ruleset ID of the filter",
             "type": "string"
           }
         ],
@@ -2390,7 +2390,7 @@
           "readOnly": true
         },
         "azureSubscriptionId": {
-          "description": "Associated Azure subscription Id for the elastic deployment.",
+          "description": "Associated Azure subscription ID for the elastic deployment.",
           "type": "string",
           "readOnly": true
         },
@@ -3213,7 +3213,7 @@
           "type": "string"
         },
         "azureResourceId": {
-          "description": "The azure resource Id of the deployment.",
+          "description": "The azure resource ID of the deployment.",
           "type": "string"
         },
         "location": {
@@ -3359,7 +3359,7 @@
           }
         },
         "nextLink": {
-          "description": "Link to the next Vm resource Id, if any.",
+          "description": "Link to the next Vm resource ID, if any.",
           "type": "string"
         }
       }
@@ -3596,7 +3596,7 @@
       "type": "object",
       "properties": {
         "planId": {
-          "description": "Newly selected plan Id to create the new Marketplace subscription for Resubscribe",
+          "description": "Newly selected plan ID to create the new Marketplace subscription for Resubscribe",
           "type": "string"
         },
         "term": {

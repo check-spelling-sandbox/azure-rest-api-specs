@@ -2400,7 +2400,7 @@
       "description": "Private endpoint which a connection belongs to.",
       "properties": {
         "id": {
-          "description": "The resource Id for private endpoint",
+          "description": "The resource ID for private endpoint",
           "type": "string"
         }
       }

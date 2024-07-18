@@ -1484,7 +1484,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Principal Id of user assigned identity",
+          "description": "Principal ID of user assigned identity",
           "type": "string",
           "x-ms-client-name": "PrincipalId",
           "readOnly": true

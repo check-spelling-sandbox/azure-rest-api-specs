@@ -1464,7 +1464,7 @@
       ],
       "properties": {
         "id": {
-          "description": "The Id of azure resource.",
+          "description": "The ID of azure resource.",
           "type": "string"
         },
         "resourceProperties": {
@@ -1845,7 +1845,7 @@
           "type": "string"
         },
         "principalId": {
-          "description": "Principal Id for servicePrincipal auth.",
+          "description": "Principal ID for servicePrincipal auth.",
           "type": "string"
         },
         "secret": {
@@ -1886,7 +1886,7 @@
           "type": "string"
         },
         "principalId": {
-          "description": "Principal Id for servicePrincipal auth.",
+          "description": "Principal ID for servicePrincipal auth.",
           "type": "string"
         },
         "certificate": {
@@ -1926,7 +1926,7 @@
       ],
       "properties": {
         "principalId": {
-          "description": "Principal Id for user account.",
+          "description": "Principal ID for user account.",
           "type": "string"
         },
         "deleteOrUpdateBehavior": {
@@ -2264,7 +2264,7 @@
         },
         "targetId": {
           "x-nullable": true,
-          "description": "The resource Id of target service.",
+          "description": "The resource ID of target service.",
           "type": "string"
         },
         "authType": {

@@ -3317,7 +3317,7 @@
           "readOnly": true
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this resource pool resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this resource pool resides.",
           "type": "string"
         },
         "moRefId": {
@@ -4223,19 +4223,19 @@
       "properties": {
         "resourcePoolId": {
           "type": "string",
-          "description": "Gets or sets the ARM Id of the resourcePool resource on which this virtual machine will deploy."
+          "description": "Gets or sets the ARM ID of the resourcePool resource on which this virtual machine will deploy."
         },
         "clusterId": {
           "type": "string",
-          "description": "Gets or sets the ARM Id of the cluster resource on which this virtual machine will deploy."
+          "description": "Gets or sets the ARM ID of the cluster resource on which this virtual machine will deploy."
         },
         "hostId": {
           "type": "string",
-          "description": "Gets or sets the ARM Id of the host resource on which this virtual machine will deploy."
+          "description": "Gets or sets the ARM ID of the host resource on which this virtual machine will deploy."
         },
         "datastoreId": {
           "type": "string",
-          "description": "Gets or sets the ARM Id of the datastore resource on which the data for the virtual machine will be kept."
+          "description": "Gets or sets the ARM ID of the datastore resource on which the data for the virtual machine will be kept."
         }
       }
     },
@@ -4263,11 +4263,11 @@
       "type": "object",
       "properties": {
         "templateId": {
-          "description": "Gets or sets the ARM Id of the template resource to deploy the virtual machine.",
+          "description": "Gets or sets the ARM ID of the template resource to deploy the virtual machine.",
           "type": "string"
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this resource pool resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this resource pool resides.",
           "type": "string"
         },
         "moRefId": {
@@ -4476,7 +4476,7 @@
           "readOnly": true
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this template resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this template resides.",
           "type": "string"
         },
         "moRefId": {
@@ -4589,7 +4589,7 @@
           "readOnly": true
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this cluster resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this cluster resides.",
           "type": "string"
         },
         "moRefId": {
@@ -4756,7 +4756,7 @@
           "readOnly": true
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this host resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this host resides.",
           "type": "string"
         },
         "moRefId": {
@@ -4923,7 +4923,7 @@
           "readOnly": true
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this datastore resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this datastore resides.",
           "type": "string"
         },
         "moRefId": {
@@ -5158,7 +5158,7 @@
           "readOnly": true
         },
         "vCenterId": {
-          "description": "Gets or sets the ARM Id of the vCenter resource in which this template resides.",
+          "description": "Gets or sets the ARM ID of the vCenter resource in which this template resides.",
           "type": "string"
         },
         "moRefId": {
@@ -5284,7 +5284,7 @@
           "type": "string"
         },
         "networkId": {
-          "description": "Gets or sets the ARM Id of the network resource to connect the virtual machine.",
+          "description": "Gets or sets the ARM ID of the network resource to connect the virtual machine.",
           "type": "string"
         },
         "nicType": {
@@ -5329,7 +5329,7 @@
           "readOnly": true
         },
         "networkId": {
-          "description": "Gets or sets the ARM Id of the network resource to connect the virtual machine.",
+          "description": "Gets or sets the ARM ID of the network resource to connect the virtual machine.",
           "type": "string"
         },
         "nicType": {

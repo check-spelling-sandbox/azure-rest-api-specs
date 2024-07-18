@@ -6962,7 +6962,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Azure Active Directory object Id."
+          "description": "Azure Active Directory object ID."
         },
         "info": {
           "type": "string",
@@ -7315,7 +7315,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "properties": {
           "type": "object",

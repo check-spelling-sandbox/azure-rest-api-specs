@@ -2379,7 +2379,7 @@
         },
         "primaryUserAssignedIdentityId": {
           "type": "string",
-          "description": "Resource Id for the User assigned identity to be used for data encryption of the primary server."
+          "description": "Resource ID for the User assigned identity to be used for data encryption of the primary server."
         },
         "type": {
           "type": "string",

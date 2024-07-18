@@ -311,7 +311,7 @@
       "properties": {
         "storageAccountId": {
           "type": "string",
-          "description": "The storage account Id"
+          "description": "The storage account ID"
         },
         "containerCredentials": {
           "type": "array",

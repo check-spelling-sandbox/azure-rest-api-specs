@@ -1182,7 +1182,7 @@
           ]
         },
         "instancePoolId": {
-          "description": "The Id of the instance pool this managed server belongs to.",
+          "description": "The ID of the instance pool this managed server belongs to.",
           "type": "string"
         },
         "maintenanceConfigurationId": {

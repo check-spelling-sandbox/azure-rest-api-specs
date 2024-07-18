@@ -114,7 +114,7 @@
         },
         "fileId": {
           "type": "string",
-          "description": "Resource Identifier of a file resource containing the uploaded schema file"
+          "description": "Resource IDentifier of a file resource containing the uploaded schema file"
         },
         "fileName": {
           "type": "string",

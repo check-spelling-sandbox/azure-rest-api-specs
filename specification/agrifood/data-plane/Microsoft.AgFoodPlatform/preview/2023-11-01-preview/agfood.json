@@ -435,7 +435,7 @@
           {
             "in": "query",
             "name": "resourceIds",
-            "description": "Resource Ids of the resource.",
+            "description": "Resource IDs of the resource.",
             "type": "array",
             "items": {
               "type": "string"
@@ -2822,7 +2822,7 @@
           {
             "in": "query",
             "name": "resourceIds",
-            "description": "Resource Ids.",
+            "description": "Resource IDs.",
             "type": "array",
             "items": {
               "type": "string"
@@ -11263,7 +11263,7 @@
           {
             "in": "query",
             "name": "associatedResourceId",
-            "description": "Associated Resource Id of the resource.",
+            "description": "Associated Resource ID of the resource.",
             "required": true,
             "type": "string"
           },
@@ -11284,7 +11284,7 @@
           {
             "in": "query",
             "name": "itemId",
-            "description": "Item Id.",
+            "description": "Item ID.",
             "type": "string"
           },
           {
@@ -12870,7 +12870,7 @@
           {
             "in": "query",
             "name": "associatedResourceIds",
-            "description": "Resource Ids of the resource.",
+            "description": "Resource IDs of the resource.",
             "type": "array",
             "items": {
               "type": "string"
@@ -16312,7 +16312,7 @@
           "type": "string"
         },
         "resourceId": {
-          "description": "Azure Data Manager for Agriculture resource Id.",
+          "description": "Azure Data Manager for Agriculture resource ID.",
           "maxLength": 200,
           "minLength": 2,
           "type": "string"
@@ -16396,7 +16396,7 @@
       "type": "object",
       "properties": {
         "datasetId": {
-          "description": "Dataset Id for this record.",
+          "description": "Dataset ID for this record.",
           "type": "string",
           "readOnly": true
         },
@@ -17460,7 +17460,7 @@
           }
         },
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string"
         }
       }
@@ -20349,7 +20349,7 @@
           "$ref": "#/definitions/SatelliteData"
         },
         "itemId": {
-          "description": "Item Id used to get scenes from sentinel hub.",
+          "description": "Item ID used to get scenes from sentinel hub.",
           "type": "string"
         },
         "id": {
@@ -20558,7 +20558,7 @@
           "type": "number"
         },
         "associatedResourceIds": {
-          "description": "Resource Ids of the resource.",
+          "description": "Resource IDs of the resource.",
           "type": "array",
           "items": {
             "type": "string"
@@ -20805,7 +20805,7 @@
           "type": "number"
         },
         "associatedResourceIds": {
-          "description": "Resource Ids of the resource.",
+          "description": "Resource IDs of the resource.",
           "type": "array",
           "items": {
             "type": "string"
@@ -21105,7 +21105,7 @@
           "type": "number"
         },
         "associatedResourceIds": {
-          "description": "Resource Ids of the resource.",
+          "description": "Resource IDs of the resource.",
           "type": "array",
           "items": {
             "type": "string"
@@ -21436,7 +21436,7 @@
           "type": "number"
         },
         "associatedResourceIds": {
-          "description": "Resource Ids of the resource.",
+          "description": "Resource IDs of the resource.",
           "type": "array",
           "items": {
             "type": "string"

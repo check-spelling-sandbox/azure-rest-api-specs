@@ -1,6 +1,6 @@
 {
   "title": "Create a device",
-  "description": "Create a device with an Id.",
+  "description": "Create a device with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

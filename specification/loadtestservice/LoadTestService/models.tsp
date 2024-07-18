@@ -320,7 +320,7 @@ model Test {
   @doc("Type of the managed identity referencing the Key vault.")
   keyvaultReferenceIdentityType?: string;
 
-  @doc("Resource Id of the managed identity referencing the Key vault.")
+  @doc("Resource ID of the managed identity referencing the Key vault.")
   keyvaultReferenceIdentityId?: string;
 
   ...SystemMetaData;
@@ -526,7 +526,7 @@ model FileInfo {
 @doc("Test app components")
 model TestAppComponents {
   @doc("""
-    Azure resource collection { resource id (fully qualified resource Id e.g
+    Azure resource collection { resource id (fully qualified resource ID e.g
     subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})
     : resource object } 
     """)
@@ -544,7 +544,7 @@ model TestAppComponents {
   """)
 model AppComponent {
   @doc("""
-    fully qualified resource Id e.g subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}
+    fully qualified resource ID e.g subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}
     """)
   @visibility("read")
   resourceId: string;
@@ -1063,7 +1063,7 @@ model MetricDimensionsRequest {
 @doc("Test run app component")
 model TestRunAppComponents {
   @doc("""
-    Azure resource collection { resource id (fully qualified resource Id e.g
+    Azure resource collection { resource id (fully qualified resource ID e.g
     subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})
     : resource object } 
     """)

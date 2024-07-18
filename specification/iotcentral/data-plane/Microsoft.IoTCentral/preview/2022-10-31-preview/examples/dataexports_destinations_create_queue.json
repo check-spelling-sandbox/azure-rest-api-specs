@@ -1,6 +1,6 @@
 {
   "title": "Create data export Service Bus Queue destination",
-  "description": "Create an Service Bus Queue destination with an Id.",
+  "description": "Create an Service Bus Queue destination with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

@@ -2726,7 +2726,7 @@
       ],
       "properties": {
         "azStackHciSiteId": {
-          "description": "Gets or sets the ARM Id of the AzStackHCI site.",
+          "description": "Gets or sets the ARM ID of the AzStackHCI site.",
           "minLength": 1,
           "type": "string"
         },
@@ -2742,17 +2742,17 @@
           "$ref": "#/definitions/AzStackHCIClusterProperties"
         },
         "fabricResourceId": {
-          "description": "Gets or sets the fabric resource Id.",
+          "description": "Gets or sets the fabric resource ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricContainerId": {
-          "description": "Gets or sets the fabric container Id.",
+          "description": "Gets or sets the fabric container ID.",
           "type": "string",
           "readOnly": true
         },
         "migrationSolutionId": {
-          "description": "Gets or sets the Migration solution ARM Id.",
+          "description": "Gets or sets the Migration solution ARM ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -2917,12 +2917,12 @@
       "type": "object",
       "properties": {
         "correlationId": {
-          "description": "Gets or sets the Dra correlation Id.",
+          "description": "Gets or sets the Dra correlation ID.",
           "type": "string",
           "readOnly": true
         },
         "machineId": {
-          "description": "Gets or sets the machine Id where Dra is running.",
+          "description": "Gets or sets the machine ID where Dra is running.",
           "minLength": 1,
           "type": "string"
         },
@@ -3217,7 +3217,7 @@
           "readOnly": true
         },
         "correlationId": {
-          "description": "Gets or sets the event correlation Id.",
+          "description": "Gets or sets the event correlation ID.",
           "type": "string",
           "readOnly": true
         },
@@ -3353,7 +3353,7 @@
           "readOnly": true
         },
         "serviceResourceId": {
-          "description": "Gets or sets the service resource Id.",
+          "description": "Gets or sets the service resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -3446,7 +3446,7 @@
           "readOnly": true
         },
         "recoveryPointId": {
-          "description": "Gets or sets the recovery point Id.",
+          "description": "Gets or sets the recovery point ID.",
           "type": "string",
           "readOnly": true
         },
@@ -3584,22 +3584,22 @@
       ],
       "properties": {
         "hyperVSiteId": {
-          "description": "Gets or sets the ARM Id of the HyperV site.",
+          "description": "Gets or sets the ARM ID of the HyperV site.",
           "minLength": 1,
           "type": "string"
         },
         "fabricResourceId": {
-          "description": "Gets or sets the fabric resource Id.",
+          "description": "Gets or sets the fabric resource ID.",
           "type": "string",
           "readOnly": true
         },
         "fabricContainerId": {
-          "description": "Gets or sets the fabric container Id.",
+          "description": "Gets or sets the fabric container ID.",
           "type": "string",
           "readOnly": true
         },
         "migrationSolutionId": {
-          "description": "Gets or sets the migration solution ARM Id.",
+          "description": "Gets or sets the migration solution ARM ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -3622,12 +3622,12 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "Gets or sets the disk Id.",
+          "description": "Gets or sets the disk ID.",
           "minLength": 1,
           "type": "string"
         },
         "storageContainerId": {
-          "description": "Gets or sets the target storage account ARM Id.",
+          "description": "Gets or sets the target storage account ARM ID.",
           "type": "string"
         },
         "isDynamic": {
@@ -3698,7 +3698,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "Gets or sets the NIC Id.",
+          "description": "Gets or sets the NIC ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -3708,12 +3708,12 @@
           "readOnly": true
         },
         "targetNetworkId": {
-          "description": "Gets or sets the target network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target network ID within AzStackHCI Cluster.",
           "minLength": 1,
           "type": "string"
         },
         "testNetworkId": {
-          "description": "Gets or sets the target test network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target test network ID within AzStackHCI Cluster.",
           "minLength": 1,
           "type": "string"
         },
@@ -3789,7 +3789,7 @@
       "type": "object",
       "properties": {
         "storageContainerId": {
-          "description": "Gets or sets the ARM Id of the storage container.",
+          "description": "Gets or sets the ARM ID of the storage container.",
           "type": "string",
           "readOnly": true
         },
@@ -3799,7 +3799,7 @@
           "readOnly": true
         },
         "sourceDiskId": {
-          "description": "Gets or sets the source disk Id.",
+          "description": "Gets or sets the source disk ID.",
           "type": "string",
           "readOnly": true
         },
@@ -3883,12 +3883,12 @@
           }
         },
         "targetHciClusterId": {
-          "description": "Gets or sets the Target HCI Cluster ARM Id.",
+          "description": "Gets or sets the Target HCI Cluster ARM ID.",
           "minLength": 1,
           "type": "string"
         },
         "targetArcClusterCustomLocationId": {
-          "description": "Gets or sets the Target Arc Cluster Custom Location ARM Id.",
+          "description": "Gets or sets the Target Arc Cluster Custom Location ARM ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -3898,7 +3898,7 @@
           "readOnly": true
         },
         "fabricDiscoveryMachineId": {
-          "description": "Gets or sets the ARM Id of the discovered machine.",
+          "description": "Gets or sets the ARM ID of the discovered machine.",
           "minLength": 1,
           "type": "string"
         },
@@ -3942,12 +3942,12 @@
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "Gets or sets the target resource group ARM Id.",
+          "description": "Gets or sets the target resource group ARM ID.",
           "minLength": 1,
           "type": "string"
         },
         "storageContainerId": {
-          "description": "Gets or sets the target storage container ARM Id.",
+          "description": "Gets or sets the target storage container ARM ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -3957,11 +3957,11 @@
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "Gets or sets the target network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target network ID within AzStackHCI Cluster.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "Gets or sets the target test network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target test network ID within AzStackHCI Cluster.",
           "type": "string"
         },
         "targetCpuCores": {
@@ -3982,7 +3982,7 @@
           "type": "integer"
         },
         "runAsAccountId": {
-          "description": "Gets or sets the Run As account Id.",
+          "description": "Gets or sets the Run As account ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -4032,7 +4032,7 @@
           "type": "string"
         },
         "failoverRecoveryPointId": {
-          "description": "Gets or sets the recovery point Id to which the VM was failed over.",
+          "description": "Gets or sets the recovery point ID to which the VM was failed over.",
           "type": "string",
           "readOnly": true
         },
@@ -4043,7 +4043,7 @@
           "readOnly": true
         },
         "lastRecoveryPointId": {
-          "description": "Gets or sets the last recovery point Id.",
+          "description": "Gets or sets the last recovery point ID.",
           "type": "string",
           "readOnly": true
         },
@@ -4078,7 +4078,7 @@
           "x-ms-identifiers": []
         },
         "targetVmBiosId": {
-          "description": "Gets or sets the BIOS Id of the target AzStackHCI VM.",
+          "description": "Gets or sets the BIOS ID of the target AzStackHCI VM.",
           "type": "string",
           "readOnly": true
         },
@@ -4096,7 +4096,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "Gets or sets the NIC Id.",
+          "description": "Gets or sets the NIC ID.",
           "type": "string",
           "readOnly": true
         },
@@ -4111,12 +4111,12 @@
           "readOnly": true
         },
         "targetNetworkId": {
-          "description": "Gets or sets the target network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target network ID within AzStackHCI Cluster.",
           "type": "string",
           "readOnly": true
         },
         "testNetworkId": {
-          "description": "Gets or sets the target test network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target test network ID within AzStackHCI Cluster.",
           "type": "string",
           "readOnly": true
         },
@@ -4147,7 +4147,7 @@
       ],
       "properties": {
         "diskIds": {
-          "description": "Gets or sets the list of the disk Ids.",
+          "description": "Gets or sets the list of the disk IDs.",
           "type": "array",
           "items": {
             "type": "string"
@@ -4171,27 +4171,27 @@
       ],
       "properties": {
         "hyperVFabricArmId": {
-          "description": "Gets or sets the ARM Id of the source HyperV fabric.",
+          "description": "Gets or sets the ARM ID of the source HyperV fabric.",
           "minLength": 1,
           "type": "string"
         },
         "hyperVSiteId": {
-          "description": "Gets or sets the ARM Id of the HyperV site.",
+          "description": "Gets or sets the ARM ID of the HyperV site.",
           "type": "string",
           "readOnly": true
         },
         "azStackHciFabricArmId": {
-          "description": "Gets or sets the ARM Id of the target AzStackHCI fabric.",
+          "description": "Gets or sets the ARM ID of the target AzStackHCI fabric.",
           "minLength": 1,
           "type": "string"
         },
         "azStackHciSiteId": {
-          "description": "Gets or sets the ARM Id of the AzStackHCI site.",
+          "description": "Gets or sets the ARM ID of the AzStackHCI site.",
           "type": "string",
           "readOnly": true
         },
         "storageAccountId": {
-          "description": "Gets or sets the storage account Id.",
+          "description": "Gets or sets the storage account ID.",
           "type": "string"
         },
         "storageAccountSasSecretName": {
@@ -4214,12 +4214,12 @@
           "readOnly": true
         },
         "sourceGatewayServiceId": {
-          "description": "Gets or sets the gateway service Id of source.",
+          "description": "Gets or sets the gateway service ID of source.",
           "type": "string",
           "readOnly": true
         },
         "targetGatewayServiceId": {
-          "description": "Gets or sets the gateway service Id of target.",
+          "description": "Gets or sets the gateway service ID of target.",
           "type": "string",
           "readOnly": true
         },
@@ -4263,7 +4263,7 @@
       "type": "object",
       "properties": {
         "tenantId": {
-          "description": "Gets or sets the tenant Id of the SPN with which Dra communicates to service.",
+          "description": "Gets or sets the tenant ID of the SPN with which Dra communicates to service.",
           "minLength": 1,
           "type": "string"
         },
@@ -4273,7 +4273,7 @@
           "type": "string"
         },
         "objectId": {
-          "description": "Gets or sets the object Id of the SPN with which Dra communicates to service.",
+          "description": "Gets or sets the object ID of the SPN with which Dra communicates to service.",
           "minLength": 1,
           "type": "string"
         },
@@ -4734,7 +4734,7 @@
           "type": "string"
         },
         "correlationId": {
-          "description": "Gets or sets the protected item correlation Id.",
+          "description": "Gets or sets the protected item correlation ID.",
           "type": "string",
           "readOnly": true
         },
@@ -4865,7 +4865,7 @@
           }
         },
         "fabricObjectId": {
-          "description": "Gets or sets the fabric object Id.",
+          "description": "Gets or sets the fabric object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -4885,22 +4885,22 @@
           "readOnly": true
         },
         "fabricId": {
-          "description": "Gets or sets the fabric Id.",
+          "description": "Gets or sets the fabric ID.",
           "type": "string",
           "readOnly": true
         },
         "targetFabricId": {
-          "description": "Gets or sets the target fabric Id.",
+          "description": "Gets or sets the target fabric ID.",
           "type": "string",
           "readOnly": true
         },
         "draId": {
-          "description": "Gets or sets the DRA Id.",
+          "description": "Gets or sets the DRA ID.",
           "type": "string",
           "readOnly": true
         },
         "targetDraId": {
-          "description": "Gets or sets the target DRA Id.",
+          "description": "Gets or sets the target DRA ID.",
           "type": "string",
           "readOnly": true
         },
@@ -5362,7 +5362,7 @@
       ],
       "properties": {
         "biosId": {
-          "description": "Gets or sets the BIOS Id of the DRA machine.",
+          "description": "Gets or sets the BIOS ID of the DRA machine.",
           "minLength": 1,
           "type": "string"
         },
@@ -5386,12 +5386,12 @@
       ],
       "properties": {
         "vmwareSiteId": {
-          "description": "Gets or sets the ARM Id of the VMware site.",
+          "description": "Gets or sets the ARM ID of the VMware site.",
           "minLength": 1,
           "type": "string"
         },
         "migrationSolutionId": {
-          "description": "Gets or sets the ARM Id of the migration solution.",
+          "description": "Gets or sets the ARM ID of the migration solution.",
           "minLength": 1,
           "type": "string"
         }
@@ -5409,12 +5409,12 @@
       "type": "object",
       "properties": {
         "diskId": {
-          "description": "Gets or sets the disk Id.",
+          "description": "Gets or sets the disk ID.",
           "minLength": 1,
           "type": "string"
         },
         "storageContainerId": {
-          "description": "Gets or sets the target storage account ARM Id.",
+          "description": "Gets or sets the target storage account ARM ID.",
           "type": "string"
         },
         "isDynamic": {
@@ -5449,7 +5449,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "Gets or sets the NIC Id.",
+          "description": "Gets or sets the NIC ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -5464,12 +5464,12 @@
           "readOnly": true
         },
         "targetNetworkId": {
-          "description": "Gets or sets the target network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target network ID within AzStackHCI Cluster.",
           "minLength": 1,
           "type": "string"
         },
         "testNetworkId": {
-          "description": "Gets or sets the target test network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target test network ID within AzStackHCI Cluster.",
           "minLength": 1,
           "type": "string"
         },
@@ -5545,7 +5545,7 @@
       "type": "object",
       "properties": {
         "storageContainerId": {
-          "description": "Gets or sets the ARM Id of the storage container.",
+          "description": "Gets or sets the ARM ID of the storage container.",
           "type": "string",
           "readOnly": true
         },
@@ -5555,7 +5555,7 @@
           "readOnly": true
         },
         "sourceDiskId": {
-          "description": "Gets or sets the source disk Id.",
+          "description": "Gets or sets the source disk ID.",
           "type": "string",
           "readOnly": true
         },
@@ -5639,12 +5639,12 @@
           }
         },
         "targetHciClusterId": {
-          "description": "Gets or sets the Target HCI Cluster ARM Id.",
+          "description": "Gets or sets the Target HCI Cluster ARM ID.",
           "minLength": 1,
           "type": "string"
         },
         "targetArcClusterCustomLocationId": {
-          "description": "Gets or sets the Target Arc Cluster Custom Location ARM Id.",
+          "description": "Gets or sets the Target Arc Cluster Custom Location ARM ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -5654,12 +5654,12 @@
           "readOnly": true
         },
         "storageContainerId": {
-          "description": "Gets or sets the target storage container ARM Id.",
+          "description": "Gets or sets the target storage container ARM ID.",
           "minLength": 1,
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "Gets or sets the target resource group ARM Id.",
+          "description": "Gets or sets the target resource group ARM ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -5710,7 +5710,7 @@
           "x-ms-identifiers": []
         },
         "targetVmBiosId": {
-          "description": "Gets or sets the BIOS Id of the target AzStackHCI VM.",
+          "description": "Gets or sets the BIOS ID of the target AzStackHCI VM.",
           "type": "string",
           "readOnly": true
         },
@@ -5724,11 +5724,11 @@
           "type": "string"
         },
         "targetNetworkId": {
-          "description": "Gets or sets the target network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target network ID within AzStackHCI Cluster.",
           "type": "string"
         },
         "testNetworkId": {
-          "description": "Gets or sets the target test network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target test network ID within AzStackHCI Cluster.",
           "type": "string"
         },
         "targetCpuCores": {
@@ -5764,7 +5764,7 @@
           "readOnly": true
         },
         "fabricDiscoveryMachineId": {
-          "description": "Gets or sets the ARM Id of the discovered machine.",
+          "description": "Gets or sets the ARM ID of the discovered machine.",
           "minLength": 1,
           "type": "string"
         },
@@ -5786,7 +5786,7 @@
           "readOnly": true
         },
         "runAsAccountId": {
-          "description": "Gets or sets the run as account Id.",
+          "description": "Gets or sets the run as account ID.",
           "minLength": 1,
           "type": "string"
         },
@@ -5811,7 +5811,7 @@
           "readOnly": true
         },
         "failoverRecoveryPointId": {
-          "description": "Gets or sets the recovery point Id to which the VM was failed over.",
+          "description": "Gets or sets the recovery point ID to which the VM was failed over.",
           "type": "string",
           "readOnly": true
         },
@@ -5822,7 +5822,7 @@
           "readOnly": true
         },
         "lastRecoveryPointId": {
-          "description": "Gets or sets the last recovery point Id.",
+          "description": "Gets or sets the last recovery point ID.",
           "type": "string",
           "readOnly": true
         },
@@ -5899,7 +5899,7 @@
       "type": "object",
       "properties": {
         "nicId": {
-          "description": "Gets or sets the NIC Id.",
+          "description": "Gets or sets the NIC ID.",
           "type": "string",
           "readOnly": true
         },
@@ -5923,12 +5923,12 @@
           "readOnly": true
         },
         "targetNetworkId": {
-          "description": "Gets or sets the target network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target network ID within AzStackHCI Cluster.",
           "type": "string",
           "readOnly": true
         },
         "testNetworkId": {
-          "description": "Gets or sets the target test network Id within AzStackHCI Cluster.",
+          "description": "Gets or sets the target test network ID within AzStackHCI Cluster.",
           "type": "string",
           "readOnly": true
         },
@@ -5963,27 +5963,27 @@
       ],
       "properties": {
         "vmwareFabricArmId": {
-          "description": "Gets or sets the ARM Id of the source VMware fabric.",
+          "description": "Gets or sets the ARM ID of the source VMware fabric.",
           "minLength": 1,
           "type": "string"
         },
         "vmwareSiteId": {
-          "description": "Gets or sets the ARM Id of the VMware site.",
+          "description": "Gets or sets the ARM ID of the VMware site.",
           "type": "string",
           "readOnly": true
         },
         "azStackHciFabricArmId": {
-          "description": "Gets or sets the ARM Id of the target AzStackHCI fabric.",
+          "description": "Gets or sets the ARM ID of the target AzStackHCI fabric.",
           "minLength": 1,
           "type": "string"
         },
         "azStackHciSiteId": {
-          "description": "Gets or sets the ARM Id of the AzStackHCI site.",
+          "description": "Gets or sets the ARM ID of the AzStackHCI site.",
           "type": "string",
           "readOnly": true
         },
         "storageAccountId": {
-          "description": "Gets or sets the storage account Id.",
+          "description": "Gets or sets the storage account ID.",
           "type": "string"
         },
         "storageAccountSasSecretName": {
@@ -6006,12 +6006,12 @@
           "readOnly": true
         },
         "sourceGatewayServiceId": {
-          "description": "Gets or sets the gateway service Id of source.",
+          "description": "Gets or sets the gateway service ID of source.",
           "type": "string",
           "readOnly": true
         },
         "targetGatewayServiceId": {
-          "description": "Gets or sets the gateway service Id of target.",
+          "description": "Gets or sets the gateway service ID of target.",
           "type": "string",
           "readOnly": true
         },
@@ -6137,7 +6137,7 @@
           }
         },
         "serviceResourceId": {
-          "description": "Gets or sets the service resource Id.",
+          "description": "Gets or sets the service resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -6318,7 +6318,7 @@
           "readOnly": true
         },
         "objectId": {
-          "description": "Gets or sets the affected object Id.",
+          "description": "Gets or sets the affected object ID.",
           "type": "string",
           "readOnly": true
         },

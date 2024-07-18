@@ -1810,7 +1810,7 @@
         "existingResourceId": {
           "type": "string",
           "format": "arm-id",
-          "description": "Existing Resource Id",
+          "description": "Existing Resource ID",
           "x-ms-arm-id-details": {
             "allowedResources": []
           }

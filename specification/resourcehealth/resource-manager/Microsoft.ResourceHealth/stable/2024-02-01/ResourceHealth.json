@@ -1281,7 +1281,7 @@
                       "groupId": {
                         "type": "integer",
                         "format": "int32",
-                        "description": "Recommended action group Id for the service health event."
+                        "description": "Recommended action group ID for the service health event."
                       },
                       "actionText": {
                         "type": "string",

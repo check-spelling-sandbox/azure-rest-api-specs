@@ -2013,7 +2013,7 @@
           }
         },
         "scope": {
-          "description": "Resource Id of the target resource.",
+          "description": "Resource ID of the target resource.",
           "type": "string",
           "x-ms-mutability": [
             "read",
@@ -2054,7 +2054,7 @@
           "readOnly": true
         },
         "migrationService": {
-          "description": "Resource Id of the Migration Service.",
+          "description": "Resource ID of the Migration Service.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -2730,7 +2730,7 @@
       "type": "object",
       "properties": {
         "storageAccountResourceId": {
-          "description": "Resource Id of the storage account copying backups.",
+          "description": "Resource ID of the storage account copying backups.",
           "type": "string"
         },
         "accountKey": {
@@ -2820,7 +2820,7 @@
       "type": "object",
       "properties": {
         "storageAccountResourceId": {
-          "description": "Resource Id of the storage account where backups are stored.",
+          "description": "Resource ID of the storage account where backups are stored.",
           "type": "string"
         },
         "accountKey": {

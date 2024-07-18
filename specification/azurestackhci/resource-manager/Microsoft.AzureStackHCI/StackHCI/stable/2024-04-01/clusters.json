@@ -359,7 +359,7 @@
         "operationId": "Clusters_CreateIdentity",
         "description": "Create cluster identity.",
         "x-ms-examples": {
-          "Create cluster Identity": {
+          "Create cluster IDentity": {
             "$ref": "./examples/CreateClusterIdentity.json"
           }
         },
@@ -408,7 +408,7 @@
         "operationId": "Clusters_ExtendSoftwareAssuranceBenefit",
         "description": "Extends Software Assurance Benefit to a cluster",
         "x-ms-examples": {
-          "Create cluster Identity": {
+          "Create cluster IDentity": {
             "$ref": "./examples/ExtendSoftwareAssuranceBenefit.json"
           }
         },
@@ -1325,7 +1325,7 @@
           "readOnly": true
         },
         "ehcResourceId": {
-          "description": "Edge Hardware Center Resource Id",
+          "description": "Edge Hardware Center Resource ID",
           "type": "string",
           "readOnly": true
         },

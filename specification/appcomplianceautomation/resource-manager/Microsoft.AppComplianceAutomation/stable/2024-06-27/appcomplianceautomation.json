@@ -2058,7 +2058,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "The Id of the resource.",
+          "description": "The ID of the resource.",
           "readOnly": true
         },
         "resourceType": {
@@ -2130,7 +2130,7 @@
       "properties": {
         "controlId": {
           "type": "string",
-          "description": "The Id of the control. e.g. \"Operational_Security_10\"",
+          "description": "The ID of the control. e.g. \"Operational_Security_10\"",
           "readOnly": true
         },
         "controlName": {
@@ -2276,7 +2276,7 @@
       "properties": {
         "controlId": {
           "type": "string",
-          "description": "The Id of the control. e.g. \"Operational_Security_10\""
+          "description": "The ID of the control. e.g. \"Operational_Security_10\""
         },
         "controlStatus": {
           "type": "string",
@@ -3013,7 +3013,7 @@
       "properties": {
         "recommendationId": {
           "type": "string",
-          "description": "The Id of the recommendation.",
+          "description": "The ID of the recommendation.",
           "readOnly": true
         },
         "recommendationShortName": {
@@ -3141,7 +3141,7 @@
         },
         "subscriptions": {
           "type": "array",
-          "description": "List of subscription Ids.",
+          "description": "List of subscription IDs.",
           "items": {
             "type": "string"
           },
@@ -3233,7 +3233,7 @@
         },
         "subscriptions": {
           "type": "array",
-          "description": "List of subscription Ids.",
+          "description": "List of subscription IDs.",
           "items": {
             "type": "string"
           },
@@ -3376,11 +3376,11 @@
     },
     "ResourceItem": {
       "type": "object",
-      "description": "Resource Id.",
+      "description": "Resource ID.",
       "properties": {
         "subscriptionId": {
           "type": "string",
-          "description": "The subscription Id of this resource.",
+          "description": "The subscription ID of this resource.",
           "readOnly": true
         },
         "resourceGroup": {
@@ -3395,18 +3395,18 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "The resource Id - e.g. \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1\".",
+          "description": "The resource ID - e.g. \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1\".",
           "readOnly": true
         }
       }
     },
     "ResourceMetadata": {
       "type": "object",
-      "description": "Single resource Id's metadata.",
+      "description": "Single resource ID's metadata.",
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "Resource Id - e.g. \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1\"."
+          "description": "Resource ID - e.g. \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1\"."
         },
         "resourceType": {
           "type": "string",
@@ -3615,12 +3615,12 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "The Id of the resource.",
+          "description": "The ID of the resource.",
           "readOnly": true
         },
         "accountId": {
           "type": "string",
-          "description": "Account Id. For example - AWS account Id.",
+          "description": "Account Id. For example - AWS account ID.",
           "readOnly": true
         },
         "resourceType": {

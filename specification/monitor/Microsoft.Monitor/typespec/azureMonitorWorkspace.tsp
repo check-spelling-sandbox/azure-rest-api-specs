@@ -63,11 +63,11 @@ model Metrics {
 
 @doc("Settings for data ingestion")
 model IngestionSettings {
-  @doc("The Azure resource Id of the default data collection rule for this workspace.")
+  @doc("The Azure resource ID of the default data collection rule for this workspace.")
   @visibility("read")
   dataCollectionRuleResourceId?: string;
 
-  @doc("The Azure resource Id of the default data collection endpoint for this workspace.")
+  @doc("The Azure resource ID of the default data collection endpoint for this workspace.")
   @visibility("read")
   dataCollectionEndpointResourceId?: string;
 }

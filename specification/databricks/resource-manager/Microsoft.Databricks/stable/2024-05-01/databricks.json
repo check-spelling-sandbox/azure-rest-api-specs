@@ -758,7 +758,7 @@
       "properties": {
         "managedResourceGroupId": {
           "type": "string",
-          "description": "The managed resource group Id."
+          "description": "The managed resource group ID."
         },
         "parameters": {
           "$ref": "#/definitions/WorkspaceCustomParameters",
@@ -814,7 +814,7 @@
         "diskEncryptionSetId": {
           "readOnly": true,
           "type": "string",
-          "description": "The resource Id of the managed disk encryption set."
+          "description": "The resource ID of the managed disk encryption set."
         },
         "encryption": {
           "type": "object",
@@ -978,7 +978,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Fully qualified resource Id for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}"
+          "description": "Fully qualified resource ID for the resource. Ex - /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}"
         },
         "name": {
           "readOnly": true,
@@ -1058,7 +1058,7 @@
         "tenantId": {
           "type": "string",
           "format": "uuid",
-          "description": "The tenant Id where the Managed Identity is created.",
+          "description": "The tenant ID where the Managed Identity is created.",
           "readOnly": true
         },
         "type": {

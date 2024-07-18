@@ -666,7 +666,7 @@
       "properties": {
         "vhdId": {
           "type": "string",
-          "description": "The Id of the associated VHD resource."
+          "description": "The ID of the associated VHD resource."
         },
         "definitionName": {
           "type": "string",

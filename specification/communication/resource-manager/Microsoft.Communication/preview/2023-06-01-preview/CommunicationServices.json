@@ -696,7 +696,7 @@
       }
     },
     "DomainsResourceList": {
-      "description": "List of email Domain resource Ids.",
+      "description": "List of email Domain resource IDs.",
       "type": "array",
       "items": {
         "type": "string",
@@ -772,7 +772,7 @@
           "readOnly": true
         },
         "immutableResourceId": {
-          "description": "The immutable resource Id of the communication service.",
+          "description": "The immutable resource ID of the communication service.",
           "type": "string",
           "readOnly": true
         },

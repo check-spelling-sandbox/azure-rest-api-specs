@@ -1905,7 +1905,7 @@
           "Group Id List for LDAP User"
         ],
         "summary": " Get Group Id List for LDAP User",
-        "description": "Returns the list of group Ids for a specific LDAP User",
+        "description": "Returns the list of group IDs for a specific LDAP User",
         "operationId": "Volumes_ListGetGroupIdListForLdapUser",
         "parameters": [
           {
@@ -1928,7 +1928,7 @@
           },
           {
             "name": "body",
-            "description": "Returns group Id list for a specific LDAP user",
+            "description": "Returns group ID list for a specific LDAP user",
             "in": "body",
             "required": true,
             "schema": {
@@ -5699,7 +5699,7 @@
         },
         "resourceIdDimensionNameOverride": {
           "type": "string",
-          "description": "Account Resource Id."
+          "description": "Account Resource ID."
         },
         "isInternal": {
           "description": "Whether the metric is internal.",
@@ -6071,7 +6071,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -6630,7 +6630,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -7234,7 +7234,7 @@
         },
         "capacityPoolResourceId": {
           "type": "string",
-          "description": "Pool Resource Id used in case of creating a volume through volume group"
+          "description": "Pool Resource ID used in case of creating a volume through volume group"
         },
         "proximityPlacementGroup": {
           "type": "string",
@@ -7308,7 +7308,7 @@
           "default": false
         },
         "originatingResourceId": {
-          "title": "Originating Resource Id",
+          "title": "Originating Resource ID",
           "type": "string",
           "description": "Id of the snapshot or backup that the volume is restored from.",
           "example": "/subscriptions/aaaaaaaa-1234-1234-1224-234567891011/resourceGroups/testGroup/providers/Microsoft.NetApp/netAppAccounts/accountOriginatingResourceId/capacityPools/originatingResourceIdPool/volumes/theOriginalVolume/snapshots/theSnapshot",
@@ -7647,7 +7647,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -7809,7 +7809,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -8040,7 +8040,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -8074,7 +8074,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -8412,7 +8412,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -8524,7 +8524,7 @@
       }
     },
     "getGroupIdListForLDAPUserRequest": {
-      "description": "Get group Id list for LDAP User request",
+      "description": "Get group ID list for LDAP User request",
       "type": "object",
       "required": [
         "username"
@@ -9105,7 +9105,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -9139,7 +9139,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -9259,7 +9259,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -9473,10 +9473,10 @@
       "example": "1.2.3.4"
     },
     "volumeResourceIds": {
-      "title": "Volume resource Ids",
+      "title": "Volume resource IDs",
       "type": "array",
       "items": {
-        "title": "Resource Id of volume",
+        "title": "Resource ID of volume",
         "type": "string",
         "format": "arm-id",
         "x-ms-arm-id-details": {
@@ -9489,7 +9489,7 @@
       }
     },
     "subnetId": {
-      "title": "Subnet resource Id",
+      "title": "Subnet resource ID",
       "description": "The Azure Resource URI for a delegated subnet. Must have the delegation Microsoft.NetApp/volumes. Example /subscriptions/subscriptionId/resourceGroups/resourceGroup/providers/Microsoft.Network/virtualNetworks/testVnet/subnets/{mySubnet}",
       "type": "string",
       "format": "arm-id",
@@ -9636,7 +9636,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "type": "string",
@@ -9874,7 +9874,7 @@
           "example": "/AVSdataStore"
         },
         "destinationVolumeId": {
-          "description": "Resource Id of the destination volume on which the files need to be restored",
+          "description": "Resource ID of the destination volume on which the files need to be restored",
           "type": "string",
           "example": "/subscriptions/D633CC2E-722B-4AE1-B636-BBD9E4C60ED9/resourceGroups/myRG/providers/Microsoft.NetApp/netAppAccounts/account1/capacityPools/pool1/volumes/volume1"
         }

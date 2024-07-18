@@ -1606,7 +1606,7 @@
           "items": {
             "$ref": "#/definitions/NetworkInterfaceReference"
           },
-          "description": "Specifies the list of resource Ids for the network interfaces associated with the virtual machine."
+          "description": "Specifies the list of resource IDs for the network interfaces associated with the virtual machine."
         },
         "networkApiVersion": {
           "type": "string",
@@ -1876,7 +1876,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,

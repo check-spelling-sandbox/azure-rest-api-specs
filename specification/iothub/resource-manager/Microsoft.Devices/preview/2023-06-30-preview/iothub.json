@@ -4456,7 +4456,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Principal Id",
+          "description": "Principal ID",
           "type": "string",
           "readOnly": true
         },

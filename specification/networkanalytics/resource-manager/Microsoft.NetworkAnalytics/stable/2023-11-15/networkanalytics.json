@@ -1488,7 +1488,7 @@
         "ingestionResourceId": {
           "type": "string",
           "format": "arm-id",
-          "description": "Resource Id of ingestion endpoint.",
+          "description": "Resource ID of ingestion endpoint.",
           "readOnly": true,
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -1506,7 +1506,7 @@
         "fileAccessResourceId": {
           "type": "string",
           "format": "arm-id",
-          "description": "Resource Id of file access endpoint.",
+          "description": "Resource ID of file access endpoint.",
           "readOnly": true,
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -1524,7 +1524,7 @@
         "queryResourceId": {
           "type": "string",
           "format": "arm-id",
-          "description": "Resource Id of query endpoint.",
+          "description": "Resource ID of query endpoint.",
           "readOnly": true,
           "x-ms-arm-id-details": {
             "allowedResources": [

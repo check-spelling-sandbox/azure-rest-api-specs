@@ -774,7 +774,7 @@ alias ReportBaseProperties = {
   lastTriggerTime?: utcDateTime;
 
   /**
-   * List of subscription Ids.
+   * List of subscription IDs.
    */
   @visibility("read")
   subscriptions?: string[];
@@ -855,11 +855,11 @@ model ReportPatchProperties {
 }
 
 /**
- * Single resource Id's metadata.
+ * Single resource ID's metadata.
  */
 model ResourceMetadata {
   /**
-   * Resource Id - e.g. "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1".
+   * Resource ID - e.g. "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1".
    */
   resourceId: string;
 
@@ -962,7 +962,7 @@ model CertSyncRecord {
  */
 model ControlSyncRecord {
   /**
-   * The Id of the control. e.g. "Operational_Security_10"
+   * The ID of the control. e.g. "Operational_Security_10"
    */
   controlId?: string;
 
@@ -1203,7 +1203,7 @@ model ControlFamily {
  */
 model Control {
   /**
-   * The Id of the control. e.g. "Operational_Security_10"
+   * The ID of the control. e.g. "Operational_Security_10"
    */
   @visibility("read")
   controlId?: string;
@@ -1339,13 +1339,13 @@ model Responsibility {
  */
 model ResponsibilityResource {
   /**
-   * The Id of the resource.
+   * The ID of the resource.
    */
   @visibility("read")
   resourceId?: string;
 
   /**
-   * Account Id. For example - AWS account Id.
+   * Account Id. For example - AWS account ID.
    */
   @visibility("read")
   accountId?: string;
@@ -1386,7 +1386,7 @@ model ResponsibilityResource {
  */
 model Recommendation {
   /**
-   * The Id of the recommendation.
+   * The ID of the recommendation.
    */
   @visibility("read")
   recommendationId?: string;
@@ -1481,11 +1481,11 @@ model DownloadResponse {
 }
 
 /**
- * Resource Id.
+ * Resource ID.
  */
 model ResourceItem {
   /**
-   * The subscription Id of this resource.
+   * The subscription ID of this resource.
    */
   @visibility("read")
   subscriptionId?: string;
@@ -1503,7 +1503,7 @@ model ResourceItem {
   resourceType?: string;
 
   /**
-   * The resource Id - e.g. "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1".
+   * The resource ID - e.g. "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.Compute/virtualMachines/vm1".
    */
   @visibility("read")
   resourceId?: string;
@@ -1556,7 +1556,7 @@ model ComplianceReportItem {
   responsibilityDescription?: string;
 
   /**
-   * The Id of the resource.
+   * The ID of the resource.
    */
   @visibility("read")
   resourceId?: string;

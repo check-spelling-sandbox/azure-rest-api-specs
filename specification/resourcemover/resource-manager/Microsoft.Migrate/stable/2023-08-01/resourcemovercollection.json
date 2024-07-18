@@ -1281,16 +1281,16 @@
           "$ref": "#/definitions/ProvisioningState"
         },
         "sourceId": {
-          "description": "Gets or sets the Source ARM Id of the resource.",
+          "description": "Gets or sets the Source ARM ID of the resource.",
           "type": "string"
         },
         "targetId": {
-          "description": "Gets or sets the Target ARM Id of the resource.",
+          "description": "Gets or sets the Target ARM ID of the resource.",
           "type": "string",
           "readOnly": true
         },
         "existingTargetId": {
-          "description": "Gets or sets the existing target ARM Id of the resource.",
+          "description": "Gets or sets the existing target ARM ID of the resource.",
           "type": "string"
         },
         "resourceSettings": {
@@ -1350,7 +1350,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Fully qualified resource Id for the resource."
+          "description": "Fully qualified resource ID for the resource."
         },
         "name": {
           "readOnly": true,
@@ -1452,7 +1452,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Fully qualified resource Id for the resource."
+          "description": "Fully qualified resource ID for the resource."
         },
         "name": {
           "readOnly": true,
@@ -1530,7 +1530,7 @@
           "type": "boolean"
         },
         "moveResources": {
-          "description": "Gets or sets the list of resource Id's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
+          "description": "Gets or sets the list of resource ID's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
           "type": "array",
           "items": {
             "type": "string"
@@ -1553,7 +1553,7 @@
           "type": "boolean"
         },
         "moveResources": {
-          "description": "Gets or sets the list of resource Id's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
+          "description": "Gets or sets the list of resource ID's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
           "type": "array",
           "items": {
             "type": "string"
@@ -1576,7 +1576,7 @@
           "type": "boolean"
         },
         "moveResources": {
-          "description": "Gets or sets the list of resource Id's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
+          "description": "Gets or sets the list of resource ID's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
           "type": "array",
           "items": {
             "type": "string"
@@ -1599,7 +1599,7 @@
           "type": "boolean"
         },
         "moveResources": {
-          "description": "Gets or sets the list of resource Id's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
+          "description": "Gets or sets the list of resource ID's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
           "type": "array",
           "items": {
             "type": "string"
@@ -1619,7 +1619,7 @@
           "type": "boolean"
         },
         "moveResources": {
-          "description": "Gets or sets the list of resource Id's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
+          "description": "Gets or sets the list of resource ID's, by default it accepts move resource id's unless the input type is switched via moveResourceInputType property.",
           "type": "array",
           "items": {
             "type": "string"
@@ -2541,7 +2541,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },

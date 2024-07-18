@@ -893,7 +893,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "type": {
           "type": "string",

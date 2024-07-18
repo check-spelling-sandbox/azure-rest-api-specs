@@ -335,7 +335,7 @@
               }
             ]
           },
-          "description": "Storage Task Arm Id."
+          "description": "Storage Task Arm ID."
         },
         "taskVersion": {
           "readOnly": true,

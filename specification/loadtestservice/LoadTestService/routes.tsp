@@ -37,11 +37,11 @@ interface LoadTestAdministration {
   getTest is StandardResourceOperations.ResourceRead<Test>;
 
   @summary("""
-    Get all load tests by the fully qualified resource Id e.g
+    Get all load tests by the fully qualified resource ID e.g
     subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}.
     """)
   @doc("""
-    Get all load tests by the fully qualified resource Id e.g
+    Get all load tests by the fully qualified resource ID e.g
     subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}.
     """)
   listTests is StandardResourceOperations.ResourceList<
@@ -108,7 +108,7 @@ interface LoadTestAdministration {
 
   #suppress "@azure-tools/typespec-azure-core/use-standard-operations"
   @summary("Add an app component to a test.")
-  @doc("Add an app component to a test by providing the resource Id, name and type.")
+  @doc("Add an app component to a test by providing the resource ID, name and type.")
   @route("/tests/{testId}/app-components")
   @patch
   createOrUpdateAppComponents is Azure.Core.Foundations.Operation<
@@ -339,7 +339,7 @@ interface LoadTestRun {
 
   #suppress "@azure-tools/typespec-azure-core/use-standard-operations"
   @summary("Add an app component to a test run.")
-  @doc("Add an app component to a test run by providing the resource Id, name and type.")
+  @doc("Add an app component to a test run by providing the resource ID, name and type.")
   @route("/test-runs/{testRunId}/app-components")
   @patch
   createOrUpdateAppComponents is Azure.Core.Foundations.Operation<

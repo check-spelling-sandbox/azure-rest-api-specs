@@ -54,7 +54,7 @@ model OfferDetails {
   @doc("Offer Id for the marketplace offer")
   offerId: string;
 
-  @doc("Plan Id for the marketplace offer")
+  @doc("Plan ID for the marketplace offer")
   planId: string;
 
   @doc("Plan Name for the marketplace offer")

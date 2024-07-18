@@ -3511,7 +3511,7 @@
       "properties": {
         "osId": {
           "type": "string",
-          "description": "The Id of an Available OS of a Test Base Account."
+          "description": "The ID of an Available OS of a Test Base Account."
         },
         "osName": {
           "type": "string",
@@ -4640,11 +4640,11 @@
       "properties": {
         "testSummaryId": {
           "type": "string",
-          "description": "The Id of the current Test Summary."
+          "description": "The ID of the current Test Summary."
         },
         "packageId": {
           "type": "string",
-          "description": "The Azure resource Id of package."
+          "description": "The Azure resource ID of package."
         },
         "applicationName": {
           "type": "string",
@@ -4875,7 +4875,7 @@
         },
         "packageId": {
           "type": "string",
-          "description": "Resource Id of the package."
+          "description": "Resource ID of the package."
         },
         "applicationName": {
           "type": "string",

@@ -1879,7 +1879,7 @@
           "format": "int32",
           "minimum": 501,
           "maximum": 4094,
-          "description": "Vlan Id.Example : 501"
+          "description": "Vlan ID.Example : 501"
         },
         "peerASN": {
           "type": "integer",

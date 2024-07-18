@@ -4413,7 +4413,7 @@
       "type": "object",
       "properties": {
         "subscriptionId": {
-          "description": "Arc resource subscription Id",
+          "description": "Arc resource subscription ID",
           "type": "string"
         },
         "resourceGroupName": {
@@ -5192,7 +5192,7 @@
       "type": "object",
       "properties": {
         "clientSecretStoreId": {
-          "description": "The Key Vault ARM Id for client secrets",
+          "description": "The Key Vault ARM ID for client secrets",
           "type": "string"
         },
         "clientSecretStoreUrl": {
@@ -5243,7 +5243,7 @@
           "readOnly": true
         },
         "clientSecretStoreId": {
-          "description": "The Key Vault ARM Id for client secrets",
+          "description": "The Key Vault ARM ID for client secrets",
           "type": "string"
         },
         "clientSecretStoreUrl": {
@@ -8271,7 +8271,7 @@
           }
         },
         "principalId": {
-          "description": "Service Principal Id backing the Msi",
+          "description": "Service Principal ID backing the Msi",
           "type": "string",
           "readOnly": true
         },

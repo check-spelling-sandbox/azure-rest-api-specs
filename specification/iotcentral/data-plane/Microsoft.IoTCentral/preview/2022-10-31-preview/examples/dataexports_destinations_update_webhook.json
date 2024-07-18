@@ -1,6 +1,6 @@
 {
   "title": "Update data export Webhook destination",
-  "description": "Updatea Webhook destination with an Id.",
+  "description": "Updatea Webhook destination with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

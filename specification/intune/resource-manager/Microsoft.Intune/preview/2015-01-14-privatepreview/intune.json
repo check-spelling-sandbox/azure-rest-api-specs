@@ -1080,7 +1080,7 @@
           {
             "name": "groupId",
             "in": "path",
-            "description": "group Id",
+            "description": "group ID",
             "required": true,
             "type": "string"
           },
@@ -1185,7 +1185,7 @@
           {
             "name": "groupId",
             "in": "path",
-            "description": "group Id",
+            "description": "group ID",
             "required": true,
             "type": "string"
           },
@@ -1715,7 +1715,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,

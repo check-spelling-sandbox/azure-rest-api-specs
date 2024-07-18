@@ -3617,7 +3617,7 @@
       "properties": {
         "storageAccountResourceId": {
           "type": "string",
-          "description": "Storage Account Resource Id"
+          "description": "Storage Account Resource ID"
         },
         "azureFileShareName": {
           "type": "string",
@@ -3683,7 +3683,7 @@
         },
         "serverResourceId": {
           "$ref": "#/definitions/ResourceId",
-          "description": "Server Resource Id."
+          "description": "Server Resource ID."
         },
         "offlineDataTransfer": {
           "$ref": "#/definitions/FeatureStatus",
@@ -3791,7 +3791,7 @@
         },
         "applicationId": {
           "type": "string",
-          "description": "Server ServicePrincipal Id"
+          "description": "Server ServicePrincipal ID"
         },
         "identity": {
           "type": "boolean",
@@ -4637,7 +4637,7 @@
       "properties": {
         "storageAccountResourceId": {
           "type": "string",
-          "description": "Storage Account Resource Id"
+          "description": "Storage Account Resource ID"
         },
         "azureFileShareName": {
           "type": "string",
@@ -4747,7 +4747,7 @@
         },
         "serverResourceId": {
           "$ref": "#/definitions/ResourceId",
-          "description": "Server Resource Id."
+          "description": "Server Resource ID."
         },
         "provisioningState": {
           "readOnly": true,
@@ -5305,7 +5305,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Operation resource Id"
+          "description": "Operation resource ID"
         },
         "name": {
           "readOnly": true,

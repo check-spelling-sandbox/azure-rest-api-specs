@@ -102,7 +102,7 @@
         },
         "id": {
           "type": "string",
-          "description": "Fully qualified ARM resource Id"
+          "description": "Fully qualified ARM resource ID"
         }
       },
       "description": "Quota usage for flexible servers"

@@ -27461,7 +27461,7 @@
           "properties": {
             "identifier": {
               "format": "int32",
-              "description": "ARM Identifier for deployment.",
+              "description": "ARM IDentifier for deployment.",
               "type": "integer",
               "readOnly": true
             },
@@ -28284,11 +28284,11 @@
         },
         "clientRequestId": {
           "type": "string",
-          "description": "Gets the client request Id."
+          "description": "Gets the client request ID."
         },
         "serviceRequestId": {
           "type": "string",
-          "description": "Gets the service request Id."
+          "description": "Gets the service request ID."
         },
         "error": {
           "$ref": "#/definitions/ErrorResponse",

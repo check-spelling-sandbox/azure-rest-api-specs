@@ -65,7 +65,7 @@ interface Quotas {
   @doc("Get the available quota for a quota bucket per region per subscription.")
   get is ArmResourceRead<QuotaResource>;
 
-  @doc("List quotas for a given subscription Id.")
+  @doc("List quotas for a given subscription ID.")
   list is ArmListBySubscription<QuotaResource>;
 
   @doc("Check Quota Availability on quota bucket per region per subscription.")

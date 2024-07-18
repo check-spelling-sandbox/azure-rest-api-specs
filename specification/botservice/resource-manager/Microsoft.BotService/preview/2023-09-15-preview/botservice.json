@@ -1855,7 +1855,7 @@
         },
         "msaAppMSIResourceId": {
           "type": "string",
-          "description": "Microsoft App Managed Identity Resource Id for the bot"
+          "description": "Microsoft App Managed Identity Resource ID for the bot"
         },
         "configuredChannels": {
           "type": "array",
@@ -3312,7 +3312,7 @@
         },
         "serviceProviderId": {
           "type": "string",
-          "description": "Service Provider Id associated with the Connection Setting"
+          "description": "Service Provider ID associated with the Connection Setting"
         },
         "serviceProviderDisplayName": {
           "type": "string",

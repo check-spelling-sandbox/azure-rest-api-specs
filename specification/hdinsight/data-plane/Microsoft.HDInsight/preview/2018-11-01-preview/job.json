@@ -681,7 +681,7 @@
         },
         "id": {
           "type": "string",
-          "description": "The Id of the job."
+          "description": "The ID of the job."
         }
       }
     },
@@ -690,7 +690,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "The Id of the created job."
+          "description": "The ID of the created job."
         }
       }
     },

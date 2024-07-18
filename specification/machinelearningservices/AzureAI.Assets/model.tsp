@@ -17,7 +17,7 @@ namespace Microsoft.MachineLearningServices;
 
 @doc("AssetVersion Definition")
 model AssetVersion {
-  @doc("Fully qualified resource Id: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.")
+  @doc("Fully qualified resource ID: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.")
   @visibility("read")
   id: string;
 

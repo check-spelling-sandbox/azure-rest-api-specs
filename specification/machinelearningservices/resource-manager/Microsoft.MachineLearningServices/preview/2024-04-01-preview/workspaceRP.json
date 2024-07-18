@@ -4792,7 +4792,7 @@
           "type": "string"
         },
         "keyVaultArmId": {
-          "description": "KeyVault Arm Id that contains the data encryption key",
+          "description": "KeyVault Arm ID that contains the data encryption key",
           "minLength": 1,
           "pattern": "[a-zA-Z0-9_]",
           "type": "string"

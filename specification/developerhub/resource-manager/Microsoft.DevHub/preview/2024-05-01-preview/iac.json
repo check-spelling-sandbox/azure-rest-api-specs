@@ -603,7 +603,7 @@
         },
         "sourceResourceId": {
           "type": "string",
-          "title": "The source resource Id of the template.",
+          "title": "The source resource ID of the template.",
           "description": "the source store of the template"
         },
         "instanceStage": {

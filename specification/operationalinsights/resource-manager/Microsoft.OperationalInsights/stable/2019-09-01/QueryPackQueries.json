@@ -333,7 +333,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "name": {
           "type": "string",
@@ -400,7 +400,7 @@
         "author": {
           "type": "string",
           "readOnly": true,
-          "description": "Object Id of user creating the query."
+          "description": "Object ID of user creating the query."
         },
         "description": {
           "type": "string",

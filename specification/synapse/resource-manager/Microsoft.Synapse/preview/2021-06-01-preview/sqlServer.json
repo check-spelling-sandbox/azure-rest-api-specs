@@ -1423,7 +1423,7 @@
         },
         "storageAccountSubscriptionId": {
           "format": "uuid",
-          "description": "Specifies the blob storage subscription Id.",
+          "description": "Specifies the blob storage subscription ID.",
           "type": "string",
           "x-ms-mutability": [
             "create",
@@ -1533,7 +1533,7 @@
         },
         "storageAccountSubscriptionId": {
           "format": "uuid",
-          "description": "Specifies the blob storage subscription Id.",
+          "description": "Specifies the blob storage subscription ID.",
           "type": "string"
         },
         "isStorageSecondaryKeyInUse": {

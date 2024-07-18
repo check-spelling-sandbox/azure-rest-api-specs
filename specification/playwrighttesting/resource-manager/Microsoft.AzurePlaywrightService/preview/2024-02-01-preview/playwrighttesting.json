@@ -179,7 +179,7 @@
         "tags": [
           "Quotas"
         ],
-        "description": "List quotas for a given subscription Id.",
+        "description": "List quotas for a given subscription ID.",
         "parameters": [
           {
             "$ref": "../../../../../common-types/resource-management/v5/types.json#/parameters/ApiVersionParameter"

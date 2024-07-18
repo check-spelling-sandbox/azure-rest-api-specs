@@ -236,7 +236,7 @@ model CloudProperties {
   @pattern("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
   uuid?: string;
 
-  /** ARM Id of the vmmServer resource in which this resource resides. */
+  /** ARM ID of the vmmServer resource in which this resource resides. */
   vmmServerId?: VmmServerId;
 
   /** Name of the cloud in VmmServer. */
@@ -300,7 +300,7 @@ model VirtualNetworkProperties {
   @pattern("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
   uuid?: string;
 
-  /** ARM Id of the vmmServer resource in which this resource resides. */
+  /** ARM ID of the vmmServer resource in which this resource resides. */
   vmmServerId?: VmmServerId;
 
   /** Name of the virtual network in vmmServer. */
@@ -321,7 +321,7 @@ model VirtualMachineTemplateProperties {
   @pattern("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
   uuid?: string;
 
-  /** ARM Id of the vmmServer resource in which this resource resides. */
+  /** ARM ID of the vmmServer resource in which this resource resides. */
   vmmServerId?: VmmServerId;
 
   /** Gets the type of the os. */
@@ -410,7 +410,7 @@ model NetworkInterface {
   /** Gets or sets the nic MAC address. */
   macAddress?: string;
 
-  /** Gets or sets the ARM Id of the Microsoft.ScVmm/virtualNetwork resource to connect the nic. */
+  /** Gets or sets the ARM ID of the Microsoft.ScVmm/virtualNetwork resource to connect the nic. */
   virtualNetworkId?: VirtualNetworkId;
 
   /** Gets the name of the virtual network in vmmServer that the nic is connected to. */
@@ -505,7 +505,7 @@ model AvailabilitySetProperties {
   @minLength(1)
   availabilitySetName?: string;
 
-  /** ARM Id of the vmmServer resource in which this resource resides. */
+  /** ARM ID of the vmmServer resource in which this resource resides. */
   vmmServerId?: VmmServerId;
 
   /** Provisioning state of the resource. */
@@ -608,7 +608,7 @@ model VirtualMachineInstanceUpdateProperties
 
 /** Availability Set model */
 model AvailabilitySetListItem {
-  /** Gets the ARM Id of the microsoft.scvmm/availabilitySets resource. */
+  /** Gets the ARM ID of the microsoft.scvmm/availabilitySets resource. */
   id?: Azure.Core.armResourceIdentifier<[
     {
       type: "Microsoft.ScVmm/availabilitySets";
@@ -709,11 +709,11 @@ model InfrastructureProfile {
   @visibility("read", "create")
   inventoryItemId?: string;
 
-  /** ARM Id of the vmmServer resource in which this resource resides. */
+  /** ARM ID of the vmmServer resource in which this resource resides. */
   @visibility("read", "create")
   vmmServerId?: VmmServerId;
 
-  /** ARM Id of the cloud resource to use for deploying the vm. */
+  /** ARM ID of the cloud resource to use for deploying the vm. */
   @visibility("read", "create")
   cloudId?: Azure.Core.armResourceIdentifier<[
     {
@@ -721,7 +721,7 @@ model InfrastructureProfile {
     }
   ]>;
 
-  /** ARM Id of the template resource to use for deploying the vm. */
+  /** ARM ID of the template resource to use for deploying the vm. */
   @visibility("read", "create")
   templateId?: Azure.Core.armResourceIdentifier<[
     {

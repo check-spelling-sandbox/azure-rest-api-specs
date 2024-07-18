@@ -1,6 +1,6 @@
 {
   "title": "Update a relationship between device",
-  "description": "Update a relationship with an Id.",
+  "description": "Update a relationship with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

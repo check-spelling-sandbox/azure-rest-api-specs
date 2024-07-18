@@ -2039,7 +2039,7 @@
     },
     "AuthorizationProfile": {
       "type": "object",
-      "description": "Authorization profile with details of AAD user Ids and group Ids authorized for data plane access.",
+      "description": "Authorization profile with details of AAD user Ids and group IDs authorized for data plane access.",
       "properties": {
         "userIds": {
           "type": "array",
@@ -2050,7 +2050,7 @@
         },
         "groupIds": {
           "type": "array",
-          "description": "AAD group Ids authorized for data plane access.",
+          "description": "AAD group IDs authorized for data plane access.",
           "items": {
             "type": "string"
           }

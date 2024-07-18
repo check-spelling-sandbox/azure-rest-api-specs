@@ -1252,7 +1252,7 @@
           ]
         },
         "targetServerResourceId": {
-          "description": "The resource Id of the target server that owns the database",
+          "description": "The resource ID of the target server that owns the database",
           "type": "string",
           "x-ms-mutability": [
             "create"

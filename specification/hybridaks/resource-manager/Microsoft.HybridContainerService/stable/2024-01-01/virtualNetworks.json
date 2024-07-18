@@ -474,7 +474,7 @@
             },
             "name": {
               "type": "string",
-              "description": "ARM Id of the extended location."
+              "description": "ARM ID of the extended location."
             }
           }
         }

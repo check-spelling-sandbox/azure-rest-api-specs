@@ -708,7 +708,7 @@
       "in": "query",
       "required": false,
       "type": "string",
-      "description": "Azure Resource Id that will fetch all linked workbooks.",
+      "description": "Azure Resource ID that will fetch all linked workbooks.",
       "x-ms-parameter-location": "method"
     },
     "CanFetchWorkbookContentParameter": {

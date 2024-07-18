@@ -703,7 +703,7 @@
         },
         "ddosProtectionPlanId": {
           "type": "string",
-          "description": " DDoS protection plan Resource Id of a if IP address is protected through a plan."
+          "description": " DDoS protection plan Resource ID of a if IP address is protected through a plan."
         }
       },
       "description": "Response for GetPublicIpAddressDdosProtectionStatusOperation API service call."

@@ -2750,11 +2750,11 @@
       "properties": {
         "communityGalleryImageId": {
           "type": "string",
-          "description": "The resource Id of the source Community Gallery Image.  Only required when using Community Gallery Image as a source."
+          "description": "The resource ID of the source Community Gallery Image.  Only required when using Community Gallery Image as a source."
         },
         "virtualMachineId": {
           "type": "string",
-          "description": "The resource Id of the source virtual machine.  Only required when capturing a virtual machine to source this Gallery Image Version."
+          "description": "The resource ID of the source virtual machine.  Only required when capturing a virtual machine to source this Gallery Image Version."
         }
       },
       "allOf": [
@@ -3081,7 +3081,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,

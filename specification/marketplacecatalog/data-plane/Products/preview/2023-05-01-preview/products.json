@@ -944,7 +944,7 @@
         },
         "uniquePlanId": {
           "type": "string",
-          "description": "Unique plan Id which is prefixed by combining uniqueProductId and PlanId with no separator in between"
+          "description": "Unique plan ID which is prefixed by combining uniqueProductId and PlanId with no separator in between"
         },
         "displayName": {
           "type": "string",
@@ -1360,7 +1360,7 @@
         },
         "uniquePlanId": {
           "type": "string",
-          "description": "Unique plan Id which is prefixed by combining uniqueProductId and PlanId with no separator in between"
+          "description": "Unique plan ID which is prefixed by combining uniqueProductId and PlanId with no separator in between"
         },
         "displayName": {
           "type": "string",

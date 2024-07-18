@@ -1300,7 +1300,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -1340,7 +1340,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -1379,7 +1379,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id for which the alert details needs to be queried.",
+            "description": "The server ID for which the alert details needs to be queried.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -1468,7 +1468,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -2844,7 +2844,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -2884,7 +2884,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -2923,7 +2923,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id for which the alert details needs to be queried.",
+            "description": "The server ID for which the alert details needs to be queried.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -3005,7 +3005,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -3057,7 +3057,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -3102,7 +3102,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -3141,7 +3141,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -3186,7 +3186,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string",
             "format": "uuid"
@@ -3354,7 +3354,7 @@
           {
             "name": "serviceMemberId",
             "in": "path",
-            "description": "The server Id.",
+            "description": "The server ID.",
             "required": true,
             "type": "string"
           },
@@ -3917,11 +3917,11 @@
       "type": "object",
       "properties": {
         "tenantId": {
-          "description": "The tenant Id.",
+          "description": "The tenant ID.",
           "type": "string"
         },
         "machineId": {
-          "description": "The machine Id.",
+          "description": "The machine ID.",
           "type": "string"
         },
         "credential": {
@@ -4055,17 +4055,17 @@
           }
         },
         "tenantId": {
-          "description": "The tenant Id.",
+          "description": "The tenant ID.",
           "type": "string",
           "format": "uuid"
         },
         "serviceId": {
-          "description": "The service Id.",
+          "description": "The service ID.",
           "type": "string",
           "format": "uuid"
         },
         "serviceMemberId": {
-          "description": "The server Id.",
+          "description": "The server ID.",
           "type": "string",
           "format": "uuid"
         }
@@ -4100,7 +4100,7 @@
           "type": "boolean"
         },
         "serviceMemberId": {
-          "description": "The server Id of the alert.",
+          "description": "The server ID of the alert.",
           "type": "string"
         },
         "createdDate": {
@@ -4516,7 +4516,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The error Id.",
+          "description": "The error ID.",
           "type": "string"
         },
         "runStepResultId": {
@@ -4602,7 +4602,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The error Id.",
+          "description": "The error ID.",
           "type": "string"
         },
         "runStepResultId": {
@@ -4884,7 +4884,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The error Id.",
+          "description": "The error ID.",
           "type": "string"
         },
         "runStepResultId": {
@@ -4921,7 +4921,7 @@
           "type": "integer"
         },
         "csObjectId": {
-          "description": "The cloud object Id.",
+          "description": "The cloud object ID.",
           "type": "string"
         },
         "dn": {
@@ -4953,7 +4953,7 @@
           "type": "boolean"
         },
         "objectIdConflict": {
-          "description": "The object Id with which there was an attribute conflict.",
+          "description": "The object ID with which there was an attribute conflict.",
           "type": "string"
         },
         "samAccountName": {
@@ -5099,7 +5099,7 @@
           "format": "uuid"
         },
         "serviceMemberId": {
-          "description": "The server Id for whom the export status is being reported.",
+          "description": "The server ID for whom the export status is being reported.",
           "type": "string",
           "format": "uuid"
         },
@@ -5303,7 +5303,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The error Id.",
+          "description": "The error ID.",
           "type": "string"
         },
         "runStepResultId": {
@@ -5368,7 +5368,7 @@
           "$ref": "#/definitions/RuleErrorInfo"
         },
         "csObjectId": {
-          "description": "The object Id.",
+          "description": "The object ID.",
           "type": "string"
         },
         "dn": {
@@ -5611,7 +5611,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The error Id.",
+          "description": "The error ID.",
           "type": "string"
         },
         "incomingObjectDisplayName": {
@@ -5649,7 +5649,7 @@
           "format": "date-time"
         },
         "csObjectId": {
-          "description": " the cs object Id.",
+          "description": " the cs object ID.",
           "type": "string"
         },
         "dn": {
@@ -5682,12 +5682,12 @@
           "type": "string"
         },
         "serviceId": {
-          "description": "The service Id.",
+          "description": "The service ID.",
           "type": "string",
           "format": "uuid"
         },
         "serviceMemberId": {
-          "description": "The server Id.",
+          "description": "The server ID.",
           "type": "string",
           "format": "uuid"
         },
@@ -6339,7 +6339,7 @@
           "type": "string"
         },
         "csObjectId": {
-          "description": "The object Id.",
+          "description": "The object ID.",
           "type": "string"
         },
         "dn": {
@@ -6369,7 +6369,7 @@
           "type": "integer"
         },
         "partitionId": {
-          "description": "The Id of the partition that a current run step operation is executing.",
+          "description": "The ID of the partition that a current run step operation is executing.",
           "type": "string"
         },
         "operationType": {
@@ -6775,12 +6775,12 @@
       "type": "object",
       "properties": {
         "serviceId": {
-          "description": "The service Id.",
+          "description": "The service ID.",
           "type": "string",
           "format": "uuid"
         },
         "serviceMemberId": {
-          "description": "The server Id.",
+          "description": "The server ID.",
           "type": "string",
           "format": "uuid"
         },
@@ -6801,7 +6801,7 @@
       "properties": {
         "tenantId": {
           "type": "string",
-          "description": "The Id of the tenant."
+          "description": "The ID of the tenant."
         },
         "aadLicense": {
           "type": "string",

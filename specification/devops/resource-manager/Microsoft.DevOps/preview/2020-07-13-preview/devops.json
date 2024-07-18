@@ -850,7 +850,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "type": {
           "type": "string",

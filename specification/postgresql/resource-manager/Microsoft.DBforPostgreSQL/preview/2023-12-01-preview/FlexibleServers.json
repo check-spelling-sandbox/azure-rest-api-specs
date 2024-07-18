@@ -932,7 +932,7 @@
         },
         "primaryUserAssignedIdentityId": {
           "type": "string",
-          "description": "Resource Id for the User assigned identity to be used for data encryption of the primary server."
+          "description": "Resource ID for the User assigned identity to be used for data encryption of the primary server."
         },
         "geoBackupKeyURI": {
           "type": "string",
@@ -940,7 +940,7 @@
         },
         "geoBackupUserAssignedIdentityId": {
           "type": "string",
-          "description": "Resource Id for the User assigned identity to be used for data encryption for geo-backup of server."
+          "description": "Resource ID for the User assigned identity to be used for data encryption for geo-backup of server."
         },
         "type": {
           "type": "string",

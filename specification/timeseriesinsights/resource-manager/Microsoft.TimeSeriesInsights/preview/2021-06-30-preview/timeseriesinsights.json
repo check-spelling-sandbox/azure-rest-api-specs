@@ -1248,7 +1248,7 @@
         },
         "resourceIdDimensionNameOverride": {
           "type": "string",
-          "description": "Account Resource Id."
+          "description": "Account Resource ID."
         }
       }
     },
@@ -1297,7 +1297,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,

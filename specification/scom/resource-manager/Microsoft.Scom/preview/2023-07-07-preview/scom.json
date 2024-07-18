@@ -888,7 +888,7 @@
           "readOnly": true
         },
         "vmResId": {
-          "description": "Azure VM Resource Id of the Management server.",
+          "description": "Azure VM Resource ID of the Management server.",
           "type": "string",
           "readOnly": true
         },
@@ -973,7 +973,7 @@
       "type": "object",
       "properties": {
         "databaseInstanceId": {
-          "description": "Resource Id of existing database instance",
+          "description": "Resource ID of existing database instance",
           "type": "string"
         },
         "databaseFqdn": {
@@ -987,12 +987,12 @@
           "readOnly": true
         },
         "operationalDatabaseId": {
-          "description": "Resource Id of operational database on database instance",
+          "description": "Resource ID of operational database on database instance",
           "type": "string",
           "readOnly": true
         },
         "dwDatabaseId": {
-          "description": "Resource Id of warehouse database on database instance",
+          "description": "Resource ID of warehouse database on database instance",
           "type": "string",
           "readOnly": true
         }

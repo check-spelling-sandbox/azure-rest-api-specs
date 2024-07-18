@@ -1850,7 +1850,7 @@
       "type": "object",
       "properties": {
         "repositoryId": {
-          "description": "Arm Id for the manager resource to which the data source is associated. This is optional.",
+          "description": "Arm ID for the manager resource to which the data source is associated. This is optional.",
           "type": "string"
         },
         "state": {
@@ -2515,7 +2515,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The Resource Id.",
+          "description": "The Resource ID.",
           "type": "string",
           "readOnly": true
         },

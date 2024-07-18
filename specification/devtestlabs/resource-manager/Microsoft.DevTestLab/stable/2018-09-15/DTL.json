@@ -8297,7 +8297,7 @@
         "tags": [
           "GlobalSchedules"
         ],
-        "description": "Updates a schedule's target resource Id. This operation can take a while to complete.",
+        "description": "Updates a schedule's target resource ID. This operation can take a while to complete.",
         "operationId": "GlobalSchedules_Retarget",
         "parameters": [
           {
@@ -11530,11 +11530,11 @@
       "type": "object",
       "properties": {
         "currentResourceId": {
-          "description": "The resource Id of the virtual machine on which the schedule operates",
+          "description": "The resource ID of the virtual machine on which the schedule operates",
           "type": "string"
         },
         "targetResourceId": {
-          "description": "The resource Id of the virtual machine that the schedule should be retargeted to",
+          "description": "The resource ID of the virtual machine that the schedule should be retargeted to",
           "type": "string"
         }
       }
@@ -12207,7 +12207,7 @@
           "type": "string"
         },
         "objectId": {
-          "description": "Set to the object Id of the client JWT making the request. Not all users have object Id. For CSP (reseller) scenarios for example, object Id is not available.",
+          "description": "Set to the object ID of the client JWT making the request. Not all users have object ID. For CSP (reseller) scenarios for example, object ID is not available.",
           "type": "string"
         },
         "appId": {

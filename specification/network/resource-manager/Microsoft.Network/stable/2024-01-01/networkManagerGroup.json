@@ -511,7 +511,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "Resource Id."
+          "description": "Resource ID."
         },
         "region": {
           "readOnly": true,

@@ -420,7 +420,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "type": {
           "type": "string",
@@ -752,7 +752,7 @@
       ],
       "properties": {
         "actionGroupIds": {
-          "description": "List of action group Ids to add to alert processing rule.",
+          "description": "List of action group IDs to add to alert processing rule.",
           "type": "array",
           "items": {
             "type": "string"

@@ -229,7 +229,7 @@ model NewRelicSingleSignOnProperties{
   @doc("Single sign-on state")
   singleSignOnState?: SingleSignOnStates;
 
-  @doc("The Id of the Enterprise App used for Single sign-on.")
+  @doc("The ID of the Enterprise App used for Single sign-on.")
   enterpriseAppId?: string;
 
   @doc("The login URL specific to this NewRelic Organization")
@@ -541,7 +541,7 @@ model SwitchBillingParameter {
 
 @doc("Request of a switch billing Operation.")
 model SwitchBillingRequest {
-  @doc("Azure resource Id")
+  @doc("Azure resource ID")
   azureResourceId?: string;
 
   @doc("Organization id")

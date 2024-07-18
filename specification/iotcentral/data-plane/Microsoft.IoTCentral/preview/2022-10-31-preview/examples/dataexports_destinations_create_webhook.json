@@ -1,6 +1,6 @@
 {
   "title": "Create data export Webhook destination",
-  "description": "Create a Webhook destination with an Id.",
+  "description": "Create a Webhook destination with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

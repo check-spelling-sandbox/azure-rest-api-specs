@@ -1967,7 +1967,7 @@
           "type": "string"
         },
         "planId": {
-          "description": "Offer Plan Id",
+          "description": "Offer Plan ID",
           "maxLength": 200,
           "type": "string"
         },

@@ -5448,7 +5448,7 @@
       "properties": {
         "planId": {
           "type": "string",
-          "description": "Resource Id of an associated Plan"
+          "description": "Resource ID of an associated Plan"
         },
         "encryption": {
           "$ref": "#/definitions/Encryption",
@@ -5779,7 +5779,7 @@
       "properties": {
         "devCenterId": {
           "type": "string",
-          "description": "Resource Id of an associated DevCenter"
+          "description": "Resource ID of an associated DevCenter"
         },
         "description": {
           "type": "string",

@@ -342,7 +342,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "Resource Id."
+          "description": "Resource ID."
         },
         "resourceType": {
           "type": "string",
@@ -356,7 +356,7 @@
       "properties": {
         "networkGroupId": {
           "type": "string",
-          "description": "Network group Id."
+          "description": "Network group ID."
         },
         "useHubGateway": {
           "type": "string",

@@ -4350,7 +4350,7 @@
         "vpnConnectionId": {
           "type": "string",
           "readOnly": true,
-          "description": "The vpn client Id."
+          "description": "The vpn client ID."
         },
         "vpnConnectionDuration": {
           "type": "integer",

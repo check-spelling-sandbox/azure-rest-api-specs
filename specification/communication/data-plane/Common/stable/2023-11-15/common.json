@@ -124,7 +124,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "The Id of the communication user."
+          "description": "The ID of the communication user."
         }
       }
     },
@@ -150,7 +150,7 @@
       "properties": {
         "userId": {
           "type": "string",
-          "description": "The Id of the Microsoft Teams user. If not anonymous, this is the AAD object Id of the user."
+          "description": "The ID of the Microsoft Teams user. If not anonymous, this is the AAD object ID of the user."
         },
         "isAnonymous": {
           "type": "boolean",
@@ -171,7 +171,7 @@
       "properties": {
         "appId": {
           "type": "string",
-          "description": "The Id of the Microsoft Teams application."
+          "description": "The ID of the Microsoft Teams application."
         },
         "cloud": {
           "$ref": "#/definitions/CommunicationCloudEnvironmentModel",

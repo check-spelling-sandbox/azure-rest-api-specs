@@ -1296,7 +1296,7 @@
           {
             "name": "ManagedIdentity",
             "value": "ManagedIdentity",
-            "description": "A Managed Identity. The createdByType/lastModifiedBy property will be the ManagedIdentity resource Id"
+            "description": "A Managed Identity. The createdByType/lastModifiedBy property will be the ManagedIdentity resource ID"
           },
           {
             "name": "Key",

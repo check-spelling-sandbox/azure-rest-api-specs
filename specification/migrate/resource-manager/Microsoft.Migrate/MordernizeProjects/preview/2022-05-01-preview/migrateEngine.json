@@ -3036,7 +3036,7 @@
           }
         },
         "containerRegistryId": {
-          "description": "Gets or sets the container registry ARM Id.",
+          "description": "Gets or sets the container registry ARM ID.",
           "type": "string",
           "readOnly": true
         },
@@ -3056,7 +3056,7 @@
           "readOnly": true
         },
         "secretStoreId": {
-          "description": "Gets or sets the secret store ARM Id.",
+          "description": "Gets or sets the secret store ARM ID.",
           "type": "string"
         },
         "customProperties": {
@@ -3666,7 +3666,7 @@
           "$ref": "#/definitions/IISWebApplication"
         },
         "containerName": {
-          "description": "Gets or sets the container Id.",
+          "description": "Gets or sets the container ID.",
           "type": "string"
         },
         "fileshareName": {
@@ -3680,7 +3680,7 @@
       "type": "object",
       "properties": {
         "tenantId": {
-          "description": "Gets or sets the tenant Id of the SPN with which MigrateAgent communicates to service.",
+          "description": "Gets or sets the tenant ID of the SPN with which MigrateAgent communicates to service.",
           "type": "string"
         },
         "applicationId": {
@@ -3688,7 +3688,7 @@
           "type": "string"
         },
         "objectId": {
-          "description": "Gets or sets the object Id of the SPN with which MigrateAgent communicates to service.",
+          "description": "Gets or sets the object ID of the SPN with which MigrateAgent communicates to service.",
           "type": "string"
         },
         "audience": {
@@ -3901,12 +3901,12 @@
       "type": "object",
       "properties": {
         "correlationId": {
-          "description": "Gets or sets the MigrateAgent correlation Id.",
+          "description": "Gets or sets the MigrateAgent correlation ID.",
           "type": "string",
           "readOnly": true
         },
         "machineId": {
-          "description": "Gets or sets the machine Id where MigrateAgent is running.",
+          "description": "Gets or sets the machine ID where MigrateAgent is running.",
           "type": "string"
         },
         "machineName": {
@@ -3987,15 +3987,15 @@
       "type": "object",
       "properties": {
         "storageAccountResourceId": {
-          "description": "Gets or sets the storage account resource Id.",
+          "description": "Gets or sets the storage account resource ID.",
           "type": "string"
         },
         "keyVaultResourceId": {
-          "description": "Gets or sets the key vault resource Id.",
+          "description": "Gets or sets the key vault resource ID.",
           "type": "string"
         },
         "migrationSolutionResourceId": {
-          "description": "Gets or sets the migration solution resource Id.",
+          "description": "Gets or sets the migration solution resource ID.",
           "type": "string"
         }
       }
@@ -4087,7 +4087,7 @@
           }
         },
         "serviceResourceId": {
-          "description": "Gets or sets the service resource Id.",
+          "description": "Gets or sets the service resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -4786,7 +4786,7 @@
           "readOnly": true
         },
         "objectId": {
-          "description": "Gets or sets the affected object Id.",
+          "description": "Gets or sets the affected object ID.",
           "type": "string",
           "readOnly": true
         },
@@ -5092,7 +5092,7 @@
           "$ref": "#/definitions/WorkloadInstanceModelProperties"
         },
         "correlationId": {
-          "description": "Gets or sets the workload deployment correlation Id.",
+          "description": "Gets or sets the workload deployment correlation ID.",
           "type": "string",
           "readOnly": true
         },

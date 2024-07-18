@@ -1287,7 +1287,7 @@
                 "properties": {
                   "id": {
                     "type": "string",
-                    "description": "ID - Resource Id of the network interface"
+                    "description": "ID - Resource ID of the network interface"
                   }
                 }
               },
@@ -1874,7 +1874,7 @@
           "readOnly": true
         },
         "id": {
-          "description": "The Id.",
+          "description": "The ID.",
           "type": "string",
           "readOnly": true
         },

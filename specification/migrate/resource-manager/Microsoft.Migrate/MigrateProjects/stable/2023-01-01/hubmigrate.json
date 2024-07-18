@@ -2894,7 +2894,7 @@
           "type": "string"
         },
         "clientRequestId": {
-          "description": "Gets or sets the client request Id of the payload for which the event is being reported.",
+          "description": "Gets or sets the client request ID of the payload for which the event is being reported.",
           "type": "string"
         }
       }

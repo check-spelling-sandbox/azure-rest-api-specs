@@ -429,7 +429,7 @@
             },
             "partnerNamespace": {
               "type": "string",
-              "description": "ARM Id of the Primary/Secondary eventhub namespace name, which is part of GEO DR pairing"
+              "description": "ARM ID of the Primary/Secondary eventhub namespace name, which is part of GEO DR pairing"
             },
             "alternateName": {
               "type": "string",

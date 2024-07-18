@@ -22,7 +22,7 @@
           "x-ms-client-name": "fromCommunicationIdentifier"
         },
         "serverCallId": {
-          "description": "The Id of the server call",
+          "description": "The ID of the server call",
           "type": "string"
         },
         "callerDisplayName": {
@@ -1431,7 +1431,7 @@
           "type": "string"
         },
         "messageId": {
-          "description": "The Id of the email been sent",
+          "description": "The ID of the email been sent",
           "type": "string"
         },
         "status": {
@@ -1501,7 +1501,7 @@
           "type": "string"
         },
         "messageId": {
-          "description": "The Id of the email that has been sent",
+          "description": "The ID of the email that has been sent",
           "type": "string"
         },
         "userActionTimeStamp": {

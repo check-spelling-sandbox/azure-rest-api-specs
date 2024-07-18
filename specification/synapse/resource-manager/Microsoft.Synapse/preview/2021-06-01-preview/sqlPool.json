@@ -2933,7 +2933,7 @@
           {
             "name": "scanId",
             "in": "path",
-            "description": "The vulnerability assessment scan Id of the scan to retrieve.",
+            "description": "The vulnerability assessment scan ID of the scan to retrieve.",
             "required": true,
             "type": "string"
           }
@@ -3001,7 +3001,7 @@
           {
             "name": "scanId",
             "in": "path",
-            "description": "The vulnerability assessment scan Id of the scan to retrieve.",
+            "description": "The vulnerability assessment scan ID of the scan to retrieve.",
             "required": true,
             "type": "string"
           }
@@ -4525,7 +4525,7 @@
           {
             "name": "scanId",
             "in": "path",
-            "description": "The vulnerability assessment scan Id of the scan to retrieve.",
+            "description": "The vulnerability assessment scan ID of the scan to retrieve.",
             "required": true,
             "type": "string"
           }
@@ -6231,7 +6231,7 @@
         },
         "storageAccountSubscriptionId": {
           "format": "uuid",
-          "description": "Specifies the blob storage subscription Id.",
+          "description": "Specifies the blob storage subscription ID.",
           "type": "string"
         },
         "isStorageSecondaryKeyInUse": {
@@ -7438,7 +7438,7 @@
         },
         "storageAccountSubscriptionId": {
           "format": "uuid",
-          "description": "Specifies the blob storage subscription Id.",
+          "description": "Specifies the blob storage subscription ID.",
           "type": "string"
         },
         "isStorageSecondaryKeyInUse": {

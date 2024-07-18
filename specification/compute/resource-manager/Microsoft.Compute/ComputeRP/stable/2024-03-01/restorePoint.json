@@ -573,7 +573,7 @@
         },
         "id": {
           "type": "string",
-          "description": "Resource Id of the source resource used to create this restore point collection"
+          "description": "Resource ID of the source resource used to create this restore point collection"
         }
       },
       "description": "The properties of the source resource that this restore point collection is created from."
@@ -838,7 +838,7 @@
         },
         "sourceDiskRestorePoint": {
           "$ref": "./computeRPCommon.json#/definitions/ApiEntityReference",
-          "description": "Resource Id of the source disk restore point."
+          "description": "Resource ID of the source disk restore point."
         }
       },
       "allOf": [
@@ -927,7 +927,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Disk restore point Id."
+          "description": "Disk restore point ID."
         },
         "replicationStatus": {
           "$ref": "#/definitions/DiskRestorePointReplicationStatus",
@@ -990,7 +990,7 @@
         },
         "sourceRestorePoint": {
           "$ref": "./computeRPCommon.json#/definitions/ApiEntityReference",
-          "description": "Resource Id of the source restore point from which a copy needs to be created."
+          "description": "Resource ID of the source restore point from which a copy needs to be created."
         },
         "instanceView": {
           "$ref": "#/definitions/RestorePointInstanceView",

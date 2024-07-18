@@ -2416,7 +2416,7 @@
           "readOnly": true
         },
         "managementResourceId": {
-          "description": "Management Resource Id.",
+          "description": "Management Resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -3269,7 +3269,7 @@
       "type": "object",
       "properties": {
         "orderItemIds": {
-          "description": "List of order item ARM Ids which are part of an order.",
+          "description": "List of order item ARM IDs which are part of an order.",
           "uniqueItems": false,
           "type": "array",
           "items": {
@@ -3859,7 +3859,7 @@
           "default": "None"
         },
         "principalId": {
-          "description": "Service Principal Id backing the Msi",
+          "description": "Service Principal ID backing the Msi",
           "type": "string",
           "readOnly": true
         },

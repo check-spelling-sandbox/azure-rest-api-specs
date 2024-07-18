@@ -10783,7 +10783,7 @@
         },
         "serverArmId": {
           "type": "string",
-          "description": "Gets or sets the server ARM Id.",
+          "description": "Gets or sets the server ARM ID.",
           "readOnly": true
         },
         "webServerName": {
@@ -19329,7 +19329,7 @@
         },
         "datacenterManagementServerArmId": {
           "type": "string",
-          "description": "The data center management server ARM Id for the machine.",
+          "description": "The data center management server ARM ID for the machine.",
           "readOnly": true
         },
         "datacenterManagementServerName": {
@@ -24013,7 +24013,7 @@
         "monthlyCost": {
           "type": "number",
           "format": "float",
-          "description": "Gets or sets the server ARM Id.",
+          "description": "Gets or sets the server ARM ID.",
           "readOnly": true
         },
         "storage": {

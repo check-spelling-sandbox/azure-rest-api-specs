@@ -1535,7 +1535,7 @@
       "type": "object",
       "properties": {
         "azureMonitorWorkspaceResourceId": {
-          "description": "The resource Id of the connected Azure Monitor Workspace.",
+          "description": "The resource ID of the connected Azure Monitor Workspace.",
           "type": "string"
         }
       }
@@ -1671,7 +1671,7 @@
       "type": "object",
       "properties": {
         "marketplacePlanId": {
-          "description": "The Plan Id of the Azure Marketplace subscription for the Enterprise plugins",
+          "description": "The Plan ID of the Azure Marketplace subscription for the Enterprise plugins",
           "type": "string"
         },
         "marketplaceAutoRenew": {
@@ -1752,7 +1752,7 @@
       "type": "object",
       "properties": {
         "planId": {
-          "description": "The plan Id of the SaaS subscription.",
+          "description": "The plan ID of the SaaS subscription.",
           "type": "string"
         },
         "offerId": {
@@ -1798,7 +1798,7 @@
           "$ref": "#/definitions/AvailablePromotion"
         },
         "grafanaResourceId": {
-          "description": "Resource Id of the Grafana resource which is doing the trial.",
+          "description": "Resource ID of the Grafana resource which is doing the trial.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -1876,7 +1876,7 @@
           ]
         },
         "groupIds": {
-          "description": "The group Ids of the managed private endpoint.",
+          "description": "The group IDs of the managed private endpoint.",
           "type": "array",
           "items": {
             "type": "string"

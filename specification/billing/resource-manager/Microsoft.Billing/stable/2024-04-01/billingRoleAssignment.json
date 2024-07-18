@@ -1779,7 +1779,7 @@
           "readOnly": true
         },
         "createdByPrincipalTenantId": {
-          "description": "The tenant Id of the user who created the role assignment.",
+          "description": "The tenant ID of the user who created the role assignment.",
           "type": "string",
           "readOnly": true
         },
@@ -1820,7 +1820,7 @@
           "readOnly": true
         },
         "modifiedByPrincipalTenantId": {
-          "description": "The tenant Id of the user who modified the role assignment.",
+          "description": "The tenant ID of the user who modified the role assignment.",
           "type": "string",
           "readOnly": true
         },

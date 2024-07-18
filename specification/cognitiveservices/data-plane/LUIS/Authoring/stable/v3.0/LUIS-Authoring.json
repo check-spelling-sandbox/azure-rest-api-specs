@@ -6874,7 +6874,7 @@
           {
             "name": "itemId",
             "in": "path",
-            "description": "The explicit list item Id.",
+            "description": "The explicit list item ID.",
             "required": true,
             "type": "integer",
             "format": "int64"

@@ -996,7 +996,7 @@
     },
     "IdentityErrorResponse": {
       "type": "object",
-      "description": "This is the response from an Identity operation in the case an error occurs.",
+      "description": "This is the response from an IDentity operation in the case an error occurs.",
       "properties": {
         "error": {
           "type": "string",

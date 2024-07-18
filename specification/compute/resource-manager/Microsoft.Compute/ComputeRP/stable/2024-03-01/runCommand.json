@@ -1100,7 +1100,7 @@
         },
         "objectId": {
           "type": "string",
-          "description": "Object Id (GUID value) of the user-assigned managed identity. ClientId should not be used if this is provided."
+          "description": "Object ID (GUID value) of the user-assigned managed identity. ClientId should not be used if this is provided."
         }
       },
       "type": "object",

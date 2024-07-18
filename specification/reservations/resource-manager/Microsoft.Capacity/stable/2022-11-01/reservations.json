@@ -2670,11 +2670,11 @@
         },
         "renewSource": {
           "type": "string",
-          "description": "Reservation Id of the reservation from which this reservation is renewed. Format of the resource Id is /providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}."
+          "description": "Reservation Id of the reservation from which this reservation is renewed. Format of the resource ID is /providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}."
         },
         "renewDestination": {
           "type": "string",
-          "description": "Reservation Id of the reservation which is purchased because of renew. Format of the resource Id is /providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}."
+          "description": "Reservation Id of the reservation which is purchased because of renew. Format of the resource ID is /providers/Microsoft.Capacity/reservationOrders/{reservationOrderId}/reservations/{reservationId}."
         },
         "renewProperties": {
           "$ref": "#/definitions/RenewPropertiesResponse"

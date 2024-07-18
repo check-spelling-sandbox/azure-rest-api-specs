@@ -1373,7 +1373,7 @@
         },
         "machineArmId": {
           "type": "string",
-          "description": "The machine Id from ARM"
+          "description": "The machine ID from ARM"
         },
         "totalApps": {
           "type": "integer",
@@ -1596,7 +1596,7 @@
             "properties": {
               "machineArmId": {
                 "type": "string",
-                "description": "The machine ARM resource Id of this app instance"
+                "description": "The machine ARM resource ID of this app instance"
               },
               "instanceCount": {
                 "type": "integer",

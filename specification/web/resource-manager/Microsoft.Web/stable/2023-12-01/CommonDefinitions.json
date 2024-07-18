@@ -2076,7 +2076,7 @@
           "readOnly": true
         },
         "principalId": {
-          "description": "Principal Id of managed service identity.",
+          "description": "Principal ID of managed service identity.",
           "type": "string",
           "readOnly": true
         },
@@ -2393,7 +2393,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -2660,7 +2660,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -4158,7 +4158,7 @@
           "readOnly": true
         },
         "pesId": {
-          "description": "Unique resource Id",
+          "description": "Unique resource ID",
           "type": "string",
           "readOnly": true
         }
@@ -4464,7 +4464,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Principal Id of user assigned identity",
+          "description": "Principal ID of user assigned identity",
           "type": "string",
           "readOnly": true
         },

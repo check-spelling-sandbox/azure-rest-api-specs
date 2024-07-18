@@ -8540,7 +8540,7 @@
         },
         "networkAclBypassResourceIds": {
           "type": "array",
-          "description": "An array that contains the Resource Ids for Network Acl Bypass for the Cosmos DB account.",
+          "description": "An array that contains the Resource IDs for Network Acl Bypass for the Cosmos DB account.",
           "items": {
             "type": "string",
             "format": "arm-id"
@@ -8726,7 +8726,7 @@
         },
         "networkAclBypassResourceIds": {
           "type": "array",
-          "description": "An array that contains the Resource Ids for Network Acl Bypass for the Cosmos DB account.",
+          "description": "An array that contains the Resource IDs for Network Acl Bypass for the Cosmos DB account.",
           "items": {
             "type": "string"
           }
@@ -8940,7 +8940,7 @@
         },
         "networkAclBypassResourceIds": {
           "type": "array",
-          "description": "An array that contains the Resource Ids for Network Acl Bypass for the Cosmos DB account.",
+          "description": "An array that contains the Resource IDs for Network Acl Bypass for the Cosmos DB account.",
           "items": {
             "type": "string"
           }

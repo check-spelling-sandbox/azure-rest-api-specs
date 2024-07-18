@@ -5218,7 +5218,7 @@
           "type": "string"
         },
         "stagingStorageAccountId": {
-          "description": "Resource Id of the storage account that can be used to copy the vhd for staging.",
+          "description": "Resource ID of the storage account that can be used to copy the vhd for staging.",
           "type": "string"
         }
       },
@@ -5809,7 +5809,7 @@
           "default": "None"
         },
         "principalId": {
-          "description": "Service Principal Id backing the Msi",
+          "description": "Service Principal ID backing the Msi",
           "type": "string",
           "readOnly": true
         },
@@ -6487,7 +6487,7 @@
       ],
       "properties": {
         "storageAccountId": {
-          "description": "Storage Account Resource Id.",
+          "description": "Storage Account Resource ID.",
           "type": "string"
         }
       },

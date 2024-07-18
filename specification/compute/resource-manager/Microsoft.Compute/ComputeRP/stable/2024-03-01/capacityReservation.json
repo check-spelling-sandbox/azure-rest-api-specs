@@ -298,7 +298,7 @@
             "in": "query",
             "required": false,
             "type": "string",
-            "description": "The expand expression to apply on the operation. Based on the expand param(s) specified we return Virtual Machine or ScaleSet VM Instance or both resource Ids which are associated to capacity reservation group in the response.",
+            "description": "The expand expression to apply on the operation. Based on the expand param(s) specified we return Virtual Machine or ScaleSet VM Instance or both resource IDs which are associated to capacity reservation group in the response.",
             "enum": [
               "virtualMachineScaleSetVMs/$ref",
               "virtualMachines/$ref"
@@ -352,7 +352,7 @@
             "in": "query",
             "required": false,
             "type": "string",
-            "description": "The expand expression to apply on the operation. Based on the expand param(s) specified we return Virtual Machine or ScaleSet VM Instance or both resource Ids which are associated to capacity reservation group in the response.",
+            "description": "The expand expression to apply on the operation. Based on the expand param(s) specified we return Virtual Machine or ScaleSet VM Instance or both resource IDs which are associated to capacity reservation group in the response.",
             "enum": [
               "virtualMachineScaleSetVMs/$ref",
               "virtualMachines/$ref"
@@ -367,7 +367,7 @@
             "in": "query",
             "required": false,
             "type": "string",
-            "description": "The query option to fetch Capacity Reservation Group Resource Ids. <br> 'CreatedInSubscription' enables fetching Resource Ids for all capacity reservation group resources created in the subscription. <br> 'SharedWithSubscription' enables fetching Resource Ids for all capacity reservation group resources shared with the subscription. <br> 'All' enables fetching Resource Ids for all capacity reservation group resources shared with the subscription and created in the subscription.",
+            "description": "The query option to fetch Capacity Reservation Group Resource IDs. <br> 'CreatedInSubscription' enables fetching Resource IDs for all capacity reservation group resources created in the subscription. <br> 'SharedWithSubscription' enables fetching Resource IDs for all capacity reservation group resources shared with the subscription. <br> 'All' enables fetching Resource IDs for all capacity reservation group resources shared with the subscription and created in the subscription.",
             "enum": [
               "CreatedInSubscription",
               "SharedWithSubscription",
@@ -397,7 +397,7 @@
           "List capacity reservation groups in subscription.": {
             "$ref": "./examples/capacityReservationExamples/CapacityReservationGroup_ListBySubscription.json"
           },
-          "List capacity reservation groups with resource Ids only in subscription.": {
+          "List capacity reservation groups with resource IDs only in subscription.": {
             "$ref": "./examples/capacityReservationExamples/CapacityReservationGroup_ListBySubscriptionWithResourceIdsQuery.json"
           }
         },

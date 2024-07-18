@@ -5384,12 +5384,12 @@
       "description": "Deployment properties with additional details."
     },
     "ResourceReference": {
-      "description": "The resource Id model.",
+      "description": "The resource ID model.",
       "properties": {
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "The fully qualified resource Id."
+          "description": "The fully qualified resource ID."
         }
       }
     },

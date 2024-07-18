@@ -1054,7 +1054,7 @@
             ]
           },
           "readOnly": true,
-          "description": "ARM Resource Id of the provisioned cluster instance"
+          "description": "ARM Resource ID of the provisioned cluster instance"
         },
         "status": {
           "$ref": "#/definitions/ProvisioningState"
@@ -1701,7 +1701,7 @@
                   ]
                 }
               },
-              "description": "List of ARM resource Ids (maximum 1) for the infrastructure network object e.g. /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/logicalNetworks/{logicalNetworkName}"
+              "description": "List of ARM resource IDs (maximum 1) for the infrastructure network object e.g. /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/logicalNetworks/{logicalNetworkName}"
             }
           }
         }
@@ -2050,7 +2050,7 @@
         },
         "name": {
           "type": "string",
-          "description": "ARM Id of the extended location."
+          "description": "ARM ID of the extended location."
         }
       }
     },

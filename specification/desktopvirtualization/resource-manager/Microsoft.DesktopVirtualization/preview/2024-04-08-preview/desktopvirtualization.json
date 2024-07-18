@@ -5070,7 +5070,7 @@
         },
         "applicationGroupReferences": {
           "type": "array",
-          "description": "List of applicationGroup resource Ids.",
+          "description": "List of applicationGroup resource IDs.",
           "items": {
             "type": "string"
           },
@@ -7631,7 +7631,7 @@
         },
         "hostPoolReferences": {
           "type": "array",
-          "description": "List of Hostpool resource Ids.",
+          "description": "List of Hostpool resource IDs.",
           "items": {
             "type": "string"
           }
@@ -7670,7 +7670,7 @@
         },
         "hostPoolReferences": {
           "type": "array",
-          "description": "List of Hostpool resource Ids.",
+          "description": "List of Hostpool resource IDs.",
           "items": {
             "type": "string",
             "format": "arm-id"
@@ -8427,7 +8427,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Resource Id of SessionHost's underlying virtual machine.",
+          "description": "Resource ID of SessionHost's underlying virtual machine.",
           "readOnly": true
         },
         "assignedUser": {

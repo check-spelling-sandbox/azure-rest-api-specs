@@ -695,12 +695,12 @@
         "loadBalancerBackendAddressPoolId": {
           "type": "string",
           "format": "arm-id",
-          "description": "The resource Id of the Load Balancer backend address pool that the VM instances of the node type are associated with. The format of the resource Id is '/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Network/loadBalancers/<loadBalancerName>/backendAddressPools/<backendAddressPoolName>'."
+          "description": "The resource ID of the Load Balancer backend address pool that the VM instances of the node type are associated with. The format of the resource ID is '/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Network/loadBalancers/<loadBalancerName>/backendAddressPools/<backendAddressPoolName>'."
         },
         "loadBalancerInboundNatPoolId": {
           "type": "string",
           "format": "arm-id",
-          "description": "The resource Id of the Load Balancer inbound NAT pool that the VM instances of the node type are associated with. The format of the resource Id is '/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Network/loadBalancers/<loadBalancerName>/inboundNatPools/<inboundNatPoolName>'."
+          "description": "The resource ID of the Load Balancer inbound NAT pool that the VM instances of the node type are associated with. The format of the resource ID is '/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Network/loadBalancers/<loadBalancerName>/inboundNatPools/<inboundNatPoolName>'."
         },
         "applicationGatewayBackendAddressPoolId": {
           "type": "string",
@@ -712,7 +712,7 @@
               }
             ]
           },
-          "description": "The resource Id of application gateway backend address pool. The format of the resource Id is '/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Network/applicationGateways/<applicationGatewayName>/backendAddressPools/<backendAddressPoolName>'."
+          "description": "The resource ID of application gateway backend address pool. The format of the resource ID is '/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Network/applicationGateways/<applicationGatewayName>/backendAddressPools/<backendAddressPoolName>'."
         }
       },
       "description": "Describes the frontend configurations for the node type."
@@ -1113,7 +1113,7 @@
         },
         "hostGroupId": {
           "type": "string",
-          "description": "Specifies the full host group resource Id. This property is used for deploying on azure dedicated hosts."
+          "description": "Specifies the full host group resource ID. This property is used for deploying on azure dedicated hosts."
         },
         "useEphemeralOSDisk": {
           "type": "boolean",

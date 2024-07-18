@@ -14869,7 +14869,7 @@
       "properties": {
         "networkId": {
           "type": "string",
-          "description": "Network Id.",
+          "description": "Network ID.",
           "readOnly": true
         },
         "subnetName": {
@@ -14889,7 +14889,7 @@
         },
         "nicId": {
           "type": "string",
-          "description": "Gets or sets the NIC Id."
+          "description": "Gets or sets the NIC ID."
         },
         "macAddress": {
           "type": "string",
@@ -15216,7 +15216,7 @@
         },
         "machineArmIds": {
           "type": "array",
-          "description": "Gets the list of machine ARM Ids on which the SQL server is deployed.",
+          "description": "Gets the list of machine ARM IDs on which the SQL server is deployed.",
           "items": {
             "type": "string"
           },
@@ -16048,7 +16048,7 @@
         },
         "clientRequestId": {
           "type": "string",
-          "description": "Gets the client request Id used in the operation execution context.",
+          "description": "Gets the client request ID used in the operation execution context.",
           "readOnly": true
         },
         "activityId": {
@@ -17154,7 +17154,7 @@
         },
         "generatedId": {
           "type": "string",
-          "description": "Gets or sets generated Id of the disk."
+          "description": "Gets or sets generated ID of the disk."
         },
         "maxSizeInBytes": {
           "type": "integer",
@@ -17248,7 +17248,7 @@
       "properties": {
         "nicId": {
           "type": "string",
-          "description": "Gets or sets the NIC Id."
+          "description": "Gets or sets the NIC ID."
         },
         "macAddress": {
           "type": "string",
@@ -17877,7 +17877,7 @@
         },
         "keyVaultId": {
           "type": "string",
-          "description": "Gets or sets the key vault ARM Id."
+          "description": "Gets or sets the key vault ARM ID."
         }
       }
     },
@@ -17943,7 +17943,7 @@
         "errorId": {
           "type": "integer",
           "format": "int64",
-          "description": "Gets the error Id.",
+          "description": "Gets the error ID.",
           "readOnly": true
         },
         "errorCode": {
@@ -18088,15 +18088,15 @@
       "properties": {
         "tenantId": {
           "type": "string",
-          "description": "Gets or sets the tenant Id for the service principal with which the\non-premise\n            management/data plane components would communicate with\nour Azure services."
+          "description": "Gets or sets the tenant ID for the service principal with which the\non-premise\n            management/data plane components would communicate with\nour Azure services."
         },
         "applicationId": {
           "type": "string",
-          "description": "Gets or sets the application/client Id for the service principal with which\nthe\n            on-premise management/data plane components would communicate\nwith our Azure \n            services."
+          "description": "Gets or sets the application/client ID for the service principal with which\nthe\n            on-premise management/data plane components would communicate\nwith our Azure \n            services."
         },
         "objectId": {
           "type": "string",
-          "description": "Gets or sets the object Id of the service principal with which the on-premise\n\n           management/data plane components would communicate with our Azure\nservices."
+          "description": "Gets or sets the object ID of the service principal with which the on-premise\n\n           management/data plane components would communicate with our Azure\nservices."
         },
         "audience": {
           "type": "string",
@@ -18651,7 +18651,7 @@
         },
         "sqlServerArmId": {
           "type": "string",
-          "description": "Gets or sets the SQL Server ARM Id in which the database resides."
+          "description": "Gets or sets the SQL Server ARM ID in which the database resides."
         },
         "compatibilityLevel": {
           "type": "string",
@@ -19202,7 +19202,7 @@
         },
         "machineArmIds": {
           "type": "array",
-          "description": "Gets the list of machine ARM Ids on which the SQL server is deployed.",
+          "description": "Gets the list of machine ARM IDs on which the SQL server is deployed.",
           "items": {
             "type": "string"
           },
@@ -19872,7 +19872,7 @@
         },
         "machineArmIds": {
           "type": "array",
-          "description": "Gets the list of machine ARM Ids on which the web application is deployed.",
+          "description": "Gets the list of machine ARM IDs on which the web application is deployed.",
           "items": {
             "type": "string"
           },
@@ -21137,7 +21137,7 @@
         },
         "nicId": {
           "type": "string",
-          "description": "Gets or sets the NIC Id."
+          "description": "Gets or sets the NIC ID."
         },
         "macAddress": {
           "type": "string",
@@ -21824,7 +21824,7 @@
         },
         "machineArmIds": {
           "type": "array",
-          "description": "Gets the list of machine ARM Ids on which the SQL server is deployed.",
+          "description": "Gets the list of machine ARM IDs on which the SQL server is deployed.",
           "items": {
             "type": "string"
           },

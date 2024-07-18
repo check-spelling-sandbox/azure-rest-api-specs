@@ -355,7 +355,7 @@
         "operationId": "Clusters_CreateIdentity",
         "description": "Create cluster identity.",
         "x-ms-examples": {
-          "Create cluster Identity": {
+          "Create cluster IDentity": {
             "$ref": "./examples/CreateClusterIdentity.json"
           }
         },

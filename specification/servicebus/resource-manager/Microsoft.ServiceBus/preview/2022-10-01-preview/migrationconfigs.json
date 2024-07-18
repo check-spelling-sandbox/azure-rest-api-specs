@@ -331,7 +331,7 @@
             },
             "targetNamespace": {
               "type": "string",
-              "description": "Existing premium Namespace ARM Id name which has no entities, will be used for migration"
+              "description": "Existing premium Namespace ARM ID name which has no entities, will be used for migration"
             },
             "postMigrationName": {
               "type": "string",

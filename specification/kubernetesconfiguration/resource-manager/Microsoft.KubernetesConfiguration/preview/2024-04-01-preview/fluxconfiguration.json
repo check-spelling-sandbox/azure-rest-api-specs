@@ -762,12 +762,12 @@
       "x-nullable": true,
       "properties": {
         "clientId": {
-          "description": "The client Id for authenticating a Service Principal.",
+          "description": "The client ID for authenticating a Service Principal.",
           "type": "string",
           "x-nullable": true
         },
         "tenantId": {
-          "description": "The tenant Id for authenticating a Service Principal",
+          "description": "The tenant ID for authenticating a Service Principal",
           "type": "string",
           "x-nullable": true
         },
@@ -802,12 +802,12 @@
       "x-nullable": true,
       "properties": {
         "clientId": {
-          "description": "The client Id for authenticating a Service Principal.",
+          "description": "The client ID for authenticating a Service Principal.",
           "type": "string",
           "x-nullable": true
         },
         "tenantId": {
-          "description": "The tenant Id for authenticating a Service Principal",
+          "description": "The tenant ID for authenticating a Service Principal",
           "type": "string",
           "x-nullable": true
         },
@@ -841,7 +841,7 @@
       "x-nullable": true,
       "properties": {
         "clientId": {
-          "description": "The client Id for authenticating a Managed Identity.",
+          "description": "The client ID for authenticating a Managed Identity.",
           "type": "string",
           "x-nullable": true
         }
@@ -853,7 +853,7 @@
       "x-nullable": true,
       "properties": {
         "clientId": {
-          "description": "The client Id for authenticating a Managed Identity.",
+          "description": "The client ID for authenticating a Managed Identity.",
           "type": "string",
           "x-nullable": true
         }

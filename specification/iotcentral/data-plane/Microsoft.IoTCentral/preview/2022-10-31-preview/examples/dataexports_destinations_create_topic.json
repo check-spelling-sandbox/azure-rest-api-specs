@@ -1,6 +1,6 @@
 {
   "title": "Create data export Event Hub destination",
-  "description": "Create an Event hub destination with an Id.",
+  "description": "Create an Event hub destination with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

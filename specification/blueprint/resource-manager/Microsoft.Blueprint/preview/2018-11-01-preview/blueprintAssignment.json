@@ -361,7 +361,7 @@
         },
         "userAssignedIdentities": {
           "type": "object",
-          "description": "The list of user-assigned managed identities associated with the resource. Key is the Azure resource Id of the managed identity.",
+          "description": "The list of user-assigned managed identities associated with the resource. Key is the Azure resource ID of the managed identity.",
           "additionalProperties": {
             "description": "User-assigned managed identity.",
             "$ref": "#/definitions/UserAssignedIdentity"
@@ -642,7 +642,7 @@
       "properties": {
         "objectId": {
           "type": "string",
-          "description": "AAD object Id of the Azure Blueprints service principal in the tenant."
+          "description": "AAD object ID of the Azure Blueprints service principal in the tenant."
         }
       }
     }

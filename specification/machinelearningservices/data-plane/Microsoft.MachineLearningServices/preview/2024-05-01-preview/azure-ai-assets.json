@@ -749,7 +749,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Fully qualified resource Id: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.",
+          "description": "Fully qualified resource ID: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.",
           "readOnly": true
         },
         "stage": {
@@ -852,7 +852,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Fully qualified resource Id: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.",
+          "description": "Fully qualified resource ID: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.",
           "readOnly": true
         },
         "stage": {
@@ -943,7 +943,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Fully qualified resource Id: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.",
+          "description": "Fully qualified resource ID: azureml://workspace/{workspaceName}/indexes/{name}/versions/{version} of the index.",
           "readOnly": true
         },
         "stage": {

@@ -9699,7 +9699,7 @@
               }
             ]
           },
-          "description": "Fully Qualified ARM Resource Id of Azure Log Analytics Workspace for storing Azure Monitor Container Insights Logs."
+          "description": "Fully Qualified ARM Resource ID of Azure Log Analytics Workspace for storing Azure Monitor Container Insights Logs."
         },
         "syslogPort": {
           "type": "integer",
@@ -9868,7 +9868,7 @@
               }
             ]
           },
-          "description": "The resource Id of Azure Container Registry. The registry must have private network access, premium SKU and zone redundancy."
+          "description": "The resource ID of Azure Container Registry. The registry must have private network access, premium SKU and zone redundancy."
         }
       },
       "type": "object"

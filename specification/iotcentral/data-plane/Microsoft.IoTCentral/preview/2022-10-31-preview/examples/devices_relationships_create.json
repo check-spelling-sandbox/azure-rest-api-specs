@@ -1,6 +1,6 @@
 {
   "title": "Create a relationship between device",
-  "description": "Create a relationship with an Id.",
+  "description": "Create a relationship with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

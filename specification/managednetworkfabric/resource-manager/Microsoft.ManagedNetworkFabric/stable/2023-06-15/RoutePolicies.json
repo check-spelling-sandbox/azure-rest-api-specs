@@ -707,7 +707,7 @@
         },
         "ipPrefixId": {
           "type": "string",
-          "description": "Arm Resource Id of IpPrefix."
+          "description": "Arm Resource ID of IpPrefix."
         }
       },
       "allOf": [

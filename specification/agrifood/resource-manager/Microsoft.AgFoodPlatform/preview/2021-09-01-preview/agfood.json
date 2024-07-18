@@ -2116,7 +2116,7 @@
           "type": "string"
         },
         "planId": {
-          "description": "SaaS application Plan Id.",
+          "description": "SaaS application Plan ID.",
           "minLength": 1,
           "type": "string"
         },

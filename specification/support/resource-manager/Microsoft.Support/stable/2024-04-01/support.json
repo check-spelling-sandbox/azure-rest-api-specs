@@ -2528,7 +2528,7 @@
           "type": "string"
         },
         "serviceId": {
-          "description": "This is the resource Id of the Azure service resource associated with the support ticket.",
+          "description": "This is the resource ID of the Azure service resource associated with the support ticket.",
           "type": "string"
         },
         "serviceDisplayName": {
@@ -2743,7 +2743,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "This is the resource Id of the Azure service resource (For example: A virtual machine resource or an HDInsight resource) for which the support ticket is created.",
+          "description": "This is the resource ID of the Azure service resource (For example: A virtual machine resource or an HDInsight resource) for which the support ticket is created.",
           "type": "string"
         }
       }

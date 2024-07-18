@@ -1810,7 +1810,7 @@
         "targetResourceId": {
           "type": "string",
           "readOnly": true,
-          "description": "VM resource Id.",
+          "description": "VM resource ID.",
           "x-nullable": true
         },
         "guestConfiguration": {
@@ -1979,7 +1979,7 @@
         "vmssResourceId": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id of the VMSS."
+          "description": "Azure resource ID of the VMSS."
         }
       },
       "description": "Report for the guest configuration assignment. Report contains information such as compliance status, reason, and more."
@@ -2003,7 +2003,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id of the VM."
+          "description": "Azure resource ID of the VM."
         },
         "uuid": {
           "type": "string",
@@ -2150,7 +2150,7 @@
         "vmResourceId": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id of the VM."
+          "description": "Azure resource ID of the VM."
         },
         "complianceStatus": {
           "type": "string",

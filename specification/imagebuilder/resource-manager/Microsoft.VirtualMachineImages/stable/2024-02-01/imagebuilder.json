@@ -1200,7 +1200,7 @@
       "properties": {
         "imageId": {
           "type": "string",
-          "description": "Resource Id of the Managed Disk Image"
+          "description": "Resource ID of the Managed Disk Image"
         },
         "location": {
           "type": "string",
@@ -1224,7 +1224,7 @@
       "properties": {
         "galleryImageId": {
           "type": "string",
-          "description": "Resource Id of the Azure Compute Gallery image"
+          "description": "Resource ID of the Azure Compute Gallery image"
         },
         "replicationRegions": {
           "description": "[Deprecated] A list of regions that the image will be replicated to. This list can be specified only if targetRegions is not specified. This field is deprecated - use targetRegions instead.",
@@ -2039,7 +2039,7 @@
       "in": "path",
       "required": true,
       "type": "string",
-      "description": "Subscription credentials which uniquely identify Microsoft Azure subscription. The subscription Id forms part of the URI for every service call."
+      "description": "Subscription credentials which uniquely identify Microsoft Azure subscription. The subscription ID forms part of the URI for every service call."
     },
     "ResourceGroupNameParameter": {
       "name": "resourceGroupName",

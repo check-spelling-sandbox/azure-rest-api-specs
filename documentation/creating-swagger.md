@@ -612,7 +612,7 @@ is "allOf" the common `Resource` type. That common `Resource` type includes the 
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "type": {
           "type": "string",

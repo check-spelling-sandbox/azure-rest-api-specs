@@ -653,7 +653,7 @@ model OrganizationPropertiesCustomUpdate {
   @doc("Company Details")
   companyDetails?: CompanyDetailsUpdate;
 
-  @doc("Existing Resource Id")
+  @doc("Existing Resource ID")
   existingResourceId?: Azure.Core.armResourceIdentifier<[]>;
 }
 

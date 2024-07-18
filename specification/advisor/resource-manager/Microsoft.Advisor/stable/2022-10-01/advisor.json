@@ -938,7 +938,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "The resource Id of the metadata entity.",
+          "description": "The resource ID of the metadata entity.",
           "type": "string"
         },
         "type": {
@@ -1353,7 +1353,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "Azure resource Id of the assessed resource",
+          "description": "Azure resource ID of the assessed resource",
           "type": "string"
         },
         "source": {

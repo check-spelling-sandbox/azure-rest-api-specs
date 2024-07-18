@@ -840,7 +840,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "The resource Id of the connectivity endpoint (optional)."
+          "description": "The resource ID of the connectivity endpoint (optional)."
         },
         "provisioningState": {
           "type": "string",
@@ -929,7 +929,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "The resource Id of the connectivity endpoint (optional)."
+          "description": "The resource ID of the connectivity endpoint (optional)."
         },
         "port": {
           "type": "integer",

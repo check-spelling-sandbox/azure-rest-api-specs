@@ -13,7 +13,7 @@ model Resource is Record<unknown> {
   @doc("The type of resource")
   resourceType: string;
 
-  @doc("Resource Id")
+  @doc("Resource ID")
   id?: string;
 
   @doc("Metadata about the resource")

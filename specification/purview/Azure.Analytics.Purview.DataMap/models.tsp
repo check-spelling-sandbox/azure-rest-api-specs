@@ -437,7 +437,7 @@ model AtlasTermAssignmentHeader {
 
 @doc("ContactInfo")
 model ContactInfo {
-  @doc("Azure Active Directory object Id.")
+  @doc("Azure Active Directory object ID.")
   id?: string;
 
   @doc("additional information to describe this contact.")
@@ -838,7 +838,7 @@ model PurviewObjectId {
   @doc("Item path")
   itemPath?: string;
 
-  @doc("Resource Id")
+  @doc("Resource ID")
   resourceId?: string;
 
   #suppress "@azure-tools/typespec-azure-core/bad-record-type" "Should use Recode<unknown> to model Map<String,Object>"

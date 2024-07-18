@@ -1423,7 +1423,7 @@
       "properties": {
         "MessageId": {
           "type": "string",
-          "description": "The Id of the Message."
+          "description": "The ID of the Message."
         },
         "InsertionTime": {
           "type": "string",
@@ -1472,7 +1472,7 @@
       "properties": {
         "MessageId": {
           "type": "string",
-          "description": "The Id of the Message."
+          "description": "The ID of the Message."
         },
         "InsertionTime": {
           "type": "string",
@@ -1512,7 +1512,7 @@
       "properties": {
         "MessageId": {
           "type": "string",
-          "description": "The Id of the Message."
+          "description": "The ID of the Message."
         },
         "InsertionTime": {
           "type": "string",

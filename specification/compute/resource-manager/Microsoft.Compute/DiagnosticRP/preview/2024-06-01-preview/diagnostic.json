@@ -598,7 +598,7 @@
       "type": "object",
       "properties": {
         "storageAccountId": {
-          "description": "Fully qualified storage account Id. Example: \"/subscriptions/{subId}/resourceGroups/{rgName}/providers/Microsoft.Storage/storageAccounts/{storageAccountName}\"",
+          "description": "Fully qualified storage account ID. Example: \"/subscriptions/{subId}/resourceGroups/{rgName}/providers/Microsoft.Storage/storageAccounts/{storageAccountName}\"",
           "type": "string"
         }
       },
@@ -612,7 +612,7 @@
       "properties": {
         "storageAccountId": {
           "type": "string",
-          "description": "Fully qualified storage account Id. Example: \"/subscriptions/{subId}/resourceGroups/{rgName}/providers/Microsoft.Storage/storageAccounts/{storageAccountName}\""
+          "description": "Fully qualified storage account ID. Example: \"/subscriptions/{subId}/resourceGroups/{rgName}/providers/Microsoft.Storage/storageAccounts/{storageAccountName}\""
         }
       },
       "description": "Api output result when there is an existing storage configuration entry."

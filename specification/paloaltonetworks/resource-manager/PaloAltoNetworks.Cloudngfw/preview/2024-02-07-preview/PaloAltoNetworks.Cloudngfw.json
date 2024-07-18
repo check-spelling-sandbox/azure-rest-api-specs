@@ -4879,7 +4879,7 @@
       "properties": {
         "certificateSignerResourceId": {
           "type": "string",
-          "description": "Resource Id of certificate signer, to be populated only when certificateSelfSigned is false"
+          "description": "Resource ID of certificate signer, to be populated only when certificateSelfSigned is false"
         },
         "certificateSelfSigned": {
           "$ref": "#/definitions/BooleanEnum",
@@ -5867,7 +5867,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "address": {
           "type": "string",
@@ -5881,7 +5881,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "addressSpace": {
           "type": "string",
@@ -6972,7 +6972,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "rulestackId": {
           "type": "string",

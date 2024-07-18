@@ -1,6 +1,6 @@
 {
   "title": "Create data export ADX destination",
-  "description": "Create an ADX destination with an Id.",
+  "description": "Create an ADX destination with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

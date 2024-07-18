@@ -906,7 +906,7 @@
           "TestRun"
         ],
         "summary": "Add an app component to a test run.",
-        "description": "Add an app component to a test run by providing the resource Id, name and type.",
+        "description": "Add an app component to a test run by providing the resource ID, name and type.",
         "consumes": [
           "application/merge-patch+json"
         ],
@@ -1403,8 +1403,8 @@
         "tags": [
           "Test"
         ],
-        "summary": "Get all load tests by the fully qualified resource Id e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}.",
-        "description": "Get all load tests by the fully qualified resource Id e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}.",
+        "summary": "Get all load tests by the fully qualified resource ID e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}.",
+        "description": "Get all load tests by the fully qualified resource ID e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}.",
         "parameters": [
           {
             "$ref": "#/parameters/Azure.Core.Foundations.ApiVersionParameter"
@@ -1672,7 +1672,7 @@
           "Test"
         ],
         "summary": "Add an app component to a test.",
-        "description": "Add an app component to a test by providing the resource Id, name and type.",
+        "description": "Add an app component to a test by providing the resource ID, name and type.",
         "consumes": [
           "application/merge-patch+json"
         ],
@@ -2228,7 +2228,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "fully qualified resource Id e.g subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}",
+          "description": "fully qualified resource ID e.g subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}",
           "readOnly": true
         },
         "resourceName": {
@@ -3769,7 +3769,7 @@
         },
         "keyvaultReferenceIdentityId": {
           "type": "string",
-          "description": "Resource Id of the managed identity referencing the Key vault."
+          "description": "Resource ID of the managed identity referencing the Key vault."
         },
         "createdDateTime": {
           "type": "string",
@@ -3804,7 +3804,7 @@
       "properties": {
         "components": {
           "type": "object",
-          "description": "Azure resource collection { resource id (fully qualified resource Id e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
+          "description": "Azure resource collection { resource id (fully qualified resource ID e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
           "additionalProperties": {
             "$ref": "#/definitions/AppComponent"
           }
@@ -3847,7 +3847,7 @@
       "properties": {
         "components": {
           "type": "object",
-          "description": "Azure resource collection { resource id (fully qualified resource Id e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
+          "description": "Azure resource collection { resource id (fully qualified resource ID e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
           "additionalProperties": {
             "$ref": "#/definitions/AppComponentUpdate"
           }
@@ -3921,7 +3921,7 @@
         },
         "keyvaultReferenceIdentityId": {
           "type": "string",
-          "description": "Resource Id of the managed identity referencing the Key vault."
+          "description": "Resource ID of the managed identity referencing the Key vault."
         }
       }
     },
@@ -4547,7 +4547,7 @@
       "properties": {
         "components": {
           "type": "object",
-          "description": "Azure resource collection { resource id (fully qualified resource Id e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
+          "description": "Azure resource collection { resource id (fully qualified resource ID e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
           "additionalProperties": {
             "$ref": "#/definitions/AppComponent"
           }
@@ -4590,7 +4590,7 @@
       "properties": {
         "components": {
           "type": "object",
-          "description": "Azure resource collection { resource id (fully qualified resource Id e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
+          "description": "Azure resource collection { resource id (fully qualified resource ID e.g\nsubscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName})\n: resource object } ",
           "additionalProperties": {
             "$ref": "#/definitions/AppComponentUpdate"
           }

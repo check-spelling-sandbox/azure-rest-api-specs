@@ -9404,7 +9404,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Fully qualified resource Id for the resource.",
+          "description": "Fully qualified resource ID for the resource.",
           "type": "string",
           "readOnly": true
         },
@@ -9527,7 +9527,7 @@
           "readOnly": true
         },
         "managedEnvironmentId": {
-          "description": "The resource Id of the Managed Environment that the Spring Apps instance builds on",
+          "description": "The resource ID of the Managed Environment that the Spring Apps instance builds on",
           "type": "string"
         },
         "infraResourceGroup": {
@@ -9585,7 +9585,7 @@
           }
         },
         "principalId": {
-          "description": "Principal Id of system-assigned managed identity.",
+          "description": "Principal ID of system-assigned managed identity.",
           "type": "string"
         },
         "tenantId": {
@@ -9610,7 +9610,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Principal Id of user-assigned managed identity.",
+          "description": "Principal ID of user-assigned managed identity.",
           "type": "string",
           "readOnly": true
         },
@@ -10647,7 +10647,7 @@
           "$ref": "#/definitions/GitImplementation"
         },
         "caCertResourceId": {
-          "description": "Resource Id of CA certificate for https URL of Git repository.",
+          "description": "Resource ID of CA certificate for https URL of Git repository.",
           "type": "string"
         }
       }
@@ -11458,7 +11458,7 @@
       "type": "object",
       "properties": {
         "serviceRuntimeSubnetId": {
-          "description": "Fully qualified resource Id of the subnet to host Azure Spring Apps Service Runtime",
+          "description": "Fully qualified resource ID of the subnet to host Azure Spring Apps Service Runtime",
           "type": "string",
           "x-ms-mutability": [
             "create",
@@ -11466,7 +11466,7 @@
           ]
         },
         "appSubnetId": {
-          "description": "Fully qualified resource Id of the subnet to host customer apps in Azure Spring Apps",
+          "description": "Fully qualified resource ID of the subnet to host customer apps in Azure Spring Apps",
           "type": "string",
           "x-ms-mutability": [
             "create",
@@ -11632,7 +11632,7 @@
           }
         },
         "privateDnsZoneId": {
-          "description": "Fully qualified resource Id of the Private DNS zone to link with the customer virtual network.",
+          "description": "Fully qualified resource ID of the Private DNS zone to link with the customer virtual network.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -12126,7 +12126,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "Resource Id of loaded certificate",
+          "description": "Resource ID of loaded certificate",
           "type": "string"
         },
         "loadTrustStore": {
@@ -14441,7 +14441,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "Resource Id of the APM",
+          "description": "Resource ID of the APM",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -14472,7 +14472,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "Resource Id of the certificate",
+          "description": "Resource ID of the certificate",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -14590,7 +14590,7 @@
           "type": "object",
           "properties": {
             "certificates": {
-              "description": "Collection of certificate resource Ids in Azure Spring Apps.",
+              "description": "Collection of certificate resource IDs in Azure Spring Apps.",
               "uniqueItems": true,
               "type": "array",
               "items": {
@@ -14919,7 +14919,7 @@
           }
         },
         "appResourceId": {
-          "description": "The resource Id of the Azure Spring Apps app, required unless route defines `uri`.",
+          "description": "The resource ID of the Azure Spring Apps app, required unless route defines `uri`.",
           "type": "string"
         },
         "openApi": {
@@ -15229,7 +15229,7 @@
           "default": false
         },
         "gatewayIds": {
-          "description": "The array of resource Ids of gateway to integrate with API portal.",
+          "description": "The array of resource IDs of gateway to integrate with API portal.",
           "type": "array",
           "items": {
             "type": "string"
@@ -15643,7 +15643,7 @@
       ],
       "properties": {
         "caCertResourceId": {
-          "description": "Resource Id of CA certificate for https URL of Git repository.",
+          "description": "Resource ID of CA certificate for https URL of Git repository.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -15671,7 +15671,7 @@
       ],
       "properties": {
         "caCertResourceId": {
-          "description": "Resource Id of CA certificate for https URL of Git repository.",
+          "description": "Resource ID of CA certificate for https URL of Git repository.",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {
@@ -16147,7 +16147,7 @@
       "type": "object",
       "properties": {
         "resourceId": {
-          "description": "Resource Id of the managed component",
+          "description": "Resource ID of the managed component",
           "type": "string",
           "format": "arm-id",
           "x-ms-arm-id-details": {

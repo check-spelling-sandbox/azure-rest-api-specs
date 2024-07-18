@@ -1677,11 +1677,11 @@
       "properties": {
         "managedResourceGroupId": {
           "type": "string",
-          "description": "The managed resource group Id."
+          "description": "The managed resource group ID."
         },
         "applicationDefinitionId": {
           "type": "string",
-          "description": "The fully qualified path of managed application definition Id."
+          "description": "The fully qualified path of managed application definition ID."
         },
         "parameters": {
           "type": "object",
@@ -1708,7 +1708,7 @@
         },
         "publisherTenantId": {
           "type": "string",
-          "description": "The publisher tenant Id.",
+          "description": "The publisher tenant ID.",
           "readOnly": true
         },
         "authorizations": {
@@ -1879,7 +1879,7 @@
         },
         "plan": {
           "type": "string",
-          "description": "The plan Id"
+          "description": "The plan ID"
         },
         "version": {
           "type": "string",
@@ -1925,7 +1925,7 @@
         },
         "plan": {
           "type": "string",
-          "description": "The plan Id."
+          "description": "The plan ID."
         },
         "version": {
           "type": "string",
@@ -2378,7 +2378,7 @@
         },
         "policyDefinitionId": {
           "type": "string",
-          "description": "The policy definition Id."
+          "description": "The policy definition ID."
         },
         "parameters": {
           "type": "string",

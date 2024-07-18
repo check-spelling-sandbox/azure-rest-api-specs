@@ -4797,7 +4797,7 @@
           "x-nullable": false
         },
         "originalPublishResourceId": {
-          "description": "Resource Provider Id this iteration was originally published to.",
+          "description": "Resource Provider ID this iteration was originally published to.",
           "type": "string",
           "readOnly": true,
           "x-nullable": false

@@ -7399,11 +7399,11 @@
         },
         "clientRequestId": {
           "type": "string",
-          "description": "Gets the client request Id."
+          "description": "Gets the client request ID."
         },
         "serviceRequestId": {
           "type": "string",
-          "description": "Gets the service request Id."
+          "description": "Gets the service request ID."
         },
         "error": {
           "$ref": "#/definitions/ErrorResponse",
@@ -9177,7 +9177,7 @@
           "readOnly": true
         },
         "principalId": {
-          "description": "Principal Id of managed service identity.",
+          "description": "Principal ID of managed service identity.",
           "type": "string",
           "format": "uuid",
           "readOnly": true
@@ -9199,7 +9199,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Principal Id of user assigned identity",
+          "description": "Principal ID of user assigned identity",
           "type": "string",
           "readOnly": true
         },

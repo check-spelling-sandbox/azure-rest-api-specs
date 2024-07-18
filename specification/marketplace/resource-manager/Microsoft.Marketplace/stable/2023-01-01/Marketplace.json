@@ -2727,7 +2727,7 @@
       "type": "object",
       "properties": {
         "planId": {
-          "description": "Gets or sets Plan Id ",
+          "description": "Gets or sets Plan ID ",
           "type": "string"
         },
         "status": {
@@ -2866,7 +2866,7 @@
       }
     },
     "SubscriptionsContextList": {
-      "description": "List of subscription Ids in the private store",
+      "description": "List of subscription IDs in the private store",
       "type": "object",
       "properties": {
         "subscriptionsIds": {
@@ -3112,7 +3112,7 @@
       "type": "object",
       "properties": {
         "planId": {
-          "description": "Gets or sets Plan Id ",
+          "description": "Gets or sets Plan ID ",
           "type": "string"
         },
         "publisherId": {
@@ -3270,7 +3270,7 @@
       }
     },
     "QueryApprovedPlansResponseDetails": {
-      "description": "A list indicating for each plan which subscriptions are approved. Plan Id is unique",
+      "description": "A list indicating for each plan which subscriptions are approved. Plan ID is unique",
       "type": "array",
       "items": {
         "$ref": "#/definitions/QueryApprovedPlansDetails"

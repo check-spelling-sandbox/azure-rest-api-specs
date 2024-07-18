@@ -608,7 +608,7 @@
           "type": "string"
         },
         "containerId": {
-          "description": "The Id of the Container",
+          "description": "The ID of the Container",
           "type": "string"
         },
         "ready": {

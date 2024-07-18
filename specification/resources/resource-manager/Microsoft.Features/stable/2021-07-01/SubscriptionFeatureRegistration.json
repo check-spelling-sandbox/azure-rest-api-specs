@@ -238,7 +238,7 @@
       "description": "An Azure proxy resource.",
       "properties": {
         "id": {
-          "description": "Azure resource Id.",
+          "description": "Azure resource ID.",
           "type": "string",
           "readOnly": true
         },

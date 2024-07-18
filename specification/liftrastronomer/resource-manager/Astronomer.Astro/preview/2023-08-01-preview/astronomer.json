@@ -622,7 +622,7 @@
         },
         "planId": {
           "type": "string",
-          "description": "Plan Id for the marketplace offer"
+          "description": "Plan ID for the marketplace offer"
         },
         "planName": {
           "type": "string",

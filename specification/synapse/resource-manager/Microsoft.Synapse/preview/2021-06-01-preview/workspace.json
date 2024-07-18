@@ -1118,7 +1118,7 @@
           "type": "string"
         },
         "resourceId": {
-          "description": "ARM resource Id of this storage account",
+          "description": "ARM resource ID of this storage account",
           "type": "string"
         },
         "createManagedPrivateEndpoint": {
@@ -1170,7 +1170,7 @@
       "type": "object",
       "properties": {
         "userAssignedIdentity": {
-          "description": "User assigned identity resource Id",
+          "description": "User assigned identity resource ID",
           "type": "string"
         },
         "useSystemAssignedIdentity": {

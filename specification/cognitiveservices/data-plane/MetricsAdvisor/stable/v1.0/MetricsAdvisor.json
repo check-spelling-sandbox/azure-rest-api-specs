@@ -4275,7 +4275,7 @@
           "type": "string"
         },
         "servicePrincipalIdNameInKV": {
-          "description": "The secret name of the service principal's client Id in the Key Vault.",
+          "description": "The secret name of the service principal's client ID in the Key Vault.",
           "type": "string"
         },
         "servicePrincipalSecretNameInKV": {
@@ -4449,7 +4449,7 @@
           "type": "string"
         },
         "servicePrincipalIdNameInKV": {
-          "description": "The secret name of the service principal's client Id in the Key Vault.",
+          "description": "The secret name of the service principal's client ID in the Key Vault.",
           "type": "string"
         },
         "servicePrincipalSecretNameInKV": {

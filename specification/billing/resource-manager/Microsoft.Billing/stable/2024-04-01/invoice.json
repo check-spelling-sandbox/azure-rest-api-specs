@@ -962,7 +962,7 @@
           ]
         },
         "billedDocumentId": {
-          "description": "The Id of the active invoice which is originally billed after this invoice was voided. This field is applicable to the void invoices only.",
+          "description": "The ID of the active invoice which is originally billed after this invoice was voided. This field is applicable to the void invoices only.",
           "type": "string",
           "readOnly": true
         },
@@ -985,7 +985,7 @@
           ]
         },
         "creditForDocumentId": {
-          "description": "The Id of the invoice which got voided and this credit note was issued as a result. This field is applicable to the credit notes only.",
+          "description": "The ID of the invoice which got voided and this credit note was issued as a result. This field is applicable to the credit notes only.",
           "type": "string",
           "readOnly": true
         },

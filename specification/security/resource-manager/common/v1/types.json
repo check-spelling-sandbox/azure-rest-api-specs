@@ -78,7 +78,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,
@@ -255,7 +255,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Azure resource Id of the assessed resource"
+          "description": "Azure resource ID of the assessed resource"
         }
       }
     },
@@ -271,7 +271,7 @@
       "properties": {
         "workspaceId": {
           "type": "string",
-          "description": "Azure resource Id of the workspace the machine is attached to"
+          "description": "Azure resource ID of the workspace the machine is attached to"
         },
         "vmuuid": {
           "type": "string",
@@ -279,7 +279,7 @@
         },
         "sourceComputerId": {
           "type": "string",
-          "description": "The oms agent Id installed on the machine"
+          "description": "The oms agent ID installed on the machine"
         },
         "machineName": {
           "type": "string",
@@ -332,7 +332,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         }
       }
     },

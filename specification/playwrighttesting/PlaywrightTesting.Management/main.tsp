@@ -219,7 +219,7 @@ interface Quotas {
   @doc("Get subscription quota by name.")
   get is ArmResourceRead<Quota>;
 
-  @doc("List quotas for a given subscription Id.")
+  @doc("List quotas for a given subscription ID.")
   listBySubscription is ArmListBySubscription<Quota>;
 }
 

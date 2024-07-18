@@ -272,7 +272,7 @@
         },
         "storageAccountSubscriptionId": {
           "format": "uuid",
-          "description": "Specifies the blob storage subscription Id.",
+          "description": "Specifies the blob storage subscription ID.",
           "type": "string"
         }
       }

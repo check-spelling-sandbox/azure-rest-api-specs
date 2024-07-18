@@ -386,7 +386,7 @@
           "format": "int32"
         },
         "settingsDefinitionId": {
-          "description": "The anomaly settings definition Id",
+          "description": "The anomaly settings definition ID",
           "format": "uuid",
           "type": "string"
         }

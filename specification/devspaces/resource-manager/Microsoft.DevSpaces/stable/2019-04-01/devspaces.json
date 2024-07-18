@@ -719,7 +719,7 @@
       "description": "An Azure resource.",
       "properties": {
         "id": {
-          "description": "Fully qualified resource Id for the resource.",
+          "description": "Fully qualified resource ID for the resource.",
           "type": "string",
           "readOnly": true
         },

@@ -2218,7 +2218,7 @@
           "application/json"
         ],
         "operationId": "OAuth2PermissionGrant_Create",
-        "description": "Grants OAuth2 permissions for the relevant resource Ids of an app.",
+        "description": "Grants OAuth2 permissions for the relevant resource IDs of an app.",
         "produces": [
           "application/json"
         ],
@@ -2227,7 +2227,7 @@
             "in": "body",
             "name": "body",
             "required": false,
-            "description": "The relevant app Service Principal Object Id and the Service Principal Object Id you want to grant.",
+            "description": "The relevant app Service Principal Object ID and the Service Principal Object ID you want to grant.",
             "schema": {
               "$ref": "#/definitions/OAuth2PermissionGrant"
             },
@@ -2259,7 +2259,7 @@
           "OAuth2PermissionGrant_delete"
         ],
         "operationId": "OAuth2PermissionGrant_Delete",
-        "description": "Delete a OAuth2 permission grant for the relevant resource Ids of an app.",
+        "description": "Delete a OAuth2 permission grant for the relevant resource IDs of an app.",
         "parameters": [
           {
             "name": "objectId",
@@ -4340,7 +4340,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Object Id of the resource you want to grant"
+          "description": "Object ID of the resource you want to grant"
         },
         "scope": {
           "type": "string",

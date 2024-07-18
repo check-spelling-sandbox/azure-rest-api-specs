@@ -3396,7 +3396,7 @@
       "properties": {
         "groupId": {
           "type": "string",
-          "description": "The group Id"
+          "description": "The group ID"
         },
         "deviceClassId": {
           "type": "string",
@@ -3938,7 +3938,7 @@
       "properties": {
         "groupId": {
           "type": "string",
-          "description": "The group Id."
+          "description": "The group ID."
         },
         "deviceCount": {
           "type": "string",

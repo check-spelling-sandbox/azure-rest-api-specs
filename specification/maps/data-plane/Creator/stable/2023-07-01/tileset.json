@@ -76,7 +76,7 @@
     },
     "TilesetId": {
       "name": "tilesetId",
-      "description": "The Tileset Id",
+      "description": "The Tileset ID",
       "type": "string",
       "in": "path",
       "required": true,
@@ -108,7 +108,7 @@
           "final-state-via": "location"
         },
         "x-ms-examples": {
-          "Create Tileset by providing a Dataset Id": {
+          "Create Tileset by providing a Dataset ID": {
             "$ref": "./examples/tileset/Tileset_Create.json"
           }
         },
@@ -210,7 +210,7 @@
         }
       },
       "delete": {
-        "description": "**Applies to:** see pricing [tiers](https://aka.ms/AzureMapsPricingTier).\n\nThe Tileset Delete request allows the caller to delete a created tileset. You can use this API if a tileset is no longer needed. \n\nCreator makes it possible to develop applications based on your private indoor map data using Azure Maps API and SDK. [This](https://docs.microsoft.com/azure/azure-maps/creator-indoor-maps) article introduces concepts and tools that apply to Azure Maps Creator.\n\n### Submit Delete Request\n\nTo delete your content you will issue a `DELETE` request where the path will contain the `tilesetId` of the tileset to delete.<br>    \n\n#### Delete request \"Successful\"\n\nThe Tileset Delete API returns a HTTP `204 No Content` response with an empty body, if the tileset was deleted successfully.<br>    \n\n#### Delete request \"Failed\"\n\nA HTTP `400 Bad Request` error response will be returned if the tileset with the passed-in `tilesetId` is not found. \n\nHere is a sample error response:\n\n<br>\n\n```json\n{\n  \"error\": {\n      \"code\": \"400 BadRequest\",\n      \"message\": \"Bad request - Tileset Id: d85b5b27-5fc4-4599-8b50-47160e90f8ce does not exist.\"\n  }\n}\n```",
+        "description": "**Applies to:** see pricing [tiers](https://aka.ms/AzureMapsPricingTier).\n\nThe Tileset Delete request allows the caller to delete a created tileset. You can use this API if a tileset is no longer needed. \n\nCreator makes it possible to develop applications based on your private indoor map data using Azure Maps API and SDK. [This](https://docs.microsoft.com/azure/azure-maps/creator-indoor-maps) article introduces concepts and tools that apply to Azure Maps Creator.\n\n### Submit Delete Request\n\nTo delete your content you will issue a `DELETE` request where the path will contain the `tilesetId` of the tileset to delete.<br>    \n\n#### Delete request \"Successful\"\n\nThe Tileset Delete API returns a HTTP `204 No Content` response with an empty body, if the tileset was deleted successfully.<br>    \n\n#### Delete request \"Failed\"\n\nA HTTP `400 Bad Request` error response will be returned if the tileset with the passed-in `tilesetId` is not found. \n\nHere is a sample error response:\n\n<br>\n\n```json\n{\n  \"error\": {\n      \"code\": \"400 BadRequest\",\n      \"message\": \"Bad request - Tileset ID: d85b5b27-5fc4-4599-8b50-47160e90f8ce does not exist.\"\n  }\n}\n```",
         "operationId": "Tileset_Delete",
         "x-ms-examples": {
           "Delete a created tileset": {
@@ -359,7 +359,7 @@
       "type": "object",
       "properties": {
         "operationId": {
-          "description": "The Id for this long-running operation.",
+          "description": "The ID for this long-running operation.",
           "type": "string"
         },
         "status": {
@@ -441,7 +441,7 @@
           "$ref": "../../../Common/preview/1.0/common.json#/definitions/Ontology"
         },
         "datasetId": {
-          "description": "The unique dataset Id used to create the tileset.",
+          "description": "The unique dataset ID used to create the tileset.",
           "type": "string",
           "readOnly": true
         },

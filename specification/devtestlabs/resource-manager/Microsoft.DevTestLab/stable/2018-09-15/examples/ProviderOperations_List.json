@@ -219,7 +219,7 @@
               "provider": "Microsoft DevTest Labs",
               "resource": "schedules",
               "operation": "Retarget schedule.",
-              "description": "Updates a schedule's target resource Id."
+              "description": "Updates a schedule's target resource ID."
             }
           },
           {

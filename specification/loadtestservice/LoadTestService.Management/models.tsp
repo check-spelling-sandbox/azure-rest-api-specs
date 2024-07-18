@@ -43,11 +43,11 @@ model LoadTestMappingResource is ProxyResource<LoadTestMappingProperties> {
 @doc("Azure LoadTest mapping resource properties.")
 @added(APIVersions.v2023_12_01_preview)
 model LoadTestMappingProperties {
-  @doc("Mapped source resource Id.")
+  @doc("Mapped source resource ID.")
   @maxLength(1024)
   sourceResourceId?: string;
 
-  @doc("Mapped Azure Load Test resource Id.")
+  @doc("Mapped Azure Load Test resource ID.")
   @maxLength(1024)
   azureLoadTestingResourceId?: string;
 
@@ -74,11 +74,11 @@ model LoadTestProfileMappingResource
 @doc("Azure LoadTest profile mapping resource properties.")
 @added(APIVersions.v2023_12_01_preview)
 model LoadTestProfileMappingProperties {
-  @doc("Mapped source resource Id.")
+  @doc("Mapped source resource ID.")
   @maxLength(1024)
   sourceResourceId?: string;
 
-  @doc("Mapped Azure Load Test resource Id.")
+  @doc("Mapped Azure Load Test resource ID.")
   @maxLength(1024)
   azureLoadTestingResourceId?: string;
 

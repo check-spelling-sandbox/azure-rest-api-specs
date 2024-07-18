@@ -328,7 +328,7 @@
       "name": "subscriptionId",
       "required": true,
       "type": "string",
-      "description": "The subscription Id of the virtual machine.",
+      "description": "The subscription ID of the virtual machine.",
       "x-ms-parameter-location": "method"
     },
     "resourceGroupName": {
@@ -462,7 +462,7 @@
       "properties": {
         "id": {
           "readOnly": true,
-          "description": "The resource Id.",
+          "description": "The resource ID.",
           "type": "string",
           "example": "/subscriptions/bc27da3b-3ba2-4e00-a6ec-1fde64aa1e21/resourceGroups/tugamidiAlerts/providers/Microsoft.Compute/virtualMachines/linuxEUS/providers/Microsoft.WorkloadMonitor/monitors/logical-disks|C@3A"
         },

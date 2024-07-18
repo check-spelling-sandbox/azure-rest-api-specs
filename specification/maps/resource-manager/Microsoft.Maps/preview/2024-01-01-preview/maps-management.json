@@ -1373,7 +1373,7 @@
           }
         },
         "principalId": {
-          "description": "The principal Id also known as the object Id of a User Assigned Managed Identity currently assigned to the Maps Account. To assign a Managed Identity of the account, use operation Create or Update an assign a User Assigned Identity resource Id.",
+          "description": "The principal Id also known as the object ID of a User Assigned Managed Identity currently assigned to the Maps Account. To assign a Managed Identity of the account, use operation Create or Update an assign a User Assigned Identity resource ID.",
           "type": "string"
         },
         "regions": {

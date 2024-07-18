@@ -1083,7 +1083,7 @@
       "type": "object",
       "properties": {
         "targetResourceId": {
-          "description": "Azure Resource Id of the target Form Recognizer resource where the model is copied to.",
+          "description": "Azure Resource ID of the target Form Recognizer resource where the model is copied to.",
           "maxLength": 1024,
           "type": "string",
           "pattern": "^/subscriptions/[^/]*/resourceGroups/[^/]*/providers/Microsoft.CognitiveServices/accounts/[^/]*$",

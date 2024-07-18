@@ -2593,11 +2593,11 @@
         },
         "sourceVault": {
           "type": "object",
-          "description": "Describes a resource Id to source key vault.",
+          "description": "Describes a resource ID to source key vault.",
           "properties": {
             "id": {
               "type": "string",
-              "description": "Resource Id."
+              "description": "Resource ID."
             }
           }
         }

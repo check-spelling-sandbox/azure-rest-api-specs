@@ -5866,7 +5866,7 @@
           "x-ms-format": "dfe-string"
         },
         "clientId": {
-          "description": "The client Id of your Marketo service.",
+          "description": "The client ID of your Marketo service.",
           "type": "object",
           "x-ms-format": "dfe-string"
         },
@@ -8172,7 +8172,7 @@
         "clientId": {
           "type": "object",
           "x-ms-format": "dfe-string",
-          "description": "The client Id for OAuth 2.0 Client Credentials Flow authentication of the Salesforce instance. Type: string (or Expression with resultType string)."
+          "description": "The client ID for OAuth 2.0 Client Credentials Flow authentication of the Salesforce instance. Type: string (or Expression with resultType string)."
         },
         "clientSecret": {
           "description": "The client secret for OAuth 2.0 Client Credentials Flow authentication of the Salesforce instance.",
@@ -8226,7 +8226,7 @@
         "clientId": {
           "type": "object",
           "x-ms-format": "dfe-string",
-          "description": "The client Id for OAuth 2.0 Client Credentials Flow authentication of the Salesforce instance. Type: string (or Expression with resultType string)."
+          "description": "The client ID for OAuth 2.0 Client Credentials Flow authentication of the Salesforce instance. Type: string (or Expression with resultType string)."
         },
         "clientSecret": {
           "description": "The client secret for OAuth 2.0 Client Credentials Flow authentication of the Salesforce instance.",

@@ -2175,7 +2175,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Service principal object Id",
+          "description": "Service principal object ID",
           "type": "string",
           "readOnly": true
         },

@@ -1814,7 +1814,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Fully qualified resource Id for the resource. Example - '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateDnsZones/{privateDnsZoneName}'."
+          "description": "Fully qualified resource ID for the resource. Example - '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateDnsZones/{privateDnsZoneName}'."
         },
         "name": {
           "type": "string",

@@ -226,7 +226,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },

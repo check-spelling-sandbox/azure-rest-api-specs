@@ -44,7 +44,7 @@
               "category": "ResourceId",
               "usageStart": "2018-05-01T00:00:00-07:00",
               "usageEnd": "2018-05-31T00:00:00-07:00",
-              "description": "Resource Id",
+              "description": "Resource ID",
               "filterEnabled": true,
               "groupingEnabled": true
             }

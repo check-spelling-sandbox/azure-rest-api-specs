@@ -1873,7 +1873,7 @@
         },
         "id": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "meta": {
           "$ref": "#/definitions/Fhir.R4.Meta",

@@ -1,6 +1,6 @@
 {
   "title": "Create data export Blob Storage destination",
-  "description": "Create a Blob Storage destination with an Id.",
+  "description": "Create a Blob Storage destination with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

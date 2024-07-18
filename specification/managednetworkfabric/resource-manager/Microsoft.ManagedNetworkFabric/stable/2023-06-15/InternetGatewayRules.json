@@ -375,7 +375,7 @@
         },
         "internetGatewayIds": {
           "type": "array",
-          "description": "List of Internet Gateway resource Id.",
+          "description": "List of Internet Gateway resource ID.",
           "items": {
             "description": "ARM Resource ID of the Internet Gateway.",
             "type": "string"

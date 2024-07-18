@@ -479,7 +479,7 @@
           {
             "name": "keyVaultCertificate",
             "in": "body",
-            "description": "Key vault certificate resource Id.",
+            "description": "Key vault certificate resource ID.",
             "required": true,
             "schema": {
               "$ref": "#/definitions/AppServiceCertificateResource"
@@ -599,7 +599,7 @@
           {
             "name": "keyVaultCertificate",
             "in": "body",
-            "description": "Key vault certificate resource Id.",
+            "description": "Key vault certificate resource ID.",
             "required": true,
             "schema": {
               "$ref": "#/definitions/AppServiceCertificatePatchResource"
@@ -1043,7 +1043,7 @@
       "type": "object",
       "properties": {
         "keyVaultId": {
-          "description": "Key Vault resource Id.",
+          "description": "Key Vault resource ID.",
           "type": "string"
         },
         "keyVaultSecretName": {

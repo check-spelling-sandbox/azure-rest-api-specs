@@ -1023,7 +1023,7 @@
         },
         "networkConfigurationScopeResourceId": {
           "type": "string",
-          "description": "Associated Network Configuration Scope Resource Id",
+          "description": "Associated Network Configuration Scope Resource ID",
           "format": "arm-id",
           "x-ms-arm-id-details": {
             "allowedResources": [
@@ -1089,7 +1089,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "name": {
           "type": "string",
@@ -1219,7 +1219,7 @@
         },
         "suggestedResourceIds": {
           "type": "array",
-          "description": "ARM Ids of the resources that can be associated to the same perimeter to remediate the issue",
+          "description": "ARM IDs of the resources that can be associated to the same perimeter to remediate the issue",
           "readOnly": true,
           "items": {
             "type": "string"
@@ -1383,7 +1383,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "perimeterGuid": {
           "type": "string",
@@ -1438,7 +1438,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "name": {
           "type": "string",
@@ -1511,7 +1511,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "publicNetworkAccess": {
           "description": "Indicates whether machines associated with the private link scope can also use public Azure Arc service endpoints.",
@@ -1532,7 +1532,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Azure resource Id"
+          "description": "Azure resource ID"
         },
         "privateIpAddress": {
           "type": "string",
@@ -1675,7 +1675,7 @@
       "description": "The Data Model for a Private Endpoint Connection associated with a Private Link Scope",
       "properties": {
         "id": {
-          "description": "The ARM Resource Id of the Private Endpoint.",
+          "description": "The ARM Resource ID of the Private Endpoint.",
           "type": "string",
           "readOnly": true
         },

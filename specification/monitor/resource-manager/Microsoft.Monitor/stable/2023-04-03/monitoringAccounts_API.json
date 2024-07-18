@@ -377,7 +377,7 @@
       "type": "object",
       "properties": {
         "dataCollectionRuleResourceId": {
-          "description": "The Azure resource Id of the default data collection rule for this Azure Monitor Workspace.",
+          "description": "The Azure resource ID of the default data collection rule for this Azure Monitor Workspace.",
           "type": "string",
           "readOnly": true,
           "x-ms-mutability": [
@@ -385,7 +385,7 @@
           ]
         },
         "dataCollectionEndpointResourceId": {
-          "description": "The Azure resource Id of the default data collection endpoint for this Azure Monitor Workspace.",
+          "description": "The Azure resource ID of the default data collection endpoint for this Azure Monitor Workspace.",
           "type": "string",
           "readOnly": true,
           "x-ms-mutability": [

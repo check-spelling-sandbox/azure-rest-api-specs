@@ -21,7 +21,7 @@
           "volumeId": "umwjlxntntjejiyrywrytkzbfbluhk",
           "creationData": {
             "createSource": "None",
-            "sourceId": "ARM Id of Resource"
+            "sourceId": "ARM ID of Resource"
           },
           "sizeGiB": 9,
           "storageTarget": {
@@ -58,7 +58,7 @@
           "volumeId": "umwjlxntntjejiyrywrytkzbfbluhk",
           "creationData": {
             "createSource": "None",
-            "sourceId": "ARM Id of Resource"
+            "sourceId": "ARM ID of Resource"
           },
           "sizeGiB": 9,
           "storageTarget": {

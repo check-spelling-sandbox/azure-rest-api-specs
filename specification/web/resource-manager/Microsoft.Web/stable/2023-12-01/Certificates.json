@@ -403,7 +403,7 @@
               "readOnly": true
             },
             "keyVaultId": {
-              "description": "Key Vault Csm resource Id.",
+              "description": "Key Vault Csm resource ID.",
               "type": "string"
             },
             "keyVaultSecretName": {
@@ -566,7 +566,7 @@
               "readOnly": true
             },
             "keyVaultId": {
-              "description": "Key Vault Csm resource Id.",
+              "description": "Key Vault Csm resource ID.",
               "type": "string"
             },
             "keyVaultSecretName": {

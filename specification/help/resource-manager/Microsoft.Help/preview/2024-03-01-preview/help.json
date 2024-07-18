@@ -2365,11 +2365,11 @@
           "type": "string"
         },
         "resourceId": {
-          "description": "ARM resource Id of the resource that is having the issue. Only applicable for Discovery Solution NLP Subscription Scope.",
+          "description": "ARM resource ID of the resource that is having the issue. Only applicable for Discovery Solution NLP Subscription Scope.",
           "type": "string"
         },
         "serviceId": {
-          "description": "ARM service Id of the service that is having the issue. For more information on service Id see https://learn.microsoft.com/rest/api/support/services/list?tabs=HTTP.",
+          "description": "ARM service ID of the service that is having the issue. For more information on service ID see https://learn.microsoft.com/rest/api/support/services/list?tabs=HTTP.",
           "type": "string"
         },
         "additionalContext": {
@@ -2437,7 +2437,7 @@
           "x-ms-identifiers": []
         },
         "relatedServices": {
-          "description": "The set of services that are most likely related to the request. If relatedServices is included in the response then solutions may not be discovered until the client calls a second time specifying one of the service Ids in the relatedServices object.",
+          "description": "The set of services that are most likely related to the request. If relatedServices is included in the response then solutions may not be discovered until the client calls a second time specifying one of the service IDs in the relatedServices object.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/ClassificationService"
@@ -2451,7 +2451,7 @@
       "type": "object",
       "properties": {
         "serviceId": {
-          "description": "Azure resource Id of the service.",
+          "description": "Azure resource ID of the service.",
           "type": "string",
           "format": "arm-id",
           "readOnly": true

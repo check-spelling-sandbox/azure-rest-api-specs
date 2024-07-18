@@ -271,7 +271,7 @@ model ConsumptionEndpointsProperties {
   @visibility("read")
   ingestionUrl?: string;
 
-  @doc("Resource Id of ingestion endpoint.")
+  @doc("Resource ID of ingestion endpoint.")
   @visibility("read")
   ingestionResourceId?: Azure.Core.armResourceIdentifier<[
     {
@@ -283,7 +283,7 @@ model ConsumptionEndpointsProperties {
   @visibility("read")
   fileAccessUrl?: string;
 
-  @doc("Resource Id of file access endpoint.")
+  @doc("Resource ID of file access endpoint.")
   @visibility("read")
   fileAccessResourceId?: Azure.Core.armResourceIdentifier<[
     {
@@ -295,7 +295,7 @@ model ConsumptionEndpointsProperties {
   @visibility("read")
   queryUrl?: string;
 
-  @doc("Resource Id of query endpoint.")
+  @doc("Resource ID of query endpoint.")
   @visibility("read")
   queryResourceId?: Azure.Core.armResourceIdentifier<[
     {

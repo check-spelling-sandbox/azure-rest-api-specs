@@ -1731,7 +1731,7 @@
       "type": "object",
       "properties": {
         "networkInterfaces": {
-          "description": "Specifies the list of resource Ids for the network interfaces associated with the role instance.",
+          "description": "Specifies the list of resource IDs for the network interfaces associated with the role instance.",
           "type": "array",
           "items": {
             "$ref": "../../../common-types/v1/common.json#/definitions/SubResource"
@@ -1828,7 +1828,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id",
+          "description": "Resource ID",
           "type": "string",
           "readOnly": true
         },
@@ -2113,7 +2113,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id",
+          "description": "Resource ID",
           "type": "string"
         },
         "name": {
@@ -2310,7 +2310,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -2469,7 +2469,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id",
+          "description": "Resource ID",
           "type": "string",
           "readOnly": true
         },
@@ -2541,7 +2541,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },
@@ -2643,7 +2643,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id.",
+          "description": "Resource ID.",
           "type": "string",
           "readOnly": true
         },

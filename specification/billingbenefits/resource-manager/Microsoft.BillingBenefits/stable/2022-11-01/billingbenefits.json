@@ -1368,11 +1368,11 @@
     },
     "RenewSource": {
       "type": "string",
-      "description": "SavingsPlan Id of the SavingsPlan from which this SavingsPlan is renewed."
+      "description": "SavingsPlan ID of the SavingsPlan from which this SavingsPlan is renewed."
     },
     "RenewDestination": {
       "type": "string",
-      "description": "SavingsPlan Id of the SavingsPlan which is purchased because of renew."
+      "description": "SavingsPlan ID of the SavingsPlan which is purchased because of renew."
     },
     "RenewProperties": {
       "type": "object",
@@ -1805,7 +1805,7 @@
       "description": "Role assignment entity properties",
       "properties": {
         "principalId": {
-          "description": "Principal Id",
+          "description": "Principal ID",
           "type": "string"
         },
         "roleDefinitionId": {

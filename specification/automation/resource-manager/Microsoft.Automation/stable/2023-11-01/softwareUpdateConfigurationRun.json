@@ -68,7 +68,7 @@
           },
           {
             "name": "softwareUpdateConfigurationRunId",
-            "description": "The Id of the software update configuration run.",
+            "description": "The ID of the software update configuration run.",
             "type": "string",
             "required": true,
             "in": "path",
@@ -184,7 +184,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id of the software update configuration run"
+          "description": "Resource ID of the software update configuration run"
         },
         "properties": {
           "x-ms-client-flatten": true,

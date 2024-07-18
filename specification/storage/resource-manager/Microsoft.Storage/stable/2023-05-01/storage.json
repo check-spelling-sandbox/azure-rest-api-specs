@@ -2501,7 +2501,7 @@
         },
         "resourceIdDimensionNameOverride": {
           "type": "string",
-          "description": "Account Resource Id."
+          "description": "Account Resource ID."
         }
       }
     },
@@ -2924,7 +2924,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         }
       },
       "description": "Resource Access Rule."
@@ -5627,7 +5627,7 @@
         "id": {
           "type": "string",
           "readOnly": true,
-          "description": "Migration Resource Id"
+          "description": "Migration Resource ID"
         },
         "name": {
           "type": "string",

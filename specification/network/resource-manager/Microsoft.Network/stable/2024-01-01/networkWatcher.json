@@ -3341,7 +3341,7 @@
           "type": "string"
         },
         "workspaceResourceId": {
-          "description": "Resource Id of the attached workspace.",
+          "description": "Resource ID of the attached workspace.",
           "type": "string"
         },
         "trafficAnalyticsInterval": {

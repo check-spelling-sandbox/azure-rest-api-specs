@@ -597,7 +597,7 @@
       "properties": {
         "networkTapId": {
           "type": "string",
-          "description": "The ARM resource Id of the NetworkTap.",
+          "description": "The ARM resource ID of the NetworkTap.",
           "readOnly": true
         },
         "pollingIntervalInSeconds": {
@@ -804,7 +804,7 @@
         },
         "destinationId": {
           "type": "string",
-          "description": "Destination Id. The ARM resource Id may be either Network To Network Interconnect or NeighborGroup.",
+          "description": "Destination Id. The ARM resource ID may be either Network To Network Interconnect or NeighborGroup.",
           "format": "arm-id",
           "x-ms-arm-id-details": {
             "allowedResources": [

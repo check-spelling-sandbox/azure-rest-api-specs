@@ -2052,7 +2052,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Resource Id."
+          "description": "Resource ID."
         }
       },
       "description": "A reference to a another resource"

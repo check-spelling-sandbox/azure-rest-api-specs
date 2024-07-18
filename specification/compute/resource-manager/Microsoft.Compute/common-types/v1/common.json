@@ -117,7 +117,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,
@@ -151,7 +151,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         }
       }
     },
@@ -161,7 +161,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         }
       }
     },
@@ -176,7 +176,7 @@
         "id": {
           "readOnly": true,
           "type": "string",
-          "description": "Resource Id"
+          "description": "Resource ID"
         },
         "name": {
           "readOnly": true,

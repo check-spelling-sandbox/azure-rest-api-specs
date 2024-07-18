@@ -86,7 +86,7 @@
           }
         },
         "x-ms-examples": {
-          "List all Load Test Mappings by Source Resource Id": {
+          "List all Load Test Mappings by Source Resource ID": {
             "$ref": "./examples/LoadTestMappings_List.json"
           }
         },
@@ -319,7 +319,7 @@
           }
         },
         "x-ms-examples": {
-          "List Load Test Profile Mappings by Source Resource Id": {
+          "List Load Test Profile Mappings by Source Resource ID": {
             "$ref": "./examples/LoadTestProfileMappings_List.json"
           }
         },
@@ -603,7 +603,7 @@
         "tags": [
           "Quotas"
         ],
-        "description": "List quotas for a given subscription Id.",
+        "description": "List quotas for a given subscription ID.",
         "parameters": [
           {
             "$ref": "../../../../../common-types/resource-management/v5/types.json#/parameters/ApiVersionParameter"
@@ -630,7 +630,7 @@
           }
         },
         "x-ms-examples": {
-          "List quotas for a given subscription Id.": {
+          "List quotas for a given subscription ID.": {
             "$ref": "./examples/Quotas_List.json"
           }
         },
@@ -1218,12 +1218,12 @@
       "properties": {
         "sourceResourceId": {
           "type": "string",
-          "description": "Mapped source resource Id.",
+          "description": "Mapped source resource ID.",
           "maxLength": 1024
         },
         "azureLoadTestingResourceId": {
           "type": "string",
-          "description": "Mapped Azure Load Test resource Id.",
+          "description": "Mapped Azure Load Test resource ID.",
           "maxLength": 1024
         },
         "testId": {
@@ -1286,12 +1286,12 @@
       "properties": {
         "sourceResourceId": {
           "type": "string",
-          "description": "Mapped source resource Id.",
+          "description": "Mapped source resource ID.",
           "maxLength": 1024
         },
         "azureLoadTestingResourceId": {
           "type": "string",
-          "description": "Mapped Azure Load Test resource Id.",
+          "description": "Mapped Azure Load Test resource ID.",
           "maxLength": 1024
         },
         "testId": {
@@ -1307,12 +1307,12 @@
       "properties": {
         "sourceResourceId": {
           "type": "string",
-          "description": "Mapped source resource Id.",
+          "description": "Mapped source resource ID.",
           "maxLength": 1024
         },
         "azureLoadTestingResourceId": {
           "type": "string",
-          "description": "Mapped Azure Load Test resource Id.",
+          "description": "Mapped Azure Load Test resource ID.",
           "maxLength": 1024
         },
         "testProfileId": {
@@ -1375,12 +1375,12 @@
       "properties": {
         "sourceResourceId": {
           "type": "string",
-          "description": "Mapped source resource Id.",
+          "description": "Mapped source resource ID.",
           "maxLength": 1024
         },
         "azureLoadTestingResourceId": {
           "type": "string",
-          "description": "Mapped Azure Load Test resource Id.",
+          "description": "Mapped Azure Load Test resource ID.",
           "maxLength": 1024
         },
         "testProfileId": {

@@ -3089,7 +3089,7 @@
         },
         "resourceIdDimensionNameOverride": {
           "type": "string",
-          "description": "The resource Id dimension name override."
+          "description": "The resource ID dimension name override."
         }
       }
     },

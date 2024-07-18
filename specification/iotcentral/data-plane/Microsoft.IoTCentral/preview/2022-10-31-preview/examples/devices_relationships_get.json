@@ -1,6 +1,6 @@
 {
   "title": "Get a relationship between device",
-  "description": "Get a relationship with an Id.",
+  "description": "Get a relationship with an ID.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",

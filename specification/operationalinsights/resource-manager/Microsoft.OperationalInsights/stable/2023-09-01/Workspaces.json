@@ -693,7 +693,7 @@
       "properties": {
         "resourceId": {
           "type": "string",
-          "description": "The full resource Id of the private link scope resource."
+          "description": "The full resource ID of the private link scope resource."
         },
         "scopeId": {
           "type": "string",

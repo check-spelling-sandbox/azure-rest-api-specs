@@ -1319,7 +1319,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "the resource Id.",
+          "description": "the resource ID.",
           "type": "string",
           "readOnly": true
         },

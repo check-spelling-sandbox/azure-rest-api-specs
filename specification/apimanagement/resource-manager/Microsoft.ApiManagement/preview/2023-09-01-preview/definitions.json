@@ -1956,7 +1956,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Management Uri of the Resource in External System. This URL can be the Arm Resource Id of Logic Apps, Function Apps or API Apps.",
+          "description": "Management Uri of the Resource in External System. This URL can be the Arm Resource ID of Logic Apps, Function Apps or API Apps.",
           "minLength": 1,
           "maxLength": 2000
         },
@@ -2845,7 +2845,7 @@
         },
         "loggerId": {
           "type": "string",
-          "description": "Resource Id of a target logger."
+          "description": "Resource ID of a target logger."
         },
         "sampling": {
           "$ref": "#/definitions/SamplingSettings",
@@ -2987,7 +2987,7 @@
         },
         "loggerId": {
           "type": "string",
-          "description": "Resource Id of a target logger."
+          "description": "Resource ID of a target logger."
         },
         "sampling": {
           "$ref": "#/definitions/SamplingSettings",
@@ -4090,7 +4090,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Azure Resource Id of a log target (either Azure Event Hub resource or Azure Application Insights resource)."
+          "description": "Azure Resource ID of a log target (either Azure Event Hub resource or Azure Application Insights resource)."
         }
       },
       "required": [
@@ -8589,7 +8589,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Private Endpoint Connection Resource Id.",
+          "description": "Private Endpoint Connection Resource ID.",
           "type": "string"
         },
         "properties": {
@@ -9164,7 +9164,7 @@
       "properties": {
         "apiId": {
           "type": "string",
-          "description": "Full resource Id of an API."
+          "description": "Full resource ID of an API."
         }
       },
       "required": [
@@ -9215,7 +9215,7 @@
       "properties": {
         "groupId": {
           "type": "string",
-          "description": "Full resource Id of a group."
+          "description": "Full resource ID of a group."
         }
       },
       "required": [
@@ -9266,7 +9266,7 @@
       "properties": {
         "apiId": {
           "type": "string",
-          "description": "Full resource Id of an API."
+          "description": "Full resource ID of an API."
         }
       },
       "required": [
@@ -9317,7 +9317,7 @@
       "properties": {
         "operationId": {
           "type": "string",
-          "description": "Full resource Id of an API operation."
+          "description": "Full resource ID of an API operation."
         }
       },
       "required": [
@@ -9368,7 +9368,7 @@
       "properties": {
         "productId": {
           "type": "string",
-          "description": "Full resource Id of a product."
+          "description": "Full resource ID of a product."
         }
       },
       "required": [
@@ -9418,7 +9418,7 @@
               }
             ]
           },
-          "description": "Full resource Id of an API."
+          "description": "Full resource ID of an API."
         }
       },
       "required": [

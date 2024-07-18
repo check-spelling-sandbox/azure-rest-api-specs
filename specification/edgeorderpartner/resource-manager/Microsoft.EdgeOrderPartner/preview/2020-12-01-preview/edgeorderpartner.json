@@ -514,7 +514,7 @@
       "type": "object",
       "properties": {
         "managementResourceArmId": {
-          "description": "Arm Id of the management resource to which inventory is to be linked\r\nFor unlink operation, enter empty string",
+          "description": "Arm ID of the management resource to which inventory is to be linked\r\nFor unlink operation, enter empty string",
           "type": "string"
         },
         "operation": {

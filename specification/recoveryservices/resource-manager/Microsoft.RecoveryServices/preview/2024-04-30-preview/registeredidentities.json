@@ -184,7 +184,7 @@
           "type": "string"
         },
         "aadTenantId": {
-          "description": "AAD tenant Id.",
+          "description": "AAD tenant ID.",
           "type": "string"
         },
         "servicePrincipalClientId": {
@@ -200,7 +200,7 @@
           "type": "string"
         },
         "serviceResourceId": {
-          "description": "Service Resource Id.",
+          "description": "Service Resource ID.",
           "type": "string"
         },
         "aadAudience": {
@@ -312,7 +312,7 @@
           "readOnly": true
         },
         "id": {
-          "description": "Resource Id represents the complete path to the resource.",
+          "description": "Resource ID represents the complete path to the resource.",
           "type": "string",
           "readOnly": true
         },
@@ -327,7 +327,7 @@
     "SubscriptionId": {
       "name": "subscriptionId",
       "in": "path",
-      "description": "The subscription Id.",
+      "description": "The subscription ID.",
       "required": true,
       "type": "string"
     },

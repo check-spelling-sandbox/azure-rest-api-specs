@@ -56,7 +56,7 @@ model MarketplaceDetails {
   marketplaceSubscriptionId?: string;
 
   /**
-   * Plan Id
+   * Plan ID
    */
   planId: string;
 

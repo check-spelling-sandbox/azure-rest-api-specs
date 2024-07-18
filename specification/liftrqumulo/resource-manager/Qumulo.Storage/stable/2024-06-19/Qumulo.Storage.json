@@ -458,7 +458,7 @@
         },
         "planId": {
           "type": "string",
-          "description": "Plan Id"
+          "description": "Plan ID"
         },
         "offerId": {
           "type": "string",

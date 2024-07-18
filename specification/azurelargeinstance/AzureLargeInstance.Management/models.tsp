@@ -231,7 +231,7 @@ union CreatedByType {
   @doc("An AAD application. The createdByType/lastModifiedBy property will be the Application Id.")
   "Application",
 
-  @doc("A Managed Identity. The createdByType/lastModifiedBy property will be the ManagedIdentity resource Id")
+  @doc("A Managed Identity. The createdByType/lastModifiedBy property will be the ManagedIdentity resource ID")
   "ManagedIdentity",
 
   @doc("A key")

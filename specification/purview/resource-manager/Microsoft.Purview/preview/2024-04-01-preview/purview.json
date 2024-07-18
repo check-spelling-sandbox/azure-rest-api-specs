@@ -470,7 +470,7 @@
           {
             "in": "query",
             "name": "scope",
-            "description": "The Id of the scope object, for example if the scope is \"Subscription\" then it is the ID of that subscription.",
+            "description": "The ID of the scope object, for example if the scope is \"Subscription\" then it is the ID of that subscription.",
             "type": "string"
           },
           {
@@ -536,7 +536,7 @@
           {
             "in": "query",
             "name": "scope",
-            "description": "The Id of the scope object, for example if the scope is \"Subscription\" then it is the ID of that subscription.",
+            "description": "The ID of the scope object, for example if the scope is \"Subscription\" then it is the ID of that subscription.",
             "type": "string"
           },
           {
@@ -2214,7 +2214,7 @@
       "type": "object",
       "properties": {
         "principalId": {
-          "description": "Service principal object Id",
+          "description": "Service principal object ID",
           "type": "string",
           "readOnly": true
         },
@@ -2943,7 +2943,7 @@
           "readOnly": true
         },
         "id": {
-          "description": "Fully qualified resource Id",
+          "description": "Fully qualified resource ID",
           "type": "string",
           "readOnly": true
         },

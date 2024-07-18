@@ -23175,7 +23175,7 @@
       "type": "object",
       "properties": {
         "dataId": {
-          "description": "Resource Id of the data asset to perform labeling.",
+          "description": "Resource ID of the data asset to perform labeling.",
           "type": "string",
           "x-ms-mutability": [
             "create",

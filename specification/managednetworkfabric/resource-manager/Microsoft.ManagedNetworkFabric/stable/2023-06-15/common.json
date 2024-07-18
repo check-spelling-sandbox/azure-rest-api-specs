@@ -153,9 +153,9 @@
       "properties": {
         "resourceIds": {
           "type": "array",
-          "description": "Network Fabrics or Network Rack resource Id.",
+          "description": "Network Fabrics or Network Rack resource ID.",
           "items": {
-            "description": "Network Fabrics or Network Rack resource Id.",
+            "description": "Network Fabrics or Network Rack resource ID.",
             "type": "string"
           }
         }
@@ -410,11 +410,11 @@
       "description": "Import Route Policy Configuration.",
       "properties": {
         "importIpv4RoutePolicyId": {
-          "description": "Import IPv4 Route Policy Id.",
+          "description": "Import IPv4 Route Policy ID.",
           "$ref": "#/definitions/RoutePolicyIdProperty"
         },
         "importIpv6RoutePolicyId": {
-          "description": "Import IPv6 Route Policy Id.",
+          "description": "Import IPv6 Route Policy ID.",
           "$ref": "#/definitions/RoutePolicyIdProperty"
         }
       }
@@ -424,11 +424,11 @@
       "description": "Export Route Policy Configuration.",
       "properties": {
         "exportIpv4RoutePolicyId": {
-          "description": "Export IPv4 Route Policy Id.",
+          "description": "Export IPv4 Route Policy ID.",
           "$ref": "#/definitions/RoutePolicyIdProperty"
         },
         "exportIpv6RoutePolicyId": {
-          "description": "Export IPv6 Route Policy Id.",
+          "description": "Export IPv6 Route Policy ID.",
           "$ref": "#/definitions/RoutePolicyIdProperty"
         }
       }

@@ -5318,7 +5318,7 @@
           }
         },
         "sourceResourceId": {
-          "description": "Source storage account ARM Id",
+          "description": "Source storage account ARM ID",
           "type": "string"
         },
         "copyOptions": {
@@ -6619,7 +6619,7 @@
           "description": "Additional details for snapshot recovery\r\nCurrently used for snapshot for SAP Hana."
         },
         "targetVirtualMachineId": {
-          "description": "This is the complete ARM Id of the target VM\r\nFor e.g. /subscriptions/{subId}/resourcegroups/{rg}/provider/Microsoft.Compute/virtualmachines/{vm}",
+          "description": "This is the complete ARM ID of the target VM\r\nFor e.g. /subscriptions/{subId}/resourcegroups/{rg}/provider/Microsoft.Compute/virtualmachines/{vm}",
           "type": "string"
         }
       },
@@ -7565,7 +7565,7 @@
           "type": "boolean"
         },
         "managedIdentityResourceId": {
-          "description": "Managed Identity Resource Id\r\nOptional: Might not be required in the case of system assigned managed identity",
+          "description": "Managed Identity Resource ID\r\nOptional: Might not be required in the case of system assigned managed identity",
           "type": "string"
         }
       }
@@ -7855,11 +7855,11 @@
           "type": "string"
         },
         "targetVirtualMachineId": {
-          "description": "This is the complete ARM Id of the VM that will be created.\r\nFor e.g. /subscriptions/{subId}/resourcegroups/{rg}/provider/Microsoft.Compute/virtualmachines/{vm}",
+          "description": "This is the complete ARM ID of the VM that will be created.\r\nFor e.g. /subscriptions/{subId}/resourcegroups/{rg}/provider/Microsoft.Compute/virtualmachines/{vm}",
           "type": "string"
         },
         "targetResourceGroupId": {
-          "description": "This is the ARM Id of the resource group that you want to create for this Virtual machine and other artifacts.\r\nFor e.g. /subscriptions/{subId}/resourcegroups/{rg}",
+          "description": "This is the ARM ID of the resource group that you want to create for this Virtual machine and other artifacts.\r\nFor e.g. /subscriptions/{subId}/resourcegroups/{rg}",
           "type": "string"
         },
         "storageAccountId": {
@@ -7867,7 +7867,7 @@
           "type": "string"
         },
         "virtualNetworkId": {
-          "description": "This is the virtual network Id of the vnet that will be attached to the virtual machine.\r\nUser will be validated for join action permissions in the linked access.",
+          "description": "This is the virtual network ID of the vnet that will be attached to the virtual machine.\r\nUser will be validated for join action permissions in the linked access.",
           "type": "string"
         },
         "subnetId": {
@@ -8575,7 +8575,7 @@
       "type": "object",
       "properties": {
         "targetResourceId": {
-          "description": "ARM Id of target vault",
+          "description": "ARM ID of target vault",
           "type": "string"
         },
         "targetRegion": {
@@ -8656,7 +8656,7 @@
       "type": "object",
       "properties": {
         "sourceResourceId": {
-          "description": "ARM Id of source vault",
+          "description": "ARM ID of source vault",
           "type": "string"
         },
         "sourceRegion": {
@@ -9367,7 +9367,7 @@
       "type": "object",
       "properties": {
         "id": {
-          "description": "Resource Id represents the complete path to the resource.",
+          "description": "Resource ID represents the complete path to the resource.",
           "type": "string",
           "readOnly": true
         },
@@ -9811,7 +9811,7 @@
           }
         },
         "containerId": {
-          "description": "Resource Id name of the container in which Target DataBase resides",
+          "description": "Resource ID name of the container in which Target DataBase resides",
           "type": "string"
         },
         "databaseName": {
@@ -10374,7 +10374,7 @@
           "type": "string"
         },
         "sourceResourceId": {
-          "description": "Source Storage account ARM Id",
+          "description": "Source Storage account ARM ID",
           "type": "string"
         }
       },
@@ -12718,7 +12718,7 @@
           "type": "string"
         },
         "containerId": {
-          "description": "Fabric Id of the container such as ARM Id.",
+          "description": "Fabric Id of the container such as ARM ID.",
           "type": "string"
         }
       },
@@ -13613,7 +13613,7 @@
     "SubscriptionId": {
       "name": "subscriptionId",
       "in": "path",
-      "description": "The subscription Id.",
+      "description": "The subscription ID.",
       "required": true,
       "type": "string"
     },

@@ -915,7 +915,7 @@
     "SubscriptionIdParameter": {
       "name": "subscriptionId",
       "in": "path",
-      "description": "The Id of the Subscription to which the identity belongs.",
+      "description": "The ID of the Subscription to which the identity belongs.",
       "required": true,
       "type": "string"
     },
