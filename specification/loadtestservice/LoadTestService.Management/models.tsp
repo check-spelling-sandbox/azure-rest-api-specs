@@ -250,7 +250,7 @@ model QuotaBucketRequest {
   properties?: QuotaBucketRequestProperties;
 }
 
-@doc("New quota request request properties.")
+@doc("New quota request properties.")
 model QuotaBucketRequestProperties {
   @doc("Current quota usage of the quota bucket.")
   @minValue(0)

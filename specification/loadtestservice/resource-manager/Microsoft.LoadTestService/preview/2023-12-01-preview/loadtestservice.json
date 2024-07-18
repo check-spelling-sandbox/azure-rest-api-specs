@@ -1550,7 +1550,7 @@
     },
     "QuotaBucketRequestProperties": {
       "type": "object",
-      "description": "New quota request request properties.",
+      "description": "New quota request properties.",
       "properties": {
         "currentUsage": {
           "type": "integer",
