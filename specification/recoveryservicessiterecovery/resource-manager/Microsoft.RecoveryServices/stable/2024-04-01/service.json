@@ -11627,7 +11627,7 @@
           "type": "string"
         },
         "biosId": {
-          "description": "The Bios Id of the machine.",
+          "description": "The BIOS Id of the machine.",
           "type": "string"
         },
         "authenticationIdentityInput": {
@@ -13227,7 +13227,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The DRA Bios Id.",
+          "description": "The DRA BIOS Id.",
           "type": "string",
           "readOnly": true
         },
@@ -20505,7 +20505,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The Mars agent Bios Id.",
+          "description": "The Mars agent BIOS Id.",
           "type": "string",
           "readOnly": true
         },
@@ -21685,7 +21685,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The process server Bios Id.",
+          "description": "The process server BIOS Id.",
           "type": "string",
           "readOnly": true
         },
@@ -22286,7 +22286,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The push installer Bios Id.",
+          "description": "The push installer BIOS Id.",
           "type": "string",
           "readOnly": true
         },
@@ -22351,7 +22351,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The RCM proxy Bios Id.",
+          "description": "The RCM proxy BIOS Id.",
           "type": "string",
           "readOnly": true
         },
@@ -23493,7 +23493,7 @@
           "type": "string"
         },
         "biosId": {
-          "description": "The Bios Id.",
+          "description": "The BIOS Id.",
           "type": "string"
         },
         "authenticationIdentityDetails": {
@@ -23639,7 +23639,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The replication agent Bios Id.",
+          "description": "The replication agent BIOS Id.",
           "type": "string",
           "readOnly": true
         },
@@ -24370,7 +24370,7 @@
           "readOnly": true
         },
         "biosId": {
-          "description": "The reprotect agent Bios Id.",
+          "description": "The reprotect agent BIOS Id.",
           "type": "string",
           "readOnly": true
         },
