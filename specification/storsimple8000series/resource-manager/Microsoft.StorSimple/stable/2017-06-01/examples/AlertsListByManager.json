@@ -29,7 +29,7 @@
               "severity": "Warning",
               "status": "Active",
               "errorDetails": {
-                "occurences": 1
+                "occurrences": 1
               },
               "detailedInformation": {}
             },
@@ -56,7 +56,7 @@
               "severity": "Warning",
               "status": "Active",
               "errorDetails": {
-                "occurences": 1
+                "occurrences": 1
               },
               "detailedInformation": {
                 "httP code": "400",

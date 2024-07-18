@@ -5646,7 +5646,7 @@
           "type": "integer",
           "format": "int64",
           "minimum": 0,
-          "description": "Count of occurences of the error",
+          "description": "Count of occurrences of the error",
           "readOnly": true
         }
       }

@@ -4993,7 +4993,7 @@
           "description": "The error message",
           "type": "string"
         },
-        "occurences": {
+        "occurrences": {
           "format": "int32",
           "description": "The number of occurrences",
           "type": "integer"

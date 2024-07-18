@@ -5899,7 +5899,7 @@
           "description": "Error Message",
           "type": "string"
         },
-        "occurences": {
+        "occurrences": {
           "format": "int32",
           "description": "Number of occurrences.",
           "type": "integer"

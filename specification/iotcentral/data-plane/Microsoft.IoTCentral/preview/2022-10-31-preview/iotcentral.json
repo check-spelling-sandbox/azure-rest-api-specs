@@ -2424,7 +2424,7 @@
       ]
     },
     "OccurrencesJobScheduleEnd": {
-      "description": "The occurences based end definition of job schedule.",
+      "description": "The occurrences based end definition of job schedule.",
       "x-ms-discriminator-value": "occurrences",
       "allOf": [
         {
