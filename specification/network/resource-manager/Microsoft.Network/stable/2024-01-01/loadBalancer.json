@@ -2744,7 +2744,7 @@
           "items": {
             "type": "string"
           },
-          "description": "A list of pool names that should be migrated from Nic based to IP based pool"
+          "description": "A list of pool names that should be migrated from NIC based to IP based pool"
         }
       },
       "description": "The request for a migrateToIpBased API."
@@ -2757,7 +2757,7 @@
           "items": {
             "type": "string"
           },
-          "description": "A list of pools migrated from Nic based to IP based pool"
+          "description": "A list of pools migrated from NIC based to IP based pool"
         }
       },
       "description": "The response for a migrateToIpBased API."

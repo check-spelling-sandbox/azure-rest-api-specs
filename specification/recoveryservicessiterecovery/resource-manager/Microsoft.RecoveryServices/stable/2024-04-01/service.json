@@ -26504,7 +26504,7 @@
           "type": "string"
         },
         "name": {
-          "description": "Name of the Nic.",
+          "description": "Name of the NIC.",
           "type": "string"
         }
       },

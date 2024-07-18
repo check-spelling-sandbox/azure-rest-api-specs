@@ -1183,7 +1183,7 @@
     },
     "VirtualApplianceAdditionalNicProperties": {
       "type": "object",
-      "title": "Network Virtual Appliance Additional Nic Properties",
+      "title": "Network Virtual Appliance Additional NIC Properties",
       "description": "Network Virtual Appliance Additional NIC properties.",
       "properties": {
         "name": {

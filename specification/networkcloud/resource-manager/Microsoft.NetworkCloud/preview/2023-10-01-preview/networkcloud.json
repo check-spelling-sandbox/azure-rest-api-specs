@@ -10587,7 +10587,7 @@
     },
     "Nic": {
       "type": "object",
-      "title": "Type Deprecated. Will be removed in an upcoming version. Nic represents the network interface card details.",
+      "title": "Type Deprecated. Will be removed in an upcoming version. NIC represents the network interface card details.",
       "properties": {
         "lldpNeighbor": {
           "$ref": "#/definitions/LldpNeighbor",
