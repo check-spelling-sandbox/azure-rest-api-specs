@@ -14,7 +14,7 @@
         "inputs": [
           {
             "path": "",
-            "text": "items('For_each')?['OccuringLocation']?['Environment']",
+            "text": "items('For_each')?['OccurringLocation']?['Environment']",
             "value": "PROD"
           }
         ]
