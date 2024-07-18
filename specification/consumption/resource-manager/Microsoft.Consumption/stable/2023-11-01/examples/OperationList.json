@@ -23,7 +23,7 @@
               "provider": "Microsoft.Consumption",
               "resource": "ReservationSummaries",
               "operation": "List Reservation Utilization Summaries",
-              "description": "List the utilization summary for reserved instances by reservation order or managment groups. The summary data is either at monthly or daily level."
+              "description": "List the utilization summary for reserved instances by reservation order or management groups. The summary data is either at monthly or daily level."
             }
           },
           {
@@ -33,7 +33,7 @@
               "provider": "Microsoft.Consumption",
               "resource": "ReservationDetails",
               "operation": "List Reservation Utilization Details",
-              "description": "List the utilization details for reserved instances by reservation order or managment groups. The details data is per instance per day level."
+              "description": "List the utilization details for reserved instances by reservation order or management groups. The details data is per instance per day level."
             }
           },
           {

@@ -4744,7 +4744,7 @@
         },
         "policy": {
           "$ref": "#/definitions/ManagementPolicySchema",
-          "description": "The Storage Account ManagementPolicy, in JSON format. See more details in: https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts."
+          "description": "The Storage Account ManagementPolicy, in JSON format. See more details in: https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-management-concepts."
         }
       },
       "required": [
@@ -4759,13 +4759,13 @@
           "items": {
             "$ref": "#/definitions/ManagementPolicyRule"
           },
-          "description": "The Storage Account ManagementPolicies Rules. See more details in: https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts."
+          "description": "The Storage Account ManagementPolicies Rules. See more details in: https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-management-concepts."
         }
       },
       "required": [
         "rules"
       ],
-      "description": "The Storage Account ManagementPolicies Rules. See more details in: https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts."
+      "description": "The Storage Account ManagementPolicies Rules. See more details in: https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-management-concepts."
     },
     "ManagementPolicyRule": {
       "properties": {
