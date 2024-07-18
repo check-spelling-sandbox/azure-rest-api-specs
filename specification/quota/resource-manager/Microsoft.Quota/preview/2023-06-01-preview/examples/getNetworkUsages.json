@@ -84,7 +84,7 @@
               "unit": "Count",
               "name": {
                 "value": "PublicIpPrefixes",
-                "localizedValue": "Public Ip Prefixes"
+                "localizedValue": "Public IP Prefixes"
               },
               "properties": {},
               "isQuotaApplicable": false
@@ -356,7 +356,7 @@
               "unit": "Count",
               "name": {
                 "value": "MinPublicIpInterNetworkPrefixLength",
-                "localizedValue": "Min Public Ip InterNetwork Prefix Length"
+                "localizedValue": "Min Public IP InterNetwork Prefix Length"
               },
               "properties": {},
               "isQuotaApplicable": true

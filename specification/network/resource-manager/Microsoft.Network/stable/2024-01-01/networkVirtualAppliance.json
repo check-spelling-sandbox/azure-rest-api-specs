@@ -1194,19 +1194,19 @@
         "hasPublicIp": {
           "type": "boolean",
           "readOnly": false,
-          "description": "Flag (true or false) for Intent for Public Ip on additional nic"
+          "description": "Flag (true or false) for Intent for Public IP on additional nic"
         }
       }
     },
     "InternetIngressPublicIpsProperties": {
       "type": "object",
-      "title": "Internet Ingress Public Ip Properties",
-      "description": "Resource Uri of Public Ip for Standard Load Balancer Frontend End.",
+      "title": "Internet Ingress Public IP Properties",
+      "description": "Resource Uri of Public IP for Standard Load Balancer Frontend End.",
       "properties": {
         "id": {
           "type": "string",
           "readOnly": false,
-          "description": "Resource Uri of Public Ip",
+          "description": "Resource Uri of Public IP",
           "format": "arm-id",
           "x-ms-arm-id-details": {
             "allowedResources": [

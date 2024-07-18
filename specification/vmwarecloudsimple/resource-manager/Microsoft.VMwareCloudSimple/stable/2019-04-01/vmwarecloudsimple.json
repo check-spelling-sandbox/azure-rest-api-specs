@@ -2998,7 +2998,7 @@
           "type": "string"
         },
         "vcenterRefid": {
-          "description": "Vcenter ip address",
+          "description": "Vcenter IP address",
           "type": "string"
         },
         "virtualMachineTemplates": {

@@ -53,7 +53,7 @@
             "id": "/subscriptions/subid/providers/Microsoft.Network/locations/West US/usages/PublicIpPrefixes",
             "limit": 2147483647.0,
             "name": {
-              "localizedValue": "Public Ip Prefixes",
+              "localizedValue": "Public IP Prefixes",
               "value": "PublicIpPrefixes"
             },
             "unit": "Count"

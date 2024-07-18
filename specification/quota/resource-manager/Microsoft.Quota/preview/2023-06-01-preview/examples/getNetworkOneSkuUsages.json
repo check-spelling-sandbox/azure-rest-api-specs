@@ -16,7 +16,7 @@
           },
           "name": {
             "value": "MinPublicIpInterNetworkPrefixLength",
-            "localizedValue": "Min Public Ip InterNetwork Prefix Length"
+            "localizedValue": "Min Public IP InterNetwork Prefix Length"
           },
           "unit": "Count",
           "isQuotaApplicable": true,
