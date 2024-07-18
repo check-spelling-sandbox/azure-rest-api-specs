@@ -17,7 +17,7 @@
               {
                 "id": "customdomain1.azurecdn.net",
                 "name": "customdomain1.azurecdn.net",
-                "endpointId": "enbdpiont1",
+                "endpointId": "endpoint1",
                 "history": true
               },
               {
