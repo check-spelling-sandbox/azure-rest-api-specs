@@ -12967,7 +12967,7 @@
         },
         "errorSasUri": {
           "type": "string",
-          "description": "error Sas Uri"
+          "description": "error SAS Uri"
         },
         "jobState": {
           "$ref": "#/definitions/DeleteImportedMachinesJobPropertiesJobState",
