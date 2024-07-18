@@ -7273,14 +7273,14 @@
         "typeProperties": {
           "description": "Azure Databricks Delta Lake linked service properties.",
           "x-ms-client-flatten": true,
-          "$ref": "#/definitions/AzureDatabricksDetltaLakeLinkedServiceTypeProperties"
+          "$ref": "#/definitions/AzureDatabricksDeltaLakeLinkedServiceTypeProperties"
         }
       },
       "required": [
         "typeProperties"
       ]
     },
-    "AzureDatabricksDetltaLakeLinkedServiceTypeProperties": {
+    "AzureDatabricksDeltaLakeLinkedServiceTypeProperties": {
       "description": "Azure Databricks Delta Lake linked service properties.",
       "type": "object",
       "properties": {
