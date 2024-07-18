@@ -709,7 +709,7 @@
             "modelAsString": true
           }
         },
-        "negationConditon": {
+        "negationCondition": {
           "description": "Whether this is negate condition or not.",
           "type": "boolean"
         },
