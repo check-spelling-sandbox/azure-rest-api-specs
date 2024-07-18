@@ -493,7 +493,7 @@
             }
           },
           "202": {
-            "description": "Accepted. The Scaling will complete asyncronously.",
+            "description": "Accepted. The Scaling will complete asynchronously.",
             "headers": {
               "Location": {
                 "type": "string"
@@ -551,7 +551,7 @@
             }
           },
           "202": {
-            "description": "Accepted. The Updating of SCOM Servers will complete asyncronously.",
+            "description": "Accepted. The Updating of SCOM Servers will complete asynchronously.",
             "headers": {
               "Location": {
                 "type": "string"
@@ -617,7 +617,7 @@
             }
           },
           "202": {
-            "description": "Accepted. The Log Analytics linking will complete asyncronously.",
+            "description": "Accepted. The Log Analytics linking will complete asynchronously.",
             "headers": {
               "Location": {
                 "type": "string"
@@ -672,7 +672,7 @@
             }
           },
           "202": {
-            "description": "Accepted. Disabling Log Analytics association with managed instance will complete asyncronously.",
+            "description": "Accepted. Disabling Log Analytics association with managed instance will complete asynchronously.",
             "headers": {
               "Location": {
                 "type": "string"
@@ -738,7 +738,7 @@
             }
           },
           "202": {
-            "description": "Accepted. The Log Analytics configuration update will complete asyncronously.",
+            "description": "Accepted. The Log Analytics configuration update will complete asynchronously.",
             "headers": {
               "Location": {
                 "type": "string"
