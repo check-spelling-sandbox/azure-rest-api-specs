@@ -5,7 +5,7 @@
     "resourceGroupName": "resourceGroupName",
     "labName": "{labName}",
     "userName": "@me",
-    "serviceFabricName": "{serviceFrabicName}",
+    "serviceFabricName": "{serviceFabricName}",
     "name": "{scheduleName}"
   },
   "responses": {
