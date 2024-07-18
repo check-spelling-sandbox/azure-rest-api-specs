@@ -14,7 +14,7 @@
             "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/Sample-WestUSResourceGroup/providers/Microsoft.Web/sites/SampleApp/slots/staging/diagnostics/availability",
             "name": "availability",
             "properties": {
-              "description": "Availability and Perfomance Diagnostics"
+              "description": "Availability and Performance Diagnostics"
             }
           }
         ]
