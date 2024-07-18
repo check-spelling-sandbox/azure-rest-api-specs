@@ -1,6 +1,6 @@
-# Azure Monitor AppliationInsights LiveMetrics TypeSpec Specification
+# Azure Monitor ApplicationInsights LiveMetrics TypeSpec Specification
 
-The TypeSpec and generated API specification for the Azure Monitor AppliationInsights LiveMetrics.
+The TypeSpec and generated API specification for the Azure Monitor ApplicationInsights LiveMetrics.
 
 ## Development Environment
 

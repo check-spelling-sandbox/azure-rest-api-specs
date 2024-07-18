@@ -1,4 +1,4 @@
-# Azure Monitor AppliationInsights LiveMetrics
+# Azure Monitor ApplicationInsights LiveMetrics
 > see https://aka.ms/autorest
 
 ## Getting Started
