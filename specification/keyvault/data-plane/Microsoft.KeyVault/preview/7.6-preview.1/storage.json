@@ -526,7 +526,7 @@
             "required": true,
             "x-ms-client-flatten": true,
             "schema": {
-              "$ref": "#/definitions/StorageAccountRegenerteKeyParameters"
+              "$ref": "#/definitions/StorageAccountRegenerateKeyParameters"
             },
             "description": "The parameters to regenerate storage account key."
           },
@@ -1202,7 +1202,7 @@
       },
       "description": "The storage account update parameters."
     },
-    "StorageAccountRegenerteKeyParameters": {
+    "StorageAccountRegenerateKeyParameters": {
       "properties": {
         "keyName": {
           "type": "string",
