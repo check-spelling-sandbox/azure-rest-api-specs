@@ -225,7 +225,7 @@
           "200": {
             "description": "successful operation",
             "schema": {
-              "$ref": "#/definitions/TopicMetadaResponse"
+              "$ref": "#/definitions/TopicMetadataResponse"
             }
           },
           "400": {
@@ -594,7 +594,7 @@
       },
       "description": "List of topics"
     },
-    "TopicMetadaResponse": {
+    "TopicMetadataResponse": {
       "type": "object",
       "properties": {
         "topic": {
