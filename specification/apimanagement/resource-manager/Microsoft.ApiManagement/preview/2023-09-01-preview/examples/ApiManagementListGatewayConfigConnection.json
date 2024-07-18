@@ -32,7 +32,7 @@
               "sourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg1/providers/Microsoft.ApiManagement/services/apim-service-1/workspaces/ws-002",
               "defaultHostname": "gcc-2-ahg4t5iof8gaafex.standard-gw-1.gateway.eastus.azure-api.net"
             },
-            "type": "Microsoft.ApiManagement/gateways/configConnetions"
+            "type": "Microsoft.ApiManagement/gateways/configConnections"
           }
         ]
       }
