@@ -156,7 +156,7 @@
               "provider": "Microsoft Search",
               "resource": "Diagnostic Settings",
               "operation": "Get Diagnostic Setting",
-              "description": "Gets the diganostic setting for the resource."
+              "description": "Gets the diagnostic setting for the resource."
             },
             "origin": "system"
           },
@@ -167,7 +167,7 @@
               "provider": "Microsoft Search",
               "resource": "Diagnostic Settings",
               "operation": "Set Diagnostic Setting",
-              "description": "Creates or updates the diganostic setting for the resource."
+              "description": "Creates or updates the diagnostic setting for the resource."
             },
             "origin": "system"
           },
