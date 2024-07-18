@@ -12,7 +12,7 @@
           {
             "id": "/subscriptions/c80fb759-c965-4c6a-9110-9b2b2d038882/resourceGroups/myResourceGroup/providers/Microsoft.AppConfiguration/configurationStores/contoso/privateLinkResources/configurationStores",
             "name": "configurationStores",
-            "type": "Microsoft.AppConfiguraiton/configurationStores/privateLinkResources",
+            "type": "Microsoft.AppConfiguration/configurationStores/privateLinkResources",
             "properties": {
               "groupId": "configurationStores",
               "requiredMembers": [

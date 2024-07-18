@@ -169,7 +169,7 @@
           {
             "display": {
               "description": "Creates a new MaintenanceConfiguration or updates an existing one",
-              "operation": "Create or Update maintenance configuratio",
+              "operation": "Create or Update maintenance configuration",
               "provider": "Microsoft Container Service",
               "resource": "Maintenance Configurations"
             },
