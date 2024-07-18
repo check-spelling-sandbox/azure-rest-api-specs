@@ -21,7 +21,7 @@
         "serviceToken": "**********",
         "identityCertThumbprint": "**********",
         "hostServiceUri": "https://yanzhang-dt.fareast.corp.microsoft.com:8050/HostServiceRemote.svc/",
-        "isIdentityCertExprired": false
+        "isIdentityCertExpired": false
       }
     }
   }

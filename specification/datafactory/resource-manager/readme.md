@@ -213,7 +213,7 @@ directive:
       - $.definitions.ForEachActivityTypeProperties.properties.isSequential
       - $.definitions.ExecutePipelineActivityTypeProperties.properties.waitOnCompletion
       - $.definitions.SelfHostedIntegrationRuntimeNode.properties.isActiveDispatcher
-      - $.definitions.IntegrationRuntimeConnectionInfo.properties.isIdentityCertExprired
+      - $.definitions.IntegrationRuntimeConnectionInfo.properties.isIdentityCertExpired
     reason:
       - toBeExportedForShoebox is property we send to Azure Monitor which requires the boolean type
       - The other properties are simple and self explanatory
