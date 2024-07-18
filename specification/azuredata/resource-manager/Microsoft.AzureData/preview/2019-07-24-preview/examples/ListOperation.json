@@ -11,7 +11,7 @@
             "display": {
               "resource": "SQL Server Registration",
               "operation": "Get SQL Server Registration details",
-              "description": "Retrives details of SQL Server Registration"
+              "description": "Retrieves details of SQL Server Registration"
             }
           },
           {
