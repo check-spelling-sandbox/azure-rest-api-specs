@@ -59,7 +59,7 @@
             "properties": {
               "displayName": "Roles are being assigned outside of Privileged Identity Management",
               "scope": "subscriptions/afa2a084-766f-4003-8ae1-c4aeb893a99f",
-              "description": "2 privileged assignment(s) were made outisde of Azure AD PIM",
+              "description": "2 privileged assignment(s) were made outside of Azure AD PIM",
               "severityLevel": "High",
               "securityImpact": "Privileged role assignments made outside of Privileged Identity Management are not properly monitored and may indicate an active attack.",
               "mitigationSteps": "Review the users in the list and remove them from privileged roles assigned outside of Privileged Identity Management.",
