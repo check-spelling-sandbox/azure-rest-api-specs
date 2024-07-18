@@ -142,7 +142,7 @@ input-file:
 ``` yaml
 directive:
   - suppress: DefinitionsPropertiesNamesCamelCase
-    reason: These parameters are predfined by storage specifications 
+    reason: These parameters are predefined by storage specifications 
   - suppress: XmsPathsMustOverloadPaths
   - suppress: XmsExamplesRequired
   - suppress: LongRunningOperationsWithLongRunningExtension
