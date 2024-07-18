@@ -320,7 +320,7 @@
             "display": {
               "provider": "Microsoft Key Vault",
               "resource": "Location",
-              "operation": "Modify Network ACLs containing the deleted Vitual Network or Subnet ",
+              "operation": "Modify Network ACLs containing the deleted Virtual Network or Subnet ",
               "description": "Notifies Microsoft.KeyVault that a virtual network or subnet is being deleted"
             },
             "isDataAction": false

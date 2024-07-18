@@ -40,7 +40,7 @@
             }
           ]
         },
-        "description": "Remove all ActionGroups from all Vitual machine Alerts during the recurring maintenance",
+        "description": "Remove all ActionGroups from all Virtual machine Alerts during the recurring maintenance",
         "enabled": true
       }
     }
@@ -89,7 +89,7 @@
               }
             ]
           },
-          "description": "Remove all ActionGroups from all Vitual machine Alerts during the recurring maintenance",
+          "description": "Remove all ActionGroups from all Virtual machine Alerts during the recurring maintenance",
           "enabled": true
         },
         "id": "/subscriptions/subId1/resourceGroups/alertscorrelationrg/providers/Microsoft.AlertsManagement/actionRules/RemoveActionGroupsRecurringMaintenance",
@@ -142,7 +142,7 @@
               }
             ]
           },
-          "description": "Remove all ActionGroups from all Vitual machine Alerts during the recurring maintenance",
+          "description": "Remove all ActionGroups from all Virtual machine Alerts during the recurring maintenance",
           "enabled": true
         },
         "id": "/subscriptions/subId1/resourceGroups/alertscorrelationrg/providers/Microsoft.AlertsManagement/actionRules/RemoveActionGroupsRecurringMaintenance",

@@ -2710,7 +2710,7 @@
       "properties": {
         "autoScaleConfiguration": {
           "$ref": "#/definitions/VirtualNetworkGatewayAutoScaleConfiguration",
-          "description": "Autoscale configuration for virutal network gateway"
+          "description": "Autoscale configuration for virtual network gateway"
         },
         "ipConfigurations": {
           "type": "array",
