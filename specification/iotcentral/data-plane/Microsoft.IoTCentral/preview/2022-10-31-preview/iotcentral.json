@@ -4975,7 +4975,7 @@
         "summary": "Update a device group via patch",
         "description": "Update an existing device group by ID.",
         "x-ms-examples": {
-          "Update device device group": {
+          "Update device group": {
             "$ref": "./examples/devicegroups_update.json"
           }
         },
