@@ -21,7 +21,7 @@
         "deviceAdminPassword": {
           "value": "<deviceAdminPassword>",
           "encryptionAlgorithm": "AES256",
-          "encryptionCertThumbprint": "<encryptionThumprint>"
+          "encryptionCertThumbprint": "<encryptionThumbprint>"
         }
       }
     }
