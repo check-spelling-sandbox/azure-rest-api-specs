@@ -219,7 +219,7 @@
                   "type": "string",
                   "uiDefinition": {
                     "displayName": "Default queue name",
-                    "description": "The name of the default queue, may be overriden.",
+                    "description": "The name of the default queue, may be overridden.",
                     "tooltip": "Default queue name",
                     "constraints": {
                       "tabIndex": 4,

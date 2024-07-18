@@ -800,7 +800,7 @@
           "additionalProperties": {
             "type": "string"
           },
-          "description": "The configurations that need to be overriden."
+          "description": "The configurations that need to be overridden."
         }
       }
     },
