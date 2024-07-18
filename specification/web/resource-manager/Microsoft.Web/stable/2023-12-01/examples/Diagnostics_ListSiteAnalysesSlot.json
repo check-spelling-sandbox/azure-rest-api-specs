@@ -43,7 +43,7 @@
             "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/Sample-WestUSResourceGroup/providers/Microsoft.Web/sites/SampleApp/slots/staging/diagnostics/availability/analyses/perfanalysis",
             "name": "perfanalysis",
             "properties": {
-              "description": "Determine causes of performance degredation as well as solutions for these problems"
+              "description": "Determine causes of performance degradation as well as solutions for these problems"
             }
           }
         ]
