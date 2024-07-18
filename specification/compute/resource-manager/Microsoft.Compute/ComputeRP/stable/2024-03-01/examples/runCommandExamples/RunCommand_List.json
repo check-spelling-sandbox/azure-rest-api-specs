@@ -76,7 +76,7 @@
             "id": "ResetRDPCert",
             "osType": "Windows",
             "label": "Restore RDP Authentication mode to defaults",
-            "description": "Removes the SSL certificate tied to the RDP listener and restores the RDP listerner security to default. Use this script if you see any issues with the certificate."
+            "description": "Removes the SSL certificate tied to the RDP listener and restores the RDP listener security to default. Use this script if you see any issues with the certificate."
           }
         ]
       }
