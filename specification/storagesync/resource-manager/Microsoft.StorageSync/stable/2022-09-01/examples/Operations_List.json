@@ -185,7 +185,7 @@
                   {
                     "name": "StorageSyncServerHeartbeat",
                     "displayName": "Server Online Status",
-                    "displayDescription": "Metric that logs a value of 1 each time the resigtered server successfully records a heartbeat with the Cloud Endpoint",
+                    "displayDescription": "Metric that logs a value of 1 each time the registered server successfully records a heartbeat with the Cloud Endpoint",
                     "unit": "Count",
                     "aggregationType": "Maximum",
                     "fillGapWithZero": true,
@@ -753,7 +753,7 @@
                   {
                     "name": "ServerHeartbeat",
                     "displayName": "Server Online Status",
-                    "displayDescription": "Metric that logs a value of 1 each time the resigtered server successfully records a heartbeat with the Cloud Endpoint",
+                    "displayDescription": "Metric that logs a value of 1 each time the registered server successfully records a heartbeat with the Cloud Endpoint",
                     "unit": "Count",
                     "aggregationType": "Maximum",
                     "fillGapWithZero": false,
