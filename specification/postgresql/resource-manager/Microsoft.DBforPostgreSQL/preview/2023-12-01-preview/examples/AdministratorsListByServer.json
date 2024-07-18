@@ -12,7 +12,7 @@
           {
             "properties": {
               "principalType": "User",
-              "principalName": "testuer1@microsoft.com",
+              "principalName": "testuser1@microsoft.com",
               "objectId": "oooooooo-oooo-oooo-oooo-oooooooooooo",
               "tenantId": "tttttttt-tttt-tttt-tttt-tttttttttttt"
             },
