@@ -2132,7 +2132,7 @@
             "type": "string"
           }
         },
-        "isAvailiable": {
+        "isAvailable": {
           "description": "Not used and deprecated since API version 2023-01-01-preview",
           "type": "boolean"
         },
@@ -2150,7 +2150,7 @@
         }
       ],
       "properties": {
-        "isAvailiable": {
+        "isAvailable": {
           "description": "Gets or sets true if the name is available and can be used to\r\ncreate new Namespace/NotificationHub. Otherwise false.",
           "type": "boolean"
         },
