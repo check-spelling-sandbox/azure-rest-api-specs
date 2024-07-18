@@ -191,7 +191,7 @@ Use case and design proposals
 
 #### 4.Dev Outer loop
 
-Dev Outer Loop is defined as the experience of Spec writers shepherding the TypeSpec documents thru `azure-rest-api-sepcs` and its other dependency repos/branches like `-pr`, `-pr/RPSaasMain`, and `-pr/RPSaaSDev`, to different language SDK repos.
+Dev Outer Loop is defined as the experience of Spec writers shepherding the TypeSpec documents thru `azure-rest-api-specs` and its other dependency repos/branches like `-pr`, `-pr/RPSaasMain`, and `-pr/RPSaaSDev`, to different language SDK repos.
 
 The experience should allow as much validations can be verified/debugged locally to ensure a clean CI for simple and fast PR reviews.
 
