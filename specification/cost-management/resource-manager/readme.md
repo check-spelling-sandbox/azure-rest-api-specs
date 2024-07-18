@@ -465,13 +465,13 @@ directive:
     reason: 'Operations does not contain a path for individual GET'
   - suppress: TopLevelResourcesListBySubscription
     from: costallocation.json
-    reason: 'List by subscription is not supported in cost allocation by desgin'
+    reason: 'List by subscription is not supported in cost allocation by design'
   - suppress: PathForResourceAction
     from: costallocation.json
     reason: 'This is not a valid scenario for the checkNameAvailability API as the name itself represents an action.'
   - suppress: PathForPutOperation
     from: costallocation.json
-    reason: 'Subscripiton and ResourceGroup scope is not supported in cost allocation by desgin'
+    reason: 'Subscripiton and ResourceGroup scope is not supported in cost allocation by design'
   - suppress: RequiredReadOnlySystemData
     from: costallocation.json
     reason: 'cost allocation does not return system data and will consider adding it in the future or upcoming api version'
@@ -489,7 +489,7 @@ directive:
     reason: 'Settings List designed to deliver very limited records'
   - suppress: TopLevelResourcesListBySubscription
     from: settings.json
-    reason: 'List by subscription is not supported in settings by desgin'
+    reason: 'List by subscription is not supported in settings by design'
   - suppress: EnumInsteadOfBoolean
     from: settings.json
     reason: 'Keeping it as boolean property as per the design'
