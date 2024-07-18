@@ -481,19 +481,19 @@ union InputType {
   @doc("The input content is a Year, pick from the dropdown list.")
   YearPicker: "YearPicker",
 
-  @doc("The input content is a single result seleted from the options.")
+  @doc("The input content is a single result selected from the options.")
   SingleSelection: "SingleSelection",
 
-  @doc("The input content is a single result seleted from the dropdown options.")
+  @doc("The input content is a single result selected from the dropdown options.")
   SingleSelectDropdown: "SingleSelectDropdown",
 
-  @doc("The input content are multiple results seleted from the checkboxes.")
+  @doc("The input content are multiple results selected from the checkboxes.")
   MultiSelectCheckbox: "MultiSelectCheckbox",
 
-  @doc("The input content are multiple results seleted from the dropdown options.")
+  @doc("The input content are multiple results selected from the dropdown options.")
   MultiSelectDropdown: "MultiSelectDropdown",
 
-  @doc("The input content are result seleted from the custom dropdown options.")
+  @doc("The input content are result selected from the custom dropdown options.")
   MultiSelectDropdownCustom: "MultiSelectDropdownCustom",
 
   @doc("The input content is a group of answers.")
