@@ -1,5 +1,5 @@
 ###
-# Conventient usage: 
+# Convenient usage: 
 # 1) generate specific language sdk based on current typespec folder
 #   ./TypeSpec-Generate-Sdk.ps1 -SdkLanguage {language}
 #   e.g. ./TypeSpec-Generate-Sdk.ps1 -SdkLanguage dotnet
