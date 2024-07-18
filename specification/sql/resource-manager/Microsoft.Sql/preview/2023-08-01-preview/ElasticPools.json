@@ -533,7 +533,7 @@
           }
         },
         "maintenanceConfigurationId": {
-          "description": "Maintenance configuration id assigned to the elastic pool. This configuration defines the period when the maintenance updates will will occur.",
+          "description": "Maintenance configuration id assigned to the elastic pool. This configuration defines the period when the maintenance updates will occur.",
           "type": "string"
         },
         "highAvailabilityReplicaCount": {
@@ -630,7 +630,7 @@
           }
         },
         "maintenanceConfigurationId": {
-          "description": "Maintenance configuration id assigned to the elastic pool. This configuration defines the period when the maintenance updates will will occur.",
+          "description": "Maintenance configuration id assigned to the elastic pool. This configuration defines the period when the maintenance updates will occur.",
           "type": "string"
         },
         "highAvailabilityReplicaCount": {
