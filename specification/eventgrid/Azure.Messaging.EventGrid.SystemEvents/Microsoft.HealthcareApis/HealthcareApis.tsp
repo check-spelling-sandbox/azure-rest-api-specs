@@ -105,7 +105,7 @@ namespace Microsoft.EventGrid.SystemEvents {
     /** Domain name of the DICOM account for this image. */
     serviceHostName?: string;
 
-    /** Sequence number of the DICOM Service within Azure Health Data Services. It is unique for every image creation, updation and deletion within the service. */
+    /** Sequence number of the DICOM Service within Azure Health Data Services. It is unique for every image creation, update and deletion within the service. */
     sequenceNumber?: int64;
   }
 

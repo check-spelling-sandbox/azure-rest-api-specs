@@ -3057,7 +3057,7 @@
         },
         "lastRefreshAt": {
           "format": "date-time",
-          "description": "Last Update Timestamp for key updation",
+          "description": "Last Update Timestamp for key update",
           "type": "string",
           "readOnly": true
         }

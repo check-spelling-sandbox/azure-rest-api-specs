@@ -152,7 +152,7 @@
           "type": "string"
         },
         "sequenceNumber": {
-          "description": "Sequence number of the DICOM Service within Azure Health Data Services. It is unique for every image creation, updation and deletion within the service.",
+          "description": "Sequence number of the DICOM Service within Azure Health Data Services. It is unique for every image creation, update and deletion within the service.",
           "type": "integer",
           "format": "int64"
         }
