@@ -110,8 +110,8 @@
           {
             "name": "Microsoft.SqlVirtualMachine/locations/registerSqlVmCandidate/action",
             "display": {
-              "operation": "Register SQL Vm Candidate",
-              "description": "Register SQL Vm Candidate"
+              "operation": "Register SQL VM Candidate",
+              "description": "Register SQL VM Candidate"
             }
           },
           {

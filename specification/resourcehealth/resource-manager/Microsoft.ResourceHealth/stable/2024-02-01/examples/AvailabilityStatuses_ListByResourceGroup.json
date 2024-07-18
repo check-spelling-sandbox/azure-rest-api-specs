@@ -17,7 +17,7 @@
             "properties": {
               "availabilityState": "Available",
               "title": "Available",
-              "summary": "Vm is available",
+              "summary": "VM is available",
               "reasonType": "Unplanned",
               "context": "Platform Initiated",
               "category": "Unplanned",

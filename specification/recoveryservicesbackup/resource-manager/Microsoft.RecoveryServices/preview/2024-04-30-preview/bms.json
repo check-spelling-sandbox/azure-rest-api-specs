@@ -200,7 +200,7 @@
           }
         },
         "x-ms-examples": {
-          "Validate Enable Protection on Azure Vm": {
+          "Validate Enable Protection on Azure VM": {
             "$ref": "./examples/AzureIaasVm/ProtectionIntent_Validate.json"
           }
         }
@@ -290,7 +290,7 @@
           }
         },
         "x-ms-examples": {
-          "Check Azure Vm Backup Feature Support": {
+          "Check Azure VM Backup Feature Support": {
             "$ref": "./examples/AzureIaasVm/BackupFeature_Validate.json"
           }
         }
@@ -403,7 +403,7 @@
           }
         },
         "x-ms-examples": {
-          "Create or Update Azure Vm Protection Intent": {
+          "Create or Update Azure VM Protection Intent": {
             "$ref": "./examples/AzureIaasVm/ProtectionIntent_CreateOrUpdate.json"
           }
         }
@@ -1605,7 +1605,7 @@
           }
         },
         "x-ms-examples": {
-          "Get Operation Results of Protected Vm": {
+          "Get Operation Results of Protected VM": {
             "$ref": "./examples/AzureIaasVm/ProtectedItemOperationResults.json"
           }
         }
@@ -1682,7 +1682,7 @@
           "nextLinkName": "nextLink"
         },
         "x-ms-examples": {
-          "Get Protected Azure Vm Recovery Points": {
+          "Get Protected Azure VM Recovery Points": {
             "$ref": "./examples/AzureIaasVm/RecoveryPoints_List.json"
           }
         }
@@ -1755,7 +1755,7 @@
           }
         },
         "x-ms-examples": {
-          "Get Azure Vm Recovery Point Details": {
+          "Get Azure VM Recovery Point Details": {
             "$ref": "./examples/AzureIaasVm/RecoveryPoints_Get.json"
           }
         }
@@ -1835,7 +1835,7 @@
           }
         },
         "x-ms-examples": {
-          "Update Azure Vm Recovery Point Details": {
+          "Update Azure VM Recovery Point Details": {
             "$ref": "./examples/Common/RecoveryPoints_Update.json"
           }
         }
@@ -2122,16 +2122,16 @@
           }
         },
         "x-ms-examples": {
-          "Create or Update Simple Azure Vm Protection Policy": {
+          "Create or Update Simple Azure VM Protection Policy": {
             "$ref": "./examples/AzureIaasVm/ProtectionPolicies_CreateOrUpdate_Simple.json"
           },
-          "Create or Update Full Azure Vm Protection Policy": {
+          "Create or Update Full Azure VM Protection Policy": {
             "$ref": "./examples/AzureIaasVm/ProtectionPolicies_CreateOrUpdate_Complex.json"
           },
-          "Create or Update Enhanced Azure Vm Protection Policy with Hourly backup": {
+          "Create or Update Enhanced Azure VM Protection Policy with Hourly backup": {
             "$ref": "./examples/AzureIaasVm/V2Policy/IaaS_v2_hourly.json"
           },
-          "Create or Update Enhanced Azure Vm Protection Policy with daily backup": {
+          "Create or Update Enhanced Azure VM Protection Policy with daily backup": {
             "$ref": "./examples/AzureIaasVm/V2Policy/IaaS_v2_daily.json"
           },
           "Create or Update Full Azure Workload Protection Policy": {
@@ -2194,7 +2194,7 @@
         },
         "x-ms-long-running-operation": true,
         "x-ms-examples": {
-          "Delete Azure Vm Protection Policy": {
+          "Delete Azure VM Protection Policy": {
             "$ref": "./examples/AzureIaasVm/ProtectionPolicies_Delete.json"
           }
         }
@@ -3061,7 +3061,7 @@
           }
         },
         "x-ms-examples": {
-          "Azure Vm Discovery Operation Result": {
+          "Azure VM Discovery Operation Result": {
             "$ref": "./examples/Common/RefreshContainers_OperationResults.json"
           }
         }
@@ -3671,7 +3671,7 @@
           }
         },
         "x-ms-examples": {
-          "Get Operation Status of Protected Vm": {
+          "Get Operation Status of Protected VM": {
             "$ref": "./examples/AzureIaasVm/ProtectedItemOperationStatus.json"
           }
         }
@@ -3750,7 +3750,7 @@
           }
         },
         "x-ms-examples": {
-          "Provision Instant Item Level Recovery for Azure Vm": {
+          "Provision Instant Item Level Recovery for Azure VM": {
             "$ref": "./examples/AzureIaasVm/Provision_Ilr.json"
           }
         }
@@ -3820,7 +3820,7 @@
           }
         },
         "x-ms-examples": {
-          "Revoke Instant Item Level Recovery for Azure Vm": {
+          "Revoke Instant Item Level Recovery for Azure VM": {
             "$ref": "./examples/AzureIaasVm/Revoke_Ilr.json"
           }
         }
@@ -3877,7 +3877,7 @@
         },
         "x-ms-odata": "#/definitions/BMSRefreshContainersQueryObject",
         "x-ms-examples": {
-          "Trigger Azure Vm Discovery": {
+          "Trigger Azure VM Discovery": {
             "$ref": "./examples/Common/RefreshContainers.json"
           }
         }
@@ -4428,7 +4428,7 @@
           "nextLinkName": "nextLink"
         },
         "x-ms-examples": {
-          "Get Protected Azure Vm Recovery Points Recommended for Move": {
+          "Get Protected Azure VM Recovery Points Recommended for Move": {
             "$ref": "./examples/AzureIaasVm/RecoveryPointsRecommendedForMove_List.json"
           }
         }
@@ -11275,7 +11275,7 @@
           "type": "string"
         },
         "itemId": {
-          "description": "ID of the item which is getting protected, In case of Azure Vm , it is ProtectedItemId",
+          "description": "ID of the item which is getting protected, In case of Azure VM , it is ProtectedItemId",
           "type": "string"
         },
         "policyId": {

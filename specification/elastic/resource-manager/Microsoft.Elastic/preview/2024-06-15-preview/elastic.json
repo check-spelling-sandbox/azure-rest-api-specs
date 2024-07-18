@@ -3359,7 +3359,7 @@
           }
         },
         "nextLink": {
-          "description": "Link to the next Vm resource ID, if any.",
+          "description": "Link to the next VM resource ID, if any.",
           "type": "string"
         }
       }

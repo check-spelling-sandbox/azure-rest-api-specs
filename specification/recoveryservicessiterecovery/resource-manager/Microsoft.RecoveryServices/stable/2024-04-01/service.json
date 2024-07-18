@@ -11516,7 +11516,7 @@
       }
     },
     "A2AVmManagedDiskUpdateDetails": {
-      "description": "A2A Vm managed disk update details.",
+      "description": "A2A VM managed disk update details.",
       "type": "object",
       "properties": {
         "diskId": {
@@ -12695,7 +12695,7 @@
       ],
       "properties": {
         "vmDetails": {
-          "description": "The list of inconsistent Vm details.",
+          "description": "The list of inconsistent VM details.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/InconsistentVmDetails"
@@ -13971,11 +13971,11 @@
           "type": "string"
         },
         "testVmName": {
-          "description": "The test Vm name.",
+          "description": "The test VM name.",
           "type": "string"
         },
         "testVmFriendlyName": {
-          "description": "The test Vm friendly name.",
+          "description": "The test VM friendly name.",
           "type": "string"
         },
         "networkConnectionStatus": {
@@ -14894,11 +14894,11 @@
       ],
       "properties": {
         "hvHostVmId": {
-          "description": "The Hyper-V host Vm ID.",
+          "description": "The Hyper-V host VM ID.",
           "type": "string"
         },
         "vmName": {
-          "description": "The Vm Name.",
+          "description": "The VM Name.",
           "type": "string"
         },
         "osType": {
@@ -15636,7 +15636,7 @@
       "type": "object",
       "properties": {
         "vmName": {
-          "description": "The Vm name.",
+          "description": "The VM name.",
           "type": "string"
         },
         "cloudName": {
@@ -23969,7 +23969,7 @@
           "description": "The current scenario."
         },
         "failoverRecoveryPointId": {
-          "description": "The recovery point ARM ID to which the Vm was failed over.",
+          "description": "The recovery point ARM ID to which the VM was failed over.",
           "type": "string"
         },
         "providerSpecificDetails": {

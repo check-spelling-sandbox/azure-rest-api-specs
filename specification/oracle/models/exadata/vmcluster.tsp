@@ -281,7 +281,7 @@ model CloudVmClusterProperties {
   @doc("The Oracle license model that applies to the cloud VM cluster. The default is LICENSE_INCLUDED. ")
   licenseModel?: LicenseModel;
 
-  @doc("The type of redundancy configured for the cloud Vm cluster. NORMAL is 2-way redundancy. HIGH is 3-way redundancy. ")
+  @doc("The type of redundancy configured for the cloud VM cluster. NORMAL is 2-way redundancy. HIGH is 3-way redundancy. ")
   @visibility("read")
   diskRedundancy?: DiskRedundancy;
 

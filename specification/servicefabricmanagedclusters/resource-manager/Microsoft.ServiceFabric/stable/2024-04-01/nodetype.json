@@ -1701,7 +1701,7 @@
     },
     "VmssExtensionSetupOrder": {
       "type": "string",
-      "description": "Vm extension setup order.\n",
+      "description": "VM extension setup order.\n",
       "enum": [
         "BeforeSFRuntime"
       ],

@@ -734,7 +734,7 @@
           }
         },
         "x-ms-examples": {
-          "Check Azure Vm Backup Feature Support": {
+          "Check Azure VM Backup Feature Support": {
             "$ref": "./examples/CheckfeatureSupport.json"
           }
         }
