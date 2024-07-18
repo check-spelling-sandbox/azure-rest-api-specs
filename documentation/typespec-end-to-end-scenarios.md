@@ -197,7 +197,7 @@ The experience should allow as much validations can be verified/debugged locally
 
 ##### Use case
 - With the correct inner loop setup, the spec writer should be able to submit all relevant files as PR to `azure-rest-api-specs-pr` repo or `azure-rest-api-specs` repo
-- CI pipeline should verify TypeSpec compliation
+- CI pipeline should verify TypeSpec compilation
 - CI Pipeline should be able to generate key language SDKs (.net,java,js,python)
 - Optionally CI generated key lanauge SDKs changes can be used to directly create PR on SDK public repo
 - Optionally user can add customized code to the working branch created by CI pipeline.
