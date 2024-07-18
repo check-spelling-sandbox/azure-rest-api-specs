@@ -29,7 +29,7 @@
           "allowedIpRangeList": [],
           "restrictOutboundNetworkAccess": "Enabled",
           "allowedFqdnList": [
-            "my-stroage.blob.core.windows.net"
+            "my-storage.blob.core.windows.net"
           ],
           "privateEndpointConnections": [
             {
