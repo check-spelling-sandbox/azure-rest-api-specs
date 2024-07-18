@@ -917,7 +917,7 @@
       "type": "object",
       "properties": {
         "enabled": {
-          "description": "<code>false</code> if the custom Open ID provider provider should not be enabled; otherwise, <code>true</code>.",
+          "description": "<code>false</code> if the custom Open ID provider should not be enabled; otherwise, <code>true</code>.",
           "type": "boolean"
         },
         "registration": {
