@@ -7103,7 +7103,7 @@
           {
             "name": "machineName",
             "in": "path",
-            "description": "Assessible Machine ARM name",
+            "description": "Accessible Machine ARM name",
             "required": true,
             "type": "string",
             "pattern": "^[^<>&:\\?/#]{1,260}$"
