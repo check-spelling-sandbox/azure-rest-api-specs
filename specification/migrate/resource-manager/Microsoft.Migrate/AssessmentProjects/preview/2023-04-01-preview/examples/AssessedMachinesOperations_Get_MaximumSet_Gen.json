@@ -61,7 +61,7 @@
             "4000": {
               "suitability": "Suitable",
               "suitabilityDetail": "NotApplicable",
-              "suitabilityExplanation": "MegabytesOfDataTransmittedMissing, MegabytesOfDataRecievedMissing",
+              "suitabilityExplanation": "MegabytesOfDataTransmittedMissing, MegabytesOfDataReceivedMissing",
               "monthlyBandwidthCosts": 4,
               "netGigabytesTransmittedPerMonth": 6,
               "displayName": "VM Network",

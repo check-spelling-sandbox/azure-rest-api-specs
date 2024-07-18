@@ -88,7 +88,7 @@
               "networkAdapters": {
                 "4000": {
                   "suitability": "Suitable",
-                  "suitabilityDetail": "MegabytesOfDataTransmittedMissing, MegabytesOfDataRecievedMissing",
+                  "suitabilityDetail": "MegabytesOfDataTransmittedMissing, MegabytesOfDataReceivedMissing",
                   "suitabilityExplanation": "NotApplicable",
                   "monthlyBandwidthCosts": 0.0,
                   "netGigabytesTransmittedPerMonth": 0.0,

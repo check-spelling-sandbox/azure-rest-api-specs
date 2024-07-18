@@ -13099,8 +13099,8 @@
         "None",
         "MegabytesOfDataTransmittedMissing",
         "MegabytesOfDataTransmittedOutOfRange",
-        "MegabytesOfDataRecievedMissing",
-        "MegabytesOfDataRecievedOutOfRange"
+        "MegabytesOfDataReceivedMissing",
+        "MegabytesOfDataReceivedOutOfRange"
       ],
       "x-ms-enum": {
         "name": "AzureNetworkAdapterSuitabilityDetail",
