@@ -2,7 +2,7 @@
   "parameters": {
     "circuitName": "circuitName",
     "resourceGroupName": "rg1",
-    "authorizationName": "authorizatinName",
+    "authorizationName": "authorizationName",
     "api-version": "2024-01-01",
     "subscriptionId": "subid",
     "authorizationParameters": {
