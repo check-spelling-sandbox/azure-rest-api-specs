@@ -1192,7 +1192,7 @@
               },
               {
                 "value": "Disabled",
-                "description": "Legacy Configuration API (v1) is disabled for the service and self-hosted gateways can not connect to it."
+                "description": "Legacy Configuration API (v1) is disabled for the service and self-hosted gateways cannot connect to it."
               }
             ]
           }

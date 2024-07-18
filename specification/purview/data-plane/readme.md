@@ -324,7 +324,7 @@ where:
   - $.paths[\"/atlas/v2/glossary/terms/{termGuid}/assignedEntities\"].delete.parameters[1]
   - $.paths[\"/atlas/v2/types/typedefs\"].delete.parameters[0]
 from: purviewcatalog.json
-reason: This property is the discriminator for polymorph, but it can not be in request body.
+reason: This property is the discriminator for polymorph, but it cannot be in request body.
 ```
 
 ``` yaml

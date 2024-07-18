@@ -1609,7 +1609,7 @@
         },
         "failContainerGroupCreateOnReuseFailure": {
           "type": "boolean",
-          "description": "The flag to determine whether ACI should fail the create request if the container group can not be obtained from standby pool."
+          "description": "The flag to determine whether ACI should fail the create request if the container group cannot be obtained from standby pool."
         }
       }
     },

@@ -359,7 +359,7 @@
         },
         "isDoubleEncryptionEnabled": {
           "type": "boolean",
-          "description": "Configures whether cluster will use double encryption. This Property can not be modified after cluster creation. Default value is 'true'",
+          "description": "Configures whether cluster will use double encryption. This Property cannot be modified after cluster creation. Default value is 'true'",
           "x-ms-mutability": [
             "create",
             "read"
@@ -367,7 +367,7 @@
         },
         "isAvailabilityZonesEnabled": {
           "type": "boolean",
-          "description": "Sets whether the cluster will support availability zones. This can be set as true only in regions where Azure Data Explorer support Availability Zones. This Property can not be modified after cluster creation. Default value is 'true' if region supports Availability Zones."
+          "description": "Sets whether the cluster will support availability zones. This can be set as true only in regions where Azure Data Explorer support Availability Zones. This Property cannot be modified after cluster creation. Default value is 'true' if region supports Availability Zones."
         },
         "billingType": {
           "$ref": "#/definitions/billingType",

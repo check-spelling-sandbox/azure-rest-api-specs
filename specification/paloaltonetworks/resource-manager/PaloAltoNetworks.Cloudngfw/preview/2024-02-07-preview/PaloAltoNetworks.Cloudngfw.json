@@ -2161,7 +2161,7 @@
             }
           },
           "404": {
-            "description": "The server can not find the requested resource."
+            "description": "The server cannot find the requested resource."
           },
           "default": {
             "description": "Common error response for all Azure Resource Manager APIs to return error details for failed operations.",
@@ -6363,12 +6363,12 @@
         },
         "tplName": {
           "type": "string",
-          "description": "Panorama Template Stack to join - (Once configured we can not edit the value)",
+          "description": "Panorama Template Stack to join - (Once configured we cannot edit the value)",
           "readOnly": true
         },
         "cgName": {
           "type": "string",
-          "description": "Panorama Collector Group to join - (Once configured we can not edit the value)",
+          "description": "Panorama Collector Group to join - (Once configured we cannot edit the value)",
           "readOnly": true
         },
         "hostName": {

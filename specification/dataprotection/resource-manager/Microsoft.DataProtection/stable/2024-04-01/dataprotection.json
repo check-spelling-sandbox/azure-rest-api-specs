@@ -6402,7 +6402,7 @@
                 "value": "Enabled"
               },
               {
-                "description": "CMK encryption is disabled on the Backup Vault. User can not set this state once Encryption State is 'Enabled'.",
+                "description": "CMK encryption is disabled on the Backup Vault. User cannot set this state once Encryption State is 'Enabled'.",
                 "value": "Disabled"
               },
               {

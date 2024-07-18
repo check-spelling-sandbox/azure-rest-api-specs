@@ -718,7 +718,7 @@
         "name": "TemplateStatus",
         "values": [
           {
-            "description": "Alert rule template installed. and can not use more then once",
+            "description": "Alert rule template installed. and cannot use more then once",
             "value": "Installed"
           },
           {

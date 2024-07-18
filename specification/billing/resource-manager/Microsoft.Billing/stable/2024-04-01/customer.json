@@ -346,7 +346,7 @@
           "x-ms-identifiers": []
         },
         "tags": {
-          "description": "Dictionary of metadata associated with the resource. Maximum key/value length supported of 256 characters. Keys/value should not empty value nor null. Keys can not contain < > % & \\ ? /",
+          "description": "Dictionary of metadata associated with the resource. Maximum key/value length supported of 256 characters. Keys/value should not empty value nor null. Keys cannot contain < > % & \\ ? /",
           "type": "object",
           "additionalProperties": {
             "type": "string"

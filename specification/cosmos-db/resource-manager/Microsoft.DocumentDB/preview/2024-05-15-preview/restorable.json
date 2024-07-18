@@ -1107,7 +1107,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this database can not be restored in same account."
+              "description": "The reason why this database cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",
@@ -1225,7 +1225,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this container can not be restored in same account."
+              "description": "The reason why this container cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",
@@ -1379,7 +1379,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this database can not be restored in same account."
+              "description": "The reason why this database cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",
@@ -1468,7 +1468,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this collection can not be restored in same account."
+              "description": "The reason why this collection cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",
@@ -1603,7 +1603,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this database can not be restored in same account."
+              "description": "The reason why this database cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",
@@ -1692,7 +1692,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this graph can not be restored in same account."
+              "description": "The reason why this graph cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",
@@ -1827,7 +1827,7 @@
             "canUndeleteReason": {
               "type": "string",
               "readOnly": true,
-              "description": "The reason why this table can not be restored in same account."
+              "description": "The reason why this table cannot be restored in same account."
             },
             "eventTimestamp": {
               "type": "string",

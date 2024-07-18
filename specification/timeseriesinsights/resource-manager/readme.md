@@ -92,7 +92,7 @@ directive:
       - $.definitions.EnvironmentUpdateParameters.properties.kind
       - $.definitions.EventSourceUpdateParameters.properties.kind
     from: timeseriesinsights.json
-    reason: This property is the discriminator for polymorph, but it can not be in request body.
+    reason: This property is the discriminator for polymorph, but it cannot be in request body.
   - suppress: OAV131 # DISCRIMINATOR_NOT_REQUIRED
     from: timeseriesinsights.json
     reason: kind is a non-settable property from the client in patch method.

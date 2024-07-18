@@ -1537,7 +1537,7 @@
           "Jobs"
         ],
         "operationId": "ImportJobs_Delete",
-        "description": "Deletes an import job. This is simply used to remove a job id, so it may be reused later. It can not be used to stop entities from being imported.\nStatus codes:\n* 204 No Content\n* 400 Bad Request\n  * ValidationFailed - The import job request is not valid.",
+        "description": "Deletes an import job. This is simply used to remove a job id, so it may be reused later. It cannot be used to stop entities from being imported.\nStatus codes:\n* 204 No Content\n* 400 Bad Request\n  * ValidationFailed - The import job request is not valid.",
         "x-ms-examples": {
           "Delete an import job": {
             "$ref": "./examples/ImportJobDelete.json"

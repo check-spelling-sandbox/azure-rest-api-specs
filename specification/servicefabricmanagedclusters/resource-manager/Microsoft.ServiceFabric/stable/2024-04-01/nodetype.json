@@ -966,7 +966,7 @@
         "dataDiskLetter": {
           "type": "string",
           "pattern": "^[a-zA-Z]{1}$",
-          "description": "Managed data disk letter. It can not use the reserved letter C or D and it can not change after created."
+          "description": "Managed data disk letter. It cannot use the reserved letter C or D and it cannot change after created."
         },
         "placementProperties": {
           "type": "object",
@@ -1054,7 +1054,7 @@
             "$ref": "#/definitions/FrontendConfiguration"
           },
           "x-ms-identifiers": [],
-          "description": "Indicates the node type uses its own frontend configurations instead of the default one for the cluster. This setting can only be specified for non-primary node types and can not be added or removed after the node type is created."
+          "description": "Indicates the node type uses its own frontend configurations instead of the default one for the cluster. This setting can only be specified for non-primary node types and cannot be added or removed after the node type is created."
         },
         "networkSecurityRules": {
           "type": "array",
@@ -1590,7 +1590,7 @@
         "diskLetter": {
           "type": "string",
           "pattern": "^[a-zA-Z]{1}$",
-          "description": "Managed data disk letter. It can not use the reserved letter C or D and it can not change after created."
+          "description": "Managed data disk letter. It cannot use the reserved letter C or D and it cannot change after created."
         }
       },
       "description": "Managed data disk description."

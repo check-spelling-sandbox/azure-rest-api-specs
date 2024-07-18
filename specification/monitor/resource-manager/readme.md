@@ -1454,11 +1454,11 @@ directive:
   - suppress: MissingTypeObject
     from: metrics_API.json
     where: $.definitions.LocalizableString
-    reason: "LocalizableString exists in other swaggers my team can not modify"
+    reason: "LocalizableString exists in other swaggers my team cannot modify"
   - suppress: MissingTypeObject
     from: metricDefinitions_API.json
     where: $.definitions.LocalizableString
-    reason: "LocalizableString exists in other swaggers my team can not modify"
+    reason: "LocalizableString exists in other swaggers my team cannot modify"
   - suppress: OperationsAPIImplementation
     where: $.paths
     from: activityLogAlerts_API.json
