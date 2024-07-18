@@ -1,6 +1,6 @@
 # Service Contract Accuracy Report
 
-The purpose of the Service Contract (Swagger) Accuracy Report is to ensure that service contracts accuractly reflect true service behavior. It is critical that the contract be accurate because we use it to produce many assets such as documentation, SDKs (in many programming languages), and tools (Azure CLI & PowerShell). When the contract is incorrect, these assets are broken and fixing the contract later causes breaking changes and significant pain to all our customers.
+The purpose of the Service Contract (Swagger) Accuracy Report is to ensure that service contracts accurately reflect true service behavior. It is critical that the contract be accurate because we use it to produce many assets such as documentation, SDKs (in many programming languages), and tools (Azure CLI & PowerShell). When the contract is incorrect, these assets are broken and fixing the contract later causes breaking changes and significant pain to all our customers.
 
 Our tooling ([RESTler](https://github.com/microsoft/restler-fuzzer) and [OAV](https://github.com/azure/oav)) that produces this report tests all service operations and compares the actual requests/responses against the contract for accuracy.
 
