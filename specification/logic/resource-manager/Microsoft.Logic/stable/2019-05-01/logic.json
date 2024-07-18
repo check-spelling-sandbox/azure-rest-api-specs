@@ -8900,7 +8900,7 @@
           "description": "The network configuration."
         },
         "encryptionConfiguration": {
-          "$ref": "#/definitions/IntegrationServiceEnvironmenEncryptionConfiguration",
+          "$ref": "#/definitions/IntegrationServiceEnvironmentEncryptionConfiguration",
           "description": "The encryption configuration."
         }
       }
@@ -8963,17 +8963,17 @@
         "modelAsString": true
       }
     },
-    "IntegrationServiceEnvironmenEncryptionConfiguration": {
+    "IntegrationServiceEnvironmentEncryptionConfiguration": {
       "type": "object",
       "description": "The encryption configuration for the integration service environment.",
       "properties": {
         "encryptionKeyReference": {
-          "$ref": "#/definitions/IntegrationServiceEnvironmenEncryptionKeyReference",
+          "$ref": "#/definitions/IntegrationServiceEnvironmentEncryptionKeyReference",
           "description": "The encryption key reference."
         }
       }
     },
-    "IntegrationServiceEnvironmenEncryptionKeyReference": {
+    "IntegrationServiceEnvironmentEncryptionKeyReference": {
       "type": "object",
       "description": "The encryption key details for the integration service environment.",
       "properties": {
