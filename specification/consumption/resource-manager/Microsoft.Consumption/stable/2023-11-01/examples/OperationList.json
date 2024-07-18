@@ -52,7 +52,7 @@
             "display": {
               "provider": "Microsoft.Consumption",
               "resource": "Balances",
-              "operation": "List utlization summary",
+              "operation": "List utilization summary",
               "description": "List the utilization summary for a billing period for a management group."
             }
           },
