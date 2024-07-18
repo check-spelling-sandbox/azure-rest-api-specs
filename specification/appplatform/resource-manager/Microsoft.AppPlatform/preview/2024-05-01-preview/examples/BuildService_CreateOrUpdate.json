@@ -7,7 +7,7 @@
     "buildServiceName": "default",
     "buildService": {
       "properties": {
-        "containerRegistry": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.AppPlatform/Spring/myservice/containerRegistrys/default"
+        "containerRegistry": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.AppPlatform/Spring/myservice/containerRegistries/default"
       }
     }
   },
@@ -16,7 +16,7 @@
       "body": {
         "properties": {
           "kPackVersion": "0.7.2",
-          "containerRegistry": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.AppPlatform/Spring/myservice/containerRegistrys/default",
+          "containerRegistry": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.AppPlatform/Spring/myservice/containerRegistries/default",
           "provisioningState": "Succeeded",
           "resourceRequests": {
             "cpu": "2000m",
@@ -40,7 +40,7 @@
       "body": {
         "properties": {
           "kPackVersion": "0.7.2",
-          "containerRegistry": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.AppPlatform/Spring/myservice/containerRegistrys/default",
+          "containerRegistry": "subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.AppPlatform/Spring/myservice/containerRegistries/default",
           "provisioningState": "Creating",
           "resourceRequests": {
             "cpu": null,
