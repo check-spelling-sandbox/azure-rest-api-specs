@@ -12,7 +12,7 @@
               "provider": "Microsoft Container Instance",
               "resource": "Container Group",
               "operation": "Get Container Groups",
-              "description": "Get all container goups."
+              "description": "Get all container groups."
             },
             "origin": "User"
           }
