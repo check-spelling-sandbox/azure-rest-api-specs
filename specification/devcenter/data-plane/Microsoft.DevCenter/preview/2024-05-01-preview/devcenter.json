@@ -5038,7 +5038,7 @@
         "uri": {
           "type": "string",
           "format": "uri",
-          "description": "Uri of the action resource.",
+          "description": "URI of the action resource.",
           "readOnly": true
         },
         "actionType": {

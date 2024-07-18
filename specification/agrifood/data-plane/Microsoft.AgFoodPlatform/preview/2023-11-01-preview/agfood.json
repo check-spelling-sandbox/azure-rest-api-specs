@@ -18237,7 +18237,7 @@
       "type": "object",
       "properties": {
         "keyVaultUri": {
-          "description": "Uri of the key vault.",
+          "description": "URI of the key vault.",
           "maxLength": 100,
           "minLength": 2,
           "type": "string"

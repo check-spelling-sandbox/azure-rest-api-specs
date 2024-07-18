@@ -1123,7 +1123,7 @@
         },
         "storageUrl": {
           "type": "string",
-          "description": "Uri of the import source storage.",
+          "description": "URI of the import source storage.",
           "x-ms-mutability": [
             "create",
             "read"

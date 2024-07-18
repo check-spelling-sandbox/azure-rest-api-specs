@@ -2757,7 +2757,7 @@
           "type": "string"
         },
         "migrationHubUri": {
-          "description": "Gets or sets the migration hub Uri.",
+          "description": "Gets or sets the migration hub URI.",
           "type": "string",
           "readOnly": true
         }
@@ -3604,7 +3604,7 @@
           "type": "string"
         },
         "migrationHubUri": {
-          "description": "Gets or sets the migration hub Uri.",
+          "description": "Gets or sets the migration hub URI.",
           "type": "string",
           "readOnly": true
         }
@@ -4199,17 +4199,17 @@
           "type": "string"
         },
         "asrServiceUri": {
-          "description": "Gets or sets the Uri of ASR.",
+          "description": "Gets or sets the URI of ASR.",
           "type": "string",
           "readOnly": true
         },
         "rcmServiceUri": {
-          "description": "Gets or sets the Uri of Rcm.",
+          "description": "Gets or sets the URI of Rcm.",
           "type": "string",
           "readOnly": true
         },
         "gatewayServiceUri": {
-          "description": "Gets or sets the Uri of Gateway.",
+          "description": "Gets or sets the URI of Gateway.",
           "type": "string",
           "readOnly": true
         },
@@ -5991,17 +5991,17 @@
           "type": "string"
         },
         "asrServiceUri": {
-          "description": "Gets or sets the Uri of ASR.",
+          "description": "Gets or sets the URI of ASR.",
           "type": "string",
           "readOnly": true
         },
         "rcmServiceUri": {
-          "description": "Gets or sets the Uri of Rcm.",
+          "description": "Gets or sets the URI of Rcm.",
           "type": "string",
           "readOnly": true
         },
         "gatewayServiceUri": {
-          "description": "Gets or sets the Uri of Gateway.",
+          "description": "Gets or sets the URI of Gateway.",
           "type": "string",
           "readOnly": true
         },

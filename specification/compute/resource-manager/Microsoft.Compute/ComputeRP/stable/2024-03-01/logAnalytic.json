@@ -195,7 +195,7 @@
       "properties": {
         "blobContainerSasUri": {
           "type": "string",
-          "description": "SAS Uri of the logging blob container to which LogAnalytics Api writes output logs to."
+          "description": "SAS URI of the logging blob container to which LogAnalytics Api writes output logs to."
         },
         "fromTime": {
           "type": "string",
@@ -250,7 +250,7 @@
         "output": {
           "readOnly": true,
           "type": "string",
-          "description": "Output file Uri path to blob container."
+          "description": "Output file URI path to blob container."
         }
       },
       "description": "LogAnalytics output properties"

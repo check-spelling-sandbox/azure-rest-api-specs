@@ -739,7 +739,7 @@
           "properties": {
             "link": {
               "type": "string",
-              "description": "Link to the Storage Blob containing the result of the export operation. The Blob Uri is only valid for 5 minutes."
+              "description": "Link to the Storage Blob containing the result of the export operation. The Blob URI is only valid for 5 minutes."
             }
           }
         }
@@ -1956,7 +1956,7 @@
         },
         "resourceId": {
           "type": "string",
-          "description": "Management Uri of the Resource in External System. This URL can be the Arm Resource ID of Logic Apps, Function Apps or API Apps.",
+          "description": "Management URI of the Resource in External System. This URL can be the Arm Resource ID of Logic Apps, Function Apps or API Apps.",
           "minLength": 1,
           "maxLength": 2000
         },
@@ -2161,7 +2161,7 @@
       "properties": {
         "url": {
           "type": "string",
-          "description": "WebProxy Server AbsoluteUri property which includes the entire URI stored in the Uri instance, including all fragments and query strings.",
+          "description": "WebProxy Server AbsoluteUri property which includes the entire URI stored in the URI instance, including all fragments and query strings.",
           "minLength": 1,
           "maxLength": 2000
         },

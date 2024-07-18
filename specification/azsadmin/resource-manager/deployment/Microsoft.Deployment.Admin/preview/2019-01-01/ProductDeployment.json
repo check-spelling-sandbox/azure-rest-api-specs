@@ -476,7 +476,7 @@
           "type": "string"
         },
         "intermediateVaultUri": {
-          "description": "The intermediate vault Uri.",
+          "description": "The intermediate vault URI.",
           "type": "string"
         },
         "externalAccessRoleAssignmentId": {

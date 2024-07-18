@@ -1144,13 +1144,13 @@ model WaitTimeExceptionTrigger extends ExceptionTrigger {
 
 @doc("A rule providing a binding to an external web server.")
 model WebhookRouterRule extends RouterRule {
-  @doc("Uri for Authorization Server.")
+  @doc("URI for Authorization Server.")
   authorizationServerUri?: url;
 
   @doc("OAuth2.0 Credentials used to Contoso's Authorization server. Reference: https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/")
   clientCredential?: OAuth2WebhookClientCredential;
 
-  @doc("Uri for Contoso's Web Server.")
+  @doc("URI for Contoso's Web Server.")
   webhookUri?: url;
 
   @doc("The type discriminator describing a sub-type of Rule.")

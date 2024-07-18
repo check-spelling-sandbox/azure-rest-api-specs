@@ -796,7 +796,7 @@
       "properties": {
         "azureStorageResourceUri": {
           "type": "string",
-          "description": "Azure storage Resource Uri"
+          "description": "Azure storage Resource URI"
         },
         "lastBackupDateTime": {
           "type": "string",
@@ -821,7 +821,7 @@
         },
         "azureStorageResourceUri": {
           "type": "string",
-          "description": "Azure Blob storage container Uri"
+          "description": "Azure Blob storage container URI"
         }
       }
     },

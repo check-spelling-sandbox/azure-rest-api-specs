@@ -572,7 +572,7 @@
       }
     },
     "DefinitionTemplates": {
-      "description": "Holds UI definition file Uri and deployment template file URIs.",
+      "description": "Holds UI definition file URI and deployment template file URIs.",
       "type": "object",
       "properties": {
         "uiDefinitionFileUri": {

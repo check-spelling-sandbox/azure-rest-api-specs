@@ -40,7 +40,7 @@ model AssetVersion {
 
 @doc("Index resource Definition")
 model Index is AssetVersion {
-  @doc("Default workspace blob storage Uri. Should work across storage types and auth scenarios.")
+  @doc("Default workspace blob storage URI. Should work across storage types and auth scenarios.")
   storageUri: string;
 }
 

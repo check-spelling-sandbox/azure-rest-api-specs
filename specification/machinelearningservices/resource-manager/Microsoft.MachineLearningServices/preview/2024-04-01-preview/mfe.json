@@ -2245,7 +2245,7 @@
         "tags": [
           "DataReference"
         ],
-        "summary": "Get blob reference SAS Uri value.",
+        "summary": "Get blob reference SAS URI value.",
         "operationId": "RegistryDataReferences_GetBlobReferenceSAS",
         "consumes": [
           "application/json"
@@ -16739,7 +16739,7 @@
       ],
       "properties": {
         "codeUri": {
-          "description": "Uri where code is located",
+          "description": "URI where code is located",
           "type": "string",
           "example": "https://blobStorage/folderName",
           "x-nullable": true
@@ -18136,7 +18136,7 @@
           ]
         },
         "dataUri": {
-          "description": "[Required] Uri of the data. Example: https://go.microsoft.com/fwlink/?linkid=2202330",
+          "description": "[Required] URI of the data. Example: https://go.microsoft.com/fwlink/?linkid=2202330",
           "minLength": 1,
           "pattern": "[a-zA-Z0-9_]",
           "type": "string",
@@ -28106,7 +28106,7 @@
       "properties": {
         "sasUri": {
           "format": "uri",
-          "description": "Full SAS Uri, including the storage, container/blob path and SAS token",
+          "description": "Full SAS URI, including the storage, container/blob path and SAS token",
           "type": "string",
           "x-nullable": true
         }
@@ -28124,7 +28124,7 @@
       "properties": {
         "sasUri": {
           "format": "uri",
-          "description": "Full SAS Uri, including the storage, container/blob path and SAS token",
+          "description": "Full SAS URI, including the storage, container/blob path and SAS token",
           "type": "string",
           "x-ms-secret": true,
           "x-nullable": true
@@ -28522,7 +28522,7 @@
       "type": "object",
       "properties": {
         "uri": {
-          "description": "Secret Uri.\r\nSample Uri : https://myvault.vault.azure.net/secrets/mysecretname/secretversion",
+          "description": "Secret URI.\r\nSample Uri : https://myvault.vault.azure.net/secrets/mysecretname/secretversion",
           "type": "string",
           "x-ms-mutability": [
             "create",

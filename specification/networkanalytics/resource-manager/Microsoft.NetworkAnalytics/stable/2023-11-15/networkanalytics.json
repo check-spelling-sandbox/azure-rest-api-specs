@@ -2244,7 +2244,7 @@
       "properties": {
         "keyVaultUri": {
           "type": "string",
-          "description": "The Uri of the key vault."
+          "description": "The URI of the key vault."
         },
         "keyName": {
           "type": "string",

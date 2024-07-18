@@ -4602,7 +4602,7 @@
           }
         },
         "endpointUri": {
-          "description": "Uri of the endpoint.",
+          "description": "URI of the endpoint.",
           "type": "string",
           "format": "url"
         },

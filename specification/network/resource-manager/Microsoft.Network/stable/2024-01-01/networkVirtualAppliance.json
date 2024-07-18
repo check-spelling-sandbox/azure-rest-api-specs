@@ -1009,7 +1009,7 @@
         "internetIngressPublicIps": {
           "type": "array",
           "readOnly": false,
-          "description": "List of Resource Uri of Public IPs for Internet Ingress Scenario.",
+          "description": "List of Resource URI of Public IPs for Internet Ingress Scenario.",
           "items": {
             "$ref": "#/definitions/InternetIngressPublicIpsProperties"
           },
@@ -1201,12 +1201,12 @@
     "InternetIngressPublicIpsProperties": {
       "type": "object",
       "title": "Internet Ingress Public IP Properties",
-      "description": "Resource Uri of Public IP for Standard Load Balancer Frontend End.",
+      "description": "Resource URI of Public IP for Standard Load Balancer Frontend End.",
       "properties": {
         "id": {
           "type": "string",
           "readOnly": false,
-          "description": "Resource Uri of Public IP",
+          "description": "Resource URI of Public IP",
           "format": "arm-id",
           "x-ms-arm-id-details": {
             "allowedResources": [

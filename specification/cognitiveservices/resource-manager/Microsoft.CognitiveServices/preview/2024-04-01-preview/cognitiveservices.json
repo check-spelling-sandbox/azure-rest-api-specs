@@ -4890,7 +4890,7 @@
         },
         "keyVaultUri": {
           "type": "string",
-          "description": "Uri of KeyVault"
+          "description": "URI of KeyVault"
         },
         "identityClientId": {
           "type": "string"

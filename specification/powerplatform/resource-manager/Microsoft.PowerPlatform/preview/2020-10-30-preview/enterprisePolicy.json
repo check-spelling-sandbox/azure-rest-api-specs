@@ -565,7 +565,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Uri of KeyVault"
+          "description": "URI of KeyVault"
         },
         "key": {
           "$ref": "#/definitions/keyProperties",
@@ -609,7 +609,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Uri of the virtual network."
+          "description": "URI of the virtual network."
         },
         "subnet": {
           "$ref": "#/definitions/SubnetProperties",

@@ -201,7 +201,7 @@
           "$ref": "#/definitions/SourceUri"
         },
         "uri": {
-          "description": "The file or container Uri. This is read-only property; a user cannot set it.",
+          "description": "The file or container URI. This is read-only property; a user cannot set it.",
           "type": "string"
         },
         "postCopyAction": {

@@ -4596,11 +4596,11 @@
         },
         "managementEndpointUri": {
           "type": "string",
-          "description": "Management Endpoint Uri"
+          "description": "Management Endpoint URI"
         },
         "monitoringEndpointUri": {
           "type": "string",
-          "description": "Telemetry Endpoint Uri"
+          "description": "Telemetry Endpoint URI"
         },
         "monitoringConfiguration": {
           "type": "string",

@@ -1156,7 +1156,7 @@
               },
               {
                 "value": "InvalidContainer",
-                "description": "SAS Uri must be the Uri to a container that has write permissions."
+                "description": "SAS URI must be the URI to a container that has write permissions."
               },
               {
                 "value": "InvalidModelMetadata",

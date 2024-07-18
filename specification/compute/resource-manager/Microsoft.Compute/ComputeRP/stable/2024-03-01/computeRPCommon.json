@@ -1640,7 +1640,7 @@
         },
         "storageUri": {
           "type": "string",
-          "description": "Uri of the storage account to use for placing the console output and screenshot. If storageUri is not specified while enabling boot diagnostics, managed storage will be used."
+          "description": "URI of the storage account to use for placing the console output and screenshot. If storageUri is not specified while enabling boot diagnostics, managed storage will be used."
         }
       },
       "description": "Boot Diagnostics is a debugging feature which allows you to view Console Output and Screenshot to diagnose VM status. You can easily view the output of your console log. Azure also enables you to see a screenshot of the VM from the hypervisor."
@@ -1726,7 +1726,7 @@
         "serialConsoleLogBlobUri": {
           "readOnly": true,
           "type": "string",
-          "description": "The serial console log blob Uri. **Note:** This will **not** be set if boot diagnostics is currently enabled with managed storage."
+          "description": "The serial console log blob URI. **Note:** This will **not** be set if boot diagnostics is currently enabled with managed storage."
         },
         "status": {
           "readOnly": true,

@@ -1797,7 +1797,7 @@
             },
             "backupStorageCustomerKeyUri": {
               "type": "string",
-              "description": "Indicates the Key Uri of the customer key to use for encryption of the backup storage account."
+              "description": "Indicates the Key URI of the customer key to use for encryption of the backup storage account."
             },
             "sku": {
               "type": "string",

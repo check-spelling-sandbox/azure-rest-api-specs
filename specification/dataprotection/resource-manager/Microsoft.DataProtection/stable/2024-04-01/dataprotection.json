@@ -4967,7 +4967,7 @@
       ],
       "properties": {
         "resourceGroupId": {
-          "description": "Gets or sets the Snapshot Resource Group Uri.",
+          "description": "Gets or sets the Snapshot Resource Group URI.",
           "type": "string"
         }
       },
@@ -5870,7 +5870,7 @@
           "type": "string"
         },
         "resourceUri": {
-          "description": "Uri of the resource.",
+          "description": "URI of the resource.",
           "type": "string"
         },
         "resourceProperties": {
@@ -5912,7 +5912,7 @@
           "type": "string"
         },
         "resourceUri": {
-          "description": "Uri of the resource.",
+          "description": "URI of the resource.",
           "type": "string"
         },
         "resourceProperties": {
@@ -7769,7 +7769,7 @@
       "type": "object",
       "properties": {
         "uri": {
-          "description": "Uri to get to the resource",
+          "description": "URI to get to the resource",
           "type": "string"
         },
         "secretStoreType": {

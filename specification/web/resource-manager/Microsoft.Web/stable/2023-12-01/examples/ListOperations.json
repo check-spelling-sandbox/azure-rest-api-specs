@@ -3461,9 +3461,9 @@
             "name": "microsoft.web/sites/diagnostics/failedrequestsperuri/read",
             "display": {
               "provider": "Microsoft Web Apps",
-              "resource": "Web Apps Diagnostics Failed Requests Per Uri",
-              "operation": "Get Web Apps Diagnostics Failed Requests Per Uri",
-              "description": "Get Web Apps Diagnostics Failed Requests Per Uri."
+              "resource": "Web Apps Diagnostics Failed Requests Per URI",
+              "operation": "Get Web Apps Diagnostics Failed Requests Per URI",
+              "description": "Get Web Apps Diagnostics Failed Requests Per URI."
             },
             "origin": "user,system"
           },

@@ -499,7 +499,7 @@
         "appSourceUri": {
           "type": "string",
           "readOnly": false,
-          "description": "Source Uri containing ManagedCCF code"
+          "description": "Source URI containing ManagedCCF code"
         }
       }
     },

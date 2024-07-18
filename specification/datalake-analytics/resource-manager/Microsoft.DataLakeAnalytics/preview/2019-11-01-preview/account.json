@@ -2509,7 +2509,7 @@
         "serverUri": {
           "readOnly": true,
           "type": "string",
-          "description": "The serverUri for the Hive MetaStore"
+          "description": "The serverURI for the Hive MetaStore"
         },
         "databaseName": {
           "readOnly": true,

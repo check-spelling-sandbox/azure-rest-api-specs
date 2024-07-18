@@ -885,7 +885,7 @@
         },
         "storageUri": {
           "type": "string",
-          "description": "Default workspace blob storage Uri. Should work across storage types and auth scenarios."
+          "description": "Default workspace blob storage URI. Should work across storage types and auth scenarios."
         }
       },
       "required": [

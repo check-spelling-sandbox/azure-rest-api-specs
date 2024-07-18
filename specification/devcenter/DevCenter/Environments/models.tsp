@@ -306,7 +306,7 @@ model EnvironmentAction {
   @key("actionName")
   name: string;
 
-  @doc("Uri of the action resource.")
+  @doc("URI of the action resource.")
   @visibility("read")
   uri: url;
 

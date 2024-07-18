@@ -32,7 +32,7 @@
   "paths": {
     "/custom/models": {
       "post": {
-        "description": "Create and train a custom model. The request must include a source parameter that is either an externally accessible Azure storage blob container Uri (preferably a Shared Access Signature Uri) or valid path to a data folder in a locally mounted drive. When local paths are specified, they must follow the Linux/Unix path format and be an absolute path rooted to the input mount configuration setting value e.g., if '{Mounts:Input}' configuration setting value is '/input' then a valid source path would be '/input/contosodataset'. All data to be trained is expected to be under the source folder or sub folders under it. Models are trained using documents that are of the following content type - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Other type of content is ignored.",
+        "description": "Create and train a custom model. The request must include a source parameter that is either an externally accessible Azure storage blob container URI (preferably a Shared Access Signature URI) or valid path to a data folder in a locally mounted drive. When local paths are specified, they must follow the Linux/Unix path format and be an absolute path rooted to the input mount configuration setting value e.g., if '{Mounts:Input}' configuration setting value is '/input' then a valid source path would be '/input/contosodataset'. All data to be trained is expected to be under the source folder or sub folders under it. Models are trained using documents that are of the following content type - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Other type of content is ignored.",
         "operationId": "CustomModels_Train",
         "consumes": [
           "application/json"
@@ -163,7 +163,7 @@
     },
     "/custom/models/{modelId}/analyze": {
       "post": {
-        "description": "Extract key-value pairs, tables, and semantic values from a given document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (Uri or local path) of the document to be analyzed.",
+        "description": "Extract key-value pairs, tables, and semantic values from a given document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (URI or local path) of the document to be analyzed.",
         "operationId": "CustomModels_AnalyzeDocument",
         "consumes": [
           "application/pdf",
@@ -460,7 +460,7 @@
     },
     "/prebuilt/businessCard/analyze": {
       "post": {
-        "description": "Extract field text and semantic values from a given business card document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (Uri) of the document to be analyzed.",
+        "description": "Extract field text and semantic values from a given business card document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (URI) of the document to be analyzed.",
         "operationId": "Analyzer_AnalyzeBusinessCard",
         "consumes": [
           "application/pdf",
@@ -559,7 +559,7 @@
     },
     "/prebuilt/invoice/analyze": {
       "post": {
-        "description": "Extract field text and semantic values from a given invoice document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (Uri) of the document to be analyzed.",
+        "description": "Extract field text and semantic values from a given invoice document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (URI) of the document to be analyzed.",
         "operationId": "Analyzer_AnalyzeInvoice",
         "consumes": [
           "application/pdf",
@@ -658,7 +658,7 @@
     },
     "/prebuilt/idDocument/analyze": {
       "post": {
-        "description": "Extract field text and semantic values from a given ID document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (Uri) of the document to be analyzed.",
+        "description": "Extract field text and semantic values from a given ID document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (URI) of the document to be analyzed.",
         "operationId": "Analyzer_AnalyzeIdDocument",
         "consumes": [
           "application/pdf",
@@ -754,7 +754,7 @@
     },
     "/prebuilt/receipt/analyze": {
       "post": {
-        "description": "Extract field text and semantic values from a given receipt document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (Uri) of the document to be analyzed.",
+        "description": "Extract field text and semantic values from a given receipt document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (URI) of the document to be analyzed.",
         "operationId": "Analyzer_AnalyzeReceipt",
         "consumes": [
           "application/pdf",
@@ -853,7 +853,7 @@
     },
     "/layout/analyze": {
       "post": {
-        "description": "Extract text and layout information from a given document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (Uri or local path) of the document to be analyzed.",
+        "description": "Extract text and layout information from a given document. The input document must be of one of the supported content types - 'application/pdf', 'image/jpeg', 'image/png', 'image/tiff' or 'image/bmp'. Alternatively, use 'application/json' type to specify the location (URI or local path) of the document to be analyzed.",
         "operationId": "Analyzer_AnalyzeLayout",
         "consumes": [
           "application/pdf",
@@ -1222,7 +1222,7 @@
       "type": "object",
       "properties": {
         "prefix": {
-          "description": "A case-sensitive prefix string to filter documents in the source path for training. For example, when using a Azure storage blob Uri, use the prefix to restrict sub folders for training.",
+          "description": "A case-sensitive prefix string to filter documents in the source path for training. For example, when using a Azure storage blob URI, use the prefix to restrict sub folders for training.",
           "maxLength": 1024,
           "minLength": 0,
           "type": "string"
@@ -1277,7 +1277,7 @@
       }
     },
     "SourcePath": {
-      "description": "Uri or local path to source data.",
+      "description": "URI or local path to source data.",
       "type": "object",
       "properties": {
         "source": {

@@ -2189,7 +2189,7 @@
       "properties": {
         "instanceUri": {
           "format": "uri",
-          "description": "Uri of the Data Manager For Agriculture instance.",
+          "description": "URI of the Data Manager For Agriculture instance.",
           "type": "string",
           "readOnly": true
         },
@@ -2541,7 +2541,7 @@
       "type": "object",
       "properties": {
         "keyVaultUri": {
-          "description": "Uri of the key vault.",
+          "description": "URI of the key vault.",
           "minLength": 1,
           "type": "string"
         },

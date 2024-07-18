@@ -879,7 +879,7 @@
         },
         "restrictedAccessUri": {
           "type": "string",
-          "description": "Uri to subscribe to the restricted access sku."
+          "description": "URI to subscribe to the restricted access sku."
         },
         "autoAdd": {
           "type": "boolean",
@@ -988,7 +988,7 @@
         },
         "instanceUri": {
           "type": "string",
-          "description": "A Uri identifying the specific instance of this provider."
+          "description": "A URI identifying the specific instance of this provider."
         },
         "applicationName": {
           "type": "string",

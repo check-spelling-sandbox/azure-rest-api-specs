@@ -404,7 +404,7 @@
         },
         "privacyPolicyUri": {
           "type": "string",
-          "description": "Uri to the privacy policy of the product",
+          "description": "URI to the privacy policy of the product",
           "x-nullable": true
         },
         "helpLink": {

@@ -584,7 +584,7 @@
           "readOnly": true
         },
         "blobUri": {
-          "description": "Blob Uri.",
+          "description": "Blob URI.",
           "type": "string",
           "readOnly": true
         },
@@ -680,7 +680,7 @@
           ]
         },
         "storageUri": {
-          "description": "Storage Uri.",
+          "description": "Storage URI.",
           "type": "string",
           "x-ms-mutability": [
             "create"

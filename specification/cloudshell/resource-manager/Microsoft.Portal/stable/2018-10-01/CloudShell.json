@@ -720,7 +720,7 @@
           }
         },
         "uri": {
-          "description": "Uri of the console.",
+          "description": "URI of the console.",
           "type": "string"
         }
       }
@@ -764,7 +764,7 @@
           }
         },
         "uri": {
-          "description": "Uri of the console.",
+          "description": "URI of the console.",
           "type": "string"
         }
       }

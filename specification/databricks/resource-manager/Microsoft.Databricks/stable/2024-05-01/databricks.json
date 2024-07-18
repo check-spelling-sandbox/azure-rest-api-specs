@@ -1376,7 +1376,7 @@
         },
         "keyvaulturi": {
           "type": "string",
-          "description": "The Uri of KeyVault.",
+          "description": "The URI of KeyVault.",
           "x-ms-client-name": "KeyVaultUri"
         }
       },
@@ -1437,7 +1437,7 @@
           "properties": {
             "keyVaultUri": {
               "type": "string",
-              "description": "The Uri of KeyVault."
+              "description": "The URI of KeyVault."
             },
             "keyName": {
               "type": "string",

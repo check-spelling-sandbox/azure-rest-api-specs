@@ -6402,7 +6402,7 @@
         },
         "keyVaultUri": {
           "type": "string",
-          "description": "The Uri of KeyVault."
+          "description": "The URI of KeyVault."
         },
         "keyName": {
           "type": "string",

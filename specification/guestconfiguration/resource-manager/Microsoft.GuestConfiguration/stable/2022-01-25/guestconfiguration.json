@@ -1608,7 +1608,7 @@
         },
         "contentUri": {
           "type": "string",
-          "description": "Uri of the storage where guest configuration package is uploaded."
+          "description": "URI of the storage where guest configuration package is uploaded."
         },
         "contentHash": {
           "type": "string",

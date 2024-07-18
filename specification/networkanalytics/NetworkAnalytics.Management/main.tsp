@@ -242,7 +242,7 @@ model DataProductProperties {
 @doc("Encryption key details.")
 @added(Versions.v2023_11_15)
 model EncryptionKeyDetails {
-  @doc("The Uri of the key vault.")
+  @doc("The URI of the key vault.")
   keyVaultUri: string;
 
   @doc("The name of the key vault key.")

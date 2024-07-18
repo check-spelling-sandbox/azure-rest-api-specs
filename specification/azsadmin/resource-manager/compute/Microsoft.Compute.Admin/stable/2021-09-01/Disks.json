@@ -184,12 +184,12 @@
           "readOnly": true
         },
         "managedBy": {
-          "description": "Compute resource Uri which owns this disk.",
+          "description": "Compute resource URI which owns this disk.",
           "type": "string",
           "readOnly": true
         },
         "userResourceId": {
-          "description": "The disk resource Uri from user view.",
+          "description": "The disk resource URI from user view.",
           "type": "string",
           "readOnly": true
         },

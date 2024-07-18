@@ -197,7 +197,7 @@ model DocumentFilter {
   @doc("""
     A case-sensitive prefix string to filter documents in the source path for
     translation. 
-    For example, when using a Azure storage blob Uri, use the prefix
+    For example, when using a Azure storage blob URI, use the prefix
     to restrict sub folders for translation.
     """)
   prefix?: string;

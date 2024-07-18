@@ -20,7 +20,7 @@
       {
         "name": "endpoint",
         "in": "path",
-        "description": "Uri of your Communication resource",
+        "description": "URI of your Communication resource",
         "required": true,
         "type": "string"
       }
@@ -4576,7 +4576,7 @@
         "authorizationServerUri": {
           "type": "string",
           "format": "uri",
-          "description": "Uri for Authorization Server."
+          "description": "URI for Authorization Server."
         },
         "clientCredential": {
           "$ref": "#/definitions/OAuth2WebhookClientCredential",
@@ -4585,7 +4585,7 @@
         "webhookUri": {
           "type": "string",
           "format": "uri",
-          "description": "Uri for Contoso's Web Server."
+          "description": "URI for Contoso's Web Server."
         }
       },
       "allOf": [
@@ -4602,7 +4602,7 @@
         "authorizationServerUri": {
           "type": "string",
           "format": "uri",
-          "description": "Uri for Authorization Server."
+          "description": "URI for Authorization Server."
         },
         "clientCredential": {
           "$ref": "#/definitions/OAuth2WebhookClientCredential",
@@ -4611,7 +4611,7 @@
         "webhookUri": {
           "type": "string",
           "format": "uri",
-          "description": "Uri for Contoso's Web Server."
+          "description": "URI for Contoso's Web Server."
         }
       },
       "allOf": [

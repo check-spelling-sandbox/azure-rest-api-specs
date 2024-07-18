@@ -1637,7 +1637,7 @@
           }
         },
         "dataSourceUri": {
-          "description": "Datasource Uri Links",
+          "description": "Datasource URI Links",
           "type": "array",
           "items": {
             "$ref": "./CommonDefinitions.json#/definitions/NameValuePair"

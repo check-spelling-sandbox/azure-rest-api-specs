@@ -1322,7 +1322,7 @@
         "dmtsClusterUri": {
           "type": "string",
           "readOnly": true,
-          "description": "Uri of the DMTS cluster."
+          "description": "URI of the DMTS cluster."
         }
       }
     },

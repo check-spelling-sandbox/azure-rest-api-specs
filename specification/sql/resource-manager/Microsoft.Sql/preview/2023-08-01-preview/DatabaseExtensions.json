@@ -247,7 +247,7 @@
           ]
         },
         "storageUri": {
-          "description": "Storage Uri for the storage account.",
+          "description": "Storage URI for the storage account.",
           "type": "string",
           "x-ms-mutability": [
             "create"

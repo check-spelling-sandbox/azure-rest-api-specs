@@ -1160,7 +1160,7 @@
       "properties": {
         "instanceUri": {
           "format": "uri",
-          "description": "Uri of the FarmBeats instance.",
+          "description": "URI of the FarmBeats instance.",
           "type": "string",
           "readOnly": true
         },

@@ -2204,12 +2204,12 @@
         "urlFragment": {
           "type": "string",
           "readOnly": true,
-          "description": "Url fragment used in part of the Uri configured in Alexa"
+          "description": "Url fragment used in part of the URI configured in Alexa"
         },
         "serviceEndpointUri": {
           "type": "string",
           "readOnly": true,
-          "description": "Full Uri used to configured the skill in Alexa"
+          "description": "Full URI used to configured the skill in Alexa"
         },
         "isEnabled": {
           "type": "boolean",

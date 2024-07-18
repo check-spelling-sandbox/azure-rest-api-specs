@@ -494,7 +494,7 @@
         },
         "keyVaultUri": {
           "type": "string",
-          "description": "The Uri of the key vault.",
+          "description": "The URI of the key vault.",
           "x-ms-client-name": "KeyVaultUri"
         },
         "userIdentity": {

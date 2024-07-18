@@ -717,7 +717,7 @@
       "type": "object",
       "properties": {
         "publisherOfferBaseUri": {
-          "description": "The Publisher Offer Base Uri",
+          "description": "The Publisher Offer Base URI",
           "type": "string"
         },
         "token": {

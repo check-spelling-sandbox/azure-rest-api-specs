@@ -1518,7 +1518,7 @@
         },
         "packageFileUri": {
           "type": "string",
-          "description": "The managed application definition package file Uri. Use this element"
+          "description": "The managed application definition package file URI. Use this element"
         },
         "storageAccountId": {
           "type": "string",

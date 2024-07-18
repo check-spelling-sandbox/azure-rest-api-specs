@@ -471,7 +471,7 @@
       "properties": {
         "storageResourceUri": {
           "type": "string",
-          "description": "Azure Blob storage container Uri"
+          "description": "Azure Blob storage container URI"
         },
         "token": {
           "type": "string",
@@ -491,7 +491,7 @@
       "properties": {
         "storageResourceUri": {
           "type": "string",
-          "description": "Azure Blob storage container Uri"
+          "description": "Azure Blob storage container URI"
         },
         "token": {
           "type": "string",
@@ -536,7 +536,7 @@
         },
         "azureStorageBlobContainerUri": {
           "type": "string",
-          "description": "The Azure blob storage container Uri which contains the full backup"
+          "description": "The Azure blob storage container URI which contains the full backup"
         }
       },
       "description": "Full backup operation"

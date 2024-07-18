@@ -10414,7 +10414,7 @@
       "type": "object",
       "properties": {
         "diskUri": {
-          "description": "The disk Uri.",
+          "description": "The disk URI.",
           "type": "string"
         },
         "recoveryAzureStorageAccountCustomInput": {
@@ -11463,7 +11463,7 @@
       "type": "object",
       "properties": {
         "diskUri": {
-          "description": "The disk Uri.",
+          "description": "The disk URI.",
           "type": "string"
         },
         "recoveryAzureStorageAccountId": {
@@ -13658,7 +13658,7 @@
       ],
       "properties": {
         "blobUri": {
-          "description": "BlobUri of the exported jobs.",
+          "description": "BlobURI of the exported jobs.",
           "type": "string"
         },
         "sasToken": {
@@ -17768,12 +17768,12 @@
           "readOnly": true
         },
         "dataPlaneUri": {
-          "description": "The data plane Uri.",
+          "description": "The data plane URI.",
           "type": "string",
           "readOnly": true
         },
         "controlPlaneUri": {
-          "description": "The control plane Uri.",
+          "description": "The control plane URI.",
           "type": "string",
           "readOnly": true
         },

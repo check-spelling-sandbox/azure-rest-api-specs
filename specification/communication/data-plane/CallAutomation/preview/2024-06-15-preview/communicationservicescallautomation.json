@@ -2301,7 +2301,7 @@
       "type": "object",
       "properties": {
         "uri": {
-          "description": "Uri for the audio file to be played",
+          "description": "URI for the audio file to be played",
           "type": "string"
         }
       }
@@ -3037,7 +3037,7 @@
         },
         "recordingDestinationContainerUrl": {
           "format": "uri",
-          "description": "Uri of a container or a location within a container",
+          "description": "URI of a container or a location within a container",
           "type": "string"
         }
       }

@@ -959,7 +959,7 @@
           "type": "string"
         },
         "callbackUri": {
-          "description": "The callback Uri to receive PlayAudio status notifications.",
+          "description": "The callback URI to receive PlayAudio status notifications.",
           "type": "string"
         }
       }

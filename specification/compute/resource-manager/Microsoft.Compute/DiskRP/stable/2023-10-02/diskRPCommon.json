@@ -241,7 +241,7 @@
           },
           {
             "value": "ActiveSAS",
-            "description": "The disk currently has an Active SAS Uri associated with it."
+            "description": "The disk currently has an Active SAS URI associated with it."
           },
           {
             "value": "ActiveSASFrozen",
