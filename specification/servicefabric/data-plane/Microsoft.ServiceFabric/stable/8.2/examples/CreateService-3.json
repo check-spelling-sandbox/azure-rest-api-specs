@@ -1,6 +1,6 @@
 {
   "operationId": "CreateService",
-  "description": "This example shows how to create a stateless Service Fabric service with a dns name definied and auto scaling based on cpu usage.",
+  "description": "This example shows how to create a stateless Service Fabric service with a dns name defined and auto scaling based on cpu usage.",
   "parameters": {
     "applicationId": "test",
     "api-version": "6.0",
