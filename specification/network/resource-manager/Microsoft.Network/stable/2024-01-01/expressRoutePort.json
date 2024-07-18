@@ -1014,7 +1014,7 @@
         "coloLocation": {
           "readOnly": true,
           "type": "string",
-          "description": "Cololocation for ExpressRoute Hybrid Direct."
+          "description": "Colocation for ExpressRoute Hybrid Direct."
         },
         "connectorType": {
           "readOnly": true,
