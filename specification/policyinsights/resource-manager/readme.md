@@ -66,7 +66,7 @@ directive:
       - $.paths["/providers/Microsoft.PolicyInsights/policyMetadata"].get.operationId
 
   - suppress: PageableOperation
-    reason: The operations API is not pagable.
+    reason: The operations API is not pageable.
     where:
       - $.paths["/providers/Microsoft.PolicyInsights/operations"].get
 
