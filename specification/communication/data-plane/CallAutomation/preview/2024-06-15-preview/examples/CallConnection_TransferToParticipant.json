@@ -17,13 +17,13 @@
         }
       },
       "operationCallbackUri": "https://app.contoso.com/callback",
-      "operationContext": "trasferring call"
+      "operationContext": "transferring call"
     }
   },
   "responses": {
     "202": {
       "body": {
-        "operationContext": "trasferring call"
+        "operationContext": "transferring call"
       }
     }
   }
