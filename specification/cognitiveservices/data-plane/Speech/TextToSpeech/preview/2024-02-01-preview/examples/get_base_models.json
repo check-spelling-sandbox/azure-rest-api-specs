@@ -11,7 +11,7 @@
         "value": [
           {
             "name": "PhoenixV2Neural",
-            "description": "Phonenix V2 base model",
+            "description": "Phoenix V2 base model",
             "releaseDateTime": "2023-12-01T00:00:00.000Z",
             "capabilities": [
               "PersonalVoice"
