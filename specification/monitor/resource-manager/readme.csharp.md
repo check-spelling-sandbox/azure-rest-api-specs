@@ -49,7 +49,7 @@ batch:
 ## Local Development
 
 ### Auto Generation
-- Fork https://github.com/Azure/azure-rest-api-specs, clone it (asumming at C:\Repos) 
-- Fork https://github.com/Azure/azure-sdk-for-net, clone it (asumming at C:\Repos)
+- Fork https://github.com/Azure/azure-rest-api-specs, clone it (assuming at C:\Repos) 
+- Fork https://github.com/Azure/azure-sdk-for-net, clone it (assuming at C:\Repos)
 - Make changes
 - autorest --version=V2 --csharp --reflect-api-versions --license-header=MICROSOFT_MIT_NO_VERSION --use=@microsoft.azure/autorest.csharp@2.3.82 --csharp-sdks-folder=C:\Repos\azure-sdk-for-net\sdk C:\Repos\azure-rest-api-specs\specification\monitor\resource-manager\readme.md --debug
