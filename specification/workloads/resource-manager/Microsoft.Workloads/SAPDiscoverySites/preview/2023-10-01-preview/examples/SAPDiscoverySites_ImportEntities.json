@@ -16,7 +16,7 @@
           "message": "Excel upload is not supported for a natively discovered Site.",
           "details": [
             {
-              "code": "ParallelExcelUploadNotSuppoeted",
+              "code": "ParallelExcelUploadNotSupported",
               "message": "Only one excel upload operation allowed for a discovery site at a time."
             }
           ]
