@@ -9,7 +9,7 @@ az:
     package-name: azure-mgmt-storagepool
 az-output-folder: $(azure-cli-extension-folder)/src/diskpool
 python-sdk-output-folder: "$(az-output-folder)/azext_diskpool/vendored_sdks/storagepool"
-# add additinal configuration here specific for Azure CLI
+# add additional configuration here specific for Azure CLI
 # refer to the faq.md for more details
 ```
 

@@ -21,6 +21,6 @@ az:
     package-name: azure-mgmt-loganalytics
 az-output-folder: $(azure-cli-folder)/src/azure-cli/azure/cli/command_modules/loganalytics
 python-sdk-output-folder: "$(az-output-folder)/azext_loganalytics/vendored_sdks/loganalytics"
-# add additinal configuration here specific for Azure CLI
+# add additional configuration here specific for Azure CLI
 # refer to the faq.md for more details
 ```

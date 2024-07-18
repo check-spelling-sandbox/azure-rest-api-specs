@@ -11,7 +11,7 @@ az:
     package-name: azure-mgmt-scom
 az-output-folder: $(azure-cli-extension-folder)/src/scom
 python-sdk-output-folder: "$(az-output-folder)/azext_scom/vendored_sdks/scom"
-# add additinal configuration here specific for Azure CLI
+# add additional configuration here specific for Azure CLI
 # refer to the faq.md for more details
 ```
 

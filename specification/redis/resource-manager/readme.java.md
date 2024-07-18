@@ -7,5 +7,5 @@ directive:
   - from: redis.json
     where: $.definitions.RedisCommonProperties.properties.redisConfiguration.additionalProperties
     transform: $['type'] = "string"
-    reason: additonal properties should be string to string map
+    reason: additional properties should be string to string map
 ```
