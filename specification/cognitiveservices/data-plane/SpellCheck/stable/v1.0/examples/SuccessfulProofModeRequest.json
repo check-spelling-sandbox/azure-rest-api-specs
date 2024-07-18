@@ -7,7 +7,7 @@
     "Accept-language": "en-gb",
     "Pragma": "no-cache",
     "User-Agent": "{User Agent}",
-    "X-MS-EdgeClientIP": "{IP AddresS}",
+    "X-MS-EdgeClientIP": "{IP Address}",
     "ActionType": "Edit",
     "CountryCode": "US",
     "SetLang": "en",

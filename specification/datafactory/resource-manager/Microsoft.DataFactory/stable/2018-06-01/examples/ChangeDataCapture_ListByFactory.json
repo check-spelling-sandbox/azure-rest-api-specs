@@ -135,7 +135,7 @@
                             "dataType": "string"
                           },
                           {
-                            "name": "CustAddres",
+                            "name": "CustAddress",
                             "dataType": "string"
                           },
                           {
@@ -520,13 +520,13 @@
                       "attributeMappingInfo": {
                         "attributeMappings": [
                           {
-                            "name": "CustAddres",
+                            "name": "CustAddress",
                             "type": "Derived",
                             "functionName": "trim",
-                            "expression": "trim(CustAddres)",
+                            "expression": "trim(CustAddress)",
                             "attributeReferences": [
                               {
-                                "name": "CustAddres",
+                                "name": "CustAddress",
                                 "entity": "source/justSchema",
                                 "entityConnectionReference": {
                                   "connectionName": "amjaAdls03",

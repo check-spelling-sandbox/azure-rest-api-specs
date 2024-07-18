@@ -7,7 +7,7 @@
     "X-MSEdge-ClientID": "{Client ID}",
     "Ocp-Apim-Subscription-Key": "{API key}",
     "mkt": "en-us",
-    "X-MS-EdgeClientIP": "{IP AddresS}",
+    "X-MS-EdgeClientIP": "{IP Address}",
     "cc": "US",
     "setLang": "en",
     "category": "sports"
