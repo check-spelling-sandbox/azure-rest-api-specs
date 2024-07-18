@@ -154,7 +154,7 @@
               "id": "/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/vpnGateways/gateway1/natRules/nat03",
               "properties": {
                 "type": "Dynamic",
-                "mode": "IgressSnat",
+                "mode": "IngressSnat",
                 "internalMappings": [
                   {
                     "addressSpace": "0.0.0.0/26"
