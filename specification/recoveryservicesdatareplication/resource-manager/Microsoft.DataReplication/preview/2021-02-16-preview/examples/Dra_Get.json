@@ -1,5 +1,5 @@
 {
-  "title": "Gets the fabric agent (Dra).",
+  "title": "Gets the fabric agent (DRA).",
   "operationId": "Dra_Get",
   "parameters": {
     "subscriptionId": "930CEC23-4430-4513-B855-DBA237E2F3BF",

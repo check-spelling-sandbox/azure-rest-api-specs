@@ -1,5 +1,5 @@
 {
-  "title": "Deletes the fabric agent (Dra).",
+  "title": "Deletes the fabric agent (DRA).",
   "operationId": "Dra_Delete",
   "parameters": {
     "subscriptionId": "930CEC23-4430-4513-B855-DBA237E2F3BF",

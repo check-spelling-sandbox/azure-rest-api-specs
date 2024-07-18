@@ -1,5 +1,5 @@
 {
-  "title": "Gets the fabric agent (Dra) operation status.",
+  "title": "Gets the fabric agent (DRA) operation status.",
   "operationId": "DraOperationStatus_Get",
   "parameters": {
     "subscriptionId": "930CEC23-4430-4513-B855-DBA237E2F3BF",

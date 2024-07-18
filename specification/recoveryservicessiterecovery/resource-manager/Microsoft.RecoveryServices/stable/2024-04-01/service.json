@@ -13762,7 +13762,7 @@
           "description": "Rollover encryption details for the fabric."
         },
         "internalIdentifier": {
-          "description": "Dra Registration Id.",
+          "description": "DRA Registration Id.",
           "type": "string"
         },
         "bcdrState": {

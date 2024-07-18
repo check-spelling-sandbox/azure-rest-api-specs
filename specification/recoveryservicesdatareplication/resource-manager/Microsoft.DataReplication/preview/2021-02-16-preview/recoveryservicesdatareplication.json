@@ -15,7 +15,7 @@
         "tags": [
           "Dra"
         ],
-        "summary": "Gets the fabric agent (Dra).",
+        "summary": "Gets the fabric agent (DRA).",
         "description": "Gets the details of the fabric agent.",
         "operationId": "Dra_Get",
         "produces": [
@@ -62,7 +62,7 @@
         "tags": [
           "Dra"
         ],
-        "summary": "Puts the fabric agent (Dra).",
+        "summary": "Puts the fabric agent (DRA).",
         "description": "Creates the fabric agent.",
         "operationId": "Dra_Create",
         "consumes": [
@@ -90,7 +90,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "Dra model.",
+            "description": "DRA model.",
             "schema": {
               "$ref": "#/definitions/DraModel"
             }
@@ -130,7 +130,7 @@
         "tags": [
           "Dra"
         ],
-        "summary": "Deletes the fabric agent (Dra).",
+        "summary": "Deletes the fabric agent (DRA).",
         "description": "Deletes the fabric agent.",
         "operationId": "Dra_Delete",
         "produces": [
@@ -241,7 +241,7 @@
         "tags": [
           "Dra"
         ],
-        "summary": "Gets the fabric agent (Dra) operation status.",
+        "summary": "Gets the fabric agent (DRA) operation status.",
         "description": "Tracks the results of an asynchronous operation on the fabric agent.",
         "operationId": "DraOperationStatus_Get",
         "produces": [
@@ -2837,7 +2837,7 @@
       }
     },
     "DraModel": {
-      "description": "Dra model.",
+      "description": "DRA model.",
       "required": [
         "properties"
       ],
@@ -2873,7 +2873,7 @@
       "x-ms-azure-resource": true
     },
     "DraModelCollection": {
-      "description": "Dra model collection.",
+      "description": "DRA model collection.",
       "type": "object",
       "properties": {
         "value": {
@@ -2891,7 +2891,7 @@
       }
     },
     "DraModelCustomProperties": {
-      "description": "Dra model custom properties.",
+      "description": "DRA model custom properties.",
       "required": [
         "instanceType"
       ],
@@ -2906,7 +2906,7 @@
       "discriminator": "instanceType"
     },
     "DraModelProperties": {
-      "description": "Dra model properties.",
+      "description": "DRA model properties.",
       "required": [
         "authenticationIdentity",
         "customProperties",
@@ -6421,7 +6421,7 @@
     "FabricAgentNameParameter": {
       "in": "path",
       "name": "fabricAgentName",
-      "description": "The fabric agent (Dra) name.",
+      "description": "The fabric agent (DRA) name.",
       "required": true,
       "type": "string",
       "pattern": "^[a-zA-Z0-9]*$",
@@ -6521,7 +6521,7 @@
   "tags": [
     {
       "name": "Dra",
-      "description": "Data replication agent (Dra) Controller."
+      "description": "Data replication agent (DRA) Controller."
     },
     {
       "name": "EmailConfiguration",
