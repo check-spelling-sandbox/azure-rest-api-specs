@@ -13,17 +13,17 @@
             "properties": {
               "lastAvailableBackupDate": "2017-05-26T01:06:29.78Z"
             },
-            "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/Default-SQL-SouthEastAsia/providers/Microsoft.Sql/managedInstances/testsvr/recoverableDaatabases/testdb",
+            "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/Default-SQL-SouthEastAsia/providers/Microsoft.Sql/managedInstances/testsvr/recoverableDatabases/testdb",
             "name": "testdb",
-            "type": "Microsoft.Sql/managedInstances/recoverableDaatabases"
+            "type": "Microsoft.Sql/managedInstances/recoverableDatabases"
           },
           {
             "properties": {
               "lastAvailableBackupDate": "2018-04-26T02:17:23.44Z"
             },
-            "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/Default-SQL-SouthEastAsia/providers/Microsoft.Sql/managedInstances/testsvr/recoverableDaatabases/testdb2",
+            "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/Default-SQL-SouthEastAsia/providers/Microsoft.Sql/managedInstances/testsvr/recoverableDatabases/testdb2",
             "name": "testdb2",
-            "type": "Microsoft.Sql/managedInstances/recoverableDaatabases"
+            "type": "Microsoft.Sql/managedInstances/recoverableDatabases"
           }
         ]
       }
