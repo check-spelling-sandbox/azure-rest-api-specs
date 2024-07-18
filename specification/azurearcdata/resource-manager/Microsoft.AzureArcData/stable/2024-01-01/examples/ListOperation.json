@@ -312,8 +312,8 @@
             "display": {
               "resource": "Microsoft.AzureArcData",
               "provider": "Azure Arc Data Resource Provider.",
-              "operation": "Delete exisiting Postgres Instances.",
-              "description": "Delete exisiting Postgres Instances."
+              "operation": "Delete existing Postgres Instances.",
+              "description": "Delete existing Postgres Instances."
             }
           },
           {

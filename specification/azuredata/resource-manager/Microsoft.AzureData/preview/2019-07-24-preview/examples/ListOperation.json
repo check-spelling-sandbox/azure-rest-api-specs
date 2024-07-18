@@ -53,8 +53,8 @@
           {
             "name": "Microsoft.AzureData/sqlServers/delete",
             "display": {
-              "operation": "Delete exisiting SQL Server",
-              "description": "Delete exisiting SQL Server"
+              "operation": "Delete existing SQL Server",
+              "description": "Delete existing SQL Server"
             }
           },
           {
@@ -74,8 +74,8 @@
           {
             "name": "Microsoft.AzureData/sqlInstance/delete",
             "display": {
-              "operation": "Delete exisiting SQL Instance",
-              "description": "Delete exisiting SQL Instance"
+              "operation": "Delete existing SQL Instance",
+              "description": "Delete existing SQL Instance"
             }
           },
           {
@@ -95,8 +95,8 @@
           {
             "name": "Microsoft.AzureData/postgresInstances/delete",
             "display": {
-              "operation": "Delete exisiting Postgres Instances",
-              "description": "Delete exisiting Postgres Instances"
+              "operation": "Delete existing Postgres Instances",
+              "description": "Delete existing Postgres Instances"
             }
           },
           {
@@ -116,8 +116,8 @@
           {
             "name": "Microsoft.AzureData/hybridDataManagers/delete",
             "display": {
-              "operation": "Delete exisiting HybridDataManagers",
-              "description": "Delete exisiting HybridDataManagers"
+              "operation": "Delete existing HybridDataManagers",
+              "description": "Delete existing HybridDataManagers"
             }
           },
           {
@@ -137,8 +137,8 @@
           {
             "name": "Microsoft.AzureData/SqlBigDataClusters/delete",
             "display": {
-              "operation": "Delete exisiting SqlBigDataClusters",
-              "description": "Delete exisiting SqlBigDataClusters"
+              "operation": "Delete existing SqlBigDataClusters",
+              "description": "Delete existing SqlBigDataClusters"
             }
           }
         ]
