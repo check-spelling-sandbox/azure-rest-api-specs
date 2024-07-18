@@ -308,7 +308,7 @@
           }
         },
         "x-ms-long-running-operation": true,
-        "description": "Update a Kusto Kusto Pool.",
+        "description": "Update a Kusto Pool.",
         "parameters": [
           {
             "$ref": "../../../../common/v1/types.json#/parameters/WorkspaceNameParameter"
