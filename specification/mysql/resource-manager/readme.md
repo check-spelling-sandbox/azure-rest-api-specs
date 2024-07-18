@@ -311,10 +311,10 @@ suppressions:
     reason: "202 is a pattern that is already used in our existing resources and being carried forward to new implementations to maintain consistency for our customers. This has already been approved by the API review board."
   - code: PutInOperationName
     from: AdvancedThreatProtectionSettings.json
-    reason: "This API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
+    reason: "This API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
   - code: AllProxyResourcesShouldHaveDelete
     from: AdvancedThreatProtectionSettings.json
-    reason: "PUT API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
+    reason: "PUT API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
 ```
 
 ### Tag: package-flexibleserver-2023-12-30
@@ -347,10 +347,10 @@ suppressions:
     reason: "202 is a pattern that is already used in our existing resources and being carried forward to new implementations to maintain consistency for our customers. This has already been approved by the API review board."
   - code: PutInOperationName
     from: AdvancedThreatProtectionSettings.json
-    reason: "This API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
+    reason: "This API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
   - code: AllProxyResourcesShouldHaveDelete
     from: AdvancedThreatProtectionSettings.json
-    reason: "PUT API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
+    reason: "PUT API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
 ```
 
 ### Tag: package-flexibleserver-2024-01-01
@@ -383,10 +383,10 @@ suppressions:
     reason: "202 is a pattern that is already used in our existing resources and being carried forward to new implementations to maintain consistency for our customers. This has already been approved by the API review board."
   - code: PutInOperationName
     from: AdvancedThreatProtectionSettings.json
-    reason: "This API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
+    reason: "This API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
   - code: AllProxyResourcesShouldHaveDelete
     from: AdvancedThreatProtectionSettings.json
-    reason: "PUT API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
+    reason: "PUT API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
 ```
 
 ### Tag: package-flexibleserver-2024-02-01-preview
@@ -419,10 +419,10 @@ suppressions:
     reason: "202 is a pattern that is already used in our existing resources and being carried forward to new implementations to maintain consistency for our customers. This has already been approved by the API review board."
   - code: PutInOperationName
     from: AdvancedThreatProtectionSettings.json
-    reason: "This API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
+    reason: "This API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario"
   - code: AllProxyResourcesShouldHaveDelete
     from: AdvancedThreatProtectionSettings.json
-    reason: "PUT API is used to update thread detecion configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
+    reason: "PUT API is used to update thread detection configuration, which is required by ARM policy, especially for `deployIfNotExist` scenario, we do not support DELETE operation"
 ```
 
 ### Tag: package-flexibleserver-2023-06-30-privatelink
