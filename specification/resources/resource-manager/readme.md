@@ -1098,7 +1098,7 @@ directive:
     reason: OperationsAPI will come from Resources
   - suppress: IntegerTypeMustHaveFormat
     from: deploymentScripts.json
-    reason: Tooling issue, default is int32, explictly mentioning the format as per doc, it still flags breaking change.
+    reason: Tooling issue, default is int32, explicitly mentioning the format as per doc, it still flags breaking change.
   - suppress: ResourceNameRestriction
     from: deploymentScripts.json
     reason: Pre-existing lint error. Not related to this version release. Will fix in the future.
