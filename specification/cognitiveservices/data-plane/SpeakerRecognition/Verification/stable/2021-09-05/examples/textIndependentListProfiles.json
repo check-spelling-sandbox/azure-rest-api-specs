@@ -37,7 +37,7 @@
       "body": {
         "error": {
           "code": "Error Code",
-          "message": "Error Messae"
+          "message": "Error Message"
         }
       }
     }
