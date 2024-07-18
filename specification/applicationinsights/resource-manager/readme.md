@@ -234,19 +234,19 @@ directive:
   - suppress: NestedResourcesMustHaveListOperation
     where: $.definitions.ComponentLinkedStorageAccounts
     from: componentLinkedStorageAccounts_API.json
-    reason: Pre-existing error in another API (i.e. this PR did not introduce this issue).
+    reason: Preexisting error in another API (i.e. this PR did not introduce this issue).
   - suppress: OperationsApiResponseSchema
     where: '$.paths["/providers/Microsoft.Insights/operations"]'
     from: workbookOperations_API.json
-    reason: Pre-existing error in another API (i.e. this PR did not introduce this issue).
+    reason: Preexisting error in another API (i.e. this PR did not introduce this issue).
   - suppress: TrackedResourcePatchOperation
     where: $.definitions.Workbook
     from: workbooks_API.json
-    reason: Pre-existing error in another API (i.e. this PR did not introduce this issue).
+    reason: Preexisting error in another API (i.e. this PR did not introduce this issue).
   - suppress: PathResourceProviderNamePascalCase
     where: '$.paths["/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}/linkedStorageAccounts/{storageType}"]'
     from: componentLinkedStorageAccounts_API.json
-    reason: Pre-existing error in another API (i.e. this PR did not introduce this issue).
+    reason: Preexisting error in another API (i.e. this PR did not introduce this issue).
 ```
 
 ### Tag: package-2024-04-25-only

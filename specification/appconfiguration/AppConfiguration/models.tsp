@@ -184,7 +184,7 @@ model KeyValue {
   @doc("The value of the key-value.")
   value?: string;
 
-  #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Pre-existing API contract."
+  #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Preexisting API contract."
   @doc("A date representing the last time the key-value was modified.")
   @encodedName("application/json", "last_modified")
   lastModified?: offsetDateTime;
@@ -237,12 +237,12 @@ model Snapshot {
   @encodedName("application/json", "composition_type")
   compositionType?: CompositionType;
 
-  #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Pre-existing API contract."
+  #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Preexisting API contract."
   @doc("The time that the snapshot was created.")
   @visibility("read")
   created?: offsetDateTime;
 
-  #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Pre-existing API contract."
+  #suppress "@azure-tools/typespec-azure-core/no-offsetdatetime" "Preexisting API contract."
   @doc("The time that the snapshot will expire.")
   @visibility("read")
   expires?: offsetDateTime;

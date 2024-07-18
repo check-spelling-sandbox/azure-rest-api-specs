@@ -430,7 +430,7 @@
         "tags": [
           "ConfigurationsV1Dot1Preview1"
         ],
-        "summary": "Apply Learning Settings and model from a pre-existing Offline Evaluation, making them the current online Learning Settings and model and replacing the previous ones.",
+        "summary": "Apply Learning Settings and model from a preexisting Offline Evaluation, making them the current online Learning Settings and model and replacing the previous ones.",
         "operationId": "ServiceConfiguration_ApplyFromEvaluation",
         "consumes": [
           "application/json"

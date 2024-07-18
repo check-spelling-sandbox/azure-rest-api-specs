@@ -47,7 +47,7 @@ alias AppConfigResponseHeaders = {
   etagHeader?: string;
 };
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Gets a list of keys.")
 @doc("Gets a list of keys.")
 op getKeys is Foundations.ResourceList<
@@ -113,7 +113,7 @@ op checkKeys is appConfigOperation<
   }
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Gets a list of key-values.")
 @doc("Gets a list of key-values.")
 op getKeyValues is Foundations.ResourceList<
@@ -177,7 +177,7 @@ op getKeyValues is Foundations.ResourceList<
     @header("If-None-Match")
     ifNoneMatch?: string;
 
-    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Pre-existing API contract"
+    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Preexisting API contract"
     @doc("""
       A filter used to query by tags. Syntax reference:
       https://aka.ms/azconfig/docs/keyvaluefiltering
@@ -257,7 +257,7 @@ op checkKeyValues is appConfigOperation<
     @header("If-None-Match")
     ifNoneMatch?: string;
 
-    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Pre-existing API contract"
+    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Preexisting API contract"
     @doc("""
       A filter used to query by tags. Syntax reference:
       https://aka.ms/azconfig/docs/keyvaluefiltering
@@ -315,7 +315,7 @@ op getKeyValue is standardOps.ResourceRead<
       contentTypeHeader<"application/vnd.microsoft.appconfig.kv+json">>
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Creates a key-value.")
 @doc("Creates a key-value.")
 @route("/kv/{key}")
@@ -366,7 +366,7 @@ op putKeyValue is appConfigOperation<
     contentTypeHeader<"application/vnd.microsoft.appconfig.kv+json">
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Deletes a key-value.")
 @doc("Deletes a key-value.")
 @route("/kv/{key}")
@@ -448,7 +448,7 @@ op checkKeyValue is appConfigOperation<
   OkResponse & AppConfigResponseHeaders
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Gets a list of key-value snapshots.")
 @doc("Gets a list of key-value snapshots.")
 op getSnapshots is Foundations.ResourceList<
@@ -548,7 +548,7 @@ op getSnapshot is standardOps.ResourceRead<
     }>
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Creates a key-value snapshot.")
 @doc("Creates a key-value snapshot.")
 @route("/snapshots/{name}")
@@ -586,7 +586,7 @@ op createSnapshot is Foundations.LongRunningOperation<
   Error
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Updates the state of a key-value snapshot.")
 @doc("Updates the state of a key-value snapshot.")
 @route("/snapshots/{name}")
@@ -669,7 +669,7 @@ op checkSnapshot is appConfigOperation<
   }
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Gets a list of labels.")
 @doc("Gets a list of labels.")
 @route("/labels")
@@ -747,7 +747,7 @@ op checkLabels is appConfigOperation<
   }
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Locks a key-value.")
 @doc("Locks a key-value.")
 @route("/locks/{key}")
@@ -783,7 +783,7 @@ op putLock is appConfigOperation<
     contentTypeHeader<"application/vnd.microsoft.appconfig.kv+json">
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Unlocks a key-value.")
 @doc("Unlocks a key-value.")
 @route("/locks/{key}")
@@ -819,7 +819,7 @@ op deleteLock is appConfigOperation<
     contentTypeHeader<"application/vnd.microsoft.appconfig.kv+json">
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Gets a list of key-value revisions.")
 @doc("Gets a list of key-value revisions.")
 @route("/revisions")
@@ -863,7 +863,7 @@ op getRevisions is appConfigOperation<
     })
     select?: KeyValueFields[];
 
-    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Pre-existing API contract"
+    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Preexisting API contract"
     @doc("""
       A filter used to query by tags. Syntax reference:
       https://aka.ms/azconfig/docs/restapirevisions
@@ -923,7 +923,7 @@ op checkRevisions is appConfigOperation<
     })
     select?: KeyValueFields[];
 
-    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Pre-existing API contract"
+    #suppress "@azure-tools/typespec-azure-core/prefer-csv-collection-format" "Preexisting API contract"
     @doc("""
       A filter used to query by tags. Syntax reference:
       https://aka.ms/azconfig/docs/restapirevisions
@@ -937,7 +937,7 @@ op checkRevisions is appConfigOperation<
   OkResponse & AppConfigResponseHeaders
 >;
 
-#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Pre-existing API contract"
+#suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Preexisting API contract"
 @summary("Gets the state of a long running operation.")
 @doc("Gets the state of a long running operation.")
 @route("/operations")

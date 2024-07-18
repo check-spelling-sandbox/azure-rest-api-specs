@@ -1327,11 +1327,11 @@
       "properties": {
         "subnetId": {
           "type": "string",
-          "description": "Resource id of a pre-existing subnet on which the build VM and validation VM will be deployed"
+          "description": "Resource id of a preexisting subnet on which the build VM and validation VM will be deployed"
         },
         "containerInstanceSubnetId": {
           "type": "string",
-          "description": "Resource id of a pre-existing subnet on which Azure Container Instance will be deployed for Isolated Builds. This field may be specified only if `subnetId` is also specified and must be on the same Virtual Network as the subnet specified in `subnetId`."
+          "description": "Resource id of a preexisting subnet on which Azure Container Instance will be deployed for Isolated Builds. This field may be specified only if `subnetId` is also specified and must be on the same Virtual Network as the subnet specified in `subnetId`."
         },
         "proxyVmSize": {
           "type": "string",
