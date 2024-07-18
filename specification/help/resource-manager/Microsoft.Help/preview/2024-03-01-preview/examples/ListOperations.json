@@ -23,7 +23,7 @@
               "provider": "Microsoft.Help",
               "resource": "DiscoverySolutions",
               "operation": "List of available solutions.",
-              "description": "Returns list of solutions based on ResourceType or ProblemClassficationId"
+              "description": "Returns list of solutions based on ResourceType or ProblemClassificationId"
             }
           }
         ]
