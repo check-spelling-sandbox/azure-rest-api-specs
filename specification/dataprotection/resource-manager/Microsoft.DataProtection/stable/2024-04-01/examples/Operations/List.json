@@ -102,7 +102,7 @@
               "provider": "Microsoft.DataProtection",
               "resource": "Backup Instance",
               "operation": "Suspend Backups of Backup Instance",
-              "description": "Suspend Backups operation stops only backups of backup instance. Retention activities will continue and hence data will be ratained as per policy."
+              "description": "Suspend Backups operation stops only backups of backup instance. Retention activities will continue and hence data will be retained as per policy."
             },
             "origin": "user"
           },
