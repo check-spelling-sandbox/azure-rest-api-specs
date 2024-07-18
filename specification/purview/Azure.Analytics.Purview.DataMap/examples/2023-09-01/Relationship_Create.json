@@ -21,7 +21,7 @@
       "label": "r:AtlasGlossarySynonym",
       "status": "ACTIVE",
       "createdBy": "ExampleCreator",
-      "updatedBy": "ExampleUpdator",
+      "updatedBy": "ExampleUpdater",
       "version": 0
     }
   },
@@ -48,7 +48,7 @@
         "label": "r:AtlasGlossarySynonym",
         "status": "ACTIVE",
         "createdBy": "ExampleCreator",
-        "updatedBy": "ExampleUpdator",
+        "updatedBy": "ExampleUpdater",
         "createTime": 1553840134724,
         "updateTime": 1553840134724,
         "version": 0
