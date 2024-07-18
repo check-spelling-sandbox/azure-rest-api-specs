@@ -7838,7 +7838,7 @@
         }
       }
     },
-    "MetricAvailablity": {
+    "MetricAvailability": {
       "description": "Metric availability specifies the time grain (aggregation interval or frequency) and the retention period for that time grain",
       "required": [
         "timeGrain",
@@ -7957,7 +7957,7 @@
           "description": "The available metric granularities",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/MetricAvailablity"
+            "$ref": "#/definitions/MetricAvailability"
           },
           "x-ms-identifiers": [
             "timeGrain"

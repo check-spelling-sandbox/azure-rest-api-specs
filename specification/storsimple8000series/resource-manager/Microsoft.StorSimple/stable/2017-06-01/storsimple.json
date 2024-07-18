@@ -7438,7 +7438,7 @@
         }
       }
     },
-    "MetricAvailablity": {
+    "MetricAvailability": {
       "description": "The metric availability.",
       "type": "object",
       "properties": {
@@ -7536,7 +7536,7 @@
           "description": "The available metric granularities.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/MetricAvailablity"
+            "$ref": "#/definitions/MetricAvailability"
           },
           "x-ms-identifiers": [
             "timeGrain"

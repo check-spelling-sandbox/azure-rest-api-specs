@@ -2019,18 +2019,18 @@
         }
       }
     },
-    "/providers/Microsoft.ADHybridHealthService/services/{serviceName}/checkServiceFeatureAvailibility/{featureName}": {
+    "/providers/Microsoft.ADHybridHealthService/services/{serviceName}/checkServiceFeatureAvailability/{featureName}": {
       "get": {
         "tags": [
           "Services"
         ],
         "description": "Checks if the service has all the pre-requisites met to use a feature.",
         "x-ms-examples": {
-          "services_getFeatureAvailibility": {
-            "$ref": "./examples/CheckFeatureAvailibility.json"
+          "services_getFeatureAvailability": {
+            "$ref": "./examples/CheckFeatureAvailability.json"
           }
         },
-        "operationId": "services_getFeatureAvailibility",
+        "operationId": "services_getFeatureAvailability",
         "parameters": [
           {
             "name": "serviceName",
