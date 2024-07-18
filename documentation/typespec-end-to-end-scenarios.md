@@ -181,7 +181,7 @@ flowchart TD;
 Dev Inner Loop is defined as what spec/sdk developer does locally on the dev box.
 
 Use case and design proposals
-1. Optional: Create a TypeSpec self installer/package that will install all prerequisits such as node, npm, and TypeSpec
+1. Optional: Create a TypeSpec self installer/package that will install all prerequisites such as node, npm, and TypeSpec
 2. Spec writers [create recommended folder structures](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/typespec-structure-guidelines.md) under local clone of `azure-rest-api-specs` repo. 
 3. In the correct folder, run `tsp init https://aka.ms/typespec/azure` to create TypeSpec project: ARM or DP. Project will not contain package.json but rather rely on the one in the root level. 
 4. Author TypeSpec files and run `tsp compile .` to verify no errors in the TypeSpec project. It should only run `typespec-autorest` given that is the only emitter enabled via init template project. Generated swagger would be placed in the appropriate folder. It is not expected to use --emit flag to run any SDK emitters. For that, see step 5.
