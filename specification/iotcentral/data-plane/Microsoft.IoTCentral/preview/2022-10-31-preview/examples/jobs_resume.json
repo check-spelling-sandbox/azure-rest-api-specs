@@ -1,6 +1,6 @@
 {
   "title": "Resume a stopped job",
-  "description": "Resume execution of an existing stoppped job.",
+  "description": "Resume execution of an existing stopped job.",
   "parameters": {
     "baseDomain": "azureiotcentral.com",
     "subdomain": "appsubdomain",
