@@ -45,7 +45,7 @@ We still to cloe the
 
 Use VS Code to edit TypeSpec definition files.
 - If adding a new API version - update `main.tsp` with the API version definition. 
-    - Copy the `examples\` from the previous `stable` or `preview` API version into a new versoin folder.
+    - Copy the `examples\` from the previous `stable` or `preview` API version into a new version folder.
     - For any additions to the API specification, decorate the properties/models/resource etc. with `@added(Versions.v<api-version>)`.
     - Similarly for removing items, use `@removed(Versions.v<api-version>)` - note that this could trigger a API breaking change error during PR review.
 - If adding a new resource (proxy or tracked ARM resource), create a new `.tsp` file with the filename matching the resource name, eg. `User.tsp`.

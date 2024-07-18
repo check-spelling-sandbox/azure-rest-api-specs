@@ -453,5 +453,5 @@ See configuration in [readme.java.md](./readme.java.md)
 suppressions:
   - code: TrackedResourcePatchOperation
     from: containerregistry.json
-    reason: The following workitems will be implemented to improve the swagger for the next API verison. Workitems 24979281, 24778096, 24802955, 24802955. This is planned for 2023-11-01-preview
+    reason: The following workitems will be implemented to improve the swagger for the next API version. Workitems 24979281, 24778096, 24802955, 24802955. This is planned for 2023-11-01-preview
 ```
