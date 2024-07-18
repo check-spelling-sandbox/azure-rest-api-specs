@@ -18,7 +18,7 @@
             "vendorProject": "Apache",
             "product": "Apache",
             "vulnerabilityName": "Apache HTTP Server-Side Request Forgery (SSRF)",
-            "shortDescription": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.",
+            "shortDescription": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server chosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.",
             "requiredAction": "Apply updates per vendor instructions.",
             "notes": "",
             "dateAdded": "2022-12-09T06:01:35.000+00:00",
