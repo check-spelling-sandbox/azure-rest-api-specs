@@ -211,7 +211,7 @@
               {
                 "osType": "Windows",
                 "totalCost": 11,
-                "decomissionCost": 29
+                "decommissionCost": 29
               }
             ],
             "distributionByOperatingSystem": [
@@ -223,7 +223,7 @@
             "onPremisesUtilizationData": {
               "numberOfActiveEntities": 10,
               "numberOfInactiveEntities": 18,
-              "numberOfDecommisionEntities": 10,
+              "numberOfDecommissionEntities": 10,
               "numberOfUnknownEntities": 13
             },
             "distributionByVirtualization": [

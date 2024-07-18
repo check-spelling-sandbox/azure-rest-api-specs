@@ -159,7 +159,7 @@
               },
               "esuSavings": 28
             },
-            "onPremisesPaasCostForDecommisioned": {
+            "onPremisesPaasCostForDecommissioned": {
               "storageCost": 27,
               "computeCost": 19,
               "itLaborCost": 29,
@@ -180,7 +180,7 @@
             "onPremisesPaasLicensingCost": {
               "version": null,
               "totalCost": 29,
-              "decomissionServerCost": 1
+              "decommissionServerCost": 1
             },
             "onPremisesSqlSummary": {
               "sqlInstances": 26,
@@ -194,7 +194,7 @@
               "sqlOnPremisesUtilizationData": {
                 "numberOfActiveEntities": 10,
                 "numberOfInactiveEntities": 18,
-                "numberOfDecommisionEntities": 10,
+                "numberOfDecommissionEntities": 10,
                 "numberOfUnknownEntities": 13
               },
               "distributionBySqlEdition": [

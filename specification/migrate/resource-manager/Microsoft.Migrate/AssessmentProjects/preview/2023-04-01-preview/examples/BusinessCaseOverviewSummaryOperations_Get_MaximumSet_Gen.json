@@ -78,7 +78,7 @@
           "utilizationData": {
             "numberOfActiveEntities": 10,
             "numberOfInactiveEntities": 18,
-            "numberOfDecommisionEntities": 10,
+            "numberOfDecommissionEntities": 10,
             "numberOfUnknownEntities": 13
           },
           "iaasOsDistribution": {

@@ -18776,7 +18776,7 @@
           "description": "The total cost.",
           "readOnly": true
         },
-        "decomissionCost": {
+        "decommissionCost": {
           "type": "number",
           "format": "float",
           "description": "The decommission cost.",
@@ -20027,7 +20027,7 @@
           "description": "The total cost.",
           "readOnly": true
         },
-        "decomissionServerCost": {
+        "decommissionServerCost": {
           "type": "number",
           "format": "float",
           "description": "The decommissioned server cost.",
@@ -20062,7 +20062,7 @@
           "description": "The on premises PaaS cost.",
           "readOnly": true
         },
-        "onPremisesPaasCostForDecommisioned": {
+        "onPremisesPaasCostForDecommissioned": {
           "$ref": "#/definitions/CostDetails",
           "description": "The on premises PaaS cost.",
           "readOnly": true
@@ -23207,7 +23207,7 @@
           "description": "The number of inactive entities.",
           "readOnly": true
         },
-        "numberOfDecommisionEntities": {
+        "numberOfDecommissionEntities": {
           "type": "integer",
           "format": "int32",
           "description": "The number of decommission entities.",
