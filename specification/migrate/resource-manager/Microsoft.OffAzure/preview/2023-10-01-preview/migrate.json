@@ -12414,7 +12414,7 @@
         "tags": [
           "VcenterController"
         ],
-        "description": "List Vcenter resources by VmwareSite",
+        "description": "List vCenter resources by VmwareSite",
         "parameters": [
           {
             "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
@@ -20401,11 +20401,11 @@
     },
     "VcenterListResult": {
       "type": "object",
-      "description": "The response of a Vcenter list operation.",
+      "description": "The response of a vCenter list operation.",
       "properties": {
         "value": {
           "type": "array",
-          "description": "The Vcenter items on this page",
+          "description": "The vCenter items on this page",
           "items": {
             "$ref": "#/definitions/Vcenter"
           }

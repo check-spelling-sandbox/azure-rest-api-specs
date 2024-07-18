@@ -17357,12 +17357,12 @@
       "type": "object",
       "properties": {
         "vCenterId": {
-          "description": "The VCenter ID.",
+          "description": "The vCenter ID.",
           "type": "string",
           "readOnly": true
         },
         "vCenterFqdn": {
-          "description": "The VCenter fqdn.",
+          "description": "The vCenter fqdn.",
           "type": "string",
           "readOnly": true
         },
@@ -17895,12 +17895,12 @@
       "type": "object",
       "properties": {
         "vCenterId": {
-          "description": "The VCenter ID.",
+          "description": "The vCenter ID.",
           "type": "string",
           "readOnly": true
         },
         "vCenterFqdn": {
-          "description": "The VCenter fqdn.",
+          "description": "The vCenter fqdn.",
           "type": "string",
           "readOnly": true
         },
@@ -24436,7 +24436,7 @@
           "readOnly": true
         },
         "vcenterId": {
-          "description": "The Vcenter ID.",
+          "description": "The vCenter ID.",
           "type": "string",
           "readOnly": true
         },
@@ -25951,7 +25951,7 @@
       "properties": {
         "properties": {
           "$ref": "#/definitions/UpdateVCenterRequestProperties",
-          "description": "The update VCenter Request Properties."
+          "description": "The update vCenter Request Properties."
         }
       }
     },
@@ -26160,7 +26160,7 @@
           "type": "string"
         },
         "discoveryStatus": {
-          "description": "The VCenter discovery status.",
+          "description": "The vCenter discovery status.",
           "type": "string"
         },
         "processServerId": {
@@ -27990,7 +27990,7 @@
           "type": "string"
         },
         "vCenterInfrastructureId": {
-          "description": "The VCenter infrastructure ID.",
+          "description": "The vCenter infrastructure ID.",
           "type": "string"
         },
         "discoveryType": {
