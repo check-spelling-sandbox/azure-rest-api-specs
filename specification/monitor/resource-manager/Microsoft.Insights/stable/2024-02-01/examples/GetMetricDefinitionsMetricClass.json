@@ -1131,7 +1131,7 @@
               "value": "StorageTargetReadAheadThroughput",
               "localizedValue": "StorageTarget Read Ahead Throughput"
             },
-            "displayDescription": "The rate the Cache opportunisticly reads data from the StorageTarget.",
+            "displayDescription": "The rate the Cache opportunistically reads data from the StorageTarget.",
             "isDimensionRequired": false,
             "unit": "BytesPerSecond",
             "primaryAggregationType": "Average",
