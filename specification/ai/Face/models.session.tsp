@@ -157,8 +157,8 @@ model LivenessOutputsTarget {
   imageType: ImageType;
 }
 
-#suppress "@azure-tools/typespec-azure-core/documentation-required" "Values are self-documetning."
-#suppress "@azure-tools/typespec-azure-core/documentation-required" "Values are self-documetning."
+#suppress "@azure-tools/typespec-azure-core/documentation-required" "Values are self-documenting."
+#suppress "@azure-tools/typespec-azure-core/documentation-required" "Values are self-documenting."
 @doc("The model version used for liveness classification.")
 union LivenessModel {
   string,
