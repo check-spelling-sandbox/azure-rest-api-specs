@@ -169,7 +169,7 @@ interface JobRouterOperations {
   @doc("Retrieves list of jobs based on filter parameters.")
   listJobs is Operations.ResourceList<RouterJob, ListJobQueryParams>;
 
-  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revist how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
+  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revisit how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
   @summary("Gets a job's position details.")
   @doc("Gets a job's position details.")
   @route("/routing/jobs/{jobId}/position")
@@ -214,7 +214,7 @@ interface JobRouterOperations {
     DeclineJobOfferResultWithOkResponse
   >;
 
-  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revist how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
+  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revisit how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
   @summary("Retrieves a queue's statistics.")
   @doc("Retrieves a queue's statistics.")
   @route("/routing/queues/{queueId}/statistics")

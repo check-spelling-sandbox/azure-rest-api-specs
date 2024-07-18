@@ -102,8 +102,8 @@ interface JobRouterRestClient {
   @access(Access.internal, "csharp")
   listJobs is AzureCommunicationRoutingService.JobRouterOperations.listJobs;
 
-  #suppress "@azure-tools/typespec-azure-core/no-explicit-routes-resource-ops" "Need to revist how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
-  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revist how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
+  #suppress "@azure-tools/typespec-azure-core/no-explicit-routes-resource-ops" "Need to revisit how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
+  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revisit how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
   getQueuePosition is AzureCommunicationRoutingService.JobRouterOperations.getInQueuePosition;
 
   @access(Access.internal, "csharp")
@@ -119,8 +119,8 @@ interface JobRouterRestClient {
   @clientName("declineJobOffer")
   decline is AzureCommunicationRoutingService.JobRouterOperations.decline;
 
-  #suppress "@azure-tools/typespec-azure-core/no-explicit-routes-resource-ops" "Need to revist how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
-  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revist how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
+  #suppress "@azure-tools/typespec-azure-core/no-explicit-routes-resource-ops" "Need to revisit how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
+  #suppress "@azure-tools/typespec-azure-core/use-standard-operations" "Need to revisit how to correctly define singletons https://github.com/Azure/azure-rest-api-specs/issues/25605#issuecomment-1736265997"
   getQueueStatistics is AzureCommunicationRoutingService.JobRouterOperations.getQueueStatistics;
 
   @access(Access.internal, "csharp")
