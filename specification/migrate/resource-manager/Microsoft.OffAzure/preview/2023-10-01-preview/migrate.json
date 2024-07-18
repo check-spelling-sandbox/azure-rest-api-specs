@@ -12709,7 +12709,7 @@
         "DiscoveryNotStarted",
         "DiscoveryInProgress",
         "Disabled",
-        "DiscoveryPartiallySucceded",
+        "DiscoveryPartiallySucceeded",
         "DiscoverySucceeded"
       ],
       "x-ms-enum": {
@@ -12747,9 +12747,9 @@
             "description": "Disabled value."
           },
           {
-            "name": "DiscoveryPartiallySucceded",
-            "value": "DiscoveryPartiallySucceded",
-            "description": "DiscoveryPartiallySucceded value."
+            "name": "DiscoveryPartiallySucceeded",
+            "value": "DiscoveryPartiallySucceeded",
+            "description": "DiscoveryPartiallySucceeded value."
           },
           {
             "name": "DiscoverySucceeded",
@@ -13088,7 +13088,7 @@
         "DiscoveryNotStarted",
         "DiscoveryInProgress",
         "Disabled",
-        "DiscoveryPartiallySucceded",
+        "DiscoveryPartiallySucceeded",
         "DiscoverySucceeded"
       ],
       "x-ms-enum": {
@@ -13126,9 +13126,9 @@
             "description": "Disabled value."
           },
           {
-            "name": "DiscoveryPartiallySucceded",
-            "value": "DiscoveryPartiallySucceded",
-            "description": "DiscoveryPartiallySucceded value."
+            "name": "DiscoveryPartiallySucceeded",
+            "value": "DiscoveryPartiallySucceeded",
+            "description": "DiscoveryPartiallySucceeded value."
           },
           {
             "name": "DiscoverySucceeded",
@@ -13337,7 +13337,7 @@
         "DiscoveryNotStarted",
         "DiscoveryInProgress",
         "Disabled",
-        "DiscoveryPartiallySucceded",
+        "DiscoveryPartiallySucceeded",
         "DiscoverySucceeded"
       ],
       "x-ms-enum": {
@@ -13375,9 +13375,9 @@
             "description": "Disabled value."
           },
           {
-            "name": "DiscoveryPartiallySucceded",
-            "value": "DiscoveryPartiallySucceded",
-            "description": "DiscoveryPartiallySucceded value."
+            "name": "DiscoveryPartiallySucceeded",
+            "value": "DiscoveryPartiallySucceeded",
+            "description": "DiscoveryPartiallySucceeded value."
           },
           {
             "name": "DiscoverySucceeded",
@@ -17055,7 +17055,7 @@
         "DiscoveryNotStarted",
         "DiscoveryInProgress",
         "Disabled",
-        "DiscoveryPartiallySucceded",
+        "DiscoveryPartiallySucceeded",
         "DiscoverySucceeded"
       ],
       "x-ms-enum": {
@@ -17093,9 +17093,9 @@
             "description": "Disabled value."
           },
           {
-            "name": "DiscoveryPartiallySucceded",
-            "value": "DiscoveryPartiallySucceded",
-            "description": "DiscoveryPartiallySucceded value."
+            "name": "DiscoveryPartiallySucceeded",
+            "value": "DiscoveryPartiallySucceeded",
+            "description": "DiscoveryPartiallySucceeded value."
           },
           {
             "name": "DiscoverySucceeded",
@@ -17775,7 +17775,7 @@
         "DiscoveryNotStarted",
         "DiscoveryInProgress",
         "Disabled",
-        "DiscoveryPartiallySucceded",
+        "DiscoveryPartiallySucceeded",
         "DiscoverySucceeded"
       ],
       "x-ms-enum": {
@@ -17813,9 +17813,9 @@
             "description": "Disabled value."
           },
           {
-            "name": "DiscoveryPartiallySucceded",
-            "value": "DiscoveryPartiallySucceded",
-            "description": "DiscoveryPartiallySucceded value."
+            "name": "DiscoveryPartiallySucceeded",
+            "value": "DiscoveryPartiallySucceeded",
+            "description": "DiscoveryPartiallySucceeded value."
           },
           {
             "name": "DiscoverySucceeded",
@@ -19700,7 +19700,7 @@
         "DiscoveryNotStarted",
         "DiscoveryInProgress",
         "Disabled",
-        "DiscoveryPartiallySucceded",
+        "DiscoveryPartiallySucceeded",
         "DiscoverySucceeded"
       ],
       "x-ms-enum": {
@@ -19738,9 +19738,9 @@
             "description": "Disabled value."
           },
           {
-            "name": "DiscoveryPartiallySucceded",
-            "value": "DiscoveryPartiallySucceded",
-            "description": "DiscoveryPartiallySucceded value."
+            "name": "DiscoveryPartiallySucceeded",
+            "value": "DiscoveryPartiallySucceeded",
+            "description": "DiscoveryPartiallySucceeded value."
           },
           {
             "name": "DiscoverySucceeded",

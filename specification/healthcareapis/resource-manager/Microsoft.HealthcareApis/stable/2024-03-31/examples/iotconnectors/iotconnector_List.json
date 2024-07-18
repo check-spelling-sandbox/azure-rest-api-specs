@@ -77,7 +77,7 @@
               "type": "SystemAssigned"
             },
             "properties": {
-              "provisioningState": "Suceeded",
+              "provisioningState": "Succeeded",
               "ingestionEndpointConfiguration": {
                 "eventHubName": "MyEventHubName",
                 "consumerGroup": "ConsumerGroupA",

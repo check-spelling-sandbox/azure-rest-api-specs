@@ -16,7 +16,7 @@
         "location": "westus",
         "etag": "00000000-0000-0000-f5ac-912ca49e01d6",
         "properties": {
-          "provisioningState": "Suceeded",
+          "provisioningState": "Succeeded",
           "resourceIdentityResolutionType": "Create",
           "fhirServiceResourceId": "subscriptions/11111111-2222-3333-4444-555566667777/resourceGroups/myrg/providers/Microsoft.HealthcareApis/workspaces/myworkspace/fhirservices/myfhirservice",
           "fhirMapping": {
