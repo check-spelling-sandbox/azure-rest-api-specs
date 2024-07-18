@@ -17,7 +17,7 @@
         "id": "/subscriptions/a0a37f63-7183-4e86-9ac7-ce8036a3ed31/resourceGroups/resourceGroup1/providers/Microsoft.DevHub/iacProfiles/iacprofile",
         "location": "location1",
         "name": "iacprofile",
-        "type": "Micfosoft.DevHub/iacProfiles",
+        "type": "Microsoft.DevHub/iacProfiles",
         "tags": {
           "appname": "testapp",
           "resourceEnv": "testing",

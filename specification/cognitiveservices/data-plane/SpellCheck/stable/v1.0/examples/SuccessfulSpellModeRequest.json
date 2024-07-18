@@ -3,7 +3,7 @@
     "X-BingApis-SDK": "true",
     "Ocp-Apim-Subscription-Key": "{API key}",
     "mkt": "en-US",
-    "Text": "micosoft",
+    "Text": "microsoft",
     "Mode": "Spell"
   },
   "responses": {
@@ -14,7 +14,7 @@
         "flaggedTokens": [
           {
             "offset": 0,
-            "token": "micosoft",
+            "token": "microsoft",
             "type": "UnknownToken",
             "suggestions": [
               {
