@@ -895,7 +895,7 @@
               "value": "StorageTargetLatency",
               "localizedValue": "StorageTarget Latency"
             },
-            "displayDescription": "The average round trip latency of all the file operations the Cache sends to a partricular StorageTarget.",
+            "displayDescription": "The average round trip latency of all the file operations the Cache sends to a particular StorageTarget.",
             "isDimensionRequired": false,
             "unit": "MilliSeconds",
             "primaryAggregationType": "Average",
