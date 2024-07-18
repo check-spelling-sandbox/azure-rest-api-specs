@@ -290,7 +290,7 @@ These settings apply only when `--tag=package-migrateengine-2022-05` is specifie
 
 ``` yaml $(tag) == 'package-migrateengine-2022-05'
 input-file:
-- Microsoft.Migrate/MordernizeProjects/preview/2022-05-01-preview/migrateEngine.json
+- Microsoft.Migrate/ModernizeProjects/preview/2022-05-01-preview/migrateEngine.json
 ```
 
 ## Suppression
