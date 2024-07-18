@@ -21,7 +21,7 @@
         },
         "error": {
           "code": "AggregateException",
-          "message": "System.AggregateException: One or more errors occurred. (Mismatch in count of number of Commited-Blocks from service.)"
+          "message": "System.AggregateException: One or more errors occurred. (Mismatch in count of number of Committed-Blocks from service.)"
         }
       }
     }
