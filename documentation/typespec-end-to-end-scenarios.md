@@ -77,7 +77,7 @@ User((::))-->A
 A["clone Rest-API and SDK repo locally"] --> B
 B["2.1 pre-requsite dependencies installation
 (each language would have a installation script)"] --> G
-subgraph G["run `2.2 TypeSpec-Project-Prcoess.ps1`"]
+subgraph G["run `2.2 TypeSpec-Project-Process.ps1`"]
   F
   C
   D
