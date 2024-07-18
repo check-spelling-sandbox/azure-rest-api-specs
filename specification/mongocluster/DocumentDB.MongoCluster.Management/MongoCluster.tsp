@@ -123,7 +123,7 @@ union NodeKind {
 /** Parameters used for restore operations */
 model MongoClusterRestoreParameters {
   /** UTC point in time to restore a mongo cluster */
-  #suppress "@azure-tools/typespec-azure-core/casing-style" "Capitialized acronym in the property name."
+  #suppress "@azure-tools/typespec-azure-core/casing-style" "Capitalized acronym in the property name."
   pointInTimeUTC?: utcDateTime;
 
   /** Resource ID to locate the source cluster to restore */
@@ -145,7 +145,7 @@ model NodeGroupProperties {
   sku?: string;
 
   /** The disk storage size for the node group in GB. Example values: 128, 256, 512, 1024. */
-  #suppress "@azure-tools/typespec-azure-core/casing-style" "Capitialized acronym in the property name."
+  #suppress "@azure-tools/typespec-azure-core/casing-style" "Capitalized acronym in the property name."
   diskSizeGB?: int64;
 
   /** Whether high availability is enabled on the node group. */
