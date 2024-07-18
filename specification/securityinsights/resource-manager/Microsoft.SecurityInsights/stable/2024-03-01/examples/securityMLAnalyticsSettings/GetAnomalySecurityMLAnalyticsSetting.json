@@ -63,7 +63,7 @@
                 "maximum": "100",
                 "value": "25",
                 "name": "Daily data transfer threshold in MB",
-                "description": "Suppress anomalies when daily data transfered (in MB) per hour is less than the chosen value",
+                "description": "Suppress anomalies when daily data transferred (in MB) per hour is less than the chosen value",
                 "sequenceNumber": 1,
                 "rerun": "RerunAlways"
               },
