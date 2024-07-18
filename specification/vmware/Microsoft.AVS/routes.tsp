@@ -1023,7 +1023,7 @@ interface PlacementPolicies {
     ...LocationHeader;
 
     @bodyRoot
-    @doc("The updatd placement policy.")
+    @doc("The updated placement policy.")
     placementPolicy: PlacementPolicy;
   } | ErrorResponse;
 
