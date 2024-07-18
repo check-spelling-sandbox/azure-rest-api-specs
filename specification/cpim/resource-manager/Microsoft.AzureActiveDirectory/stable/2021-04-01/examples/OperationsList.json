@@ -13,8 +13,8 @@
             "display": {
               "provider": "Microsoft Azure Active Directory",
               "resource": "B2C Directory",
-              "operation": "Create or update B2C Dictory resource",
-              "description": "Create or update B2C Dictory resource"
+              "operation": "Create or update B2C Directory resource",
+              "description": "Create or update B2C Directory resource"
             },
             "origin": "user,system"
           },
