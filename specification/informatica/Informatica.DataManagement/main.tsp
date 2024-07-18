@@ -635,7 +635,7 @@ model InformaticaOrganizationResourceUpdate
     InformaticaOrganizationResource,
     "name" | "properties"
   >>> {
-  /** Patchable PropertieInformaticaOrganizationPropertiesUpdates of the Organization observability resource */
+  /** Patchable PropertiesInformaticaOrganizationPropertiesUpdates of the Organization observability resource */
   properties?: OrganizationPropertiesCustomUpdate;
 }
 
@@ -684,7 +684,7 @@ model InformaticaServerlessRuntimeResourceUpdate
     InformaticaServerlessRuntimeResource,
     "name" | "properties"
   >>> {
-  /** Patchable PropertieInformaticaOrganizationPropertiesUpdates of the Organization observability resource */
+  /** Patchable PropertiesInformaticaOrganizationPropertiesUpdates of the Organization observability resource */
   properties?: ServerlessRuntimePropertiesCustomUpdate;
 }
 

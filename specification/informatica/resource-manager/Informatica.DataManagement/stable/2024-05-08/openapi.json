@@ -1420,7 +1420,7 @@
         },
         "properties": {
           "$ref": "#/definitions/OrganizationPropertiesCustomUpdate",
-          "description": "Patchable PropertieInformaticaOrganizationPropertiesUpdates of the Organization observability resource"
+          "description": "Patchable PropertiesInformaticaOrganizationPropertiesUpdates of the Organization observability resource"
         }
       }
     },
@@ -1576,7 +1576,7 @@
       "properties": {
         "properties": {
           "$ref": "#/definitions/ServerlessRuntimePropertiesCustomUpdate",
-          "description": "Patchable PropertieInformaticaOrganizationPropertiesUpdates of the Organization observability resource"
+          "description": "Patchable PropertiesInformaticaOrganizationPropertiesUpdates of the Organization observability resource"
         }
       }
     },
