@@ -21,7 +21,7 @@
         "properties": {
           "connectionState": {
             "actionsRequired": "None",
-            "description": "test descrption",
+            "description": "test description",
             "status": "Approved"
           },
           "fqdns": [
@@ -42,7 +42,7 @@
         "properties": {
           "connectionState": {
             "actionsRequired": "None",
-            "description": "test descrption",
+            "description": "test description",
             "status": "Approved"
           },
           "fqdns": [

@@ -14,7 +14,7 @@
           {
             "productId": "product id",
             "productDisplayName": "product display name",
-            "productDescription": "product descripiton",
+            "productDescription": "product description",
             "serviceFamily": "Compute",
             "service": "Virtual Machines",
             "publisherId": "Microsoft",

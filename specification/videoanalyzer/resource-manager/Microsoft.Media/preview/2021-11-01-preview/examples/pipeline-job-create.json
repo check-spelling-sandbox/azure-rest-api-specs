@@ -8,7 +8,7 @@
     "parameters": {
       "properties": {
         "topologyName": "pipelinetopology1",
-        "description": "Pipeline Job 1 Dsecription",
+        "description": "Pipeline Job 1 Description",
         "parameters": [
           {
             "name": "timesequences",
