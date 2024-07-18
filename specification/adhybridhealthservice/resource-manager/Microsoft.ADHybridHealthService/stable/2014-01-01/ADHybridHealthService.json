@@ -5937,7 +5937,7 @@
           "description": "The attribute value.",
           "type": "string"
         },
-        "modififedValue": {
+        "modifiedValue": {
           "description": "The modified value.",
           "type": "string"
         },
