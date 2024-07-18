@@ -166,7 +166,7 @@
           {
             "display": {
               "description": "Delete a specific PrivateCloud cluster.",
-              "operation": "Delete a PriveCloud cluster.",
+              "operation": "Delete a PrivateCloud cluster.",
               "provider": "Microsoft.AVS",
               "resource": "privateClouds/clusters"
             },
@@ -232,7 +232,7 @@
           {
             "display": {
               "description": "Delete a specific PrivateCloud authorization.",
-              "operation": "Delete a PriveCloud authorization.",
+              "operation": "Delete a PrivateCloud authorization.",
               "provider": "Microsoft.AVS",
               "resource": "privateClouds/authorizations"
             },
