@@ -50,12 +50,12 @@
                   {
                     "columnName": "unknown1",
                     "isEncrypted": false,
-                    "propertyName": "unknwon1"
+                    "propertyName": "unknown1"
                   },
                   {
                     "columnName": "unknown2",
                     "isEncrypted": true,
-                    "propertyName": "unknwon2"
+                    "propertyName": "unknown2"
                   }
                 ]
               },
