@@ -42,7 +42,7 @@
               "provider": "Microsoft StorSimple Device Manager",
               "resource": "Devices",
               "operation": "Download Device Updates",
-              "description": "Dowload updates for a device."
+              "description": "Download updates for a device."
             },
             "origin": "user"
           },
