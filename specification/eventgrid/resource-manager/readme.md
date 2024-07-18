@@ -63,7 +63,7 @@ suppressions:
     from: EventGrid.json
 
   - code:  PathForResourceAction
-    reason: This route definition is defined by NSP for all partner services and the right integration with NSP relies on that. We cannot change this as we don't own the contract here and in order for the NSP integration to work, we need to adhere to NSP requirements in this route defintion.
+    reason: This route definition is defined by NSP for all partner services and the right integration with NSP relies on that. We cannot change this as we don't own the contract here and in order for the NSP integration to work, we need to adhere to NSP requirements in this route definition.
     from: EventGrid.json
 ```
 
@@ -85,7 +85,7 @@ suppressions:
     from: EventGrid.json
 
   - code:  PathForResourceAction
-    reason: This route definition is defined by NSP for all partner services and the right integration with NSP relies on that. We cannot change this as we don't own the contract here and in order for the NSP integration to work, we need to adhere to NSP requirements in this route defintion.
+    reason: This route definition is defined by NSP for all partner services and the right integration with NSP relies on that. We cannot change this as we don't own the contract here and in order for the NSP integration to work, we need to adhere to NSP requirements in this route definition.
     from: EventGrid.json
 ```
 

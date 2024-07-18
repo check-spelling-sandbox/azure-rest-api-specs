@@ -68,7 +68,7 @@
               "provider": "Microsoft.HybridData",
               "resource": "Job definitions",
               "operation": "Get job definitions",
-              "description": "Get job defintions"
+              "description": "Get job definitions"
             },
             "origin": "user",
             "properties": {}
@@ -79,7 +79,7 @@
               "provider": "Microsoft.HybridData",
               "resource": "Job definitions",
               "operation": "Run job definitions",
-              "description": "Run job defintions"
+              "description": "Run job definitions"
             },
             "origin": "user",
             "properties": {}
