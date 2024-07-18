@@ -3,7 +3,7 @@
     "subscriptionId": "34adfa4f-cedf-4dc0-ba29-b6d1a69ab345",
     "resourceGroupName": "examplerg",
     "environmentName": "testcontainerenv",
-    "managedCertificateName": "certificate-firendly-name",
+    "managedCertificateName": "certificate-friendly-name",
     "api-version": "2024-03-01"
   },
   "responses": {

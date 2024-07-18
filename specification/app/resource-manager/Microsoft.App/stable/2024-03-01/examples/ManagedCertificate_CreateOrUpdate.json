@@ -3,7 +3,7 @@
     "subscriptionId": "34adfa4f-cedf-4dc0-ba29-b6d1a69ab345",
     "resourceGroupName": "examplerg",
     "environmentName": "testcontainerenv",
-    "managedCertificateName": "certificate-firendly-name",
+    "managedCertificateName": "certificate-friendly-name",
     "api-version": "2024-03-01",
     "managedCertificateEnvelope": {
       "location": "East US",
@@ -17,7 +17,7 @@
     "200": {
       "headers": {},
       "body": {
-        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/managedCertificates/certificate-firendly-name",
+        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/managedCertificates/certificate-friendly-name",
         "type": "Microsoft.App/ManagedEnvironments/managedCertificates",
         "location": "East US",
         "properties": {
@@ -32,7 +32,7 @@
         "azure-asyncoperation": "https://management.azure.com/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/locations/eastus/managedCertificateOperationStatuses/dc27c9cd-370f-4623-95d4-827b6dc4120a?api-version=2022-06-01-preview&azureAsyncOperation=true"
       },
       "body": {
-        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/managedCertificates/certificate-firendly-name",
+        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/managedCertificates/certificate-friendly-name",
         "type": "Microsoft.App/ManagedEnvironments/managedCertificates",
         "location": "East US",
         "properties": {

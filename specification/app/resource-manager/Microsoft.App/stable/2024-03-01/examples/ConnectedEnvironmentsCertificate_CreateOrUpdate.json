@@ -3,7 +3,7 @@
     "subscriptionId": "34adfa4f-cedf-4dc0-ba29-b6d1a69ab345",
     "resourceGroupName": "examplerg",
     "connectedEnvironmentName": "testcontainerenv",
-    "certificateName": "certificate-firendly-name",
+    "certificateName": "certificate-friendly-name",
     "api-version": "2024-03-01",
     "certificateEnvelope": {
       "location": "East US",
@@ -17,7 +17,7 @@
     "200": {
       "headers": {},
       "body": {
-        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/connectedEnvironments/testcontainerenv/certificate-firendly-name",
+        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/connectedEnvironments/testcontainerenv/certificate-friendly-name",
         "type": "Microsoft.App/ConnectedEnvironments/Certificates",
         "location": "East US",
         "properties": {

@@ -11,8 +11,8 @@
       "body": {
         "value": [
           {
-            "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/certificate-firendly-name",
-            "name": "certificate-firendly-name",
+            "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/certificate-friendly-name",
+            "name": "certificate-friendly-name",
             "type": "Microsoft.App/ManagedEnvironments/Certificates",
             "location": "East US",
             "properties": {
@@ -29,8 +29,8 @@
             }
           },
           {
-            "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/certificate-firendly-name",
-            "name": "certificate-firendly-name",
+            "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/managedEnvironments/testcontainerenv/certificate-friendly-name",
+            "name": "certificate-friendly-name",
             "type": "Microsoft.App/ManagedEnvironments/Certificates",
             "location": "East US",
             "properties": {
