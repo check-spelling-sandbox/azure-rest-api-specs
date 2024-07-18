@@ -57,7 +57,7 @@ input-file:
 suppressions:
   - code: OperationsAPIImplementation
     from: AlertProcessingRules.json
-    reason: Aleady implemented in AlertsManagement.json.
+    reason: Already implemented in AlertsManagement.json.
 ```
 ### Tag: package-preview-2024-01
 
