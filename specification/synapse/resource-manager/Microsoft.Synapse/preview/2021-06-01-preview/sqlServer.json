@@ -194,7 +194,7 @@
           "nextLinkName": "nextLink"
         },
         "x-ms-examples": {
-          "Get blob auditing policy of workspace manged sql Server": {
+          "Get blob auditing policy of workspace managed sql Server": {
             "$ref": "./examples/ListWorkspaceManagedSqlServerBlobAuditingSettings.json"
           }
         }
