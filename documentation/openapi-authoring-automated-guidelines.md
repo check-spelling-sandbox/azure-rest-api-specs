@@ -3591,9 +3591,9 @@ Links: [Index](#index) | [Error vs. Warning](#error-vs-warning) | [Automated Rul
 
 **Description**: This rule is to check the `id` property or identifier of objects in the array. See more here: [x-ms-identifiers](https://github.com/Azure/autorest/tree/main/docs/extensions#x-ms-identifiers).
 
-**CreatedAt**: Decenmber 15, 2021
+**CreatedAt**: December 15, 2021
 
-**LastModifiedAt**: Decenmber 15, 2021
+**LastModifiedAt**: December 15, 2021
 
 **Why this rule is important**: Using [x-ms-identifiers](https://github.com/Azure/autorest/tree/main/docs/extensions#x-ms-identifiers) will provide more flexibility for array types in SDK generated code.
 
