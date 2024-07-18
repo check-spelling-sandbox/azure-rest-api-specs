@@ -6,7 +6,7 @@
     "subscriptionId": "00000000-0000-0000-0000-000000000000",
     "resourceGroupName": "rg1",
     "fleetName": "fleet1",
-    "updateStrategyName": "strartegy1",
+    "updateStrategyName": "strategy1",
     "resource": {
       "properties": {
         "strategy": {
