@@ -5254,8 +5254,8 @@
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Synapse/workspaces/{workspaceName}/sqlPools/{sqlPoolName}/dataWarehouseQueries/{dataWarehouseQueriesId}/steps": {
       "get": {
         "operationId": "SqlPoolsDatawareHouseQueriesSteps_List",
-        "summary": "Lists the datawareHouse queries steps of a SQL pool",
-        "description": "SQL pool datawareHouse queries steps",
+        "summary": "Lists the datawarehouse queries steps of a SQL pool",
+        "description": "SQL pool datawarehouse queries steps",
         "tags": [
           "SqlPools,DatawareHouseQueriesSteps"
         ],
