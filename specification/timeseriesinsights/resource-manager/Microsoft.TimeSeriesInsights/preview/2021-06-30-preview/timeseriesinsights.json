@@ -356,8 +356,8 @@
           "CreateEventHubEventSource": {
             "$ref": "./examples/EventSourcesCreateEventHub.json"
           },
-          "EventSourcesCreateEventHubWithCustomEnquedTime": {
-            "$ref": "./examples/EventSourcesCreateEventHubWithCustomEnquedTime.json"
+          "EventSourcesCreateEventHubWithCustomEnqueuedTime": {
+            "$ref": "./examples/EventSourcesCreateEventHubWithCustomEnqueuedTime.json"
           }
         },
         "description": "Create or update an event source under the specified environment.",
