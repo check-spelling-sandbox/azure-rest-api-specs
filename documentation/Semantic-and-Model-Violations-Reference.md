@@ -644,17 +644,17 @@ This document lists the set of automated rules that can be validated against swa
 
 ### <a name="INVALID_XMS_DISCRIMINATOR_VALUE" />INVALID_XMS_DISCRIMINATOR_VALUE
 
-**Output Message**: The value of x-ms-dicriminator-value is not in the discriminator enum list: {0}.
+**Output Message**: The value of x-ms-discriminator-value is not in the discriminator enum list: {0}.
 
-**Description**: If a discriminator has an enum list, the x-ms-dicriminator-value must in the enum list.
+**Description**: If a discriminator has an enum list, the x-ms-discriminator-value must in the enum list.
 
 **How to fix the violation**: Add the value into the enum list or correct the value.
 
 ### <a name="DISCRIMINATOR_PROPERTY_NOT_FOUND" />DISCRIMINATOR_PROPERTY_NOT_FOUND
 
-**Output Message**: Missing discriminator in base model. This derived model has x-ms-dicriminator-value: {0}.
+**Output Message**: Missing discriminator in base model. This derived model has x-ms-discriminator-value: {0}.
 
-**Description**: x-ms-dicriminator-value is defined, but base model doesn't have discriminator field.
+**Description**: x-ms-discriminator-value is defined, but base model doesn't have discriminator field.
 
 **How to fix the violation**: Check whether it needs. If needs, add discriminator field in base model.
 
