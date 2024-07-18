@@ -2045,7 +2045,7 @@ model ResponseTypeParameter {
   responseType?: AssetResponseType;
 }
 
-@doc("The prameter of responseIncludes")
+@doc("The parameter of responseIncludes")
 @Versioning.added(Versions.v2024_03_01_preview)
 model ResponseIncludesParameter {
   @query({
@@ -2055,7 +2055,7 @@ model ResponseIncludesParameter {
   responseIncludes?: string[];
 }
 
-@doc("The prameter of responseIncludes")
+@doc("The parameter of responseIncludes")
 @Versioning.added(Versions.v2024_03_01_preview)
 model RecentOnlyParameter {
   @query("recentOnly")

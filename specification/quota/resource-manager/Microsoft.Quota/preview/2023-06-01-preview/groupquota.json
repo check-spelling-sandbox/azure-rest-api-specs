@@ -1168,7 +1168,7 @@
           "SubscriptionQuotaAllocationRequest"
         ],
         "summary": "Get all the quotaAllocationRequests for a resourceProvider/location.",
-        "description": "Get all the quotaAllocationRequests for a resourceProvider/location. The filter paramter for location is required.",
+        "description": "Get all the quotaAllocationRequests for a resourceProvider/location. The filter parameter for location is required.",
         "operationId": "GroupQuotaSubscriptionAllocationRequest_List",
         "x-ms-examples": {
           "SubscriptionQuotaAllocation_List_Request_ForCompute": {
@@ -1381,7 +1381,7 @@
           "GroupQuotaUsages"
         ],
         "summary": "Gets the GroupQuotas usages and limits(quota) for the resourceProvider/location.",
-        "description": "Gets the GroupQuotas usages and limits(quota). Location is required paramter.",
+        "description": "Gets the GroupQuotas usages and limits(quota). Location is required parameter.",
         "operationId": "GroupQuotaUsages_List",
         "x-ms-examples": {
           "GroupQuotasUsages_List": {
@@ -1790,7 +1790,7 @@
               "$ref": "#/definitions/RegionScope"
             },
             "comments": {
-              "description": "GroupQuota Request comments and details for request. This is optional paramter to provide more details related to the requested resource.",
+              "description": "GroupQuota Request comments and details for request. This is optional parameter to provide more details related to the requested resource.",
               "type": "string"
             }
           }
