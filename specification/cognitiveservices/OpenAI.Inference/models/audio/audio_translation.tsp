@@ -46,7 +46,7 @@ model AudioTranslationOptions {
   file: bytes;
 
   @doc("""
-    The optional filename or descriptive identifier to associate with with the audio data.
+    The optional filename or descriptive identifier to associate with the audio data.
     """)
   // Note: although this isn't explicitly part of the request schema per documentation, it is present via the encoded
   // content-disposition header for the binary section of the multipart/form-data content.
