@@ -271,7 +271,7 @@
             "name": "Microsoft.Devices/checkProvisioningServiceNameAvailability/Action",
             "display": {
               "provider": "Microsoft Devices",
-              "resource": "ProvisioningServives",
+              "resource": "ProvisioningServices",
               "operation": "Check If Provisioning Service name is available",
               "description": "Check If Provisioning Service name is available"
             }
