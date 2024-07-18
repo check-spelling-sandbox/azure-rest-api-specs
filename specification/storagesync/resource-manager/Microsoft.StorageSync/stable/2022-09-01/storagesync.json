@@ -3699,7 +3699,7 @@
         },
         "localCacheMode": {
           "$ref": "#/definitions/LocalCacheMode",
-          "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to pre-populate before local access."
+          "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to prepopulate before local access."
         },
         "initialUploadPolicy": {
           "$ref": "#/definitions/InitialUploadPolicy",
@@ -4711,7 +4711,7 @@
         },
         "localCacheMode": {
           "$ref": "#/definitions/LocalCacheMode",
-          "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to pre-populate before local access."
+          "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to prepopulate before local access."
         }
       }
     },
@@ -4803,7 +4803,7 @@
         },
         "localCacheMode": {
           "$ref": "#/definitions/LocalCacheMode",
-          "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to pre-populate before local access."
+          "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to prepopulate before local access."
         },
         "initialUploadPolicy": {
           "$ref": "#/definitions/InitialUploadPolicy",
@@ -5133,7 +5133,7 @@
     },
     "LocalCacheMode": {
       "type": "string",
-      "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to pre-populate before local access.",
+      "description": "Policy for enabling follow-the-sun business models: link local cache to cloud behavior to prepopulate before local access.",
       "enum": [
         "DownloadNewAndModifiedFiles",
         "UpdateLocallyCachedFiles"
