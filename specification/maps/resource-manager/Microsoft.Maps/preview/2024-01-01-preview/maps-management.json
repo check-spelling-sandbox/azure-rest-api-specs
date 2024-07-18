@@ -1471,7 +1471,7 @@
             "name": "PublicNetworkAccess",
             "modelAsString": true
           },
-          "description": "Property to specify whether the Maps Account will accept traffic from public internet. If set to 'disabled' all traffic except private endpoint traffic and that that originates from trusted services will be blocked."
+          "description": "Property to specify whether the Maps Account will accept traffic from public internet. If set to 'disabled' all traffic except private endpoint traffic and that originates from trusted services will be blocked."
         },
         "locations": {
           "$ref": "#/definitions/Locations",
