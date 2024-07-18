@@ -1095,7 +1095,7 @@
       "enum": [
         "UNDEFINED",
         "CONFIGURING",
-        "INITIALIAZING",
+        "INITIALIZING",
         "STARTING",
         "RUNNING",
         "READY_TO_COMPLETE",
