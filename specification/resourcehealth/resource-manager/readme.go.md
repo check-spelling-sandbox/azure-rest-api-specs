@@ -18,7 +18,7 @@ azure-arm: true
 v3: true
 directive:
   - from: ResourceHealth.json
-    where: $.definitions.availabilityStatus.properties.properties.properties.occuredTime
+    where: $.definitions.availabilityStatus.properties.properties.properties.occurredTime
     transform:
       $["x-ms-client-name"] = "occurredTime"
   - from: ResourceHealth.json

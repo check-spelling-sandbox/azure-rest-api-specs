@@ -18,7 +18,7 @@ interface SimSwap {
     SimSwapRetrievalResult
   >;
 
-  @doc("Verifies if a SIM swap has been performed during a past period (defined in the request with 'maxAgeHours' attribute). Returns 'True' if a SIM swap has occured.")
+  @doc("Verifies if a SIM swap has been performed during a past period (defined in the request with 'maxAgeHours' attribute). Returns 'True' if a SIM swap has occurred.")
   verify is Operations.ResourceAction<
     SimSwapEndpoint,
     BodyParameter<SimSwapVerificationContent>,
