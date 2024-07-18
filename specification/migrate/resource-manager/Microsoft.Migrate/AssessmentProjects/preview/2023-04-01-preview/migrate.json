@@ -19077,7 +19077,7 @@
         },
         "distributionByServicePackInsight": {
           "type": "object",
-          "description": "Gets the distribution distribution of sqlInstances by service pack insight.",
+          "description": "Gets the distribution of sqlInstances by service pack insight.",
           "additionalProperties": {
             "format": "int32",
             "type": "integer"
@@ -22305,7 +22305,7 @@
         },
         "distributionByServicePackInsight": {
           "type": "object",
-          "description": "Gets the distribution distribution of sqlInstances by service pack insight.",
+          "description": "Gets the distribution of sqlInstances by service pack insight.",
           "additionalProperties": {
             "format": "int32",
             "type": "integer"
