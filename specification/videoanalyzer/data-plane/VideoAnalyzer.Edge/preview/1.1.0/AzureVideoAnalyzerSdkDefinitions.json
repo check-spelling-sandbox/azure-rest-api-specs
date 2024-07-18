@@ -30,7 +30,7 @@
       "properties": {
         "methodName": {
           "type": "string",
-          "description": "Direct method method name.",
+          "description": "Direct method name.",
           "readOnly": true
         },
         "@apiVersion": {
