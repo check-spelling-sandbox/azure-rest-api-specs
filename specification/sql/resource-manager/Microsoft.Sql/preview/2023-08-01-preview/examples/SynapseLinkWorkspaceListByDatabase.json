@@ -14,11 +14,11 @@
             "properties": {
               "workspaces": [
                 {
-                  "workspaceId": "/subcriptions/00000000-1111-2222-3333-444444444444/resourcegroups/Default-SQL-SouthEastAsia/providers/Microsoft.Synapse/workspaces/workspace1",
+                  "workspaceId": "/subscriptions/00000000-1111-2222-3333-444444444444/resourcegroups/Default-SQL-SouthEastAsia/providers/Microsoft.Synapse/workspaces/workspace1",
                   "linkConnectionName": "buildlink-cloud1"
                 },
                 {
-                  "workspaceId": "/subcriptions/00000000-1111-2222-3333-444444444444/resourcegroups/Default-SQL-SouthEastAsia/providers/Microsoft.Synapse/workspaces/workspace2",
+                  "workspaceId": "/subscriptions/00000000-1111-2222-3333-444444444444/resourcegroups/Default-SQL-SouthEastAsia/providers/Microsoft.Synapse/workspaces/workspace2",
                   "linkConnectionName": "buildlink-cloud2"
                 }
               ]

@@ -3,7 +3,7 @@
     "cacheName": "cache-name",
     "resourceGroupName": "resource-group-name",
     "api-version": "2024-04-01-preview",
-    "subscriptionId": "subcription-id"
+    "subscriptionId": "subscription-id"
   },
   "responses": {
     "202": {

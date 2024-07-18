@@ -24,8 +24,8 @@
                 {
                   "changeType": "Update",
                   "changeCategory": "User",
-                  "jsonPath": "tags.subscripitonTag",
-                  "displayName": "tags.subscripitonTag",
+                  "jsonPath": "tags.subscriptionTag",
+                  "displayName": "tags.subscriptionTag",
                   "level": "Important",
                   "description": "The tag of the resource",
                   "oldValue": "old tag value",
