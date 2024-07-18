@@ -191,7 +191,7 @@ Use case and design proposals
 
 #### 4.Dev Outer loop
 
-Dev Outer Loop is defined as the experience of Spec writers sherparding the TypeSpec documents thru `azure-rest-api-sepcs` and its other dependency repos/branches like `-pr`, `-pr/RPSaasMain`, and `-pr/RPSaaSDev`, to different lanaguge SDK repos.
+Dev Outer Loop is defined as the experience of Spec writers sherparding the TypeSpec documents thru `azure-rest-api-sepcs` and its other dependency repos/branches like `-pr`, `-pr/RPSaasMain`, and `-pr/RPSaaSDev`, to different language SDK repos.
 
 The experience should allow as much validations can be verified/debugged locally to ensure a clean CI for simple and fast PR reviews.
 
@@ -199,7 +199,7 @@ The experience should allow as much validations can be verified/debugged locally
 - With the correct inner loop setup, the spec writer should be able to submit all relevant files as PR to `azure-rest-api-specs-pr` repo or `azure-rest-api-specs` repo
 - CI pipeline should verify TypeSpec compilation
 - CI Pipeline should be able to generate key language SDKs (.net,java,js,python)
-- Optionally CI generated key lanauge SDKs changes can be used to directly create PR on SDK public repo
+- Optionally CI generated key language SDKs changes can be used to directly create PR on SDK public repo
 - Optionally user can add customized code to the working branch created by CI pipeline.
 
 ##### 4.1 Outer Dev loop azure-rest-api-specs pipeline
