@@ -12,7 +12,7 @@
               "provider": "Microsoft Azure Notification Hub",
               "resource": "Microsoft Azure Notification Hub",
               "operation": "Registers the NotificationHubs Provider",
-              "description": "Registers the subscription for the NotifciationHubs resource provider and enables the creation of Namespaces and NotificationHubs"
+              "description": "Registers the subscription for the NotificationHubs resource provider and enables the creation of Namespaces and NotificationHubs"
             }
           },
           {
@@ -21,7 +21,7 @@
               "provider": "Microsoft Azure Notification Hub",
               "resource": "Microsoft Azure Notification Hub",
               "operation": "Unregisters the NotificationHubs Provider",
-              "description": "Unregisters the subscription for the NotifciationHubs resource provider and enables the creation of Namespaces and NotificationHubs"
+              "description": "Unregisters the subscription for the NotificationHubs resource provider and enables the creation of Namespaces and NotificationHubs"
             }
           },
           {
