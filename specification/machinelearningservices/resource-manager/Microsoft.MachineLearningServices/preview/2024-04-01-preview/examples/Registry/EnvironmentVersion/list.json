@@ -2,7 +2,7 @@
   "parameters": {
     "subscriptionId": "00000000-1111-2222-3333-444444444444",
     "resourceGroupName": "test-rg",
-    "registryName": "my-aml-regsitry",
+    "registryName": "my-aml-registry",
     "environmentName": "string",
     "api-version": "2024-04-01-preview",
     "$orderBy": "string",
