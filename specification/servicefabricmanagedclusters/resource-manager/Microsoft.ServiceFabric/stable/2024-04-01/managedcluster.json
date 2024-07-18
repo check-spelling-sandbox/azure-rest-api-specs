@@ -1817,7 +1817,7 @@
         },
         "enableIpv6": {
           "type": "boolean",
-          "description": "Indicates wether to enable Ipv6 or not. If not provided, it will take the same configuration as the cluster."
+          "description": "Indicates whether to enable Ipv6 or not. If not provided, it will take the same configuration as the cluster."
         },
         "privateEndpointNetworkPolicies": {
           "type": "string",
