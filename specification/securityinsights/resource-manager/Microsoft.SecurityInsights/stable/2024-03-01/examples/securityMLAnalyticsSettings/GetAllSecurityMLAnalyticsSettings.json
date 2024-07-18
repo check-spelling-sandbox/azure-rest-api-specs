@@ -10,7 +10,7 @@
       "body": {
         "value": [
           {
-            "id": "/subscriptions/d0cfe6b2-9ac0-4464-9919-dccaee2e48c0/resourceGroups/myRg/providers/Microsoft.OperationalIinsights/workspaces/myWorkspace/providers/Microsoft.SecurityInsights/securityMLAnalyticsSettings/f209187f-1d17-4431-94af-c141bf5f23db",
+            "id": "/subscriptions/d0cfe6b2-9ac0-4464-9919-dccaee2e48c0/resourceGroups/myRg/providers/Microsoft.OperationalInsights/workspaces/myWorkspace/providers/Microsoft.SecurityInsights/securityMLAnalyticsSettings/f209187f-1d17-4431-94af-c141bf5f23db",
             "name": "f209187f-1d17-4431-94af-c141bf5f23db",
             "etag": "\"260090e2-0000-0d00-0000-5d6fb8670000\"",
             "type": "Microsoft.SecurityInsights/securityMLAnalyticsSettings",
