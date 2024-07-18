@@ -6489,7 +6489,7 @@
       "x-ms-parameter-location": "method",
       "description": "The resource name of the Test Base Customer event."
     },
-    "AvailableInplaceUpgradeOSResouceNameParameter": {
+    "AvailableInplaceUpgradeOSResourceNameParameter": {
       "name": "availableInplaceUpgradeOSResourceNameParameter",
       "in": "path",
       "required": true,
