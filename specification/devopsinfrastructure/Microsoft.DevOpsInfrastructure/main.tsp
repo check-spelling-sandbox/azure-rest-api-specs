@@ -489,7 +489,7 @@ union ResourceSkuCapacityScaleType {
   /** Capacity scales automatically. */
   "Automatic",
 
-  /** Capactiy scales manually. */
+  /** Capacity scales manually. */
   "Manual",
 
   /** Capacity does not scale. */
