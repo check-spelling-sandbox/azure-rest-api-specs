@@ -12,7 +12,7 @@
             "isDataAction": false,
             "name": "Microsoft.MobileNetwork/mobileNetworks/read",
             "display": {
-              "provider": "Microsoft.MobileNetwok",
+              "provider": "Microsoft.MobileNetwork",
               "resource": "MobileNetwork",
               "operation": "Get mobileNetwork",
               "description": "Gets mobileNetwork"
