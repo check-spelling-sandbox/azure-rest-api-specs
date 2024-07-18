@@ -34,7 +34,7 @@
                       "range": {
                         "minimum": null,
                         "maximum": null,
-                        "exclusiveMinumum": null,
+                        "exclusiveMinimum": null,
                         "exclusiveMaximum": "50"
                       },
                       "color": "#343deb"
@@ -43,7 +43,7 @@
                       "range": {
                         "minimum": "50",
                         "maximum": null,
-                        "exclusiveMinumum": null,
+                        "exclusiveMinimum": null,
                         "exclusiveMaximum": "69"
                       },
                       "color": "#34ebb1"
@@ -52,7 +52,7 @@
                       "range": {
                         "minimum": "69",
                         "maximum": null,
-                        "exclusiveMinumum": null,
+                        "exclusiveMinimum": null,
                         "exclusiveMaximum": "90"
                       },
                       "color": "#eba834"
@@ -61,7 +61,7 @@
                       "range": {
                         "minimum": "90",
                         "maximum": null,
-                        "exclusiveMinumum": null,
+                        "exclusiveMinimum": null,
                         "exclusiveMaximum": null
                       },
                       "color": "#eb3434"
