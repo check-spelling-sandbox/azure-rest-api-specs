@@ -3,7 +3,7 @@
   "topic": "/subscriptions/{subscription-id}/resourcegroups/{group-name}/providers/microsoft.communication/communicationservices/{communication-services-resource-name}",
   "subject": "thread/{thread-id}/sender/8:acs:109f0644-b956-4cd9-87b1-71024f6e2f44_00000008-5cdb-4916-07fd-084822002624",
   "data": {
-    "messageBody": "Talk about new Thread Events in commuication services",
+    "messageBody": "Talk about new Thread Events in communication services",
     "messageId": "1613783230064",
     "metadata": {
       "key": "value",
