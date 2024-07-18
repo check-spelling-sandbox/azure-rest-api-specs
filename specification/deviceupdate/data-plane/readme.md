@@ -80,13 +80,13 @@ input-file:
 directive:
   - suppress: LongRunningResponseStatusCode
     reason: The validation tools do not properly recognize 202 as a supported response code.
-  - supress: R2010
+  - suppress: R2010
     reason: Approved by SDK team.
     from: Microsoft.DeviceUpdate/stable/2022-10-01/deviceupdate.json
-  - supress: R2010
+  - suppress: R2010
     reason: Approved by SDK team.
     from: Microsoft.DeviceUpdate/preview/2022-07-01-preview/deviceupdate.json
-  - supress: R2010
+  - suppress: R2010
     reason: Approved by SDK team.
     from: Microsoft.DeviceUpdate/preview/2021-06-01-preview/deviceupdate.json
 ```

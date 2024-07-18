@@ -1388,7 +1388,7 @@ directive:
   - suppress: DeleteResponseCodes
     from: deploymentStacks.json
     reason: Deployment stacks supports synchronous delete with 200 response.
-  - supress: OperationsAPIImplementation
+  - suppress: OperationsAPIImplementation
     from: deploymentStacks.json
     reason: This comes from resources.json
   - suppress: PathForPutOperation

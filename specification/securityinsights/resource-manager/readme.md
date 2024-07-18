@@ -960,7 +960,7 @@ directive:
   - suppress: R4017
     reason: Our resources do not support list by subscription. They're not top-level resources. To get a SecurityInsights resource, we should have a subscription as well as a resource group and Log Analytics workspace.
   - suppress: OBJECT_ADDITIONAL_PROPERTIES
-    reason: 'Caused by a duplicate Resource definition in our common directory that contains systemData. We were instructed to supress this by Swagger reviewr.'
+    reason: 'Caused by a duplicate Resource definition in our common directory that contains systemData. We were instructed to suppress this by Swagger reviewr.'
   - suppress: GuidUsage
     reason: 'Tenent Id should be a Guid'
 ```
