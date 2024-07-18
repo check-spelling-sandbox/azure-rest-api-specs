@@ -1101,9 +1101,9 @@
           "isDataAction": "false",
           "display": {
             "provider": "Analytics 365 Resource Provider.",
-            "resource": "SQL Server Vulnerability Assesment",
-            "operation": "Create or Update SQL server vulnerability assement report.",
-            "description": "Create or Update SQL server vulnerability assement report."
+            "resource": "SQL Server Vulnerability Assessment",
+            "operation": "Create or Update SQL server vulnerability assessment report.",
+            "description": "Create or Update SQL server vulnerability assessment report."
           },
           "origin": "user, system"
         },
@@ -1112,9 +1112,9 @@
           "isDataAction": "false",
           "display": {
             "provider": "Analytics 365 Resource Provider.",
-            "resource": "SQL Server Vulnerability Assesment",
-            "operation": "Read SQL server vulnerability assement report.",
-            "description": "Read SQL server vulnerability assement report."
+            "resource": "SQL Server Vulnerability Assessment",
+            "operation": "Read SQL server vulnerability assessment report.",
+            "description": "Read SQL server vulnerability assessment report."
           },
           "origin": "user, system"
         },
@@ -1123,9 +1123,9 @@
           "isDataAction": "false",
           "display": {
             "provider": "Analytics 365 Resource Provider.",
-            "resource": "SQL Server Vulnerability Assesment",
-            "operation": "Delete SQL server vulnerability assement report.",
-            "description": "Delete SQL server vulnerability assement report."
+            "resource": "SQL Server Vulnerability Assessment",
+            "operation": "Delete SQL server vulnerability assessment report.",
+            "description": "Delete SQL server vulnerability assessment report."
           },
           "origin": "user, system"
         },

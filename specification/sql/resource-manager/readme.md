@@ -1314,7 +1314,7 @@ input-file:
 - ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseSchemas.json
 - ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseSecurityAlertPolicies.json
 - ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseTables.json
-- ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssesmentRuleBaselines.json
+- ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssessmentRuleBaselines.json
 - ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssessments.json
 - ./Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssessmentScans.json
 - ./Microsoft.Sql/preview/2020-11-01-preview/DataWarehouseUserActivities.json
@@ -1504,7 +1504,7 @@ input-file:
 - Microsoft.Sql/preview/2017-10-01-preview/cancelOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/cancelPoolOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/databaseVulnerabilityAssessmentScans.json
-- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssesmentRuleBaselines.json
+- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentRuleBaselines.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentScans.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessments.json
 - Microsoft.Sql/preview/2017-10-01-preview/instanceFailoverGroups.json
@@ -1624,7 +1624,7 @@ input-file:
 - Microsoft.Sql/preview/2017-10-01-preview/cancelPoolOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/elasticPools.json
 - Microsoft.Sql/preview/2017-10-01-preview/databaseVulnerabilityAssessmentScans.json
-- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssesmentRuleBaselines.json
+- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentRuleBaselines.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentScans.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessments.json
 - Microsoft.Sql/preview/2017-10-01-preview/instanceFailoverGroups.json
@@ -1732,7 +1732,7 @@ input-file:
 - Microsoft.Sql/preview/2017-10-01-preview/cancelOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/cancelPoolOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/databaseVulnerabilityAssessmentScans.json
-- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssesmentRuleBaselines.json
+- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentRuleBaselines.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentScans.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessments.json
 - Microsoft.Sql/preview/2017-10-01-preview/instanceFailoverGroups.json
@@ -1825,7 +1825,7 @@ input-file:
 - Microsoft.Sql/preview/2017-10-01-preview/cancelOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/cancelPoolOperations.json
 - Microsoft.Sql/preview/2017-10-01-preview/databaseVulnerabilityAssessmentScans.json
-- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssesmentRuleBaselines.json
+- Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentRuleBaselines.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentScans.json
 - Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessments.json
 - Microsoft.Sql/preview/2017-10-01-preview/instanceFailoverGroups.json
@@ -2378,7 +2378,7 @@ input-file:
   - Microsoft.Sql/preview/2020-11-01-preview/DatabaseSecurityAlertPolicies.json
   - Microsoft.Sql/preview/2020-11-01-preview/DatabaseTables.json
   - Microsoft.Sql/preview/2020-11-01-preview/DatabaseUsages.json
-  - Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssesmentRuleBaselines.json
+  - Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssessmentRuleBaselines.json
   - Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssessmentScans.json
   - Microsoft.Sql/preview/2020-11-01-preview/DatabaseVulnerabilityAssessments.json
   - Microsoft.Sql/preview/2020-11-01-preview/Databases.json
@@ -2498,7 +2498,7 @@ input-file:
  - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseSecurityAlertPolicies.json
  - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseTables.json
  - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseUsages.json
- - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseVulnerabilityAssesmentRuleBaselines.json
+ - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseVulnerabilityAssessmentRuleBaselines.json
  - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseVulnerabilityAssessments.json
  - ./Microsoft.Sql/preview/2020-08-01-preview/DatabaseVulnerabilityAssessmentScans.json
  - ./Microsoft.Sql/preview/2020-08-01-preview/DataWarehouseUserActivities.json
@@ -2615,7 +2615,7 @@ input-file:
  - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseSecurityAlertPolicies.json
  - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseTables.json
  - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseUsages.json
- - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseVulnerabilityAssesmentRuleBaselines.json
+ - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseVulnerabilityAssessmentRuleBaselines.json
  - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseVulnerabilityAssessments.json
  - ./Microsoft.Sql/preview/2020-02-02-preview/DatabaseVulnerabilityAssessmentScans.json
  - ./Microsoft.Sql/preview/2020-02-02-preview/DataWarehouseUserActivities.json
@@ -2786,7 +2786,7 @@ input-file:
  - ./Microsoft.Sql/preview/2017-10-01-preview/cancelOperations.json
  - ./Microsoft.Sql/preview/2017-10-01-preview/cancelPoolOperations.json
  - ./Microsoft.Sql/preview/2017-10-01-preview/databaseVulnerabilityAssessmentScans.json
- - ./Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssesmentRuleBaselines.json
+ - ./Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentRuleBaselines.json
  - ./Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessmentScans.json
  - ./Microsoft.Sql/preview/2017-10-01-preview/managedDatabaseVulnerabilityAssessments.json
  - ./Microsoft.Sql/preview/2017-10-01-preview/capabilities.json

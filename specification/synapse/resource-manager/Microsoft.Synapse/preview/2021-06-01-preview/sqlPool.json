@@ -3237,7 +3237,7 @@
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Synapse/workspaces/{workspaceName}/sqlPools/{sqlPoolName}/vulnerabilityAssessments/{vulnerabilityAssessmentName}/rules/{ruleId}/baselines/{baselineName}": {
       "put": {
         "tags": [
-          "SqlPools, DatabaseVulnerabilityAssesmentRuleBaselines"
+          "SqlPools, DatabaseVulnerabilityAssessmentRuleBaselines"
         ],
         "description": "Creates or updates a Sql pool's vulnerability assessment rule baseline.",
         "operationId": "SqlPoolVulnerabilityAssessmentRuleBaselines_CreateOrUpdate",
@@ -3330,7 +3330,7 @@
       },
       "delete": {
         "tags": [
-          "DatabaseVulnerabilityAssesmentRuleBaselines"
+          "DatabaseVulnerabilityAssessmentRuleBaselines"
         ],
         "description": "Removes the database's vulnerability assessment rule baseline.",
         "operationId": "SqlPoolVulnerabilityAssessmentRuleBaselines_Delete",
@@ -3410,7 +3410,7 @@
       },
       "get": {
         "tags": [
-          "SqlPools, SqlPoolVulnerabilityAssesmentRuleBaselines"
+          "SqlPools, SqlPoolVulnerabilityAssessmentRuleBaselines"
         ],
         "description": "Gets a SqlPool's vulnerability assessment rule baseline.",
         "operationId": "SqlPoolVulnerabilityAssessmentRuleBaselines_Get",
