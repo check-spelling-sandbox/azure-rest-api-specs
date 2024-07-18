@@ -770,7 +770,7 @@
       "properties": {
         "tableName": {
           "type": "string",
-          "description": "Source table table name"
+          "description": "Source table name"
         },
         "schemaName": {
           "type": "string",
@@ -783,7 +783,7 @@
       "properties": {
         "tableName": {
           "type": "string",
-          "description": "Target table table name"
+          "description": "Target table name"
         },
         "schemaName": {
           "type": "string",
