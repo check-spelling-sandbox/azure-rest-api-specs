@@ -5005,7 +5005,7 @@
           },
           {
             "value": "InternalServerError",
-            "description": "Representing the internal server error error code."
+            "description": "Representing the internal server error code."
           },
           {
             "value": "ServiceUnavailable",
@@ -5017,7 +5017,7 @@
           },
           {
             "value": "PipelineError",
-            "description": "Representing the pipeline error error code."
+            "description": "Representing the pipeline error code."
           },
           {
             "value": "Conflict",
