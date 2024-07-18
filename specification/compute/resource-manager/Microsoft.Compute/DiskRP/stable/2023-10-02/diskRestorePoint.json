@@ -423,7 +423,7 @@
       "in": "path",
       "required": true,
       "type": "string",
-      "description": "The name of the vm restore point that the disk disk restore point belongs.",
+      "description": "The name of the vm restore point that the disk restore point belongs.",
       "x-ms-parameter-location": "method"
     }
   }
