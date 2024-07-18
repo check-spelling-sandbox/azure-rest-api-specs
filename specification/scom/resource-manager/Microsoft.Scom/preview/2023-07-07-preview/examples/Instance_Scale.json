@@ -3,7 +3,7 @@
     "api-version": "2023-07-07-preview",
     "subscriptionId": "{subscription-id}",
     "resourceGroupName": "myResGroup",
-    "instanceName": "myInstace",
+    "instanceName": "myInstance",
     "body": {
       "serverCount": 3
     }

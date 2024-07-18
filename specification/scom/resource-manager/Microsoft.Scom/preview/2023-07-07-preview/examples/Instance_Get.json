@@ -3,13 +3,13 @@
     "api-version": "2023-07-07-preview",
     "subscriptionId": "{subscription-id}",
     "resourceGroupName": "myResGroup",
-    "instanceName": "myInstace"
+    "instanceName": "myInstance"
   },
   "responses": {
     "200": {
       "body": {
-        "id": "/subscriptions/{subscription-id}/resourceGroups/mySCOMMIGroup/providers/Microsoft.SCOM/managedInstances/myManagedInstace",
-        "name": "myManagedInstace",
+        "id": "/subscriptions/{subscription-id}/resourceGroups/mySCOMMIGroup/providers/Microsoft.SCOM/managedInstances/myManagedInstance",
+        "name": "myManagedInstance",
         "type": "Microsoft.SCOM/managedInstances",
         "location": "eastus2",
         "identity": {
