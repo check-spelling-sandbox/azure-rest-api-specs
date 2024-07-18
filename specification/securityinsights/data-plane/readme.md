@@ -37,7 +37,7 @@ input-file:
   - Microsoft.SecurityInsights/preview/2024-02-01-preview/ThreatIntelligence.json
 ```
 
-### Supressions
+### Suppressions
 
 ```yaml
 directive:
