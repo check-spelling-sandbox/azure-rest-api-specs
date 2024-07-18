@@ -21,7 +21,7 @@
             "dn": "CN=SampleDN",
             "incomingObject": {
               "displayName": "SampleDisplayName",
-              "distinguishedName": "SampelDN",
+              "distinguishedName": "SampleDN",
               "lastDirSyncTime": "2016-06-02T18:41:59Z",
               "mail": "SampleMail",
               "objectGuid": "SampleObjectGuid",
